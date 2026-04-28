@@ -1,7 +1,3 @@
----
-title: "Writing Editor Support"
----
-
 # Glit: Writing Editor Support
 
 If you have any questions, issues, or feedback regarding Glit: Writing Editor, please contact us.
@@ -19,4 +15,3 @@ We aim to respond within 48 hours.
 - Feature requests
 
 Thank you for using Glit: Writing Editor.
-11
