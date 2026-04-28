@@ -2,6 +2,8 @@
 
 Glit: Writing Editor does not collect, store, or share any personal data.
 
+Glit: Writing Editor does not require user registration or login.
+
 ## Data Collection
 We do not collect any personal information.
 
