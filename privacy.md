@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Privacy Policy"
 ---
 # Privacy Policy
 
