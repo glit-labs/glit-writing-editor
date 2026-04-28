@@ -1,3 +1,7 @@
+---
+layout: null
+---
+
 # Glit: Writing Editor
 
 Glit: Writing Editor is available on the Mac App Store.
