@@ -1,3 +1,6 @@
+---
+title: ""
+---
 # Privacy Policy
 
 Glit: Writing Editor does not collect, store, or share any personal data.
