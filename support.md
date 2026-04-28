@@ -1,3 +1,7 @@
+---
+title: "Writing Editor Support"
+---
+
 # Glit: Writing Editor Support
 
 If you have any questions, issues, or feedback regarding Glit: Writing Editor, please contact us.
