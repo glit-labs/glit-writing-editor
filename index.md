@@ -1,7 +1,3 @@
----
-layout: null
----
-
 # Glit: Writing Editor
 
 Glit: Writing Editor is available on the Mac App Store.
@@ -27,4 +23,4 @@ https://glit-labs.github.io/glit-writing-editor/privacy
 ## Contact
 kr.johng@gmail.com
 
-code: nna
+code: nnaa
