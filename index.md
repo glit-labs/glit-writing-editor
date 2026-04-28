@@ -23,4 +23,4 @@ https://glit-labs.github.io/glit-writing-editor/privacy
 ## Contact
 kr.johng@gmail.com
 
-code: nnaa
+code: nnaaa
