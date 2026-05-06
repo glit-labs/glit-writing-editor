@@ -13,6 +13,7 @@ Glit: Writing Editor is a focused writing tool designed specifically for web nov
 
 ## Platform
 - macOS
+- Windows
 
 ## Support
 https://glit-labs.github.io/glit-writing-editor/support
