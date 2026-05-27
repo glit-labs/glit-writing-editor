@@ -10,7 +10,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 | Version | Release Date | Release Notes by Language |
 | :--- | :--- | :--- |
 | **v1.0.1** | 2026-05-20 | [English](releases/v1.0.1/en.md) / [한국어](releases/v1.0.1/ko.md) |
-| **v1.0.0** | 2026-05-01 | [English](releases/v1.0.0/en.md) / [한국어](releases/v1.0.0/ko.md) |
+| **v1.0.0** | 2026-04-00 | [English](releases/v1.0.0/en.md) / [한국어](releases/v1.0.0/ko.md) |
 
 ---
 
