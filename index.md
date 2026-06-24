@@ -1,6 +1,6 @@
 # Glit: Writing Editor
 
-Glit: Writing Editor is available on the Mac App Store.
+Glit: Writing Editor is available on the Mac App Store, Microsoft Store, and the App Store for iPhone and iPad.
 
 Glit: Writing Editor is a focused writing tool designed specifically for web novel creators.
 
@@ -12,7 +12,7 @@ Glit: Writing Editor is a focused writing tool designed specifically for web nov
 - File-based project system
 - Markdown support
 
-## Releases
+## Releases for Mac/Windows
 
 ### v1.0.1 (Latest)
 - **Release Notes:** [English](releases/v1.0.1/en.md) | [한국어](releases/v1.0.1/ko.md)
@@ -23,6 +23,7 @@ Glit: Writing Editor is a focused writing tool designed specifically for web nov
 | :------ | :------ |
 | macOS | [App Store](https://apps.apple.com/us/app/glit-web-novel-writing-editor/id6764386721) |
 | Windows | [Microsoft Store](https://apps.microsoft.com/detail/9n19p02fc7rf) |
+| iOS / iPadOS | App Store *(coming soon)* |
 
 ## Support
 
