@@ -21,7 +21,7 @@ Glit: Writing Editor is a focused writing tool designed specifically for web nov
 ## Platform
 
 | Platform | Store Link |
-| :------ | :------ |
+| :------------------------------------ | :------------------------------------ |
 | macOS | [App Store](https://apps.apple.com/us/app/glit-web-novel-writing-editor/id6764386721) |
 | Windows | [Microsoft Store](https://apps.microsoft.com/detail/9n19p02fc7rf) |
 | iOS / iPadOS | App Store (coming soon) |
