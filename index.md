@@ -14,14 +14,18 @@ Glit: Writing Editor is a focused writing tool designed specifically for web nov
 
 ## Releases for Mac/Windows
 
-### v1.0.1 (Latest)
-- **Release Notes:** [English](releases/v1.0.1/en.md) | [한국어](releases/v1.0.1/ko.md)
-- *For older versions, please check our full [CHANGELOG.md](CHANGELOG.md).*
+### v1.2.0 (Latest)
+
+| | |
+| --- | --- |
+| **Release Notes:** [English](/glit-writing-editor/releases/v1.2.0/en.html) | [한국어](/glit-writing-editor/releases/v1.2.0/ko.html) |
+
+- *For older versions, please check our full [CHANGELOG.md](/glit-writing-editor/CHANGELOG.html).*
 
 ## Platform
 
 | Platform | Store Link |
-| :------------------------------------ | :------------------------------------ |
+| :------- | :--------- |
 | macOS | [App Store](https://apps.apple.com/us/app/glit-web-novel-writing-editor/id6764386721) |
 | Windows | [Microsoft Store](https://apps.microsoft.com/detail/9n19p02fc7rf) |
 | iOS / iPadOS | App Store (coming soon) |
