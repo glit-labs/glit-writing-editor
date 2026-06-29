@@ -59,6 +59,6 @@ Four built-in colour themes: **Light**, **Dark**, **Sepia**, and **Dark Sepia**.
 - **Editor** — font size, line spacing, auto-save toggle.
 - **Appearance** — theme selection, UI font size.
 
-### macOS and Windows Support
+### macOS Support
 
-Native builds for macOS (Mac App Store) and Windows (Microsoft Store). Each platform uses the appropriate window chrome and keyboard conventions.
+Native build for macOS (Mac App Store). Uses the appropriate window chrome and keyboard conventions for the platform.
