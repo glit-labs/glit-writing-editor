@@ -19,7 +19,7 @@ Latest release by platform. For full version history, see the [Changelog](/glit-
 | Platform | Latest | Release Notes |
 | :------- | :----- | :------------ |
 | macOS | v1.2.0 | [English](/glit-writing-editor/releases/mac/v1.2.0/en.html) / [한국어](/glit-writing-editor/releases/mac/v1.2.0/ko.html) |
-| Windows | v1.2.0 | [English](/glit-writing-editor/releases/windows/v1.2.0/en.html) / [한국어](/glit-writing-editor/releases/windows/v1.2.0/ko.html) |
+| Windows | v1.2.1 | [English](/glit-writing-editor/releases/windows/v1.2.1/en.html) / [한국어](/glit-writing-editor/releases/windows/v1.2.1/ko.html) |
 | iOS / iPadOS | v1.0.0 (in review) | [English](/glit-writing-editor/releases/ios_ipados/v1.0.0/en.html) / [한국어](/glit-writing-editor/releases/ios_ipados/v1.0.0/ko.html) |
 | Android | Coming soon | [Details](/glit-writing-editor/releases/android/) |
 

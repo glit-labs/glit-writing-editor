@@ -1,0 +1,11 @@
+# Claude Code local settings & memory
+.claude/
+
+# macOS
+.DS_Store
+
+# Jekyll build artifacts
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/

@@ -20,6 +20,7 @@ Releases are tracked per platform.
 
 | Version | Release Date | Release Notes by Language |
 | :------ | :----------- | :------------------------ |
+| **v1.2.1** | TBD | [English](/glit-writing-editor/releases/windows/v1.2.1/en.html) / [한국어](/glit-writing-editor/releases/windows/v1.2.1/ko.html) |
 | **v1.2.0** | TBD | [English](/glit-writing-editor/releases/windows/v1.2.0/en.html) / [한국어](/glit-writing-editor/releases/windows/v1.2.0/ko.html) |
 | **v1.1.1** | 2026-06-03 | [English](/glit-writing-editor/releases/windows/v1.1.1/en.html) / [한국어](/glit-writing-editor/releases/windows/v1.1.1/ko.html) |
 | **v1.1.0** | 2026-05-31 | [English](/glit-writing-editor/releases/windows/v1.1.0/en.html) / [한국어](/glit-writing-editor/releases/windows/v1.1.0/ko.html) |
