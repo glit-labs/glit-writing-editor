@@ -1,0 +1,47 @@
+---
+layout: none
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Custom sitemap with multilingual hreflang alternates.
+
+  The six core pages (home, store, support, privacy, releases, CHANGELOG) exist
+  in every language listed in `_data/languages.yml`, at parallel paths:
+  English lives at the site root (e.g. /store.html) and each other language
+  under /<code>/ (e.g. /ko/store.html). For each of those pages we emit one
+  <url> per language, each carrying the full set of <xhtml:link rel="alternate">
+  return tags plus an x-default pointing at English — the format Google
+  documents for hreflang in sitemaps.
+
+  Everything under /releases/ (per-version release notes, the Android page) is
+  listed as a plain entry. Presence of this file makes jekyll-sitemap skip its
+  own generation, so this is the single source of truth for the sitemap.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{%- assign langs = site.data.languages -%}
+{%- comment -%} "@" stands in for the home page's empty slug. {%- endcomment -%}
+{%- assign slugs = "@|store.html|support.html|privacy.html|releases.html|CHANGELOG.html" | split: "|" -%}
+{%- for slug in slugs -%}
+  {%- if slug == "@" -%}{%- assign path = "" -%}{%- else -%}{%- assign path = slug -%}{%- endif -%}
+  {%- for cur in langs -%}
+    {%- if cur.code == "en" -%}{%- assign curpath = path -%}{%- else -%}{%- assign curpath = cur.code | append: "/" | append: path -%}{%- endif -%}
+  <url>
+    <loc>{{ site.url }}/{{ curpath }}</loc>
+    {%- for alt in langs -%}
+      {%- if alt.code == "en" -%}{%- assign altpath = path -%}{%- else -%}{%- assign altpath = alt.code | append: "/" | append: path -%}{%- endif -%}
+    <xhtml:link rel="alternate" hreflang="{{ alt.code }}" href="{{ site.url }}/{{ altpath }}" />
+    {%- endfor -%}
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}/{{ path }}" />
+  </url>
+  {%- endfor -%}
+{%- endfor -%}
+{%- for page in site.html_pages -%}
+  {%- if page.url contains "/releases/" -%}
+  <url>
+    <loc>{{ page.url | absolute_url }}</loc>
+  </url>
+  {%- endif -%}
+{%- endfor -%}
+</urlset>

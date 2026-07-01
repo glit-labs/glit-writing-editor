@@ -1,3 +1,6 @@
+---
+date: 2026-05-01
+---
 # Glit Release Notes — v1.0.1
 
 **Release date:** May 2026  

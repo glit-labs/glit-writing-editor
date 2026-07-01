@@ -1,3 +1,6 @@
+---
+date: 2026-07-01
+---
 # Glit for iOS Release Notes — v1.0.0
 
 **Release date:** 2026-07-01  
