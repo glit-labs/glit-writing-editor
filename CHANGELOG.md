@@ -30,7 +30,7 @@ Releases are tracked per platform.
 
 | Version | Release Date | Release Notes by Language |
 | :------ | :----------- | :------------------------ |
-| **v1.0.0** | In review | [English](/releases/ios_ipados/v1.0.0/en.html) / [한국어](/releases/ios_ipados/v1.0.0/ko.html) |
+| **v1.0.0** | 2026-07-01 | [English](/releases/ios_ipados/v1.0.0/en.html) / [한국어](/releases/ios_ipados/v1.0.0/ko.html) |
 
 ## 🤖 Android (Google Play)
 

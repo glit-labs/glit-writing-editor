@@ -1,6 +1,6 @@
 # Glit for iOS Release Notes — v1.0.0
 
-**Release date:** In App Store review  
+**Release date:** 2026-07-01  
 **First public release (iPhone · iPad)**
 
 ---
