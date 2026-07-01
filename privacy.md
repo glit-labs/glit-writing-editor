@@ -1,8 +1,28 @@
-# Privacy Policy — Glit: Writing Editor
+---
+layout: single
+title: "Privacy Policy"
+lang: en
+toc: false
+---
 
 Last updated: 2026-06-25
 
 Glit: Writing Editor ("Glit", "we") is a writing app for web novel creators. This policy explains how your data is handled across all versions of the app (macOS, Windows, iPhone, and iPad).
+
+<div class="info-grid">
+  <div class="info-card">
+    <h3>No data collected</h3>
+    <p>We run no servers and collect no personal information. There is no analytics, advertising, or tracking, and no account is required.</p>
+  </div>
+  <div class="info-card">
+    <h3>Your files stay yours</h3>
+    <p>Everything you create is stored locally on your device as plain files you control.</p>
+  </div>
+  <div class="info-card">
+    <h3>Cloud is optional</h3>
+    <p>Glit works fully offline. Cloud sync is entirely your choice and uses the provider's own secure sign-in.</p>
+  </div>
+</div>
 
 ## No data collected by us
 We do not operate our own servers and do not collect, store, or share any personal information. Glit contains no analytics, advertising, or tracking software. No account or registration is required to use the app.
@@ -20,12 +40,12 @@ Glit never requires cloud storage and works fully offline. If you choose to use 
 ## Third-party services
 When you use a cloud service (on any platform), that service is governed by its own privacy policy:
 
-- Google (Google Sign-In, Google Drive): https://policies.google.com/privacy
-- Dropbox: https://www.dropbox.com/privacy
-- Microsoft (OneDrive): https://privacy.microsoft.com/privacystatement
+- Google (Google Sign-In, Google Drive): <https://policies.google.com/privacy>
+- Dropbox: <https://www.dropbox.com/privacy>
+- Microsoft (OneDrive): <https://privacy.microsoft.com/privacystatement>
 
 ## Children's privacy
 Glit is not directed to children and does not knowingly collect personal information from anyone.
 
 ## Contact
-Questions about this policy: kr.johng@gmail.com
+Questions about this policy: [kr.johng@gmail.com](mailto:kr.johng@gmail.com)

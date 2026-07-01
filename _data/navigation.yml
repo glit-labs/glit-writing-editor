@@ -6,7 +6,7 @@ main:
   - title: "Products"
     children:
       - title: "Releases"
-        url: /#releases
+        url: /releases.html
       - title: "Changelog"
         url: /CHANGELOG.html
   - title: "Store"
@@ -22,7 +22,7 @@ main_ko:
   - title: "제품"
     children:
       - title: "릴리스"
-        url: /ko/#releases
+        url: /ko/releases.html
       - title: "변경 이력"
         url: /CHANGELOG.html
   - title: "스토어"
