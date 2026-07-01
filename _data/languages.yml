@@ -1,0 +1,28 @@
+# Languages shown in the top-right language selector.
+# English is the default and lives at the site root (/).
+# Languages that are not translated yet point to `/` (English fallback);
+# once a language has its own home page, change its `url` (e.g. /ja/).
+- code: en
+  name: "English"
+  url: /
+- code: ko
+  name: "한국어"
+  url: /ko/
+- code: ja
+  name: "日本語"
+  url: /
+- code: es
+  name: "Español"
+  url: /
+- code: fr
+  name: "Français"
+  url: /
+- code: de
+  name: "Deutsch"
+  url: /
+- code: it
+  name: "Italiano"
+  url: /
+- code: zh
+  name: "简体中文"
+  url: /

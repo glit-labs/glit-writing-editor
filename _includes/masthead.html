@@ -1,0 +1,89 @@
+{% capture logo_path %}{{ site.logo }}{% endcapture %}
+
+{%- comment -%} Current page language (defaults to English). {%- endcomment -%}
+{% assign page_lang = page.lang | default: site.lang | default: 'en' %}
+{% assign current_lang = site.data.languages | where: "code", page_lang | first %}
+
+{%- comment -%} Pick the localized nav, falling back to the English `main`. {%- endcomment -%}
+{% if page_lang == 'en' %}
+  {% assign nav_links = site.data.navigation.main %}
+{% else %}
+  {% capture nav_key %}main_{{ page_lang }}{% endcapture %}
+  {% assign nav_links = site.data.navigation[nav_key] | default: site.data.navigation.main %}
+{% endif %}
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        {% unless logo_path == empty %}
+          <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
+        {% endunless %}
+        <a class="site-title" href="{{ '/' | relative_url }}">
+          <span class="glit-brand">
+            <span class="glit-brand__word">{{ site.masthead_title | default: site.title }}</span><span class="glit-brand__cursor" aria-hidden="true"></span>
+          </span>
+          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
+        </a>
+        <ul class="visible-links">
+          {%- comment -%}
+            Language selector is kept FIRST in the DOM so the greedy-nav folds the
+            real nav links into the overflow menu before this one — that keeps the
+            selector visible (as a compact globe) even on mobile. CSS `order` pins
+            it visually to the right. See _includes/head/custom.html.
+          {%- endcomment -%}
+          <li class="masthead__menu-item masthead__menu-item--language">
+            <details class="js-dropdown language-switch" data-align="right">
+              <summary class="js-dropdown__toggle language-switch__toggle" aria-label="Select language">
+                <i class="fas fa-globe" aria-hidden="true"></i>
+                <span class="language-switch__current">{{ current_lang.name | default: "English" }}</span>
+              </summary>
+              <ul class="js-dropdown__menu language-switch__menu">
+                {%- for lang in site.data.languages -%}
+                  <li>
+                    <a href="{{ lang.url | relative_url }}"{% if lang.code == page_lang %} aria-current="true"{% endif %}>{{ lang.name }}</a>
+                  </li>
+                {%- endfor -%}
+              </ul>
+            </details>
+          </li>
+          {%- for link in nav_links -%}
+            {%- if link.children -%}
+              <li class="masthead__menu-item masthead__menu-item--dropdown">
+                <details class="js-dropdown nav-dropdown" data-align="left">
+                  <summary class="js-dropdown__toggle nav-dropdown__toggle">{{ link.title }}<span class="nav-dropdown__caret" aria-hidden="true"></span></summary>
+                  <ul class="js-dropdown__menu nav-dropdown__menu">
+                    {%- for child in link.children -%}
+                      <li>
+                        <a href="{{ child.url | relative_url }}"{% if child.target %} target="{{ child.target }}"{% endif %}>{{ child.title }}</a>
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                </details>
+              </li>
+            {%- else -%}
+              <li class="masthead__menu-item">
+                <a
+                  href="{{ link.url | relative_url }}"
+                  {% if link.description %} title="{{ link.description }}"{% endif %}
+                  {% if link.target %} target="{{ link.target }}"{% endif %}
+                >{{ link.title }}</a>
+              </li>
+            {%- endif -%}
+          {%- endfor -%}
+        </ul>
+        {% if site.search == true %}
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
+          <i class="fas fa-search"></i>
+        </button>
+        {% endif %}
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>

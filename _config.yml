@@ -1,2 +1,68 @@
-title: ""
+# --- Site ---------------------------------------------------------------
+# Short brand used for the masthead and the `... - Glit` title suffix.
+title: "Glit"
 description: "A focused writing tool for web novel creators"
+url: "https://glit.app"
+locale: "en-US"
+
+# --- Theme --------------------------------------------------------------
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+# Skins: default, air, aqua, contrast, dark, dirt, mint, neon, plum, sunrise
+minimal_mistakes_skin: "default"
+
+# --- Build --------------------------------------------------------------
+markdown: kramdown
+
+# Promote each page's first `# Heading` to its page title and strip it from the
+# body, so the theme renders a proper page header without a duplicate H1.
+# (jekyll-titles-from-headings is enabled by default on GitHub Pages.)
+titles_from_headings:
+  strip_title: true
+  collections: true
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+
+# --- Author / footer ----------------------------------------------------
+author:
+  name: "Glit"
+  bio: "A focused writing tool for web novel creators"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:kr.johng@gmail.com"
+
+footer:
+  links:
+    - label: "Mac App Store"
+      icon: "fab fa-fw fa-app-store"
+      url: "https://apps.apple.com/us/app/glit-web-novel-writing-editor/id6764386721"
+    - label: "Microsoft Store"
+      icon: "fab fa-fw fa-microsoft"
+      url: "https://apps.microsoft.com/detail/9n19p02fc7rf"
+
+# --- Front matter defaults ---------------------------------------------
+defaults:
+  # All pages get the single (document) layout by default.
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false
+  # Release notes get a table of contents.
+  - scope:
+      path: "releases"
+    values:
+      toc: true
+      toc_label: "Contents"
+      toc_sticky: true

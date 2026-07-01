@@ -1,0 +1,151 @@
+<!-- start custom head snippets -->
+
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ '/assets/images/favicon-192.png' | relative_url }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  /* ===== Glit brand ===== */
+  .masthead { background-color: #f4f1ea; border-bottom: 1px solid #e7e1d6; }
+
+  /* Brand logo: serif wordmark + terracotta text cursor (from the app icon). */
+  .site-title { text-decoration: none; }
+  .glit-brand { display: inline-flex; align-items: center; line-height: 1; font-family: "Playfair Display", Georgia, serif; }
+  /* Refined serif wordmark with wide tracking, matching the app's "Glit" lockup. */
+  .glit-brand__word { font-weight: 500; font-size: 1.32em; color: #211f1c; letter-spacing: 0.1em; }
+  .glit-brand__cursor { display: inline-block; width: 0.12em; height: 1.08em; margin-left: 0.08em; background: #c96a45; border-radius: 1px; }
+
+  /* Hero: cleaner (no text shadow) + terracotta action buttons on the warm dark overlay. */
+  .page__hero--overlay .page__title,
+  .page__hero--overlay .page__lead { text-shadow: none; }
+  .page__hero--overlay .btn { background-color: #c96a45; border-color: #c96a45; color: #fff; box-shadow: none; text-shadow: none; }
+  .page__hero--overlay .btn:hover { background-color: #a9522f; border-color: #a9522f; color: #fff; }
+
+  /* ===== Shared masthead dropdowns (language selector + nav menus) =====
+     The masthead's .visible-links has `overflow: hidden`, which would clip a
+     normally-positioned dropdown, so the menu is `position: fixed` and placed by
+     the script below (aligned per the details' data-align attribute). */
+  .js-dropdown { position: relative; display: inline-block; }
+  .js-dropdown__toggle {
+    cursor: pointer;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+  }
+  .js-dropdown__toggle::-webkit-details-marker { display: none; }
+  .js-dropdown__toggle::marker { content: ""; }
+  .js-dropdown__menu {
+    position: fixed;
+    top: -9999px;
+    left: 0;
+    margin: 0;
+    padding: 0.4em 0;
+    min-width: 11em;
+    list-style: none;
+    background: #fff;
+    border: 1px solid #e7e1d6;
+    border-radius: 6px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.14);
+    z-index: 1000;
+  }
+  .js-dropdown__menu li { margin: 0; }
+  .js-dropdown__menu a {
+    display: block;
+    padding: 0.55em 1.2em;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #211f1c;
+  }
+  .js-dropdown__menu a:hover { background: #f4f1ea; color: #a9522f; }
+  .js-dropdown__menu a[aria-current="true"] { font-weight: 700; color: #211f1c; }
+
+  /* Nav dropdown triggers (Products, Support) — match the masthead links. */
+  .nav-dropdown__toggle { margin: 0 1rem; color: #211f1c; }
+  .nav-dropdown__toggle:hover { color: #c96a45; }
+  .nav-dropdown__caret {
+    display: inline-block; margin-left: 0.4em; width: 0; height: 0;
+    border-left: 0.28em solid transparent; border-right: 0.28em solid transparent;
+    border-top: 0.32em solid currentColor;
+  }
+
+  /* Language selector specifics. */
+  .language-switch__toggle { gap: 0.35em; }
+  /* Pin the selector to the far right of the nav (it is first in the DOM so the
+     greedy-nav folds the real links first and keeps the selector visible). */
+  .masthead__menu-item--language { order: 999; margin-left: 0.75em; }
+  @media (max-width: 767px) {
+    .language-switch__current { display: none; }
+    .masthead__menu-item--language { margin-left: 0.25em; }
+    .language-switch__toggle { padding: 0.4em 0.5em; font-size: 1.1em; }
+  }
+
+  /* ===== Store cards ===== */
+  .store-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; margin: 2rem 0; }
+  .store-card {
+    display: flex; flex-direction: column;
+    background: #fbf9f5; border: 1px solid #e7e1d6; border-radius: 10px;
+    padding: 1.6rem 1.6rem 1.8rem;
+  }
+  .store-card__icon { font-size: 2.1rem; color: #211f1c; margin-bottom: 0.5rem; line-height: 1; }
+  .store-card__name { font-family: "Playfair Display", Georgia, serif; font-weight: 700; margin: 0 0 0.1rem; font-size: 1.35rem; }
+  .store-card__platform { color: #8a8378; font-size: 0.85rem; margin: 0 0 1rem; }
+  .store-card__price { color: #211f1c; font-size: 1.1rem; font-weight: 600; margin: 0 0 1.3rem; }
+  .store-card__price .note { color: #8a8378; font-weight: 400; font-size: 0.85rem; }
+  .store-card__btn {
+    align-self: flex-start; margin-top: auto; display: inline-block;
+    background: #c96a45; color: #fff; text-decoration: none;
+    font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; font-size: 0.8rem;
+    padding: 0.7rem 1.5rem; border-radius: 5px;
+  }
+  .store-card__btn:hover { background: #a9522f; color: #fff; }
+  .store-card__btn--disabled { background: #d8d1c4; color: #fff; pointer-events: none; }
+  @media (max-width: 600px) { .store-grid { grid-template-columns: 1fr; } }
+</style>
+
+<script>
+  (function () {
+    function place(d) {
+      var s = d.querySelector(".js-dropdown__toggle");
+      var m = d.querySelector(".js-dropdown__menu");
+      if (!s || !m) return;
+      var r = s.getBoundingClientRect();
+      m.style.top = (r.bottom + 6) + "px";
+      if ((d.getAttribute("data-align") || "left") === "right") {
+        m.style.right = Math.max(8, window.innerWidth - r.right) + "px";
+        m.style.left = "auto";
+      } else {
+        var mw = m.offsetWidth || 180;
+        m.style.left = Math.max(8, Math.min(r.left, window.innerWidth - mw - 8)) + "px";
+        m.style.right = "auto";
+      }
+    }
+    function closeAll(except) {
+      document.querySelectorAll("details.js-dropdown[open]").forEach(function (d) {
+        if (d !== except) d.removeAttribute("open");
+      });
+    }
+    // Position the menu when it opens (toggle does not bubble, so capture).
+    document.addEventListener("toggle", function (e) {
+      var d = e.target;
+      if (d && d.classList && d.classList.contains("js-dropdown") && d.open) place(d);
+    }, true);
+    // Close when clicking outside the open dropdown.
+    document.addEventListener("click", function (e) {
+      var inside = e.target.closest ? e.target.closest("details.js-dropdown") : null;
+      closeAll(inside);
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") closeAll(null);
+    });
+    window.addEventListener("resize", function () {
+      document.querySelectorAll("details.js-dropdown[open]").forEach(place);
+    });
+    window.addEventListener("scroll", function () { closeAll(null); }, true);
+  })();
+</script>
+
+<!-- end custom head snippets -->

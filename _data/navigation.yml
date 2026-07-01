@@ -1,0 +1,35 @@
+# Top navigation bar (used by the Minimal Mistakes masthead).
+# `main` is the default (English). Per-language menus use `main_<code>` and fall
+# back to `main` when a language's menu is not defined.
+# Items with `children` render as a dropdown in the masthead.
+main:
+  - title: "Products"
+    children:
+      - title: "Releases"
+        url: /#releases
+      - title: "Changelog"
+        url: /CHANGELOG.html
+  - title: "Store"
+    url: /store.html
+  - title: "Support"
+    children:
+      - title: "Support"
+        url: /support.html
+      - title: "Privacy"
+        url: /privacy.html
+
+main_ko:
+  - title: "제품"
+    children:
+      - title: "릴리스"
+        url: /ko/#releases
+      - title: "변경 이력"
+        url: /CHANGELOG.html
+  - title: "스토어"
+    url: /store.html
+  - title: "지원"
+    children:
+      - title: "지원"
+        url: /support.html
+      - title: "개인정보"
+        url: /privacy.html

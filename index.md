@@ -1,16 +1,30 @@
-# Glit: Writing Editor
+---
+layout: splash
+permalink: /
+title: "Glit: Writing Editor"
+header:
+  overlay_color: "#2f2b28"
+  actions:
+    - label: "Mac App Store"
+      url: "https://apps.apple.com/us/app/glit-web-novel-writing-editor/id6764386721"
+    - label: "Microsoft Store"
+      url: "https://apps.microsoft.com/detail/9n19p02fc7rf"
+    - label: "App Store (iOS / iPadOS)"
+      url: "https://apps.apple.com/app/glit-web-novel-writing/id6783972543"
+excerpt: >
+  A focused writing tool designed specifically for web novel creators.
+  Available on the Mac App Store, Microsoft Store, and the App Store for iPhone and iPad.
 
-Glit: Writing Editor is available on the Mac App Store, Microsoft Store, and the App Store for iPhone and iPad.
+feature_row:
+  - title: "Structured Projects"
+    excerpt: "Project management optimized for web novels, with a file-based project system so your work stays organized and portable."
+  - title: "Reader-Style Preview"
+    excerpt: "An immersive reader-style preview shows your writing exactly as readers will see it, so you can refine pacing and flow."
+  - title: "Multi-Window Workflow"
+    excerpt: "Write efficiently across multiple windows, with full Markdown support built in."
+---
 
-Glit: Writing Editor is a focused writing tool designed specifically for web novel creators.
-
-## Key Features
-
-- Structured project management optimized for web novels
-- Reader-style preview for immersive reading experience
-- Multi-window workflow for efficient writing
-- File-based project system
-- Markdown support
+{% include feature_row %}
 
 ## Releases
 
@@ -32,14 +46,7 @@ Latest release by platform. For full version history, see the [Changelog](/CHANG
 | iOS / iPadOS | [App Store](https://apps.apple.com/app/glit-web-novel-writing/id6783972543) |
 | Android | Google Play (coming soon) |
 
-## Support
+## Support & Privacy
 
-https://glit.app/support
-
-## Privacy Policy
-
-https://glit.app/privacy
-
-## Contact
-
-kr.johng@gmail.com
+- Support: [glit.app/support](/support.html) · kr.johng@gmail.com
+- Privacy Policy: [glit.app/privacy](/privacy.html)

@@ -1,0 +1,39 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+// ==========================================================================
+//  Glit brand tokens — override Minimal Mistakes defaults.
+//  These MUST come before the theme imports so they win over the `!default`
+//  assignments in the theme's _variables.scss.
+//  Palette taken from the app icon: warm cream, near-black serif, terracotta.
+// ==========================================================================
+
+// Fonts — serif headings/brand to match the icon's lettering.
+$serif: "Playfair Display", Georgia, "Times New Roman", serif;
+$header-font-family: $serif;
+
+// Core colors
+$background-color: #f4f1ea; // warm cream
+$text-color: #211f1c; // warm near-black
+$muted-text-color: #6f685f;
+$primary-color: #c96a45; // terracotta accent
+$border-color: #e7e1d6;
+$code-background-color: #f1ece3;
+$footer-background-color: #ede7dc;
+
+// Links
+$link-color: #c96a45;
+$link-color-hover: #a9522f;
+$link-color-visited: #c96a45;
+
+// Masthead
+$masthead-link-color: #211f1c;
+$masthead-link-color-hover: #c96a45;
+$navicon-link-color-hover: mix(#fff, #c96a45, 75%);
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
