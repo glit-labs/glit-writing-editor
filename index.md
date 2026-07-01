@@ -12,8 +12,8 @@ header:
     - label: "App Store (iOS / iPadOS)"
       url: "https://apps.apple.com/app/glit-web-novel-writing/id6783972543"
 excerpt: >
-  A focused writing tool designed specifically for web novel creators.
-  Available on the Mac App Store, Microsoft Store, and the App Store for iPhone and iPad.
+  A focused writing tool for web novel creators<br>
+  available on Mac, Windows, iPhone, and iPad.
 
 feature_row:
   - title: "Structured Projects"
@@ -23,6 +23,10 @@ feature_row:
   - title: "Multi-Window Workflow"
     excerpt: "Write efficiently across multiple windows, with full Markdown support built in."
 ---
+
+<p class="glit-hero" style="text-align: center; margin: 0 0 2.5em;">
+  <img src="/assets/images/glit-devices.png" alt="Glit running on Mac, iPad, and iPhone" style="width: 100%; max-width: 1100px; height: auto;" />
+</p>
 
 {% include feature_row %}
 

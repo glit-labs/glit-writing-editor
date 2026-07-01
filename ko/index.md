@@ -14,8 +14,8 @@ header:
     - label: "App Store (iOS / iPadOS)"
       url: "https://apps.apple.com/app/glit-web-novel-writing/id6783972543"
 excerpt: >
-  웹소설 창작자를 위해 설계된 집중형 글쓰기 도구입니다.
-  Mac App Store, Microsoft Store, 그리고 iPhone·iPad용 App Store에서 만나보세요.
+  웹소설 창작자를 위한 집중형 글쓰기 도구<br>
+  Mac, Windows, iPhone, iPad에서 만나보세요.
 
 feature_row:
   - title: "구조적 프로젝트 관리"
@@ -25,6 +25,10 @@ feature_row:
   - title: "멀티 윈도우 작업 흐름"
     excerpt: "여러 창을 오가며 효율적으로 집필하고, Markdown을 기본 지원합니다."
 ---
+
+<p class="glit-hero" style="text-align: center; margin: 0 0 2.5em;">
+  <img src="/assets/images/glit-devices.png" alt="Mac, iPad, iPhone에서 실행 중인 Glit" style="width: 100%; max-width: 1100px; height: auto;" />
+</p>
 
 {% include feature_row %}
 
