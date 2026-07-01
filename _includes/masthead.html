@@ -4,6 +4,30 @@
 {% assign page_lang = page.lang | default: site.lang | default: 'en' %}
 {% assign current_lang = site.data.languages | where: "code", page_lang | first %}
 
+{%- comment -%} Home page for the current language (English lives at the root). {%- endcomment -%}
+{% assign home_url = current_lang.url | default: '/' %}
+
+{%- comment -%}
+  Work out the current page's path *after* its language prefix so the language
+  selector can switch language in place (e.g. /ko/store.html → /ja/store.html)
+  instead of always jumping to the home page. English lives at the site root, so
+  its pages have no language prefix to strip.
+
+  Only top-level localized pages (home, store, support, privacy, releases,
+  CHANGELOG) exist in every language, and their base path has no remaining
+  slash. Anything nested — e.g. the bilingual per-version notes under
+  /releases/…/ — keeps `page_base` with a slash, so we fall back to the target
+  language's home page rather than link to a page that doesn't exist.
+{%- endcomment -%}
+{% if page_lang == 'en' %}
+  {% assign page_base = page.url | remove_first: '/' %}
+{% else %}
+  {% assign lang_prefix = page_lang | prepend: '/' | append: '/' %}
+  {% assign page_base = page.url | remove_first: lang_prefix %}
+{% endif %}
+{% assign lang_switch_in_place = true %}
+{% if page_base contains '/' %}{% assign lang_switch_in_place = false %}{% endif %}
+
 {%- comment -%} Pick the localized nav, falling back to the English `main`. {%- endcomment -%}
 {% if page_lang == 'en' %}
   {% assign nav_links = site.data.navigation.main %}
@@ -17,9 +41,9 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         {% unless logo_path == empty %}
-          <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
+          <a class="site-logo" href="{{ home_url | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
         {% endunless %}
-        <a class="site-title" href="{{ '/' | relative_url }}">
+        <a class="site-title" href="{{ home_url | relative_url }}">
           <span class="glit-brand">
             <span class="glit-brand__word">{{ site.masthead_title | default: site.title }}</span><span class="glit-brand__cursor" aria-hidden="true"></span>
           </span>
@@ -40,8 +64,17 @@
               </summary>
               <ul class="js-dropdown__menu language-switch__menu">
                 {%- for lang in site.data.languages -%}
+                  {%- if lang_switch_in_place -%}
+                    {%- if lang.code == 'en' -%}
+                      {%- assign lang_href = page_base | prepend: '/' -%}
+                    {%- else -%}
+                      {%- assign lang_href = page_base | prepend: '/' | prepend: lang.code | prepend: '/' -%}
+                    {%- endif -%}
+                  {%- else -%}
+                    {%- assign lang_href = lang.url -%}
+                  {%- endif -%}
                   <li>
-                    <a href="{{ lang.url | relative_url }}"{% if lang.code == page_lang %} aria-current="true"{% endif %}>{{ lang.name }}</a>
+                    <a href="{{ lang_href | relative_url }}"{% if lang.code == page_lang %} aria-current="true"{% endif %}>{{ lang.name }}</a>
                   </li>
                 {%- endfor -%}
               </ul>

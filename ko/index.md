@@ -97,6 +97,6 @@ excerpt: >
 <div class="cta-band">
   <h2 class="cta-band__title">모든 플랫폼에서 사용하세요</h2>
   <p>Glit은 macOS, Windows, iPhone, iPad에서 동일한 경험을 제공하며 Android도 준비 중입니다. 한 번 구매로 끝 — 구독도, 추적도 없고, 파일은 언제나 당신의 것입니다.</p>
-  <a class="btn btn--primary btn--large" href="/store.html">스토어 둘러보기</a>
+  <a class="btn btn--primary btn--large" href="/ko/store.html">스토어 둘러보기</a>
   <a class="btn btn--inverse btn--large" href="/ko/releases.html">릴리스 전체 보기</a>
 </div>

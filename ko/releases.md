@@ -6,7 +6,7 @@ locale: "ko-KR"
 toc: false
 ---
 
-플랫폼별 Glit 전체 버전의 릴리스 노트입니다. 각 항목은 한국어와 English 상세 노트로 연결됩니다. 모든 플랫폼을 아우르는 시간순 보기는 [변경 이력](/CHANGELOG.html)을 참고하세요.
+플랫폼별 Glit 전체 버전의 릴리스 노트입니다. 각 항목은 한국어와 English 상세 노트로 연결됩니다. 모든 플랫폼을 아우르는 시간순 보기는 [변경 이력](/ko/CHANGELOG.html)을 참고하세요.
 
 <nav class="section-nav" aria-label="플랫폼 바로가기">
   <a href="#macos">macOS</a>
@@ -49,4 +49,4 @@ iPhone과 iPad를 지원하는 유니버설 앱으로, [App Store](https://apps.
 
 ## Android
 
-**준비 중입니다.** 안드로이드 버전은 개발 중입니다. 자세한 내용은 [Android 페이지](/releases/android/)를 참고하시거나, [스토어](/store.html)에서 macOS, Windows, iPhone, iPad용 Glit을 지금 만나보세요.
+**준비 중입니다.** 안드로이드 버전은 개발 중입니다. 자세한 내용은 [Android 페이지](/releases/android/)를 참고하시거나, [스토어](/ko/store.html)에서 macOS, Windows, iPhone, iPad용 Glit을 지금 만나보세요.

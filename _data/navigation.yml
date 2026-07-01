@@ -1,6 +1,7 @@
 # Top navigation bar (used by the Minimal Mistakes masthead).
 # `main` is the default (English). Per-language menus use `main_<code>` and fall
-# back to `main` when a language's menu is not defined.
+# back to `main` when a language's menu is not defined. Each language links to
+# its own localized pages under `/<code>/`.
 # Items with `children` render as a dropdown in the masthead.
 main:
   - title: "What's New"
@@ -24,12 +25,108 @@ main_ko:
       - title: "릴리스"
         url: /ko/releases.html
       - title: "변경 이력"
-        url: /CHANGELOG.html
+        url: /ko/CHANGELOG.html
   - title: "스토어"
-    url: /store.html
+    url: /ko/store.html
   - title: "지원"
     children:
       - title: "지원"
-        url: /support.html
+        url: /ko/support.html
       - title: "개인정보"
-        url: /privacy.html
+        url: /ko/privacy.html
+
+main_ja:
+  - title: "新着情報"
+    children:
+      - title: "リリース"
+        url: /ja/releases.html
+      - title: "変更履歴"
+        url: /ja/CHANGELOG.html
+  - title: "ストア"
+    url: /ja/store.html
+  - title: "サポート"
+    children:
+      - title: "サポート"
+        url: /ja/support.html
+      - title: "プライバシー"
+        url: /ja/privacy.html
+
+main_es:
+  - title: "Novedades"
+    children:
+      - title: "Versiones"
+        url: /es/releases.html
+      - title: "Registro de cambios"
+        url: /es/CHANGELOG.html
+  - title: "Tienda"
+    url: /es/store.html
+  - title: "Soporte"
+    children:
+      - title: "Soporte"
+        url: /es/support.html
+      - title: "Privacidad"
+        url: /es/privacy.html
+
+main_fr:
+  - title: "Nouveautés"
+    children:
+      - title: "Versions"
+        url: /fr/releases.html
+      - title: "Journal des modifications"
+        url: /fr/CHANGELOG.html
+  - title: "Boutique"
+    url: /fr/store.html
+  - title: "Assistance"
+    children:
+      - title: "Assistance"
+        url: /fr/support.html
+      - title: "Confidentialité"
+        url: /fr/privacy.html
+
+main_de:
+  - title: "Neuigkeiten"
+    children:
+      - title: "Versionen"
+        url: /de/releases.html
+      - title: "Änderungsprotokoll"
+        url: /de/CHANGELOG.html
+  - title: "Store"
+    url: /de/store.html
+  - title: "Support"
+    children:
+      - title: "Support"
+        url: /de/support.html
+      - title: "Datenschutz"
+        url: /de/privacy.html
+
+main_it:
+  - title: "Novità"
+    children:
+      - title: "Versioni"
+        url: /it/releases.html
+      - title: "Registro modifiche"
+        url: /it/CHANGELOG.html
+  - title: "Store"
+    url: /it/store.html
+  - title: "Supporto"
+    children:
+      - title: "Supporto"
+        url: /it/support.html
+      - title: "Privacy"
+        url: /it/privacy.html
+
+main_zh:
+  - title: "最新动态"
+    children:
+      - title: "版本发布"
+        url: /zh/releases.html
+      - title: "更新日志"
+        url: /zh/CHANGELOG.html
+  - title: "商店"
+    url: /zh/store.html
+  - title: "支持"
+    children:
+      - title: "支持"
+        url: /zh/support.html
+      - title: "隐私"
+        url: /zh/privacy.html

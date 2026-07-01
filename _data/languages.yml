@@ -1,7 +1,7 @@
 # Languages shown in the top-right language selector.
-# English is the default and lives at the site root (/).
-# Languages that are not translated yet point to `/` (English fallback);
-# once a language has its own home page, change its `url` (e.g. /ja/).
+# English is the default and lives at the site root (/); every other language
+# has its own home page under `/<code>/`. Pages that aren't translated yet
+# (Store, Support, Privacy, Releases) fall back to the English versions.
 - code: en
   name: "English"
   url: /
@@ -10,19 +10,19 @@
   url: /ko/
 - code: ja
   name: "日本語"
-  url: /
+  url: /ja/
 - code: es
   name: "Español"
-  url: /
+  url: /es/
 - code: fr
   name: "Français"
-  url: /
+  url: /fr/
 - code: de
   name: "Deutsch"
-  url: /
+  url: /de/
 - code: it
   name: "Italiano"
-  url: /
+  url: /it/
 - code: zh
   name: "简体中文"
-  url: /
+  url: /zh/
