@@ -3,7 +3,7 @@
 # back to `main` when a language's menu is not defined.
 # Items with `children` render as a dropdown in the masthead.
 main:
-  - title: "Products"
+  - title: "What's New"
     children:
       - title: "Releases"
         url: /releases.html
@@ -19,7 +19,7 @@ main:
         url: /privacy.html
 
 main_ko:
-  - title: "제품"
+  - title: "업데이트"
     children:
       - title: "릴리스"
         url: /ko/releases.html
