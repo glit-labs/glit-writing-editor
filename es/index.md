@@ -29,8 +29,8 @@ excerpt: >
   </div>
   <div class="media-row__body">
     <p class="media-row__eyebrow">Estructura de novela web</p>
-    <h3>Tu serie se organiza sola</h3>
-    <p>Activa el modo novela web y Glit archiva tu manuscrito en ordenadas carpetas de 10 episodios de forma automática. Sin renombrar ni arrastrar archivos: la estructura se mantiene en orden mientras tu serie crece hasta cientos de capítulos.</p>
+    <h3>Tú defines el rango, Glit archiva el resto</h3>
+    <p>Activa el modo de escritura de novela web y crea el manuscrito de cada episodio con un solo clic, uno tras otro. Todo se agrupa en carpetas de 10 episodios y, si reduces ese rango, los episodios sobrantes pasan automáticamente a la carpeta siguiente.</p>
   </div>
 </div>
 

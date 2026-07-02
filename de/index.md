@@ -29,8 +29,8 @@ excerpt: >
   </div>
   <div class="media-row__body">
     <p class="media-row__eyebrow">Web-Novel-Struktur</p>
-    <h3>Deine Serie ordnet sich von selbst</h3>
-    <p>Schalte den Web-Novel-Modus ein, und Glit sortiert dein Manuskript automatisch in saubere Ordner zu je 10 Episoden. Kein Umbenennen, kein Verschieben von Dateien – die Struktur bleibt in Ordnung, während deine Serie auf Hunderte Kapitel anwächst.</p>
+    <h3>Du legst den Bereich fest, Glit ordnet den Rest</h3>
+    <p>Schalte den Web-Novel-Schreibmodus ein und erstelle das Manuskript jeder Episode mit einem einzigen Klick – eine nach der anderen. Alles wird in Ordner zu je 10 Episoden gruppiert, und wenn du diesen Bereich verkleinerst, wandern die überzähligen Episoden automatisch in den nächsten Ordner.</p>
   </div>
 </div>
 

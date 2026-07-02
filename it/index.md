@@ -29,8 +29,8 @@ excerpt: >
   </div>
   <div class="media-row__body">
     <p class="media-row__eyebrow">Struttura della web novel</p>
-    <h3>La tua serie si organizza da sola</h3>
-    <p>Attiva la modalità web novel e Glit archivia automaticamente il tuo manoscritto in ordinate cartelle da 10 episodi. Niente rinomine né file da trascinare: la struttura resta in ordine mentre la tua serie cresce fino a centinaia di capitoli.</p>
+    <h3>Imposti tu l'intervallo, Glit archivia il resto</h3>
+    <p>Attiva la modalità di scrittura per web novel e crea il manoscritto di ogni episodio con un solo clic, uno dopo l'altro. Tutto viene raggruppato in cartelle da 10 episodi e, se riduci questo intervallo, gli episodi in eccesso vengono spostati automaticamente nella cartella successiva.</p>
   </div>
 </div>
 

@@ -27,8 +27,8 @@ excerpt: >
   </div>
   <div class="media-row__body">
     <p class="media-row__eyebrow">Web Novel Structure</p>
-    <h3>Your series organizes itself</h3>
-    <p>Turn on web novel mode and Glit files your manuscript into tidy 10-episode folders automatically. No renaming, no dragging files around — the structure keeps itself in order as your series grows into hundreds of chapters.</p>
+    <h3>You set the range, Glit files the rest</h3>
+    <p>Turn on web novel writing mode and create each episode's manuscript with a single click, one after another. Everything is grouped into 10-episode folders, and if you narrow that range, the overflow episodes are tidied into the next folder automatically.</p>
   </div>
 </div>
 

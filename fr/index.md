@@ -29,8 +29,8 @@ excerpt: >
   </div>
   <div class="media-row__body">
     <p class="media-row__eyebrow">Structure de roman en ligne</p>
-    <h3>Votre série s'organise toute seule</h3>
-    <p>Activez le mode roman en ligne et Glit classe automatiquement votre manuscrit dans de nets dossiers de 10 épisodes. Aucun fichier à renommer ni à déplacer : la structure reste en ordre à mesure que votre série atteint des centaines de chapitres.</p>
+    <h3>Vous définissez la plage, Glit classe le reste</h3>
+    <p>Activez le mode d'écriture de roman en ligne et créez le manuscrit de chaque épisode d'un simple clic, l'un après l'autre. Tout est regroupé dans des dossiers de 10 épisodes et, si vous réduisez cette plage, les épisodes en trop sont automatiquement classés dans le dossier suivant.</p>
   </div>
 </div>
 
