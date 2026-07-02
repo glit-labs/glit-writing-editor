@@ -1,6 +1,9 @@
-# Glit Release Notes — v1.2.0
+---
+date: 2026-07-01
+---
+# Glit Release Notes — v1.2.1
 
-**Release date:** TBD  
+**Release date:** 2026-07-01  
 **Previous version:** v1.1.1
 
 ---
@@ -34,10 +37,6 @@ The file name in the image viewer is now centered, and the zoom controls have mo
 ---
 
 ## Bug Fixes
-
-### macOS (App Store): App Quits Immediately After Launch on Intel Macs
-
-The Mac App Store build quit immediately after launching on Intel Macs. This is now fixed.
 
 ### Preview (DeviceView): Live Edits Not Reflected in Real Time
 

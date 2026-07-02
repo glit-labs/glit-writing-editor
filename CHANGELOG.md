@@ -10,7 +10,7 @@ Releases are tracked per platform.
 
 | Version | Release Date | Release Notes by Language |
 | :------ | :----------- | :------------------------ |
-| **v1.2.0** | TBD | [English](/releases/mac/v1.2.0/en.html) / [한국어](/releases/mac/v1.2.0/ko.html) |
+| **v1.2.1** | 2026-07-01 | [English](/releases/mac/v1.2.1/en.html) / [한국어](/releases/mac/v1.2.1/ko.html) |
 | **v1.1.1** | 2026-06-03 | [English](/releases/mac/v1.1.1/en.html) / [한국어](/releases/mac/v1.1.1/ko.html) |
 | **v1.1.0** | 2026-05-31 | [English](/releases/mac/v1.1.0/en.html) / [한국어](/releases/mac/v1.1.0/ko.html) |
 | **v1.0.1** | 2026-05 | [English](/releases/mac/v1.0.1/en.html) / [한국어](/releases/mac/v1.0.1/ko.html) |
@@ -20,8 +20,8 @@ Releases are tracked per platform.
 
 | Version | Release Date | Release Notes by Language |
 | :------ | :----------- | :------------------------ |
-| **v1.2.1** | TBD | [English](/releases/windows/v1.2.1/en.html) / [한국어](/releases/windows/v1.2.1/ko.html) |
-| **v1.2.0** | TBD | [English](/releases/windows/v1.2.0/en.html) / [한국어](/releases/windows/v1.2.0/ko.html) |
+| **v1.2.1** | 2026-07-01 | [English](/releases/windows/v1.2.1/en.html) / [한국어](/releases/windows/v1.2.1/ko.html) |
+| **v1.2.0** | 2026-06-30 | [English](/releases/windows/v1.2.0/en.html) / [한국어](/releases/windows/v1.2.0/ko.html) |
 | **v1.1.1** | 2026-06-03 | [English](/releases/windows/v1.1.1/en.html) / [한국어](/releases/windows/v1.1.1/ko.html) |
 | **v1.1.0** | 2026-05-31 | [English](/releases/windows/v1.1.0/en.html) / [한국어](/releases/windows/v1.1.0/ko.html) |
 | **v1.0.1** | 2026-05 | [English](/releases/windows/v1.0.1/en.html) / [한국어](/releases/windows/v1.0.1/ko.html) |
