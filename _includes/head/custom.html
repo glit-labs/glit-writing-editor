@@ -5,9 +5,21 @@
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 
 <style>
+  /* ===== Type scale — lighter, less bulky than the theme defaults =====
+     Minimal Mistakes scales the root font from 16px up to 20px (>=1024px) and
+     22px (>=1280px), which makes text feel oversized. Shrink the whole scale
+     (15 / 15 / 16 / 17px) so the page reads lighter and more compact. */
+  html { font-size: 15px; }
+  @media (min-width: 48em) { html { font-size: 15px; } }
+  @media (min-width: 64em) { html { font-size: 16px; } }
+  @media (min-width: 80em) { html { font-size: 17px; } }
+  /* Headings default to bold (700) serif, which reads heavy. Medium (500)
+     keeps the Playfair character while feeling markedly lighter and airier. */
+  h1, h2, h3, h4, h5, h6 { font-weight: 500; }
+
   /* ===== Glit brand ===== */
   .masthead { background-color: #f4f1ea; border-bottom: 1px solid #e7e1d6; }
 

@@ -12,8 +12,12 @@ search: false
 //  Palette taken from the app icon: warm cream, near-black serif, terracotta.
 // ==========================================================================
 
-// Fonts — serif headings/brand to match the icon's lettering.
+// Fonts — Playfair Display for the logo & headings (matches the "Glit"
+// wordmark); Lora for body copy (a text serif that pairs with Playfair and
+// stays readable at paragraph sizes).
 $serif: "Playfair Display", Georgia, "Times New Roman", serif;
+$body-serif: "Lora", Georgia, "Times New Roman", serif;
+$global-font-family: $body-serif; // body copy
 $header-font-family: $serif;
 
 // Core colors
