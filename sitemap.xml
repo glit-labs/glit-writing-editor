@@ -44,4 +44,12 @@ sitemap: false
   </url>
   {%- endif -%}
 {%- endfor -%}
+{%- comment -%} Korean-only guides: the list page and each article under /ko/guides/. {%- endcomment -%}
+{%- for page in site.html_pages -%}
+  {%- if page.url == "/ko/guide.html" or page.url contains "/ko/guides/" -%}
+  <url>
+    <loc>{{ page.url | absolute_url }}</loc>
+  </url>
+  {%- endif -%}
+{%- endfor -%}
 </urlset>

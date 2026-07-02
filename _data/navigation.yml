@@ -32,6 +32,8 @@ main_ko:
     children:
       - title: "지원"
         url: /ko/support.html
+      - title: "가이드"
+        url: /ko/guide.html
       - title: "개인정보"
         url: /ko/privacy.html
 

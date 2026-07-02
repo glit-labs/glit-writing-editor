@@ -127,6 +127,64 @@
   .info-card h3 { margin: 0 0 0.4rem; font-size: 1.05rem; font-family: "Playfair Display", Georgia, serif; }
   .info-card p { margin: 0; color: #3f3b35; font-size: 0.95rem; }
 
+  /* ===== Guide list (index of guide articles) =====
+     The card is an <a>, so scope under .page__content to beat the theme's
+     default link colour + underline (otherwise the whole card renders
+     terracotta and underlined). Clean hairline card, terracotta hover. */
+  .guide-list { display: grid; gap: 1.1rem; margin: 2rem 0; }
+  .page__content a.guide-card {
+    display: block; background: #fbf9f5; border: 1px solid #e7e1d6; border-radius: 10px;
+    padding: 1.5rem 1.7rem; text-decoration: none; color: inherit;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+  }
+  .page__content a.guide-card:hover {
+    text-decoration: none; border-color: #c96a45;
+    box-shadow: 0 6px 18px rgba(33,31,28,0.08); transform: translateY(-1px);
+  }
+  .guide-card__title { font-family: "Playfair Display", Georgia, serif; margin: 0 0 0.45rem; font-size: 1.3rem; line-height: 1.3; color: #211f1c; }
+  .guide-card__desc { margin: 0 0 0.9rem; color: #6f685f; font-size: 0.98rem; line-height: 1.6; }
+  .guide-card__more { display: inline-block; color: #c96a45; font-weight: 700; font-size: 0.9rem; letter-spacing: 0.02em; }
+
+  /* "← 가이드 목록" back link on individual guide pages. */
+  .guide-back { margin: 0 0 1.5rem; }
+  .guide-back a { font-weight: 600; font-size: 0.92rem; }
+
+  /* Numbered step-by-step walkthrough (instruction + screenshot) in a guide.
+     Each step is a distinct card (cream fill + hairline, like the store/support
+     cards) so visitors can clearly tell one step from the next. Editorial serif
+     numerals in terracotta; screenshots blend in with a hairline frame. */
+  .walkthrough { list-style: none; margin: 2rem 0 0.5rem; padding: 0; counter-reset: wstep; }
+  .walkthrough > li {
+    position: relative; counter-increment: wstep;
+    background: #fbf9f5; border: 1px solid #e7e1d6; border-radius: 12px;
+    padding: 1.5rem 1.7rem 1.7rem; margin: 0 0 1.25rem;
+  }
+  .walkthrough > li::before { content: none; } /* kill theme list markers */
+  .walkthrough__head { display: flex; align-items: baseline; gap: 0.85rem; margin: 0; }
+  .walkthrough__num {
+    flex: none; min-width: 1.9rem;
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 1.7rem; font-weight: 700; line-height: 1; color: #c96a45;
+  }
+  .walkthrough__text { margin: 0.1rem 0 0; font-size: 1.06rem; line-height: 1.6; color: #211f1c; }
+  .walkthrough__hint { display: block; margin-top: 0.3rem; color: #8a8378; font-size: 0.92rem; font-weight: 400; }
+  .walkthrough__img {
+    display: block; width: 100%; max-width: 620px; height: auto;
+    margin: 1.15rem 0 0 2.75rem; /* align under the text, past the numeral */
+    border: 1px solid #e7e1d6; border-radius: 8px; background: #fff;
+  }
+  .page__content p.walkthrough__done {
+    background: #fbf9f5; border: 1px solid #e7e1d6; border-left: 4px solid #c96a45;
+    border-radius: 8px; padding: 1rem 1.25rem; margin: 0.5rem 0 0;
+    color: #3f3b35; font-size: 1rem; line-height: 1.6;
+  }
+  .walkthrough__done i { color: #c96a45; margin-right: 0.5rem; }
+  .walkthrough__done strong { color: #211f1c; }
+  @media (max-width: 600px) {
+    .walkthrough > li { padding: 1.25rem 1.2rem 1.4rem; }
+    .walkthrough__img { margin-left: 0; }
+  }
+
   /* Support page cards + FAQ. */
   .support-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
   .support-card { background: #fbf9f5; border: 1px solid #e7e1d6; border-radius: 10px; padding: 1.5rem 1.6rem; }
