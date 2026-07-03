@@ -1,0 +1,52 @@
+---
+layout: none
+sitemap: false
+---
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Release-notes RSS 2.0 feed, provided alongside the Atom /feed.xml for
+  consumers that require RSS 2.0 (e.g. Naver Search Advisor's RSS 제출, which
+  rejects Atom with a generic errorCode 500). Same entry logic as feed.xml:
+  one <item> per English release note that carries a `date` in its front
+  matter; undated (TBD) releases are skipped. Full release body is included in
+  <description> per Naver's recommendation to provide the complete content.
+-->
+{%- assign entries = "" | split: "" -%}
+{%- for page in site.html_pages -%}
+  {%- if page.url contains "/releases/" and page.url contains "/en.html" and page.date -%}
+    {%- assign entries = entries | push: page -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign entries = entries | sort: "date" | reverse -%}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title | smartify | xml_escape }} — Releases</title>
+    <link>{{ '/releases.html' | absolute_url }}</link>
+    <atom:link href="{{ '/rss.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
+    <description>Release notes for every version of {{ site.title | xml_escape }}.</description>
+    <language>{{ site.locale | default: "en-US" | replace: "_", "-" }}</language>
+    <lastBuildDate>{% if entries.first %}{{ entries.first.date | date_to_rfc822 }}{% else %}{{ site.time | date_to_rfc822 }}{% endif %}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+    {%- for post in entries limit: 30 -%}
+    {%- assign seg = post.url | split: "/" -%}
+    {%- assign plat = seg[2] -%}
+    {%- assign ver = seg[3] -%}
+    {%- case plat -%}
+      {%- when "mac" -%}{%- assign platname = "macOS" -%}
+      {%- when "windows" -%}{%- assign platname = "Windows" -%}
+      {%- when "ios_ipados" -%}{%- assign platname = "iOS / iPadOS" -%}
+      {%- when "android" -%}{%- assign platname = "Android" -%}
+      {%- else -%}{%- assign platname = plat -%}
+    {%- endcase -%}
+    {%- assign title = "Glit " | append: ver | append: " — " | append: platname -%}
+    <item>
+      <title>{{ title | smartify | xml_escape }}</title>
+      <link>{{ post.url | absolute_url }}</link>
+      <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      <category>{{ platname | xml_escape }}</category>
+      <description><![CDATA[{{ post.content }}]]></description>
+    </item>
+    {%- endfor -%}
+  </channel>
+</rss>
