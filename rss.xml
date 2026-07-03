@@ -4,12 +4,13 @@ sitemap: false
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  Release-notes RSS 2.0 feed, provided alongside the Atom /feed.xml for
-  consumers that require RSS 2.0 (e.g. Naver Search Advisor's RSS 제출, which
-  rejects Atom with a generic errorCode 500). Same entry logic as feed.xml:
-  one <item> per English release note that carries a `date` in its front
-  matter; undated (TBD) releases are skipped. Full release body is included in
-  <description> per Naver's recommendation to provide the complete content.
+  Release-notes RSS 2.0 feed. This is the site's only feed (the former Atom
+  /feed.xml was removed because Naver Search Advisor's RSS 제출 rejects Atom
+  with a generic errorCode 500). One <item> per English release note that
+  carries a `date` in its front matter; undated (TBD) releases are skipped.
+  Full release body is included in <description> per Naver's recommendation to
+  provide the complete content. The <head> alternate link and footer feed link
+  point here via the `atom_feed.path` setting in _config.yml.
 -->
 {%- assign entries = "" | split: "" -%}
 {%- for page in site.html_pages -%}

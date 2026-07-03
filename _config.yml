@@ -5,6 +5,12 @@ description: "A focused writing tool for web novel creators"
 url: "https://glit.app"
 locale: "en-US"
 
+# Release-notes feed is a hand-rolled RSS 2.0 file at /rss.xml (Naver's RSS
+# submission rejects Atom). Point the theme's <head> alternate link and the
+# footer feed link at it instead of the removed /feed.xml.
+atom_feed:
+  path: "/rss.xml"
+
 # --- Theme --------------------------------------------------------------
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 # Skins: default, air, aqua, contrast, dark, dirt, mint, neon, plum, sunrise
@@ -23,7 +29,6 @@ titles_from_headings:
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-optional-front-matter
