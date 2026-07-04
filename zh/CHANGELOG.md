@@ -16,7 +16,7 @@ Glit：写作编辑器的所有重要变更都将记录在本文件中。
 
 | 版本 | 发布日期 | 各语言发布说明 |
 | :--- | :------- | :------------- |
-| **v1.2.0** | 待定 | [English](/releases/mac/v1.2.0/en.html) / [한국어](/releases/mac/v1.2.0/ko.html) |
+| **v1.2.1** | 2026-07-02 | [English](/releases/mac/v1.2.1/en.html) / [한국어](/releases/mac/v1.2.1/ko.html) |
 | **v1.1.1** | 2026-06-03 | [English](/releases/mac/v1.1.1/en.html) / [한국어](/releases/mac/v1.1.1/ko.html) |
 | **v1.1.0** | 2026-05-31 | [English](/releases/mac/v1.1.0/en.html) / [한국어](/releases/mac/v1.1.0/ko.html) |
 | **v1.0.1** | 2026-05 | [English](/releases/mac/v1.0.1/en.html) / [한국어](/releases/mac/v1.0.1/ko.html) |
@@ -26,8 +26,8 @@ Glit：写作编辑器的所有重要变更都将记录在本文件中。
 
 | 版本 | 发布日期 | 各语言发布说明 |
 | :--- | :------- | :------------- |
-| **v1.2.1** | 待定 | [English](/releases/windows/v1.2.1/en.html) / [한국어](/releases/windows/v1.2.1/ko.html) |
-| **v1.2.0** | 待定 | [English](/releases/windows/v1.2.0/en.html) / [한국어](/releases/windows/v1.2.0/ko.html) |
+| **v1.2.1** | 2026-06-30 | [English](/releases/windows/v1.2.1/en.html) / [한국어](/releases/windows/v1.2.1/ko.html) |
+| **v1.2.0** | 2026-06-30 | [English](/releases/windows/v1.2.0/en.html) / [한국어](/releases/windows/v1.2.0/ko.html) |
 | **v1.1.1** | 2026-06-03 | [English](/releases/windows/v1.1.1/en.html) / [한국어](/releases/windows/v1.1.1/ko.html) |
 | **v1.1.0** | 2026-05-31 | [English](/releases/windows/v1.1.0/en.html) / [한국어](/releases/windows/v1.1.0/ko.html) |
 | **v1.0.1** | 2026-05 | [English](/releases/windows/v1.0.1/en.html) / [한국어](/releases/windows/v1.0.1/ko.html) |
@@ -36,6 +36,7 @@ Glit：写作编辑器的所有重要变更都将记录在本文件中。
 
 | 版本 | 发布日期 | 各语言发布说明 |
 | :--- | :------- | :------------- |
+| **v1.1.0** | 2026-07-05 | [English](/releases/ios_ipados/v1.1.0/en.html) / [한국어](/releases/ios_ipados/v1.1.0/ko.html) |
 | **v1.0.0** | 2026-07-01 | [English](/releases/ios_ipados/v1.0.0/en.html) / [한국어](/releases/ios_ipados/v1.0.0/ko.html) |
 
 ## 🤖 Android (Google Play)

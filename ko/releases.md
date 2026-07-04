@@ -21,7 +21,7 @@ Apple Silicon과 Intel Mac을 모두 지원하는 유니버설 앱으로, [Mac A
 
 | 버전 | 출시일 | 주요 내용 | 릴리스 노트 |
 | :--- | :----- | :-------- | :---------- |
-| **v1.2.0** | 미정 | 최신 버전 | [한국어](/releases/mac/v1.2.0/ko.html) / [English](/releases/mac/v1.2.0/en.html) |
+| **v1.2.1** | 2026-07-02 | 테마 개편 및 버그 수정 | [한국어](/releases/mac/v1.2.1/ko.html) / [English](/releases/mac/v1.2.1/en.html) |
 | v1.1.1 | 2026-06-03 | 개선 및 버그 수정 | [한국어](/releases/mac/v1.1.1/ko.html) / [English](/releases/mac/v1.1.1/en.html) |
 | v1.1.0 | 2026-05-31 | 기능 업데이트 | [한국어](/releases/mac/v1.1.0/ko.html) / [English](/releases/mac/v1.1.0/en.html) |
 | v1.0.1 | 2026-05 | 유지보수 | [한국어](/releases/mac/v1.0.1/ko.html) / [English](/releases/mac/v1.0.1/en.html) |
@@ -33,8 +33,8 @@ Windows 10 및 11을 지원하며, [Microsoft Store](https://apps.microsoft.com/
 
 | 버전 | 출시일 | 주요 내용 | 릴리스 노트 |
 | :--- | :----- | :-------- | :---------- |
-| **v1.2.1** | 미정 | 최신 버전 | [한국어](/releases/windows/v1.2.1/ko.html) / [English](/releases/windows/v1.2.1/en.html) |
-| v1.2.0 | 미정 | 기능 업데이트 | [한국어](/releases/windows/v1.2.0/ko.html) / [English](/releases/windows/v1.2.0/en.html) |
+| **v1.2.1** | 2026-06-30 | 설정 레이아웃 수정 | [한국어](/releases/windows/v1.2.1/ko.html) / [English](/releases/windows/v1.2.1/en.html) |
+| v1.2.0 | 2026-06-30 | 테마 개편 및 버그 수정 | [한국어](/releases/windows/v1.2.0/ko.html) / [English](/releases/windows/v1.2.0/en.html) |
 | v1.1.1 | 2026-06-03 | 개선 및 버그 수정 | [한국어](/releases/windows/v1.1.1/ko.html) / [English](/releases/windows/v1.1.1/en.html) |
 | v1.1.0 | 2026-05-31 | 기능 업데이트 | [한국어](/releases/windows/v1.1.0/ko.html) / [English](/releases/windows/v1.1.0/en.html) |
 | v1.0.1 | 2026-05 | 최초 출시 | [한국어](/releases/windows/v1.0.1/ko.html) / [English](/releases/windows/v1.0.1/en.html) |
@@ -45,7 +45,8 @@ iPhone과 iPad를 지원하는 유니버설 앱으로, [App Store](https://apps.
 
 | 버전 | 출시일 | 주요 내용 | 릴리스 노트 |
 | :--- | :----- | :-------- | :---------- |
-| **v1.0.0** | 2026-07-01 | 최초 출시 | [한국어](/releases/ios_ipados/v1.0.0/ko.html) / [English](/releases/ios_ipados/v1.0.0/en.html) |
+| **v1.1.0** | 2026-07-05 | 프로젝트 클라우드·로컬 전환 | [한국어](/releases/ios_ipados/v1.1.0/ko.html) / [English](/releases/ios_ipados/v1.1.0/en.html) |
+| v1.0.0 | 2026-07-01 | 최초 출시 | [한국어](/releases/ios_ipados/v1.0.0/ko.html) / [English](/releases/ios_ipados/v1.0.0/en.html) |
 
 ## Android
 

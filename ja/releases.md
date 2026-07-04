@@ -21,7 +21,7 @@ Apple Silicon と Intel Mac に対応したユニバーサルアプリで、[Mac
 
 | バージョン | リリース日 | 概要 | リリースノート |
 | :--------- | :--------- | :--- | :------------- |
-| **v1.2.0** | 未定 | 最新リリース | [English](/releases/mac/v1.2.0/en.html) / [한국어](/releases/mac/v1.2.0/ko.html) |
+| **v1.2.1** | 2026-07-02 | テーマ刷新とバグ修正 | [English](/releases/mac/v1.2.1/en.html) / [한국어](/releases/mac/v1.2.1/ko.html) |
 | v1.1.1 | 2026-06-03 | 修正と改善 | [English](/releases/mac/v1.1.1/en.html) / [한국어](/releases/mac/v1.1.1/ko.html) |
 | v1.1.0 | 2026-05-31 | 機能アップデート | [English](/releases/mac/v1.1.0/en.html) / [한국어](/releases/mac/v1.1.0/ko.html) |
 | v1.0.1 | 2026-05 | メンテナンス | [English](/releases/mac/v1.0.1/en.html) / [한국어](/releases/mac/v1.0.1/ko.html) |
@@ -33,8 +33,8 @@ Windows 10 と 11 に対応し、[Microsoft Store](https://apps.microsoft.com/de
 
 | バージョン | リリース日 | 概要 | リリースノート |
 | :--------- | :--------- | :--- | :------------- |
-| **v1.2.1** | 未定 | 最新リリース | [English](/releases/windows/v1.2.1/en.html) / [한국어](/releases/windows/v1.2.1/ko.html) |
-| v1.2.0 | 未定 | 機能アップデート | [English](/releases/windows/v1.2.0/en.html) / [한국어](/releases/windows/v1.2.0/ko.html) |
+| **v1.2.1** | 2026-06-30 | 設定レイアウト修正 | [English](/releases/windows/v1.2.1/en.html) / [한국어](/releases/windows/v1.2.1/ko.html) |
+| v1.2.0 | 2026-06-30 | テーマ刷新とバグ修正 | [English](/releases/windows/v1.2.0/en.html) / [한국어](/releases/windows/v1.2.0/ko.html) |
 | v1.1.1 | 2026-06-03 | 修正と改善 | [English](/releases/windows/v1.1.1/en.html) / [한국어](/releases/windows/v1.1.1/ko.html) |
 | v1.1.0 | 2026-05-31 | 機能アップデート | [English](/releases/windows/v1.1.0/en.html) / [한국어](/releases/windows/v1.1.0/ko.html) |
 | v1.0.1 | 2026-05 | 初回リリース | [English](/releases/windows/v1.0.1/en.html) / [한국어](/releases/windows/v1.0.1/ko.html) |
@@ -45,7 +45,8 @@ iPhone と iPad に対応したユニバーサルアプリで、[App Store](http
 
 | バージョン | リリース日 | 概要 | リリースノート |
 | :--------- | :--------- | :--- | :------------- |
-| **v1.0.0** | 2026-07-01 | 初回リリース | [English](/releases/ios_ipados/v1.0.0/en.html) / [한국어](/releases/ios_ipados/v1.0.0/ko.html) |
+| **v1.1.0** | 2026-07-05 | プロジェクトをクラウドと相互移動 | [English](/releases/ios_ipados/v1.1.0/en.html) / [한국어](/releases/ios_ipados/v1.1.0/ko.html) |
+| v1.0.0 | 2026-07-01 | 初回リリース | [English](/releases/ios_ipados/v1.0.0/en.html) / [한국어](/releases/ios_ipados/v1.0.0/ko.html) |
 
 ## Android
 

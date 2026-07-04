@@ -21,7 +21,7 @@ Glit 各版本的发布说明，按平台整理。每个条目都链接到 Engli
 
 | 版本 | 发布日期 | 亮点 | 发布说明 |
 | :--- | :------- | :--- | :------- |
-| **v1.2.0** | 待定 | 最新版本 | [English](/releases/mac/v1.2.0/en.html) / [한국어](/releases/mac/v1.2.0/ko.html) |
+| **v1.2.1** | 2026-07-02 | 主题改版与修复 | [English](/releases/mac/v1.2.1/en.html) / [한국어](/releases/mac/v1.2.1/ko.html) |
 | v1.1.1 | 2026-06-03 | 修复与优化 | [English](/releases/mac/v1.1.1/en.html) / [한국어](/releases/mac/v1.1.1/ko.html) |
 | v1.1.0 | 2026-05-31 | 功能更新 | [English](/releases/mac/v1.1.0/en.html) / [한국어](/releases/mac/v1.1.0/ko.html) |
 | v1.0.1 | 2026-05 | 维护更新 | [English](/releases/mac/v1.0.1/en.html) / [한국어](/releases/mac/v1.0.1/ko.html) |
@@ -33,8 +33,8 @@ Glit 各版本的发布说明，按平台整理。每个条目都链接到 Engli
 
 | 版本 | 发布日期 | 亮点 | 发布说明 |
 | :--- | :------- | :--- | :------- |
-| **v1.2.1** | 待定 | 最新版本 | [English](/releases/windows/v1.2.1/en.html) / [한국어](/releases/windows/v1.2.1/ko.html) |
-| v1.2.0 | 待定 | 功能更新 | [English](/releases/windows/v1.2.0/en.html) / [한국어](/releases/windows/v1.2.0/ko.html) |
+| **v1.2.1** | 2026-06-30 | 设置布局修复 | [English](/releases/windows/v1.2.1/en.html) / [한국어](/releases/windows/v1.2.1/ko.html) |
+| v1.2.0 | 2026-06-30 | 主题改版与修复 | [English](/releases/windows/v1.2.0/en.html) / [한국어](/releases/windows/v1.2.0/ko.html) |
 | v1.1.1 | 2026-06-03 | 修复与优化 | [English](/releases/windows/v1.1.1/en.html) / [한국어](/releases/windows/v1.1.1/ko.html) |
 | v1.1.0 | 2026-05-31 | 功能更新 | [English](/releases/windows/v1.1.0/en.html) / [한국어](/releases/windows/v1.1.0/ko.html) |
 | v1.0.1 | 2026-05 | 首次发布 | [English](/releases/windows/v1.0.1/en.html) / [한국어](/releases/windows/v1.0.1/ko.html) |
@@ -45,7 +45,8 @@ Glit 各版本的发布说明，按平台整理。每个条目都链接到 Engli
 
 | 版本 | 发布日期 | 亮点 | 发布说明 |
 | :--- | :------- | :--- | :------- |
-| **v1.0.0** | 2026-07-01 | 首次发布 | [English](/releases/ios_ipados/v1.0.0/en.html) / [한국어](/releases/ios_ipados/v1.0.0/ko.html) |
+| **v1.1.0** | 2026-07-05 | 项目云端/本地互转 | [English](/releases/ios_ipados/v1.1.0/en.html) / [한국어](/releases/ios_ipados/v1.1.0/ko.html) |
+| v1.0.0 | 2026-07-01 | 首次发布 | [English](/releases/ios_ipados/v1.0.0/en.html) / [한국어](/releases/ios_ipados/v1.0.0/ko.html) |
 
 ## Android
 

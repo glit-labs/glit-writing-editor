@@ -20,7 +20,7 @@ Universal app for Apple Silicon and Intel Macs, available on the [Mac App Store]
 
 | Version | Release Date | Highlights | Release Notes |
 | :------ | :----------- | :--------- | :------------ |
-| **v1.2.0** | TBD | Latest release | [English](/releases/mac/v1.2.0/en.html) / [한국어](/releases/mac/v1.2.0/ko.html) |
+| **v1.2.1** | 2026-07-02 | Theme overhaul & fixes | [English](/releases/mac/v1.2.1/en.html) / [한국어](/releases/mac/v1.2.1/ko.html) |
 | v1.1.1 | 2026-06-03 | Fixes & refinements | [English](/releases/mac/v1.1.1/en.html) / [한국어](/releases/mac/v1.1.1/ko.html) |
 | v1.1.0 | 2026-05-31 | Feature update | [English](/releases/mac/v1.1.0/en.html) / [한국어](/releases/mac/v1.1.0/ko.html) |
 | v1.0.1 | 2026-05 | Maintenance | [English](/releases/mac/v1.0.1/en.html) / [한국어](/releases/mac/v1.0.1/ko.html) |
@@ -32,8 +32,8 @@ Available on the [Microsoft Store](https://apps.microsoft.com/detail/9n19p02fc7r
 
 | Version | Release Date | Highlights | Release Notes |
 | :------ | :----------- | :--------- | :------------ |
-| **v1.2.1** | TBD | Latest release | [English](/releases/windows/v1.2.1/en.html) / [한국어](/releases/windows/v1.2.1/ko.html) |
-| v1.2.0 | TBD | Feature update | [English](/releases/windows/v1.2.0/en.html) / [한국어](/releases/windows/v1.2.0/ko.html) |
+| **v1.2.1** | 2026-06-30 | Settings layout fix | [English](/releases/windows/v1.2.1/en.html) / [한국어](/releases/windows/v1.2.1/ko.html) |
+| v1.2.0 | 2026-06-30 | Theme overhaul & fixes | [English](/releases/windows/v1.2.0/en.html) / [한국어](/releases/windows/v1.2.0/ko.html) |
 | v1.1.1 | 2026-06-03 | Fixes & refinements | [English](/releases/windows/v1.1.1/en.html) / [한국어](/releases/windows/v1.1.1/ko.html) |
 | v1.1.0 | 2026-05-31 | Feature update | [English](/releases/windows/v1.1.0/en.html) / [한국어](/releases/windows/v1.1.0/ko.html) |
 | v1.0.1 | 2026-05 | Initial release | [English](/releases/windows/v1.0.1/en.html) / [한국어](/releases/windows/v1.0.1/ko.html) |
@@ -44,7 +44,8 @@ Universal app for iPhone and iPad, available on the [App Store](https://apps.app
 
 | Version | Release Date | Highlights | Release Notes |
 | :------ | :----------- | :--------- | :------------ |
-| **v1.0.0** | 2026-07-01 | Initial release | [English](/releases/ios_ipados/v1.0.0/en.html) / [한국어](/releases/ios_ipados/v1.0.0/ko.html) |
+| **v1.1.0** | 2026-07-05 | Move projects to/from cloud | [English](/releases/ios_ipados/v1.1.0/en.html) / [한국어](/releases/ios_ipados/v1.1.0/ko.html) |
+| v1.0.0 | 2026-07-01 | Initial release | [English](/releases/ios_ipados/v1.0.0/en.html) / [한국어](/releases/ios_ipados/v1.0.0/ko.html) |
 
 ## Android
 

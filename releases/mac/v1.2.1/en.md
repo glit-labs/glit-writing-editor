@@ -1,9 +1,9 @@
 ---
-date: 2026-07-01
+date: 2026-07-02
 ---
 # Glit Release Notes — v1.2.1
 
-**Release date:** 2026-07-01  
+**Release date:** 2026-07-02  
 **Previous version:** v1.1.1
 
 ---

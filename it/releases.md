@@ -21,7 +21,7 @@ App universale per Mac con Apple Silicon e Intel, disponibile sul [Mac App Store
 
 | Versione | Data di rilascio | In evidenza | Note di rilascio |
 | :------- | :--------------- | :---------- | :--------------- |
-| **v1.2.0** | Da definire | Ultima versione | [English](/releases/mac/v1.2.0/en.html) / [한국어](/releases/mac/v1.2.0/ko.html) |
+| **v1.2.1** | 2026-07-02 | Rinnovo dei temi e correzioni | [English](/releases/mac/v1.2.1/en.html) / [한국어](/releases/mac/v1.2.1/ko.html) |
 | v1.1.1 | 2026-06-03 | Correzioni e perfezionamenti | [English](/releases/mac/v1.1.1/en.html) / [한국어](/releases/mac/v1.1.1/ko.html) |
 | v1.1.0 | 2026-05-31 | Aggiornamento funzioni | [English](/releases/mac/v1.1.0/en.html) / [한국어](/releases/mac/v1.1.0/ko.html) |
 | v1.0.1 | 2026-05 | Manutenzione | [English](/releases/mac/v1.0.1/en.html) / [한국어](/releases/mac/v1.0.1/ko.html) |
@@ -33,8 +33,8 @@ Disponibile sul [Microsoft Store](https://apps.microsoft.com/detail/9n19p02fc7rf
 
 | Versione | Data di rilascio | In evidenza | Note di rilascio |
 | :------- | :--------------- | :---------- | :--------------- |
-| **v1.2.1** | Da definire | Ultima versione | [English](/releases/windows/v1.2.1/en.html) / [한국어](/releases/windows/v1.2.1/ko.html) |
-| v1.2.0 | Da definire | Aggiornamento funzioni | [English](/releases/windows/v1.2.0/en.html) / [한국어](/releases/windows/v1.2.0/ko.html) |
+| **v1.2.1** | 2026-06-30 | Correzione layout impostazioni | [English](/releases/windows/v1.2.1/en.html) / [한국어](/releases/windows/v1.2.1/ko.html) |
+| v1.2.0 | 2026-06-30 | Rinnovo dei temi e correzioni | [English](/releases/windows/v1.2.0/en.html) / [한국어](/releases/windows/v1.2.0/ko.html) |
 | v1.1.1 | 2026-06-03 | Correzioni e perfezionamenti | [English](/releases/windows/v1.1.1/en.html) / [한국어](/releases/windows/v1.1.1/ko.html) |
 | v1.1.0 | 2026-05-31 | Aggiornamento funzioni | [English](/releases/windows/v1.1.0/en.html) / [한국어](/releases/windows/v1.1.0/ko.html) |
 | v1.0.1 | 2026-05 | Rilascio iniziale | [English](/releases/windows/v1.0.1/en.html) / [한국어](/releases/windows/v1.0.1/ko.html) |
@@ -45,7 +45,8 @@ App universale per iPhone e iPad, disponibile sull'[App Store](https://apps.appl
 
 | Versione | Data di rilascio | In evidenza | Note di rilascio |
 | :------- | :--------------- | :---------- | :--------------- |
-| **v1.0.0** | 2026-07-01 | Rilascio iniziale | [English](/releases/ios_ipados/v1.0.0/en.html) / [한국어](/releases/ios_ipados/v1.0.0/ko.html) |
+| **v1.1.0** | 2026-07-05 | Sposta i progetti da/verso il cloud | [English](/releases/ios_ipados/v1.1.0/en.html) / [한국어](/releases/ios_ipados/v1.1.0/ko.html) |
+| v1.0.0 | 2026-07-01 | Rilascio iniziale | [English](/releases/ios_ipados/v1.0.0/en.html) / [한국어](/releases/ios_ipados/v1.0.0/ko.html) |
 
 ## Android
 
