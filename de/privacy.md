@@ -1,4 +1,5 @@
 ---
+description: "Lies die Datenschutzerklärung von Glit: Writing Editor und erfahre, wie deine Daten auf macOS, Windows, iPhone und iPad verarbeitet werden."
 layout: single
 title: "Datenschutzerklärung"
 lang: de

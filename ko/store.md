@@ -1,4 +1,5 @@
 ---
+description: "macOS, Windows, iPhone, iPad용 Glit을 만나보세요. 구독 없이 한 번만 구매하면 되고, 프로젝트는 어떤 기기에서도 열리는 일반 파일로 남습니다."
 layout: single
 title: "스토어"
 lang: ko

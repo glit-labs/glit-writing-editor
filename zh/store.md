@@ -1,4 +1,5 @@
 ---
+description: "获取适用于 macOS、Windows、iPhone 和 iPad 的 Glit。无需订阅，一次购买，你的项目始终是可在任何设备上打开的普通文件。"
 layout: single
 title: "商店"
 lang: zh

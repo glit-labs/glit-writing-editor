@@ -1,4 +1,5 @@
 ---
+description: "Glit: 웹소설 집필 에디터의 개인정보 처리방침입니다. macOS, Windows, iPhone, iPad에서 여러분의 데이터가 어떻게 처리되는지 확인하세요."
 layout: single
 title: "개인정보 처리방침"
 lang: ko

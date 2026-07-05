@@ -1,4 +1,5 @@
 ---
+description: "Release notes for every version of Glit, organized by platform — macOS, Windows, iOS, and iPadOS. See what's new in the web novel writing app."
 layout: single
 title: "Releases"
 lang: en

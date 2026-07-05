@@ -1,4 +1,5 @@
 ---
+description: "Glit 사용에 도움이 필요하신가요? 언제든 문의하시고 웹소설 집필 앱에 대한 자주 묻는 질문을 확인해 보세요. Mac, Windows, iOS를 지원합니다."
 layout: single
 title: "지원"
 lang: ko

@@ -1,3 +1,7 @@
+---
+description: "A single chronological changelog for Glit: Writing Editor across all platforms — every macOS, Windows, iOS, and iPadOS release in one place."
+---
+
 # Changelog
 
 All notable changes to Glit: Writing Editor will be documented in this file.

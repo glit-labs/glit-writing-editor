@@ -1,4 +1,5 @@
 ---
+description: "Get Glit for macOS, Windows, iPhone, and iPad. No subscription — buy once, and your projects stay as plain files that open on any device."
 layout: single
 title: "Store"
 lang: en

@@ -1,4 +1,5 @@
 ---
+description: "모든 플랫폼을 아우르는 Glit: 웹소설 집필 에디터의 시간순 통합 변경 이력입니다. macOS, Windows, iOS, iPadOS 릴리스를 한곳에서 확인하세요."
 layout: single
 title: "변경 이력"
 lang: ko

@@ -1,15 +1,22 @@
 <!-- begin _includes/seo.html -->
 {%- comment -%}
   Local override of the Minimal Mistakes theme's _includes/seo.html (v4.26.2).
-  Two additions on top of the stock file:
+  Additions on top of the stock file:
     1. hreflang alternate links for the multilingual page set (see below).
     2. JSON-LD rebuilt as SoftwareApplication (home pages) / WebPage (the rest),
        replacing the theme's stray "@type": Person, "name": null block.
+    3. <title> no longer appends " - Glit" when the page title already contains
+       the site title, so the home renders "Glit: Writing Editor" instead of the
+       redundant "Glit: Writing Editor - Glit".
 {%- endcomment -%}
 {%- assign title_separator = site.title_separator | default: '-' -%}
 
 {%- assign page_title = page.title | default: site.title | replace: '|', '&#124;' -%}
-{%- assign seo_title = page_title | append: " " | append: title_separator | append: " " | append: site.title | replace: '|', '&#124;' -%}
+{%- if page_title contains site.title -%}
+  {%- assign seo_title = page_title -%}
+{%- else -%}
+  {%- assign seo_title = page_title | append: " " | append: title_separator | append: " " | append: site.title | replace: '|', '&#124;' -%}
+{%- endif -%}
 
 {%- assign page_title = page_title | markdownify | strip_html | strip_newlines | escape_once -%}
 {%- assign seo_title  = seo_title  | markdownify | strip_html | strip_newlines | escape_once -%}

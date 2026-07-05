@@ -1,4 +1,5 @@
 ---
+description: "플랫폼별로 정리한 Glit의 모든 버전 릴리스 노트입니다. macOS, Windows, iOS, iPadOS. 웹소설 집필 앱의 새로운 소식을 확인하세요."
 layout: single
 title: "릴리스"
 lang: ko

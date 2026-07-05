@@ -1,4 +1,5 @@
 ---
+description: "全プラットフォームを横断した Glit: ウェブ小説執筆エディタの時系列変更履歴です。macOS、Windows、iOS、iPadOS のリリースを一か所でご確認いただけます。"
 layout: single
 title: "変更履歴"
 lang: ja

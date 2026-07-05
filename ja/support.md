@@ -1,4 +1,5 @@
 ---
+description: "Glit の使い方でお困りですか？いつでもお問い合わせください。Mac、Windows、iOS に対応したウェブ小説執筆アプリのよくある質問もご覧いただけます。"
 layout: single
 title: "サポート"
 lang: ja

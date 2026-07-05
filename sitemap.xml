@@ -29,6 +29,7 @@ sitemap: false
     {%- if cur.code == "en" -%}{%- assign curpath = path -%}{%- else -%}{%- assign curpath = cur.code | append: "/" | append: path -%}{%- endif -%}
   <url>
     <loc>{{ site.url }}/{{ curpath }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     {%- for alt in langs -%}
       {%- if alt.code == "en" -%}{%- assign altpath = path -%}{%- else -%}{%- assign altpath = alt.code | append: "/" | append: path -%}{%- endif -%}
     <xhtml:link rel="alternate" hreflang="{{ alt.code }}" href="{{ site.url }}/{{ altpath }}" />
@@ -41,6 +42,7 @@ sitemap: false
   {%- if page.url contains "/releases/" -%}
   <url>
     <loc>{{ page.url | absolute_url }}</loc>
+    <lastmod>{{ page.last_modified_at | default: page.date | default: site.time | date_to_xmlschema }}</lastmod>
   </url>
   {%- endif -%}
 {%- endfor -%}
@@ -49,6 +51,7 @@ sitemap: false
   {%- if page.url == "/ko/guide.html" or page.url contains "/ko/guides/" -%}
   <url>
     <loc>{{ page.url | absolute_url }}</loc>
+    <lastmod>{{ page.last_modified_at | default: page.date | default: site.time | date_to_xmlschema }}</lastmod>
   </url>
   {%- endif -%}
 {%- endfor -%}

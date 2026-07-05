@@ -1,4 +1,5 @@
 ---
+description: "macOS、Windows、iPhone、iPad 版の Glit を入手。サブスクリプションなし、一度購入すれば完結し、プロジェクトはどのデバイスでも開ける普通のファイルとして残ります。"
 layout: single
 title: "ストア"
 lang: ja

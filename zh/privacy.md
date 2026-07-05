@@ -1,4 +1,5 @@
 ---
+description: "阅读 Glit：写作编辑器的隐私政策，了解你的数据在 macOS、Windows、iPhone 和 iPad 上是如何处理的。"
 layout: single
 title: "隐私政策"
 lang: zh

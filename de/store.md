@@ -1,4 +1,5 @@
 ---
+description: "Hol dir Glit für macOS, Windows, iPhone und iPad. Kein Abo – einmal kaufen, und deine Projekte bleiben normale Dateien, die sich auf jedem Gerät öffnen lassen."
 layout: single
 title: "Store"
 lang: de

@@ -1,4 +1,5 @@
 ---
+description: "Read the privacy policy for Glit: Writing Editor and learn how your data is handled across macOS, Windows, iPhone, and iPad."
 layout: single
 title: "Privacy Policy"
 lang: en

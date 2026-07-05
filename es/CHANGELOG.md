@@ -1,4 +1,5 @@
 ---
+description: "Un registro de cambios cronológico y único de Glit: Writing Editor en todas las plataformas: cada versión de macOS, Windows, iOS e iPadOS en un solo lugar."
 layout: single
 title: "Registro de cambios"
 lang: es

@@ -1,4 +1,5 @@
 ---
+description: "Notas de la versión de cada actualización de Glit, organizadas por plataforma: macOS, Windows, iOS e iPadOS. Descubre las novedades de la app de escritura."
 layout: single
 title: "Versiones"
 lang: es

@@ -1,4 +1,5 @@
 ---
+description: "Consigue Glit para macOS, Windows, iPhone e iPad. Sin suscripción: paga una vez y tus proyectos quedan como archivos normales que se abren en cualquier dispositivo."
 layout: single
 title: "Tienda"
 lang: es

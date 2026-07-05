@@ -1,4 +1,5 @@
 ---
+description: "Glit을 더 잘 활용하는 방법을 담은 한국어 가이드 모음입니다. 샘플 웹소설 열기부터 차근차근 따라 할 수 있는 안내를 제공합니다."
 layout: single
 title: "가이드"
 lang: ko

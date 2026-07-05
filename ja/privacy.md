@@ -1,4 +1,5 @@
 ---
+description: "Glit: ウェブ小説執筆エディタのプライバシーポリシーです。macOS、Windows、iPhone、iPad でお客様のデータがどのように扱われるかをご確認いただけます。"
 layout: single
 title: "プライバシーポリシー"
 lang: ja

@@ -1,0 +1,46 @@
+name: Submit URLs to IndexNow
+
+# Notifies Bing (and other IndexNow-participating engines) whenever content is
+# pushed to main, so updated pages get recrawled quickly instead of waiting for
+# the next natural crawl. The IndexNow key is public by design and is served at
+# https://glit.app/f1e1cc3bea3ec7549d059abcefcb4752.txt — no repo secret needed.
+#
+# This job only pings IndexNow; it does not deploy the site. GitHub Pages still
+# builds and deploys the branch as configured under Settings > Pages.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait for GitHub Pages to rebuild
+        run: sleep 120
+
+      - name: Submit sitemap URLs to IndexNow
+        env:
+          KEY: f1e1cc3bea3ec7549d059abcefcb4752
+          HOST: glit.app
+        run: |
+          set -euo pipefail
+          urls=$(curl -sSf "https://${HOST}/sitemap.xml" \
+            | grep -oE '<loc>[^<]+</loc>' \
+            | sed -E 's#</?loc>##g')
+          count=$(printf '%s\n' "$urls" | grep -c . || true)
+          echo "Submitting ${count} URLs to IndexNow"
+          payload=$(printf '%s\n' "$urls" \
+            | jq -R . \
+            | jq -sc --arg host "$HOST" --arg key "$KEY" \
+                '{host:$host, key:$key, keyLocation:("https://"+$host+"/"+$key+".txt"), urlList: .}')
+          http_code=$(curl -sS -o /tmp/indexnow_resp.txt -w '%{http_code}' \
+            -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            --data "$payload")
+          echo "IndexNow response: HTTP ${http_code}"
+          cat /tmp/indexnow_resp.txt || true
+          case "$http_code" in
+            200|202) exit 0 ;;
+            *) echo "IndexNow submission failed"; exit 1 ;;
+          esac
