@@ -2,7 +2,7 @@
 layout: splash
 lang: zh
 locale: "zh-CN"
-title: "Glit：网络小说写作编辑器"
+title: "Glit：面向网络小说创作者的写作编辑器"
 header:
   overlay_color: "#2f2b28"
   actions:
