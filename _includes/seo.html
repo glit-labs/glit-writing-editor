@@ -5,17 +5,46 @@
     1. hreflang alternate links for the multilingual page set (see below).
     2. JSON-LD rebuilt as SoftwareApplication (home pages) / WebPage (the rest),
        replacing the theme's stray "@type": Person, "name": null block.
-    3. <title> no longer appends " - Glit" when the page title already contains
-       the site title, so the home renders "Glit: Writing Editor" instead of the
-       redundant "Glit: Writing Editor - Glit".
+    3. <title> suffix uses the language's descriptive `brand` (e.g.
+       "Glit: 웹소설 집필 에디터", from _data/languages.yml) instead of the bare
+       site title, and is dropped when the page title already contains it — so
+       the home renders "Glit: Writing Editor" (not "... - Glit") and terse
+       subpage titles like "Store" / "商店" clear Bing's minimum title length.
 {%- endcomment -%}
 {%- assign title_separator = site.title_separator | default: '-' -%}
+
+{%- comment -%}
+  === Language + language-neutral path =================================
+  Derive the current language and the path with its language prefix removed
+  from page.url (the English/root pages carry no prefix). Front matter `lang`
+  is unreliable here — the English home and the release notes don't set it —
+  so we read the prefix off the URL against the languages data file. We also
+  pick the language's `brand` string for use as the <title> suffix below.
+{%- endcomment -%}
+{%- assign langs = site.data.languages -%}
+{%- assign url_no_slash = page.url | remove_first: "/" -%}
+{%- assign url_parts = url_no_slash | split: "/" -%}
+{%- assign first_seg = url_parts[0] -%}
+{%- assign cur_lang = "en" -%}
+{%- assign rel_path = url_no_slash -%}
+{%- for l in langs -%}
+  {%- if l.code != "en" and first_seg == l.code -%}
+    {%- assign cur_lang = l.code -%}
+    {%- assign rel_path = url_no_slash | remove_first: l.code | remove_first: "/" -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- comment -%} "/index.html" pages resolve to the directory root: treat as home. {%- endcomment -%}
+{%- if rel_path == "index.html" -%}{%- assign rel_path = "" -%}{%- endif -%}
+{%- assign brand = site.title -%}
+{%- for l in langs -%}
+  {%- if l.code == cur_lang and l.brand -%}{%- assign brand = l.brand -%}{%- endif -%}
+{%- endfor -%}
 
 {%- assign page_title = page.title | default: site.title | replace: '|', '&#124;' -%}
 {%- if page_title contains site.title -%}
   {%- assign seo_title = page_title -%}
 {%- else -%}
-  {%- assign seo_title = page_title | append: " " | append: title_separator | append: " " | append: site.title | replace: '|', '&#124;' -%}
+  {%- assign seo_title = page_title | append: " " | append: title_separator | append: " " | append: brand | replace: '|', '&#124;' -%}
 {%- endif -%}
 
 {%- assign page_title = page_title | markdownify | strip_html | strip_newlines | escape_once -%}
@@ -45,27 +74,7 @@
   {%- assign og_type = "website" -%}
 {%- endif -%}
 
-{%- comment -%}
-  === Language + language-neutral path =================================
-  Derive the current language and the path with its language prefix removed
-  from page.url (the English/root pages carry no prefix). Front matter `lang`
-  is unreliable here — the English home and the release notes don't set it —
-  so we read the prefix off the URL against the languages data file.
-{%- endcomment -%}
-{%- assign langs = site.data.languages -%}
-{%- assign url_no_slash = page.url | remove_first: "/" -%}
-{%- assign url_parts = url_no_slash | split: "/" -%}
-{%- assign first_seg = url_parts[0] -%}
-{%- assign cur_lang = "en" -%}
-{%- assign rel_path = url_no_slash -%}
-{%- for l in langs -%}
-  {%- if l.code != "en" and first_seg == l.code -%}
-    {%- assign cur_lang = l.code -%}
-    {%- assign rel_path = url_no_slash | remove_first: l.code | remove_first: "/" -%}
-  {%- endif -%}
-{%- endfor -%}
-{%- comment -%} "/index.html" pages resolve to the directory root: treat as home. {%- endcomment -%}
-{%- if rel_path == "index.html" -%}{%- assign rel_path = "" -%}{%- endif -%}
+{%- comment -%} Language, rel_path and brand are derived near the top (before <title>). {%- endcomment -%}
 
 <title>{{ seo_title }}{% if paginator %}{% unless paginator.page == 1 %} {{ title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
 <meta name="description" content="{{ seo_description }}">

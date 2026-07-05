@@ -2,27 +2,40 @@
 # English is the default and lives at the site root (/); every other language
 # has its own home page under `/<code>/`. Pages that aren't translated yet
 # (Store, Support, Privacy, Releases) fall back to the English versions.
+#
+# `brand` is the descriptive "Glit: <descriptor>" string used as the <title>
+# suffix for that language (see _includes/seo.html). It keeps terse page titles
+# like "Store" / "商店" long enough that Bing doesn't flag them as too short,
+# and mirrors each language's home-page title.
 - code: en
   name: "English"
   url: /
+  brand: "Glit: Writing Editor"
 - code: ko
   name: "한국어"
   url: /ko/
+  brand: "Glit: 웹소설 집필 에디터"
 - code: ja
   name: "日本語"
   url: /ja/
+  brand: "Glit: ウェブ小説執筆エディタ"
 - code: es
   name: "Español"
   url: /es/
+  brand: "Glit: editor de escritura"
 - code: fr
   name: "Français"
   url: /fr/
+  brand: "Glit : éditeur d'écriture"
 - code: de
   name: "Deutsch"
   url: /de/
+  brand: "Glit: Schreib-Editor"
 - code: it
   name: "Italiano"
   url: /it/
+  brand: "Glit: editor di scrittura"
 - code: zh
   name: "简体中文"
   url: /zh/
+  brand: "Glit：网络小说写作编辑器"
