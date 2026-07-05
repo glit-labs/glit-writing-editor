@@ -1,4 +1,5 @@
 ---
+description: "Glit iOS / iPadOS v1.1.0 release notes — the new features, improvements, and bug fixes in this update of the web novel writing app."
 date: 2026-07-05
 ---
 # Glit for iOS Release Notes — v1.1.0

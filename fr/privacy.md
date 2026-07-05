@@ -1,5 +1,5 @@
 ---
-description: "Consultez la politique de confidentialité de Glit : Writing Editor et découvrez comment vos données sont traitées sur macOS, Windows, iPhone et iPad."
+description: "Politique de confidentialité de Glit : Writing Editor. Découvrez comment vos données sont traitées sur macOS, Windows, iPhone et iPad."
 layout: single
 title: "Politique de confidentialité"
 lang: fr

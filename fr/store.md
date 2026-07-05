@@ -1,5 +1,5 @@
 ---
-description: "Obtenez Glit pour macOS, Windows, iPhone et iPad. Sans abonnement : payez une fois et vos projets restent des fichiers ordinaires, ouvrables sur tout appareil."
+description: "Glit pour macOS, Windows, iPhone et iPad. Sans abonnement : payez une fois et ouvrez vos projets, des fichiers ordinaires, sur tout appareil."
 layout: single
 title: "Boutique"
 lang: fr

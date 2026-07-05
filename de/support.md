@@ -1,5 +1,5 @@
 ---
-description: "Brauchst du Hilfe bei Glit? Kontaktiere uns jederzeit und finde Antworten auf häufige Fragen zur Schreib-App für Webromane für Mac, Windows und iOS."
+description: "Brauchst du Hilfe bei Glit? Schreib uns jederzeit und sieh dir die FAQ zur Schreib-App für Webromane an."
 layout: single
 title: "Support"
 lang: de

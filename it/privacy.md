@@ -1,5 +1,5 @@
 ---
-description: "Leggi l'informativa sulla privacy di Glit: Writing Editor e scopri come vengono gestiti i tuoi dati su macOS, Windows, iPhone e iPad."
+description: "Informativa sulla privacy di Glit: Writing Editor. Scopri come vengono gestiti i tuoi dati su macOS, Windows, iPhone e iPad."
 layout: single
 title: "Informativa sulla privacy"
 lang: it

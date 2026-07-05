@@ -1,5 +1,5 @@
 ---
-description: "Note di rilascio di ogni versione di Glit, organizzate per piattaforma: macOS, Windows, iOS e iPadOS. Scopri le novità dell'app di scrittura di web novel."
+description: "Note di rilascio di Glit per piattaforma: macOS, Windows, iOS e iPadOS. Scopri le novità dell'app di scrittura di web novel."
 layout: single
 title: "Versioni"
 lang: it

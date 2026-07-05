@@ -1,4 +1,5 @@
 ---
+description: "Glit Windows v1.2.0 release notes — the new features, improvements, and bug fixes in this update of the web novel writing app."
 date: 2026-06-30
 ---
 # Glit Release Notes — v1.2.0

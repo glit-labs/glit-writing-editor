@@ -1,5 +1,5 @@
 ---
-description: "Un journal des modifications chronologique et unique de Glit : Writing Editor sur toutes les plateformes : chaque version macOS, Windows, iOS et iPadOS réunie."
+description: "Journal des modifications de Glit : Writing Editor, toutes plateformes : chaque version macOS, Windows, iOS et iPadOS réunie."
 layout: single
 title: "Journal des modifications"
 lang: fr

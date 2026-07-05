@@ -1,5 +1,5 @@
 ---
-description: "Ein einziges chronologisches Änderungsprotokoll für Glit: Writing Editor über alle Plattformen – jede macOS-, Windows-, iOS- und iPadOS-Version an einem Ort."
+description: "Änderungsprotokoll von Glit: Writing Editor über alle Plattformen: jede macOS-, Windows-, iOS- und iPadOS-Version an einem Ort."
 layout: single
 title: "Änderungsprotokoll"
 lang: de

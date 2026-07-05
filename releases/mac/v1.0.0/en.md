@@ -1,4 +1,5 @@
 ---
+description: "Glit macOS v1.0.0 release notes — the new features, improvements, and bug fixes in this update of the web novel writing app."
 date: 2026-04-01
 ---
 # Glit Release Notes — v1.0.0

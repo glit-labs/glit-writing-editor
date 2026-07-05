@@ -1,3 +1,7 @@
+---
+description: "Glit for Android is in development. See the current status and plans, plus links to the macOS, Windows, and iOS / iPadOS release notes."
+---
+
 # Glit for Android
 
 **Coming soon.**

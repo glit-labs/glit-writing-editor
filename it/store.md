@@ -1,5 +1,5 @@
 ---
-description: "Ottieni Glit per macOS, Windows, iPhone e iPad. Nessun abbonamento: paghi una volta e i tuoi progetti restano file normali, apribili su qualsiasi dispositivo."
+description: "Glit per macOS, Windows, iPhone e iPad. Nessun abbonamento: paghi una volta e apri i progetti come file normali su qualsiasi dispositivo."
 layout: single
 title: "Store"
 lang: it

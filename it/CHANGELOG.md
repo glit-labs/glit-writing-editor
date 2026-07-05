@@ -1,5 +1,5 @@
 ---
-description: "Un unico changelog cronologico di Glit: Writing Editor per tutte le piattaforme: ogni versione macOS, Windows, iOS e iPadOS in un solo posto."
+description: "Changelog cronologico di Glit: Writing Editor per tutte le piattaforme: ogni versione macOS, Windows, iOS e iPadOS in un unico posto."
 layout: single
 title: "Registro modifiche"
 lang: it

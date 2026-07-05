@@ -1,5 +1,5 @@
 ---
-description: "Ti serve aiuto con Glit? Contattaci quando vuoi e consulta le risposte alle domande frequenti sull'app di scrittura di web novel per Mac, Windows e iOS."
+description: "Ti serve aiuto con Glit? Scrivici quando vuoi e consulta le FAQ dell'app di scrittura di web novel."
 layout: single
 title: "Supporto"
 lang: it
