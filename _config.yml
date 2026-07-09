@@ -19,6 +19,12 @@ minimal_mistakes_skin: "default"
 # --- Build --------------------------------------------------------------
 markdown: kramdown
 
+# Jekyll excludes dot-directories from the build by default. Force-include
+# `.well-known` so files like microsoft-identity-association.json (Azure AD
+# domain verification) are copied to _site and served by GitHub Pages.
+include:
+  - ".well-known"
+
 # Promote each page's first `# Heading` to its page title and strip it from the
 # body, so the theme renders a proper page header without a duplicate H1.
 # (jekyll-titles-from-headings is enabled by default on GitHub Pages.)
