@@ -22,7 +22,7 @@ Application universelle pour Mac Apple Silicon et Intel, disponible sur le [Mac 
 
 | Version | Date de sortie | Points clés | Notes de version |
 | :------ | :------------- | :---------- | :--------------- |
-| **v1.2.3** | 2026-07-23 | Mode Écriture concentrée | [English](/releases/mac/v1.2.3/en.html) / [한국어](/releases/mac/v1.2.3/ko.html) |
+| **v1.2.3** | 2026-07-23 | Mode Écriture concentrée | [Français](/releases/mac/v1.2.3/fr.html) / [English](/releases/mac/v1.2.3/en.html) / [한국어](/releases/mac/v1.2.3/ko.html) |
 | v1.2.2 | 2026-07-07 | Correction du plantage au démarrage | [English](/releases/mac/v1.2.2/en.html) / [한국어](/releases/mac/v1.2.2/ko.html) |
 | v1.2.1 | 2026-07-02 | Refonte des thèmes et corrections | [English](/releases/mac/v1.2.1/en.html) / [한국어](/releases/mac/v1.2.1/ko.html) |
 | v1.1.1 | 2026-06-03 | Corrections et améliorations | [English](/releases/mac/v1.1.1/en.html) / [한국어](/releases/mac/v1.1.1/ko.html) |
@@ -36,7 +36,7 @@ Disponible sur le [Microsoft Store](https://apps.microsoft.com/detail/9n19p02fc7
 
 | Version | Date de sortie | Points clés | Notes de version |
 | :------ | :------------- | :---------- | :--------------- |
-| **v1.2.3** | 2026-07-23 | Mode Écriture concentrée | [English](/releases/windows/v1.2.3/en.html) / [한국어](/releases/windows/v1.2.3/ko.html) |
+| **v1.2.3** | 2026-07-23 | Mode Écriture concentrée | [Français](/releases/windows/v1.2.3/fr.html) / [English](/releases/windows/v1.2.3/en.html) / [한국어](/releases/windows/v1.2.3/ko.html) |
 | v1.2.1 | 2026-06-30 | Correction de la mise en page des réglages | [English](/releases/windows/v1.2.1/en.html) / [한국어](/releases/windows/v1.2.1/ko.html) |
 | v1.2.0 | 2026-06-30 | Refonte des thèmes et corrections | [English](/releases/windows/v1.2.0/en.html) / [한국어](/releases/windows/v1.2.0/ko.html) |
 | v1.1.1 | 2026-06-03 | Corrections et améliorations | [English](/releases/windows/v1.1.1/en.html) / [한국어](/releases/windows/v1.1.1/ko.html) |

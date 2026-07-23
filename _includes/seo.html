@@ -150,9 +150,9 @@
 
     * Core pages (home + Store/Support/Privacy/Releases/CHANGELOG) exist in
       every language in _data/languages.yml — emit all of them + x-default(en).
-    * Per-version release notes (/releases/<platform>/<ver>/{en,ko,ja}.html):
-      link the en/ko/ja files that actually exist for that version — older
-      versions ship en/ko only, newer ones add ja — plus x-default(en).
+    * Per-version release notes (/releases/<platform>/<ver>/<lang>.html): link
+      whichever of the 8 site languages actually exist for that version (older
+      versions ship en/ko only, newer ones add more) — plus x-default(en).
     * Anything else (e.g. the Korean-only guides) has no parallel set, so we
       emit no hreflang at all.
 {%- endcomment -%}
@@ -167,9 +167,10 @@
 {%- assign rel_file = url_parts | last -%}
 {%- assign is_release_note = false -%}
 {%- if page.url contains "/releases/" -%}
-  {%- if rel_file == "en.html" or rel_file == "ko.html" or rel_file == "ja.html" -%}
-    {%- assign is_release_note = true -%}
-  {%- endif -%}
+  {%- assign rel_stub = rel_file | remove: ".html" -%}
+  {%- for l in langs -%}
+    {%- if l.code == rel_stub -%}{%- assign is_release_note = true -%}{%- endif -%}
+  {%- endfor -%}
 {%- endif -%}
 
 {%- if is_core -%}
@@ -182,7 +183,7 @@
 {%- elsif is_release_note -%}
   {%- assign note_base = page.url | replace: rel_file, "" -%}
   {%- comment -%} Emit an alternate only for the sibling language files that exist for this version. {%- endcomment -%}
-  {%- assign note_langs = "en,ko,ja" | split: "," -%}
+  {%- assign note_langs = "en,ko,ja,es,fr,de,it,zh" | split: "," -%}
   {%- for code in note_langs -%}
     {%- assign sibling = note_base | append: code | append: ".html" -%}
     {%- assign sib_exists = false -%}

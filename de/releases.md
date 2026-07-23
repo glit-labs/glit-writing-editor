@@ -22,7 +22,7 @@ Universal-App für Macs mit Apple Silicon und Intel, erhältlich im [Mac App Sto
 
 | Version | Veröffentlichung | Highlights | Versionshinweise |
 | :------ | :--------------- | :--------- | :--------------- |
-| **v1.2.3** | 2026-07-23 | Fokus-Schreibmodus | [English](/releases/mac/v1.2.3/en.html) / [한국어](/releases/mac/v1.2.3/ko.html) |
+| **v1.2.3** | 2026-07-23 | Fokus-Schreibmodus | [Deutsch](/releases/mac/v1.2.3/de.html) / [English](/releases/mac/v1.2.3/en.html) / [한국어](/releases/mac/v1.2.3/ko.html) |
 | v1.2.2 | 2026-07-07 | Absturz beim Start behoben | [English](/releases/mac/v1.2.2/en.html) / [한국어](/releases/mac/v1.2.2/ko.html) |
 | v1.2.1 | 2026-07-02 | Design-Überarbeitung und Fehlerbehebungen | [English](/releases/mac/v1.2.1/en.html) / [한국어](/releases/mac/v1.2.1/ko.html) |
 | v1.1.1 | 2026-06-03 | Korrekturen und Verbesserungen | [English](/releases/mac/v1.1.1/en.html) / [한국어](/releases/mac/v1.1.1/ko.html) |
@@ -36,7 +36,7 @@ Erhältlich im [Microsoft Store](https://apps.microsoft.com/detail/9n19p02fc7rf)
 
 | Version | Veröffentlichung | Highlights | Versionshinweise |
 | :------ | :--------------- | :--------- | :--------------- |
-| **v1.2.3** | 2026-07-23 | Fokus-Schreibmodus | [English](/releases/windows/v1.2.3/en.html) / [한국어](/releases/windows/v1.2.3/ko.html) |
+| **v1.2.3** | 2026-07-23 | Fokus-Schreibmodus | [Deutsch](/releases/windows/v1.2.3/de.html) / [English](/releases/windows/v1.2.3/en.html) / [한국어](/releases/windows/v1.2.3/ko.html) |
 | v1.2.1 | 2026-06-30 | Layout-Korrektur der Einstellungen | [English](/releases/windows/v1.2.1/en.html) / [한국어](/releases/windows/v1.2.1/ko.html) |
 | v1.2.0 | 2026-06-30 | Design-Überarbeitung und Fehlerbehebungen | [English](/releases/windows/v1.2.0/en.html) / [한국어](/releases/windows/v1.2.0/ko.html) |
 | v1.1.1 | 2026-06-03 | Korrekturen und Verbesserungen | [English](/releases/windows/v1.1.1/en.html) / [한국어](/releases/windows/v1.1.1/ko.html) |
