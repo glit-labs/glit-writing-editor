@@ -1,5 +1,6 @@
 ---
 description: "Glit Windows v1.2.3 Versionshinweise — neue Funktionen, Verbesserungen und Fehlerbehebungen in diesem Update der Schreib-App für Webromane."
+locale: "de-DE"
 ---
 
 # Glit Versionshinweise — v1.2.3

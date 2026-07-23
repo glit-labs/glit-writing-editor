@@ -1,5 +1,6 @@
 ---
 description: "Notas de Glit macOS v1.2.3: novedades, mejoras y correcciones de errores de esta actualización de la app de escritura de novelas web."
+locale: "es-ES"
 ---
 
 # Glit Notas de la versión — v1.2.3

@@ -1,5 +1,6 @@
 ---
 description: "Glit Windows v1.2.3 릴리스 노트입니다. 이번 업데이트에서 추가된 새로운 기능과 개선 사항, 버그 수정 내용을 확인하세요."
+locale: "ko-KR"
 ---
 
 # Glit 릴리즈 노트 — v1.2.3

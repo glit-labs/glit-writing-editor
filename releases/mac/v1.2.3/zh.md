@@ -1,5 +1,6 @@
 ---
 description: "Glit macOS v1.2.3 发布说明：这款网络小说写作应用本次更新的新功能、改进与错误修复。"
+locale: "zh-CN"
 ---
 
 # Glit 发布说明 — v1.2.3

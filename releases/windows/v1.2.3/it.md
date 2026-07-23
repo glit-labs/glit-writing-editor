@@ -1,5 +1,6 @@
 ---
 description: "Note di rilascio di Glit Windows v1.2.3: novità, miglioramenti e correzioni di bug di questo aggiornamento dell'app di scrittura di web novel."
+locale: "it-IT"
 ---
 
 # Glit Note di rilascio — v1.2.3
