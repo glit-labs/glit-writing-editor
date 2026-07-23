@@ -150,8 +150,9 @@
 
     * Core pages (home + Store/Support/Privacy/Releases/CHANGELOG) exist in
       every language in _data/languages.yml — emit all of them + x-default(en).
-    * Per-version release notes (/releases/<platform>/<ver>/{en,ko}.html) exist
-      in English and Korean only — link just those two + x-default(en).
+    * Per-version release notes (/releases/<platform>/<ver>/{en,ko,ja}.html):
+      link the en/ko/ja files that actually exist for that version — older
+      versions ship en/ko only, newer ones add ja — plus x-default(en).
     * Anything else (e.g. the Korean-only guides) has no parallel set, so we
       emit no hreflang at all.
 {%- endcomment -%}
@@ -166,7 +167,7 @@
 {%- assign rel_file = url_parts | last -%}
 {%- assign is_release_note = false -%}
 {%- if page.url contains "/releases/" -%}
-  {%- if rel_file == "en.html" or rel_file == "ko.html" -%}
+  {%- if rel_file == "en.html" or rel_file == "ko.html" or rel_file == "ja.html" -%}
     {%- assign is_release_note = true -%}
   {%- endif -%}
 {%- endif -%}
@@ -180,9 +181,17 @@
 <link rel="alternate" hreflang="x-default" href="{{ "/" | append: rel_path | absolute_url }}">
 {%- elsif is_release_note -%}
   {%- assign note_base = page.url | replace: rel_file, "" -%}
-  {%- assign note_langs = "en,ko" | split: "," -%}
+  {%- comment -%} Emit an alternate only for the sibling language files that exist for this version. {%- endcomment -%}
+  {%- assign note_langs = "en,ko,ja" | split: "," -%}
   {%- for code in note_langs -%}
-<link rel="alternate" hreflang="{{ code }}" href="{{ note_base | append: code | append: ".html" | absolute_url }}">
+    {%- assign sibling = note_base | append: code | append: ".html" -%}
+    {%- assign sib_exists = false -%}
+    {%- for p in site.html_pages -%}
+      {%- if p.url == sibling -%}{%- assign sib_exists = true -%}{%- break -%}{%- endif -%}
+    {%- endfor -%}
+    {%- if sib_exists -%}
+<link rel="alternate" hreflang="{{ code }}" href="{{ sibling | absolute_url }}">
+    {%- endif -%}
   {%- endfor -%}
 <link rel="alternate" hreflang="x-default" href="{{ note_base | append: "en.html" | absolute_url }}">
 {%- endif -%}
