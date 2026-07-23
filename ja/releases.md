@@ -22,7 +22,9 @@ Apple Silicon と Intel Mac に対応したユニバーサルアプリで、[Mac
 
 | バージョン | リリース日 | 概要 | リリースノート |
 | :--------- | :--------- | :--- | :------------- |
-| **v1.2.1** | 2026-07-02 | テーマ刷新とバグ修正 | [日本語](/releases/mac/v1.2.1/ja.html) / [English](/releases/mac/v1.2.1/en.html) / [한국어](/releases/mac/v1.2.1/ko.html) |
+| **v1.2.3** | 2026-07-23 | 集中執筆モード | [日本語](/releases/mac/v1.2.3/ja.html) / [English](/releases/mac/v1.2.3/en.html) / [한국어](/releases/mac/v1.2.3/ko.html) |
+| v1.2.2 | 2026-07-07 | 起動直後の終了を修正 | [日本語](/releases/mac/v1.2.2/ja.html) / [English](/releases/mac/v1.2.2/en.html) / [한국어](/releases/mac/v1.2.2/ko.html) |
+| v1.2.1 | 2026-07-02 | テーマ刷新とバグ修正 | [日本語](/releases/mac/v1.2.1/ja.html) / [English](/releases/mac/v1.2.1/en.html) / [한국어](/releases/mac/v1.2.1/ko.html) |
 | v1.1.1 | 2026-06-03 | 修正と改善 | [English](/releases/mac/v1.1.1/en.html) / [한국어](/releases/mac/v1.1.1/ko.html) |
 | v1.1.0 | 2026-05-31 | 機能アップデート | [English](/releases/mac/v1.1.0/en.html) / [한국어](/releases/mac/v1.1.0/ko.html) |
 | v1.0.1 | 2026-05 | メンテナンス | [English](/releases/mac/v1.0.1/en.html) / [한국어](/releases/mac/v1.0.1/ko.html) |
@@ -34,7 +36,8 @@ Windows 10 と 11 に対応し、[Microsoft Store](https://apps.microsoft.com/de
 
 | バージョン | リリース日 | 概要 | リリースノート |
 | :--------- | :--------- | :--- | :------------- |
-| **v1.2.1** | 2026-06-30 | 設定レイアウト修正 | [日本語](/releases/windows/v1.2.1/ja.html) / [English](/releases/windows/v1.2.1/en.html) / [한국어](/releases/windows/v1.2.1/ko.html) |
+| **v1.2.3** | 2026-07-23 | 集中執筆モード | [日本語](/releases/windows/v1.2.3/ja.html) / [English](/releases/windows/v1.2.3/en.html) / [한국어](/releases/windows/v1.2.3/ko.html) |
+| v1.2.1 | 2026-06-30 | 設定レイアウト修正 | [日本語](/releases/windows/v1.2.1/ja.html) / [English](/releases/windows/v1.2.1/en.html) / [한국어](/releases/windows/v1.2.1/ko.html) |
 | v1.2.0 | 2026-06-30 | テーマ刷新とバグ修正 | [English](/releases/windows/v1.2.0/en.html) / [한국어](/releases/windows/v1.2.0/ko.html) |
 | v1.1.1 | 2026-06-03 | 修正と改善 | [English](/releases/windows/v1.1.1/en.html) / [한국어](/releases/windows/v1.1.1/ko.html) |
 | v1.1.0 | 2026-05-31 | 機能アップデート | [English](/releases/windows/v1.1.0/en.html) / [한국어](/releases/windows/v1.1.0/ko.html) |

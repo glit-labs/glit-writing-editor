@@ -22,7 +22,9 @@ App universal para Mac con Apple Silicon e Intel, disponible en la [Mac App Stor
 
 | Versión | Fecha | Destacado | Notas de la versión |
 | :------ | :---- | :-------- | :------------------ |
-| **v1.2.1** | 2026-07-02 | Renovación de temas y correcciones | [English](/releases/mac/v1.2.1/en.html) / [한국어](/releases/mac/v1.2.1/ko.html) |
+| **v1.2.3** | 2026-07-23 | Modo Escritura concentrada | [English](/releases/mac/v1.2.3/en.html) / [한국어](/releases/mac/v1.2.3/ko.html) |
+| v1.2.2 | 2026-07-07 | Corrección de cierre al iniciar | [English](/releases/mac/v1.2.2/en.html) / [한국어](/releases/mac/v1.2.2/ko.html) |
+| v1.2.1 | 2026-07-02 | Renovación de temas y correcciones | [English](/releases/mac/v1.2.1/en.html) / [한국어](/releases/mac/v1.2.1/ko.html) |
 | v1.1.1 | 2026-06-03 | Correcciones y mejoras | [English](/releases/mac/v1.1.1/en.html) / [한국어](/releases/mac/v1.1.1/ko.html) |
 | v1.1.0 | 2026-05-31 | Actualización de funciones | [English](/releases/mac/v1.1.0/en.html) / [한국어](/releases/mac/v1.1.0/ko.html) |
 | v1.0.1 | 2026-05 | Mantenimiento | [English](/releases/mac/v1.0.1/en.html) / [한국어](/releases/mac/v1.0.1/ko.html) |
@@ -34,7 +36,8 @@ Disponible en la [Microsoft Store](https://apps.microsoft.com/detail/9n19p02fc7r
 
 | Versión | Fecha | Destacado | Notas de la versión |
 | :------ | :---- | :-------- | :------------------ |
-| **v1.2.1** | 2026-06-30 | Corrección del diseño de ajustes | [English](/releases/windows/v1.2.1/en.html) / [한국어](/releases/windows/v1.2.1/ko.html) |
+| **v1.2.3** | 2026-07-23 | Modo Escritura concentrada | [English](/releases/windows/v1.2.3/en.html) / [한국어](/releases/windows/v1.2.3/ko.html) |
+| v1.2.1 | 2026-06-30 | Corrección del diseño de ajustes | [English](/releases/windows/v1.2.1/en.html) / [한국어](/releases/windows/v1.2.1/ko.html) |
 | v1.2.0 | 2026-06-30 | Renovación de temas y correcciones | [English](/releases/windows/v1.2.0/en.html) / [한국어](/releases/windows/v1.2.0/ko.html) |
 | v1.1.1 | 2026-06-03 | Correcciones y mejoras | [English](/releases/windows/v1.1.1/en.html) / [한국어](/releases/windows/v1.1.1/ko.html) |
 | v1.1.0 | 2026-05-31 | Actualización de funciones | [English](/releases/windows/v1.1.0/en.html) / [한국어](/releases/windows/v1.1.0/ko.html) |
