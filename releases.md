@@ -21,7 +21,7 @@ Universal app for Apple Silicon and Intel Macs, available on the [Mac App Store]
 
 | Version | Release Date | Highlights | Release Notes |
 | :------ | :----------- | :--------- | :------------ |
-| **v1.2.3** | 2026-07-23 | Focus Writing mode | [English](/releases/mac/v1.2.3/en.html) / [한국어](/releases/mac/v1.2.3/ko.html) / [日本語](/releases/mac/v1.2.3/ja.html) |
+| **v1.2.3** | 2026-07-23 | Focus Writing mode | [English](/releases/mac/v1.2.3/en.html) / [한국어](/releases/mac/v1.2.3/ko.html) / [日本語](/releases/mac/v1.2.3/ja.html) / [Español](/releases/mac/v1.2.3/es.html) / [Français](/releases/mac/v1.2.3/fr.html) / [Deutsch](/releases/mac/v1.2.3/de.html) / [Italiano](/releases/mac/v1.2.3/it.html) / [简体中文](/releases/mac/v1.2.3/zh.html) |
 | v1.2.2 | 2026-07-07 | Launch crash fix | [English](/releases/mac/v1.2.2/en.html) / [한국어](/releases/mac/v1.2.2/ko.html) / [日本語](/releases/mac/v1.2.2/ja.html) |
 | v1.2.1 | 2026-07-02 | Theme overhaul & fixes | [English](/releases/mac/v1.2.1/en.html) / [한국어](/releases/mac/v1.2.1/ko.html) / [日本語](/releases/mac/v1.2.1/ja.html) |
 | v1.1.1 | 2026-06-03 | Fixes & refinements | [English](/releases/mac/v1.1.1/en.html) / [한국어](/releases/mac/v1.1.1/ko.html) |
@@ -35,7 +35,7 @@ Available on the [Microsoft Store](https://apps.microsoft.com/detail/9n19p02fc7r
 
 | Version | Release Date | Highlights | Release Notes |
 | :------ | :----------- | :--------- | :------------ |
-| **v1.2.3** | 2026-07-23 | Focus Writing mode | [English](/releases/windows/v1.2.3/en.html) / [한국어](/releases/windows/v1.2.3/ko.html) / [日本語](/releases/windows/v1.2.3/ja.html) |
+| **v1.2.3** | 2026-07-23 | Focus Writing mode | [English](/releases/windows/v1.2.3/en.html) / [한국어](/releases/windows/v1.2.3/ko.html) / [日本語](/releases/windows/v1.2.3/ja.html) / [Español](/releases/windows/v1.2.3/es.html) / [Français](/releases/windows/v1.2.3/fr.html) / [Deutsch](/releases/windows/v1.2.3/de.html) / [Italiano](/releases/windows/v1.2.3/it.html) / [简体中文](/releases/windows/v1.2.3/zh.html) |
 | v1.2.1 | 2026-06-30 | Settings layout fix | [English](/releases/windows/v1.2.1/en.html) / [한국어](/releases/windows/v1.2.1/ko.html) / [日本語](/releases/windows/v1.2.1/ja.html) |
 | v1.2.0 | 2026-06-30 | Theme overhaul & fixes | [English](/releases/windows/v1.2.0/en.html) / [한국어](/releases/windows/v1.2.0/ko.html) |
 | v1.1.1 | 2026-06-03 | Fixes & refinements | [English](/releases/windows/v1.1.1/en.html) / [한국어](/releases/windows/v1.1.1/ko.html) |

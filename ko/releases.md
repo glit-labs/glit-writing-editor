@@ -22,7 +22,7 @@ Apple Silicon과 Intel Mac을 모두 지원하는 유니버설 앱으로, [Mac A
 
 | 버전 | 출시일 | 주요 내용 | 릴리스 노트 |
 | :--- | :----- | :-------- | :---------- |
-| **v1.2.3** | 2026-07-23 | 집중 글쓰기 모드 | [한국어](/releases/mac/v1.2.3/ko.html) / [English](/releases/mac/v1.2.3/en.html) / [日本語](/releases/mac/v1.2.3/ja.html) |
+| **v1.2.3** | 2026-07-23 | 집중 글쓰기 모드 | [한국어](/releases/mac/v1.2.3/ko.html) / [English](/releases/mac/v1.2.3/en.html) / [日本語](/releases/mac/v1.2.3/ja.html) / [Español](/releases/mac/v1.2.3/es.html) / [Français](/releases/mac/v1.2.3/fr.html) / [Deutsch](/releases/mac/v1.2.3/de.html) / [Italiano](/releases/mac/v1.2.3/it.html) / [简体中文](/releases/mac/v1.2.3/zh.html) |
 | v1.2.2 | 2026-07-07 | 실행 직후 종료 수정 | [한국어](/releases/mac/v1.2.2/ko.html) / [English](/releases/mac/v1.2.2/en.html) / [日本語](/releases/mac/v1.2.2/ja.html) |
 | v1.2.1 | 2026-07-02 | 테마 개편 및 버그 수정 | [한국어](/releases/mac/v1.2.1/ko.html) / [English](/releases/mac/v1.2.1/en.html) / [日本語](/releases/mac/v1.2.1/ja.html) |
 | v1.1.1 | 2026-06-03 | 개선 및 버그 수정 | [한국어](/releases/mac/v1.1.1/ko.html) / [English](/releases/mac/v1.1.1/en.html) |
@@ -36,7 +36,7 @@ Windows 10 및 11을 지원하며, [Microsoft Store](https://apps.microsoft.com/
 
 | 버전 | 출시일 | 주요 내용 | 릴리스 노트 |
 | :--- | :----- | :-------- | :---------- |
-| **v1.2.3** | 2026-07-23 | 집중 글쓰기 모드 | [한국어](/releases/windows/v1.2.3/ko.html) / [English](/releases/windows/v1.2.3/en.html) / [日本語](/releases/windows/v1.2.3/ja.html) |
+| **v1.2.3** | 2026-07-23 | 집중 글쓰기 모드 | [한국어](/releases/windows/v1.2.3/ko.html) / [English](/releases/windows/v1.2.3/en.html) / [日本語](/releases/windows/v1.2.3/ja.html) / [Español](/releases/windows/v1.2.3/es.html) / [Français](/releases/windows/v1.2.3/fr.html) / [Deutsch](/releases/windows/v1.2.3/de.html) / [Italiano](/releases/windows/v1.2.3/it.html) / [简体中文](/releases/windows/v1.2.3/zh.html) |
 | v1.2.1 | 2026-06-30 | 설정 레이아웃 수정 | [한국어](/releases/windows/v1.2.1/ko.html) / [English](/releases/windows/v1.2.1/en.html) / [日本語](/releases/windows/v1.2.1/ja.html) |
 | v1.2.0 | 2026-06-30 | 테마 개편 및 버그 수정 | [한국어](/releases/windows/v1.2.0/ko.html) / [English](/releases/windows/v1.2.0/en.html) |
 | v1.1.1 | 2026-06-03 | 개선 및 버그 수정 | [한국어](/releases/windows/v1.1.1/ko.html) / [English](/releases/windows/v1.1.1/en.html) |
