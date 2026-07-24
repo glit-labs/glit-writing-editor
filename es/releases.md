@@ -7,7 +7,7 @@ locale: "es-ES"
 toc: false
 ---
 
-Notas de cada versión de Glit, organizadas por plataforma. Cada entrada enlaza con las notas completas en English y 한국어. Para una vista cronológica única de todas las plataformas, consulta el [Registro de cambios](/es/CHANGELOG.html).
+Notas de cada versión de Glit, organizadas por plataforma. Cada entrada enlaza con las notas completas en los idiomas disponibles para esa versión. Para una vista cronológica única de todas las plataformas, consulta el [Registro de cambios](/es/CHANGELOG.html).
 
 <nav class="section-nav" aria-label="Ir a la plataforma">
   <a href="#macos">macOS</a>

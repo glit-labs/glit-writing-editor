@@ -17,7 +17,7 @@ Releases werden pro Plattform geführt.
 
 | Version | Veröffentlichung | Versionshinweise nach Sprache |
 | :------ | :--------------- | :---------------------------- |
-| **v1.2.3** | 2026-07-23 | [English](/releases/mac/v1.2.3/en.html) / [한국어](/releases/mac/v1.2.3/ko.html) |
+| **v1.2.3** | 2026-07-23 | [Deutsch](/releases/mac/v1.2.3/de.html) / [English](/releases/mac/v1.2.3/en.html) / [한국어](/releases/mac/v1.2.3/ko.html) / [日本語](/releases/mac/v1.2.3/ja.html) / [Español](/releases/mac/v1.2.3/es.html) / [Français](/releases/mac/v1.2.3/fr.html) / [Italiano](/releases/mac/v1.2.3/it.html) / [简体中文](/releases/mac/v1.2.3/zh.html) |
 | **v1.2.2** | 2026-07-07 | [English](/releases/mac/v1.2.2/en.html) / [한국어](/releases/mac/v1.2.2/ko.html) |
 | **v1.2.1** | 2026-07-02 | [English](/releases/mac/v1.2.1/en.html) / [한국어](/releases/mac/v1.2.1/ko.html) |
 | **v1.1.1** | 2026-06-03 | [English](/releases/mac/v1.1.1/en.html) / [한국어](/releases/mac/v1.1.1/ko.html) |
@@ -29,7 +29,7 @@ Releases werden pro Plattform geführt.
 
 | Version | Veröffentlichung | Versionshinweise nach Sprache |
 | :------ | :--------------- | :---------------------------- |
-| **v1.2.3** | 2026-07-23 | [English](/releases/windows/v1.2.3/en.html) / [한국어](/releases/windows/v1.2.3/ko.html) |
+| **v1.2.3** | 2026-07-23 | [Deutsch](/releases/windows/v1.2.3/de.html) / [English](/releases/windows/v1.2.3/en.html) / [한국어](/releases/windows/v1.2.3/ko.html) / [日本語](/releases/windows/v1.2.3/ja.html) / [Español](/releases/windows/v1.2.3/es.html) / [Français](/releases/windows/v1.2.3/fr.html) / [Italiano](/releases/windows/v1.2.3/it.html) / [简体中文](/releases/windows/v1.2.3/zh.html) |
 | **v1.2.1** | 2026-06-30 | [English](/releases/windows/v1.2.1/en.html) / [한국어](/releases/windows/v1.2.1/ko.html) |
 | **v1.2.0** | 2026-06-30 | [English](/releases/windows/v1.2.0/en.html) / [한국어](/releases/windows/v1.2.0/ko.html) |
 | **v1.1.1** | 2026-06-03 | [English](/releases/windows/v1.1.1/en.html) / [한국어](/releases/windows/v1.1.1/ko.html) |

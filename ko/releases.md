@@ -7,7 +7,7 @@ locale: "ko-KR"
 toc: false
 ---
 
-플랫폼별 Glit 전체 버전의 릴리스 노트입니다. 각 항목은 한국어와 English 상세 노트로 연결됩니다. 모든 플랫폼을 아우르는 시간순 보기는 [변경 이력](/ko/CHANGELOG.html)을 참고하세요.
+플랫폼별 Glit 전체 버전의 릴리스 노트입니다. 각 항목은 해당 버전에 제공되는 언어의 상세 노트로 연결됩니다. 모든 플랫폼을 아우르는 시간순 보기는 [변경 이력](/ko/CHANGELOG.html)을 참고하세요.
 
 <nav class="section-nav" aria-label="플랫폼 바로가기">
   <a href="#macos">macOS</a>

@@ -6,7 +6,7 @@ lang: en
 toc: false
 ---
 
-Release notes for every version of Glit, organized by platform. Each entry links to the full notes in English and 한국어. For a single chronological view across all platforms, see the [Changelog](/CHANGELOG.html).
+Release notes for every version of Glit, organized by platform. Each entry links to the full notes in the languages available for that version. For a single chronological view across all platforms, see the [Changelog](/CHANGELOG.html).
 
 <nav class="section-nav" aria-label="Jump to platform">
   <a href="#macos">macOS</a>

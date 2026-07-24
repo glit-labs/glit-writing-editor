@@ -7,7 +7,7 @@ locale: "de-DE"
 toc: false
 ---
 
-Versionshinweise zu jeder Version von Glit, nach Plattform geordnet. Jeder Eintrag verlinkt die vollständigen Hinweise auf English und 한국어. Eine einzige chronologische Ansicht über alle Plattformen findest du im [Änderungsprotokoll](/de/CHANGELOG.html).
+Versionshinweise zu jeder Version von Glit, nach Plattform geordnet. Jeder Eintrag verlinkt die vollständigen Hinweise in den für die jeweilige Version verfügbaren Sprachen. Eine einzige chronologische Ansicht über alle Plattformen findest du im [Änderungsprotokoll](/de/CHANGELOG.html).
 
 <nav class="section-nav" aria-label="Zur Plattform springen">
   <a href="#macos">macOS</a>

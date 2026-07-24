@@ -7,7 +7,7 @@ locale: "zh-CN"
 toc: false
 ---
 
-Glit 各版本的发布说明，按平台整理。每个条目都链接到 English 与 한국어 的完整说明。如需跨所有平台的单一时间线视图，请查看[更新日志](/zh/CHANGELOG.html)。
+Glit 各版本的发布说明，按平台整理。每个条目都链接到该版本可用语言的完整说明。如需跨所有平台的单一时间线视图，请查看[更新日志](/zh/CHANGELOG.html)。
 
 <nav class="section-nav" aria-label="跳转到平台">
   <a href="#macos">macOS</a>
