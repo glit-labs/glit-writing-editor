@@ -24,4 +24,13 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} Glit.app</div>
+{%- comment -%}
+  The Impressum link sits in the footer of every page, in every language, because
+  § 5 DDG requires the operator identification to be "easily recognisable and
+  directly reachable" from anywhere on a commercial site aimed at Germany. The
+  label stays untranslated — "Impressum" is the word German visitors look for.
+{%- endcomment -%}
+<div class="page__footer-copyright">
+  &copy; {{ site.time | date: '%Y' }} Glit.app
+  &middot; <a href="{{ '/impressum.html' | relative_url }}">Impressum</a>
+</div>

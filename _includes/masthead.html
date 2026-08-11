@@ -27,6 +27,14 @@
 {% endif %}
 {% assign lang_switch_in_place = true %}
 {% if page_base contains '/' %}{% assign lang_switch_in_place = false %}{% endif %}
+{%- comment -%}
+  A top-level page that is *not* part of the localized set has no slash left in
+  `page_base`, so the rule above would wrongly offer /de/…, /ko/… siblings that
+  were never generated. Such pages opt out with `lang_switch: false` in their
+  front matter and fall back to the target language's home page. The Impressum
+  is the case this exists for: one page serving every language.
+{%- endcomment -%}
+{% if page.lang_switch == false %}{% assign lang_switch_in_place = false %}{% endif %}
 
 {%- comment -%} Pick the localized nav, falling back to the English `main`. {%- endcomment -%}
 {% if page_lang == 'en' %}

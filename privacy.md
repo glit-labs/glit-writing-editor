@@ -6,14 +6,14 @@ lang: en
 toc: false
 ---
 
-Last updated: 2026-06-25
+Last updated: 2026-08-11
 
-Glit: Writing Editor ("Glit", "we") is a writing app for web novel creators. This policy explains how your data is handled across all versions of the app (macOS, Windows, iPhone, and iPad).
+Glit: Writing Editor ("Glit", "we") is a writing app for web novel creators. This policy explains how your data is handled in all versions of the app (macOS, Windows, iPhone, and iPad) and on this website.
 
 <div class="info-grid">
   <div class="info-card">
-    <h3>No data collected</h3>
-    <p>We run no servers and collect no personal information. There is no analytics, advertising, or tracking, and no account is required.</p>
+    <h3>The app collects nothing</h3>
+    <p>Glit runs no servers and collects no personal information. There is no analytics, advertising, or tracking in the app, and no account is required. This website counts visits — see below.</p>
   </div>
   <div class="info-card">
     <h3>Your files stay yours</h3>
@@ -25,7 +25,7 @@ Glit: Writing Editor ("Glit", "we") is a writing app for web novel creators. Thi
   </div>
 </div>
 
-## No data collected by us
+## No data collected by the app
 We do not operate our own servers and do not collect, store, or share any personal information. Glit contains no analytics, advertising, or tracking software. No account or registration is required to use the app.
 
 ## Your files are stored on your device
@@ -45,8 +45,29 @@ When you use a cloud service (on any platform), that service is governed by its 
 - Dropbox: <https://www.dropbox.com/privacy>
 - Microsoft (OneDrive): <https://privacy.microsoft.com/privacystatement>
 
-## Children's privacy
-Glit is not directed to children and does not knowingly collect personal information from anyone.
+## Website analytics
+This section covers this website only. The Glit app itself still collects nothing.
 
-## Contact
-Questions about this policy: [kr.johng@gmail.com](mailto:kr.johng@gmail.com)
+We use Cloudflare Web Analytics to see how many people visit glit.app, which pages and languages they read, and which sites link here. It is deliberately a privacy-preserving alternative to the usual analytics tools:
+
+- **No cookies.** Nothing is stored on your device and you are given no persistent identifier. That is why this site shows you no cookie banner.
+- **Collected:** the page you viewed, the site that linked you here, your country, your device, browser and operating system, and how quickly the page loaded.
+- **Not collected:** your name, your email address, anything you write in the app, or the query string of the address you arrived on.
+- **How visits are counted:** Cloudflare derives a one-off value from your IP address, browser and request headers, hashes it, and discards it. Your IP address is never stored.
+- **Legal basis (GDPR):** our legitimate interest in understanding how the site is used, Art. 6(1)(f). The data is processed by Cloudflare, Inc. in the United States.
+- **Opting out:** any content or tracker blocker stops the beacon, and the site works exactly the same without it.
+
+Cloudflare's own handling of this data: <https://www.cloudflare.com/privacypolicy/>
+
+## Your rights
+Where we process personal data, you may request access to it, correction, erasure or restriction, and you may object to the processing. Write to [kr.johng@gmail.com](mailto:kr.johng@gmail.com). You may also lodge a complaint with your national data protection authority.
+
+## Children's privacy
+Glit is not directed to children. The app collects nothing at all, and the website analytics described above identifies no one individually.
+
+## Who we are
+This website and the Glit app are operated by **Glit (글릿)**, a sole proprietorship registered in the Republic of Korea, represented by Dong Hyun Gang (강동현).
+
+Email: [kr.johng@gmail.com](mailto:kr.johng@gmail.com) — for questions about this policy, and to exercise the rights described above.
+
+The full postal address and business registration details are in the [legal notice](/impressum.html).

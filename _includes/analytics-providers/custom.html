@@ -1,0 +1,20 @@
+{%- comment -%}
+  Cloudflare Web Analytics beacon.
+
+  Reached via `analytics.provider: "custom"` in _config.yml, which the theme's
+  _includes/analytics.html routes here — and only when Jekyll is building in
+  production, so local previews are never counted.
+
+  The site is not proxied through Cloudflare (glit.app resolves via Gabia
+  nameservers straight to GitHub Pages), so this is the manual install: the
+  beacon reports to cloudflareinsights.com directly and no DNS change is needed.
+
+  `type="module"` is Cloudflare's own snippet form and defers execution like
+  `defer` does, so the beacon never blocks rendering.
+
+  This is the one third-party request the site makes. Unlike the Google Fonts
+  transfer it replaced, it is inherent to measuring anything at all, it sets no
+  cookie, and it is disclosed in the privacy policy — see the website-analytics
+  section there, which must stay in step with whatever this beacon collects.
+{%- endcomment -%}
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.analytics.cloudflare_token }}"}'></script>

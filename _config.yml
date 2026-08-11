@@ -60,6 +60,20 @@ plugins:
   - jekyll-optional-front-matter
   - jekyll-titles-from-headings
 
+# --- Analytics ----------------------------------------------------------
+# Cloudflare Web Analytics, wired through the theme's `custom` provider hook,
+# which renders _includes/analytics-providers/custom.html at the end of <body>.
+# The theme guards that include with `jekyll.environment == 'production'`, so
+# `jekyll serve` never reports local browsing as real traffic.
+#
+# Chosen over GA4 because it sets no cookies and stores nothing on the visitor's
+# device, so no consent banner is required in the EEA/UK/CH and the site avoids
+# the ePrivacy, TDDDG § 25 and LSSI-CE art. 22.2 consent machinery entirely.
+# The token is public by design — it ships in the page source.
+analytics:
+  provider: "custom"
+  cloudflare_token: "96f3f06a60c14931b5eab807d8f9b4bb"
+
 # --- Author / footer ----------------------------------------------------
 author:
   name: "Glit"
