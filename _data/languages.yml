@@ -7,10 +7,15 @@
 # suffix for that language (see _includes/seo.html). It keeps terse page titles
 # like "Store" / "商店" long enough that Bing doesn't flag them as too short,
 # and mirrors each language's home-page title.
+#
+# `twitter` is the X account whose handle goes in that language's card
+# (`twitter:site`). Only the two languages with an official account set it;
+# the rest omit it and fall back to site.twitter.username (@Glit_labs).
 - code: en
   name: "English"
   url: /
   brand: "Glit: Writing Editor"
+  twitter: "Glit_labs"
 - code: ko
   name: "한국어"
   url: /ko/
@@ -19,6 +24,7 @@
   name: "日本語"
   url: /ja/
   brand: "Glit: ウェブ小説執筆エディタ"
+  twitter: "Glit_labs_jp"
 - code: es
   name: "Español"
   url: /es/

@@ -5,6 +5,26 @@ description: "A focused writing tool for web novel creators"
 url: "https://glit.app"
 locale: "en-US"
 
+# Default social-share image (Open Graph / X card) for every page. 1500x780 is
+# ~1.92:1, matching the 1.91:1 both Facebook and X crop to, so it renders
+# uncropped. Pages can override it with `header.og_image` in front matter.
+og_image: /assets/images/glit-devices.png
+og_image_width: 1500
+og_image_height: 780
+
+# Default X account for the card's `twitter:site`. The Japanese pages under
+# /ja/ override this with their own account — see `twitter` in
+# _data/languages.yml; every other language falls back to this one.
+twitter:
+  username: "Glit_labs"
+
+# Official profiles, emitted as JSON-LD `sameAs` on the home pages. A card can
+# name only one account, so this is where both are declared as Glit's own.
+social:
+  links:
+    - "https://x.com/Glit_labs"
+    - "https://x.com/Glit_labs_jp"
+
 # Release-notes feed is a hand-rolled RSS 2.0 file at /rss.xml (Naver's RSS
 # submission rejects Atom). Point the theme's <head> alternate link and the
 # footer feed link at it instead of the removed /feed.xml.

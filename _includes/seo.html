@@ -35,10 +35,20 @@
 {%- endfor -%}
 {%- comment -%} "/index.html" pages resolve to the directory root: treat as home. {%- endcomment -%}
 {%- if rel_path == "index.html" -%}{%- assign rel_path = "" -%}{%- endif -%}
+{%- comment -%}
+  `brand` is the <title> suffix; `tw_site` is the X account for this language's
+  card. Only en and ja have their own account, so anything else falls back to
+  site.twitter.username.
+{%- endcomment -%}
 {%- assign brand = site.title -%}
+{%- assign tw_site = site.twitter.username -%}
 {%- for l in langs -%}
-  {%- if l.code == cur_lang and l.brand -%}{%- assign brand = l.brand -%}{%- endif -%}
+  {%- if l.code == cur_lang -%}
+    {%- if l.brand -%}{%- assign brand = l.brand -%}{%- endif -%}
+    {%- if l.twitter -%}{%- assign tw_site = l.twitter -%}{%- endif -%}
+  {%- endif -%}
 {%- endfor -%}
+{%- if tw_site -%}{%- assign tw_site = tw_site | replace: "@", "" -%}{%- endif -%}
 
 {%- assign page_title = page.title | default: site.title | replace: '|', '&#124;' -%}
 {%- if page_title contains site.title -%}
@@ -68,6 +78,17 @@
 {%- assign page_teaser_image = page.header.teaser | default: site.og_image | absolute_url | escape -%}
 {%- assign site_og_image = site.og_image | absolute_url | escape -%}
 
+{%- comment -%}
+  One image feeds both og:image and twitter:image: the page's own header image
+  when it has one, otherwise the site-wide default (site.og_image). The home
+  pages set only `overlay_color`, so before site.og_image existed both branches
+  were empty and no og:image was emitted at all. Width/height are declared only
+  for the site default — a per-page override has its own dimensions.
+{%- endcomment -%}
+{%- assign og_image = page_large_image | default: page_teaser_image -%}
+{%- assign og_image_is_default = false -%}
+{%- if og_image and og_image == site_og_image -%}{%- assign og_image_is_default = true -%}{%- endif -%}
+
 {%- if page.date -%}
   {%- assign og_type = "article" -%}
 {%- else -%}
@@ -96,26 +117,32 @@
   <meta property="og:description" content="{{ seo_description }}">
 {% endif %}
 
-{% if page_large_image %}
-  <meta property="og:image" content="{{ page_large_image }}">
-{% elsif page_teaser_image %}
-  <meta property="og:image" content="{{ page_teaser_image }}">
+{% if og_image %}
+  <meta property="og:image" content="{{ og_image }}">
+  <meta property="og:image:alt" content="{{ brand }}">
+  {% if og_image_is_default and site.og_image_width and site.og_image_height %}
+  <meta property="og:image:width" content="{{ site.og_image_width }}">
+  <meta property="og:image:height" content="{{ site.og_image_height }}">
+  {% endif %}
 {% endif %}
 
-{% if site.twitter.username %}
-  <meta name="twitter:site" content="@{{ site.twitter.username | replace: "@", "" }}">
+{% comment %}
+  `tw_site` is the per-language account resolved near the top. The card uses the
+  same image as og:image, so a wide default image yields summary_large_image
+  rather than the theme's small `summary` card.
+{% endcomment %}
+{% if tw_site %}
+  <meta name="twitter:site" content="@{{ tw_site }}">
   <meta name="twitter:title" content="{{ page_title }}">
   <meta name="twitter:description" content="{{ seo_description }}">
   <meta name="twitter:url" content="{{ canonical_url }}">
 
-  {% if page_large_image %}
+  {% if og_image %}
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="{{ page_large_image }}">
+    <meta name="twitter:image" content="{{ og_image }}">
+    <meta name="twitter:image:alt" content="{{ brand }}">
   {% else %}
     <meta name="twitter:card" content="summary">
-    {% if page_teaser_image %}
-      <meta name="twitter:image" content="{{ page_teaser_image }}">
-    {% endif %}
   {% endif %}
 
   {% if author_twitter %}
@@ -218,7 +245,8 @@
   "name": "Glit",
   "operatingSystem": "macOS, Windows, iOS, iPadOS",
   "applicationCategory": "ProductivityApplication",
-  "url": {{ canonical_url | jsonify }},
+  "url": {{ canonical_url | jsonify }},{% if site.social.links %}
+  "sameAs": {{ site.social.links | jsonify }},{% endif %}
   "inLanguage": {{ page.locale | default: site.locale | replace: "_", "-" | default: "en" | jsonify }}{% if seo_description %},
   "description": {{ seo_description | jsonify }}{% endif %}
 }
