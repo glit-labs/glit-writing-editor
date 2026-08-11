@@ -1,13 +1,95 @@
 <!-- start custom head snippets -->
 
+{%- comment -%}
+  Pages that must stay reachable for people but out of search results opt in with
+  `noindex: true` in their front matter. The Impressum uses it: § 5 DDG requires
+  it to be easily recognisable, directly reachable and permanently available —
+  none of which has anything to do with being indexed — while the postal address
+  it carries has no reason to be searchable. `follow` is kept so the links on
+  such a page still count normally. The hand-written sitemap.xml is an explicit
+  allowlist, so those pages are already absent from it.
+{%- endcomment -%}
+{%- if page.noindex %}<meta name="robots" content="noindex, follow">{% endif -%}
+
 <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32.png' | relative_url }}">
 <link rel="icon" type="image/png" sizes="192x192" href="{{ '/assets/images/favicon-192.png' | relative_url }}">
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+{%- comment -%}
+  Webfonts are self-hosted rather than fetched from Google's font CDN. Loading
+  them from Google sends every visitor's IP address to a third party before any
+  consent, which LG München I (20.01.2022, 3 O 17493/20) held to breach the GDPR.
+  Serving them from this origin removes that transfer entirely.
+
+  Both families are SIL OFL 1.1; the licence text ships alongside the files in
+  assets/fonts/OFL-*.txt, which is what condition 2 of the OFL requires. The
+  .woff2 files are Google's own subsets, redistributed byte-for-byte, so the
+  reserved-font-name restriction in condition 3 is not engaged on our side.
+
+  Preload only the two `latin` faces — the `latin-ext` pair is fetched on demand
+  via unicode-range, and none of the eight site languages needs it (German
+  umlauts, French accents and Spanish tildes all live in `latin`).
+
+  This is a Liquid comment, not an HTML one, so the rationale stays in the source
+  without shipping on all 98 pages — and a grep of _site for third-party font
+  hosts comes back genuinely empty.
+{%- endcomment -%}
+<link rel="preload" href="{{ '/assets/fonts/lora-latin-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ '/assets/fonts/playfair-display-latin-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 
 <style>
+  /* ===== Self-hosted webfonts =====
+     Variable fonts, so one file per style covers the whole 400–700 range. This
+     also fixes bold: the previous Google request loaded Lora 400/500/600 only,
+     so `<strong>` fell back to 600 instead of a real 700. */
+  @font-face {
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url("{{ '/assets/fonts/lora-latin-normal.woff2' | relative_url }}") format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url("{{ '/assets/fonts/lora-latin-ext-normal.woff2' | relative_url }}") format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: "Lora";
+    font-style: italic;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url("{{ '/assets/fonts/lora-latin-italic.woff2' | relative_url }}") format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: "Lora";
+    font-style: italic;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url("{{ '/assets/fonts/lora-latin-ext-italic.woff2' | relative_url }}") format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url("{{ '/assets/fonts/playfair-display-latin-normal.woff2' | relative_url }}") format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url("{{ '/assets/fonts/playfair-display-latin-ext-normal.woff2' | relative_url }}") format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
   /* ===== Type scale — lighter, less bulky than the theme defaults =====
      Minimal Mistakes scales the root font from 16px up to 20px (>=1024px) and
      22px (>=1280px), which makes text feel oversized. Shrink the whole scale

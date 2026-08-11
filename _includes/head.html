@@ -1,0 +1,39 @@
+{%- comment -%}
+  Local override of Minimal Mistakes 4.26.2's _includes/head.html.
+
+  The only change from the theme's version is the removal of its two Font
+  Awesome <link> tags, which pulled all.min.css from cdn.jsdelivr.net. That
+  request sent every visitor's IP address to a third-party CDN before any
+  consent, and it was pinned to `@latest`, so the served version could change
+  without warning. The 18 icons this site uses are now inlined as SVG masks by
+  head/icons.html instead.
+
+  Keep the rest in sync if the theme is ever upgraded past 4.26.2.
+{%- endcomment -%}
+<meta charset="utf-8">
+
+{% include seo.html %}
+
+{% unless site.atom_feed.hide %}
+  <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+{% endunless %}
+
+{%- comment %} https://docs.google.com/presentation/d/1rmxwWa9P6_xHqonmh5ONXRS-jPc5XKbnv99Rjkhe04s/present {% endcomment -%}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="text/javascript">
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  {% if site.enable_copy_code_button -%}
+    window.enable_copy_code_button = true;
+  {%- endif %}
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+{% include head/icons.html %}
+
+{% if site.head_scripts %}
+  {% for script in site.head_scripts %}
+    <script src="{{ script | relative_url }}"></script>
+  {% endfor %}
+{% endif %}
