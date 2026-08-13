@@ -1,5 +1,6 @@
 ---
 description: "Notas de Glit Windows v1.2.3: novedades, mejoras y correcciones de errores de esta actualización de la app de escritura de novelas web."
+date: 2026-07-23
 locale: "es-ES"
 ---
 

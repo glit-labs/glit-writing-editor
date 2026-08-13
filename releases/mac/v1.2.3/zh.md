@@ -1,5 +1,6 @@
 ---
 description: "Glit macOS v1.2.3 发布说明：这款网络小说写作应用本次更新的新功能、改进与错误修复。"
+date: 2026-07-23
 locale: "zh-CN"
 ---
 

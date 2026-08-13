@@ -1,5 +1,6 @@
 ---
 description: "닥터 셜록 샘플 zip을 다운로드하고 압축을 풀어 Glit에서 폴더로 불러오는 방법을 안내합니다. 1분이면 샘플 웹소설을 열어볼 수 있어요."
+last_modified: 2026-07-05
 layout: single
 title: "Glit 시작 가이드 — 샘플 웹소설(닥터 셜록) 열기/불러오기"
 lang: ko

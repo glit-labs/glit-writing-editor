@@ -17,6 +17,13 @@ sitemap: false
   Everything under /releases/ (per-version release notes, the Android page) is
   listed as a plain entry. Presence of this file makes jekyll-sitemap skip its
   own generation, so this is the single source of truth for the sitemap.
+
+  <lastmod> is emitted only where a real date exists: `_data/lastmod.yml` for
+  the core pages (built from path strings, so they have no front matter here),
+  and `last_modified` / `date` front matter elsewhere. A page without one gets
+  no <lastmod> — that is deliberate. Falling back to `site.time` would restamp
+  every URL on every deploy, and Google only honours <lastmod> while it stays
+  verifiably accurate.
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
@@ -29,7 +36,10 @@ sitemap: false
     {%- if cur.code == "en" -%}{%- assign curpath = path -%}{%- else -%}{%- assign curpath = cur.code | append: "/" | append: path -%}{%- endif -%}
   <url>
     <loc>{{ site.url }}/{{ curpath }}</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    {%- assign lm = site.data.lastmod[slug] -%}
+    {%- if lm %}
+    <lastmod>{{ lm | date_to_xmlschema }}</lastmod>
+    {%- endif -%}
     {%- for alt in langs -%}
       {%- if alt.code == "en" -%}{%- assign altpath = path -%}{%- else -%}{%- assign altpath = alt.code | append: "/" | append: path -%}{%- endif -%}
     <xhtml:link rel="alternate" hreflang="{{ alt.code }}" href="{{ site.url }}/{{ altpath }}" />
@@ -42,7 +52,10 @@ sitemap: false
   {%- if page.url contains "/releases/" -%}
   <url>
     <loc>{{ page.url | absolute_url }}</loc>
-    <lastmod>{{ page.last_modified_at | default: page.date | default: site.time | date_to_xmlschema }}</lastmod>
+    {%- assign lm = page.last_modified_at | default: page.last_modified | default: page.date -%}
+    {%- if lm %}
+    <lastmod>{{ lm | date_to_xmlschema }}</lastmod>
+    {%- endif %}
   </url>
   {%- endif -%}
 {%- endfor -%}
@@ -51,7 +64,10 @@ sitemap: false
   {%- if page.url == "/ko/guide.html" or page.url contains "/ko/guides/" -%}
   <url>
     <loc>{{ page.url | absolute_url }}</loc>
-    <lastmod>{{ page.last_modified_at | default: page.date | default: site.time | date_to_xmlschema }}</lastmod>
+    {%- assign lm = page.last_modified_at | default: page.last_modified | default: page.date -%}
+    {%- if lm %}
+    <lastmod>{{ lm | date_to_xmlschema }}</lastmod>
+    {%- endif %}
   </url>
   {%- endif -%}
 {%- endfor -%}

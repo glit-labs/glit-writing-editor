@@ -1,5 +1,6 @@
 ---
 description: "Google Drive로 Mac용 Glit과 아이폰·아이패드용 Glit을 연동하는 방법을 안내합니다. Mac에서 집필한 원고를 외출 중에도 모바일에서 바로 확인할 수 있어요."
+last_modified: 2026-08-09
 layout: single
 title: "클라우드 동기화 가이드 — 모바일에서 원고 확인하기 (Google Drive)"
 lang: ko

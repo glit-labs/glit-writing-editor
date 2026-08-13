@@ -1,5 +1,6 @@
 ---
 description: "Glit macOS v1.2.3 Versionshinweise — neue Funktionen, Verbesserungen und Fehlerbehebungen in diesem Update der Schreib-App für Webromane."
+date: 2026-07-23
 locale: "de-DE"
 ---
 
