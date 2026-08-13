@@ -23,8 +23,8 @@ Application universelle pour Mac Apple Silicon et Intel, disponible sur le [Mac 
 | Version | Date de sortie | Points clés | Notes de version |
 | :------ | :------------- | :---------- | :--------------- |
 | **v1.2.3** | 2026-07-23 | Mode Écriture concentrée | [Français](/releases/mac/v1.2.3/fr.html) / [English](/releases/mac/v1.2.3/en.html) / [한국어](/releases/mac/v1.2.3/ko.html) / [日本語](/releases/mac/v1.2.3/ja.html) / [Español](/releases/mac/v1.2.3/es.html) / [Deutsch](/releases/mac/v1.2.3/de.html) / [Italiano](/releases/mac/v1.2.3/it.html) / [简体中文](/releases/mac/v1.2.3/zh.html) |
-| v1.2.2 | 2026-07-07 | Correction du plantage au démarrage | [English](/releases/mac/v1.2.2/en.html) / [한국어](/releases/mac/v1.2.2/ko.html) |
-| v1.2.1 | 2026-07-02 | Refonte des thèmes et corrections | [English](/releases/mac/v1.2.1/en.html) / [한국어](/releases/mac/v1.2.1/ko.html) |
+| v1.2.2 | 2026-07-07 | Correction du plantage au démarrage | [English](/releases/mac/v1.2.2/en.html) / [한국어](/releases/mac/v1.2.2/ko.html) / [日本語](/releases/mac/v1.2.2/ja.html) |
+| v1.2.1 | 2026-07-02 | Refonte des thèmes et corrections | [English](/releases/mac/v1.2.1/en.html) / [한국어](/releases/mac/v1.2.1/ko.html) / [日本語](/releases/mac/v1.2.1/ja.html) |
 | v1.1.1 | 2026-06-03 | Corrections et améliorations | [English](/releases/mac/v1.1.1/en.html) / [한국어](/releases/mac/v1.1.1/ko.html) |
 | v1.1.0 | 2026-05-31 | Mise à jour de fonctionnalités | [English](/releases/mac/v1.1.0/en.html) / [한국어](/releases/mac/v1.1.0/ko.html) |
 | v1.0.1 | 2026-05 | Maintenance | [English](/releases/mac/v1.0.1/en.html) / [한국어](/releases/mac/v1.0.1/ko.html) |
@@ -37,7 +37,7 @@ Disponible sur le [Microsoft Store](https://apps.microsoft.com/detail/9n19p02fc7
 | Version | Date de sortie | Points clés | Notes de version |
 | :------ | :------------- | :---------- | :--------------- |
 | **v1.2.3** | 2026-07-23 | Mode Écriture concentrée | [Français](/releases/windows/v1.2.3/fr.html) / [English](/releases/windows/v1.2.3/en.html) / [한국어](/releases/windows/v1.2.3/ko.html) / [日本語](/releases/windows/v1.2.3/ja.html) / [Español](/releases/windows/v1.2.3/es.html) / [Deutsch](/releases/windows/v1.2.3/de.html) / [Italiano](/releases/windows/v1.2.3/it.html) / [简体中文](/releases/windows/v1.2.3/zh.html) |
-| v1.2.1 | 2026-06-30 | Correction de la mise en page des réglages | [English](/releases/windows/v1.2.1/en.html) / [한국어](/releases/windows/v1.2.1/ko.html) |
+| v1.2.1 | 2026-06-30 | Correction de la mise en page des réglages | [English](/releases/windows/v1.2.1/en.html) / [한국어](/releases/windows/v1.2.1/ko.html) / [日本語](/releases/windows/v1.2.1/ja.html) |
 | v1.2.0 | 2026-06-30 | Refonte des thèmes et corrections | [English](/releases/windows/v1.2.0/en.html) / [한국어](/releases/windows/v1.2.0/ko.html) |
 | v1.1.1 | 2026-06-03 | Corrections et améliorations | [English](/releases/windows/v1.1.1/en.html) / [한국어](/releases/windows/v1.1.1/ko.html) |
 | v1.1.0 | 2026-05-31 | Mise à jour de fonctionnalités | [English](/releases/windows/v1.1.0/en.html) / [한국어](/releases/windows/v1.1.0/ko.html) |
@@ -49,7 +49,9 @@ Application universelle pour iPhone et iPad, disponible sur l'[App Store](https:
 
 | Version | Date de sortie | Points clés | Notes de version |
 | :------ | :------------- | :---------- | :--------------- |
-| **v1.1.0** | 2026-07-05 | Déplacer les projets vers/depuis le cloud | [English](/releases/ios_ipados/v1.1.0/en.html) / [한국어](/releases/ios_ipados/v1.1.0/ko.html) |
+| **v1.3.0** | 2026-08-11 | Mode Écriture concentrée | [Français](/releases/ios_ipados/v1.3.0/fr.html) / [English](/releases/ios_ipados/v1.3.0/en.html) / [한국어](/releases/ios_ipados/v1.3.0/ko.html) / [日本語](/releases/ios_ipados/v1.3.0/ja.html) / [Español](/releases/ios_ipados/v1.3.0/es.html) / [Deutsch](/releases/ios_ipados/v1.3.0/de.html) / [Italiano](/releases/ios_ipados/v1.3.0/it.html) / [简体中文](/releases/ios_ipados/v1.3.0/zh.html) |
+| v1.2.0 | 2026-08-07 | Images dans Markdown | [Français](/releases/ios_ipados/v1.2.0/fr.html) / [English](/releases/ios_ipados/v1.2.0/en.html) / [한국어](/releases/ios_ipados/v1.2.0/ko.html) / [日本語](/releases/ios_ipados/v1.2.0/ja.html) / [Español](/releases/ios_ipados/v1.2.0/es.html) / [Deutsch](/releases/ios_ipados/v1.2.0/de.html) / [Italiano](/releases/ios_ipados/v1.2.0/it.html) / [简体中文](/releases/ios_ipados/v1.2.0/zh.html) |
+| v1.1.0 | 2026-07-05 | Déplacer les projets vers/depuis le cloud | [Français](/releases/ios_ipados/v1.1.0/fr.html) / [English](/releases/ios_ipados/v1.1.0/en.html) / [한국어](/releases/ios_ipados/v1.1.0/ko.html) / [日本語](/releases/ios_ipados/v1.1.0/ja.html) / [Español](/releases/ios_ipados/v1.1.0/es.html) / [Deutsch](/releases/ios_ipados/v1.1.0/de.html) / [Italiano](/releases/ios_ipados/v1.1.0/it.html) / [简体中文](/releases/ios_ipados/v1.1.0/zh.html) |
 | v1.0.0 | 2026-07-01 | Version initiale | [English](/releases/ios_ipados/v1.0.0/en.html) / [한국어](/releases/ios_ipados/v1.0.0/ko.html) |
 
 ## Android

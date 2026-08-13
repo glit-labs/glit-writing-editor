@@ -49,7 +49,9 @@ iPhone と iPad に対応したユニバーサルアプリで、[App Store](http
 
 | バージョン | リリース日 | 概要 | リリースノート |
 | :--------- | :--------- | :--- | :------------- |
-| **v1.1.0** | 2026-07-05 | プロジェクトをクラウドと相互移動 | [日本語](/releases/ios_ipados/v1.1.0/ja.html) / [English](/releases/ios_ipados/v1.1.0/en.html) / [한국어](/releases/ios_ipados/v1.1.0/ko.html) |
+| **v1.3.0** | 2026-08-11 | 集中執筆モード | [日本語](/releases/ios_ipados/v1.3.0/ja.html) / [English](/releases/ios_ipados/v1.3.0/en.html) / [한국어](/releases/ios_ipados/v1.3.0/ko.html) / [Español](/releases/ios_ipados/v1.3.0/es.html) / [Français](/releases/ios_ipados/v1.3.0/fr.html) / [Deutsch](/releases/ios_ipados/v1.3.0/de.html) / [Italiano](/releases/ios_ipados/v1.3.0/it.html) / [简体中文](/releases/ios_ipados/v1.3.0/zh.html) |
+| v1.2.0 | 2026-08-07 | マークダウンに画像挿入 | [日本語](/releases/ios_ipados/v1.2.0/ja.html) / [English](/releases/ios_ipados/v1.2.0/en.html) / [한국어](/releases/ios_ipados/v1.2.0/ko.html) / [Español](/releases/ios_ipados/v1.2.0/es.html) / [Français](/releases/ios_ipados/v1.2.0/fr.html) / [Deutsch](/releases/ios_ipados/v1.2.0/de.html) / [Italiano](/releases/ios_ipados/v1.2.0/it.html) / [简体中文](/releases/ios_ipados/v1.2.0/zh.html) |
+| v1.1.0 | 2026-07-05 | プロジェクトをクラウドと相互移動 | [日本語](/releases/ios_ipados/v1.1.0/ja.html) / [English](/releases/ios_ipados/v1.1.0/en.html) / [한국어](/releases/ios_ipados/v1.1.0/ko.html) / [Español](/releases/ios_ipados/v1.1.0/es.html) / [Français](/releases/ios_ipados/v1.1.0/fr.html) / [Deutsch](/releases/ios_ipados/v1.1.0/de.html) / [Italiano](/releases/ios_ipados/v1.1.0/it.html) / [简体中文](/releases/ios_ipados/v1.1.0/zh.html) |
 | v1.0.0 | 2026-07-01 | 初回リリース | [English](/releases/ios_ipados/v1.0.0/en.html) / [한국어](/releases/ios_ipados/v1.0.0/ko.html) |
 
 ## Android

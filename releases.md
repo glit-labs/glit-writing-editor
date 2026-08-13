@@ -48,7 +48,9 @@ Universal app for iPhone and iPad, available on the [App Store](https://apps.app
 
 | Version | Release Date | Highlights | Release Notes |
 | :------ | :----------- | :--------- | :------------ |
-| **v1.1.0** | 2026-07-05 | Move projects to/from cloud | [English](/releases/ios_ipados/v1.1.0/en.html) / [한국어](/releases/ios_ipados/v1.1.0/ko.html) / [日本語](/releases/ios_ipados/v1.1.0/ja.html) |
+| **v1.3.0** | 2026-08-11 | Focus Writing mode | [English](/releases/ios_ipados/v1.3.0/en.html) / [한국어](/releases/ios_ipados/v1.3.0/ko.html) / [日本語](/releases/ios_ipados/v1.3.0/ja.html) / [Español](/releases/ios_ipados/v1.3.0/es.html) / [Français](/releases/ios_ipados/v1.3.0/fr.html) / [Deutsch](/releases/ios_ipados/v1.3.0/de.html) / [Italiano](/releases/ios_ipados/v1.3.0/it.html) / [简体中文](/releases/ios_ipados/v1.3.0/zh.html) |
+| v1.2.0 | 2026-08-07 | Images in Markdown | [English](/releases/ios_ipados/v1.2.0/en.html) / [한국어](/releases/ios_ipados/v1.2.0/ko.html) / [日本語](/releases/ios_ipados/v1.2.0/ja.html) / [Español](/releases/ios_ipados/v1.2.0/es.html) / [Français](/releases/ios_ipados/v1.2.0/fr.html) / [Deutsch](/releases/ios_ipados/v1.2.0/de.html) / [Italiano](/releases/ios_ipados/v1.2.0/it.html) / [简体中文](/releases/ios_ipados/v1.2.0/zh.html) |
+| v1.1.0 | 2026-07-05 | Move projects to/from cloud | [English](/releases/ios_ipados/v1.1.0/en.html) / [한국어](/releases/ios_ipados/v1.1.0/ko.html) / [日本語](/releases/ios_ipados/v1.1.0/ja.html) / [Español](/releases/ios_ipados/v1.1.0/es.html) / [Français](/releases/ios_ipados/v1.1.0/fr.html) / [Deutsch](/releases/ios_ipados/v1.1.0/de.html) / [Italiano](/releases/ios_ipados/v1.1.0/it.html) / [简体中文](/releases/ios_ipados/v1.1.0/zh.html) |
 | v1.0.0 | 2026-07-01 | Initial release | [English](/releases/ios_ipados/v1.0.0/en.html) / [한국어](/releases/ios_ipados/v1.0.0/ko.html) |
 
 ## Android
