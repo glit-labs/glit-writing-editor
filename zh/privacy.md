@@ -7,7 +7,7 @@ locale: "zh-CN"
 toc: false
 ---
 
-最后更新：2026-08-11
+最后更新：2026-08-15
 
 Glit：写作编辑器（“Glit”“我们”）是一款面向网络小说创作者的写作应用。本政策说明在应用的所有版本（macOS、Windows、iPhone 和 iPad）以及本网站中如何处理你的数据。
 
@@ -45,6 +45,8 @@ Glit 从不要求使用云存储，可完全离线运行。若你选择使用，
 - Google（Google 登录、Google Drive）：<https://policies.google.com/privacy>
 - Dropbox：<https://www.dropbox.com/privacy>
 - Microsoft（OneDrive）：<https://privacy.microsoft.com/privacystatement>
+
+Glit 对从 Google API 接收的信息的使用和向任何其他应用的传输，都将遵守 [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy)，包括其中的有限使用（Limited Use）要求。
 
 ## 网站分析
 本节仅适用于本网站。Glit 应用本身仍然不收集任何信息。

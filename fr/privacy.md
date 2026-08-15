@@ -7,7 +7,7 @@ locale: "fr-FR"
 toc: false
 ---
 
-Dernière mise à jour : 2026-08-11
+Dernière mise à jour : 2026-08-15
 
 Glit : éditeur d'écriture (« Glit », « nous ») est une application d'écriture pour les auteurs de romans en ligne. Cette politique explique comment vos données sont traitées dans toutes les versions de l'application (macOS, Windows, iPhone et iPad) et sur ce site.
 
@@ -45,6 +45,8 @@ Lorsque vous utilisez un service cloud (sur n'importe quelle plateforme), ce ser
 - Google (Connexion Google, Google Drive) : <https://policies.google.com/privacy>
 - Dropbox : <https://www.dropbox.com/privacy>
 - Microsoft (OneDrive) : <https://privacy.microsoft.com/privacystatement>
+
+L'utilisation et le transfert par Glit vers toute autre application des informations reçues des API Google respecteront la [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), y compris les exigences d'utilisation limitée (Limited Use).
 
 ## Mesure d'audience du site
 Cette section ne concerne que ce site. L'application Glit elle-même ne collecte toujours rien.

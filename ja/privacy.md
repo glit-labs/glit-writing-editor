@@ -7,7 +7,7 @@ locale: "ja-JP"
 toc: false
 ---
 
-最終更新: 2026-08-11
+最終更新: 2026-08-15
 
 Glit: ウェブ小説執筆エディタ（「Glit」「当方」）は、ウェブ小説の書き手のための執筆アプリです。本ポリシーは、アプリのすべてのバージョン（macOS、Windows、iPhone、iPad）および本ウェブサイトでお客様のデータがどのように扱われるかを説明します。
 
@@ -45,6 +45,8 @@ Glit はクラウドストレージを必要とせず、完全にオフライン
 - Google（Google サインイン、Google Drive）: <https://policies.google.com/privacy>
 - Dropbox: <https://www.dropbox.com/privacy>
 - Microsoft（OneDrive）: <https://privacy.microsoft.com/privacystatement>
+
+Glit が Google API から受け取った情報の使用および他のアプリへの転送は、限定的な使用（Limited Use）の要件を含め、[Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy) に準拠します。
 
 ## ウェブサイトの分析
 この項目は本ウェブサイトのみに適用されます。Glit アプリ自体は引き続き何も収集しません。

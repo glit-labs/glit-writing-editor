@@ -7,7 +7,7 @@ locale: "it-IT"
 toc: false
 ---
 
-Ultimo aggiornamento: 2026-08-11
+Ultimo aggiornamento: 2026-08-15
 
 Glit: editor di scrittura («Glit», «noi») è un'app di scrittura per autori di web novel. Questa informativa spiega come vengono trattati i tuoi dati in tutte le versioni dell'app (macOS, Windows, iPhone e iPad) e su questo sito.
 
@@ -45,6 +45,8 @@ Quando usi un servizio cloud (su qualsiasi piattaforma), tale servizio è regola
 - Google (Accesso Google, Google Drive): <https://policies.google.com/privacy>
 - Dropbox: <https://www.dropbox.com/privacy>
 - Microsoft (OneDrive): <https://privacy.microsoft.com/privacystatement>
+
+L'uso e il trasferimento da parte di Glit verso qualsiasi altra app delle informazioni ricevute dalle API di Google saranno conformi alla [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), inclusi i requisiti di uso limitato (Limited Use).
 
 ## Statistiche del sito
 Questa sezione riguarda solo questo sito. L'app Glit in sé continua a non raccogliere nulla.

@@ -7,7 +7,7 @@ locale: "ko-KR"
 toc: false
 ---
 
-최종 업데이트: 2026-08-11
+최종 업데이트: 2026-08-15
 
 Glit: 웹소설 집필 에디터("Glit", "당사")는 웹소설 창작자를 위한 글쓰기 앱입니다. 본 방침은 앱의 모든 버전(macOS, Windows, iPhone, iPad)과 본 웹사이트에서 여러분의 데이터가 어떻게 처리되는지 설명합니다.
 
@@ -45,6 +45,8 @@ Glit은 클라우드 저장소를 요구하지 않으며 완전히 오프라인�
 - Google (Google 로그인, Google Drive): <https://policies.google.com/privacy>
 - Dropbox: <https://www.dropbox.com/privacy>
 - Microsoft (OneDrive): <https://privacy.microsoft.com/privacystatement>
+
+Glit이 Google API로부터 받은 정보를 사용하거나 다른 앱으로 전송하는 것은 제한적 사용(Limited Use) 요건을 포함하여 [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy)를 준수합니다.
 
 ## 웹사이트 분석
 이 항목은 본 웹사이트에만 해당합니다. Glit 앱 자체는 여전히 아무것도 수집하지 않습니다.
