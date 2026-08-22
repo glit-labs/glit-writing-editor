@@ -1,5 +1,5 @@
 ---
-description: "Politique de confidentialité de Glit : Writing Editor. Découvrez comment vos données sont traitées sur macOS, Windows, iPhone et iPad."
+description: "Politique de confidentialité de Glit : Writing Editor. Découvrez comment vos données sont traitées sur macOS, Windows, iPhone, iPad et Android."
 layout: single
 title: "Politique de confidentialité"
 lang: fr
@@ -7,9 +7,9 @@ locale: "fr-FR"
 toc: false
 ---
 
-Dernière mise à jour : 2026-08-15
+Dernière mise à jour : 2026-08-23
 
-Glit : éditeur d'écriture (« Glit », « nous ») est une application d'écriture pour les auteurs de romans en ligne. Cette politique explique comment vos données sont traitées dans toutes les versions de l'application (macOS, Windows, iPhone et iPad) et sur ce site.
+Glit : éditeur d'écriture (« Glit », « nous ») est une application d'écriture pour les auteurs de romans en ligne. Cette politique explique comment vos données sont traitées dans toutes les versions de l'application (macOS, Windows, iPhone, iPad et Android) et sur ce site.
 
 <div class="info-grid">
   <div class="info-card">
@@ -32,21 +32,33 @@ Nous n'exploitons pas nos propres serveurs et ne collectons, ne stockons ni ne p
 ## Vos fichiers sont stockés sur votre appareil
 Tous les projets et fichiers que vous créez ou modifiez sont stockés localement sur votre appareil.
 
+Sur Android, les réglages propres à l'application (thème, préférences de l'éditeur) peuvent être inclus dans la sauvegarde de votre appareil vers votre compte Google. Vos jetons de connexion cloud et l'état de votre achat sont exclus de cette sauvegarde.
+
 ## Stockage cloud (facultatif)
 Glit n'exige jamais de stockage cloud et fonctionne entièrement hors ligne. Si vous choisissez de l'utiliser, son fonctionnement dépend de votre plateforme :
 
-**Sur macOS et Windows :** vous synchronisez votre travail en installant l'application de bureau du fournisseur cloud lui-même (comme Google Drive, Dropbox ou OneDrive), qui crée un dossier synchronisé sur votre ordinateur. Glit se contente d'ouvrir et d'enregistrer des fichiers dans ce dossier comme dans n'importe quel autre dossier local. Glit lui-même ne se connecte pas au service cloud et n'accède pas à votre compte.
+**Sur macOS et Windows :** vous synchronisez votre travail en installant l'application de bureau du fournisseur cloud lui-même (comme Dropbox ou OneDrive), qui crée un dossier synchronisé sur votre ordinateur. Glit se contente d'ouvrir et d'enregistrer des fichiers dans ce dossier comme dans n'importe quel autre dossier local. Glit lui-même ne se connecte pas au service cloud et n'accède pas à votre compte.
 
-**Sur iPhone et iPad :** Glit se connecte directement à Google Drive, Dropbox ou Microsoft OneDrive via leurs API officielles pour synchroniser les fichiers que vous choisissez. Vous vous connectez via le flux OAuth sécurisé du service ; vos jetons d'autorisation sont stockés en toute sécurité sur votre appareil et ne nous sont jamais envoyés. Glit n'accède qu'aux fichiers nécessaires à la synchronisation de votre travail, et jamais au mot de passe de votre compte.
+**Sur iPhone et iPad :** Glit se connecte directement à Dropbox ou Microsoft OneDrive via leurs API officielles pour synchroniser les fichiers que vous choisissez. Vous vous connectez via le flux OAuth sécurisé du service ; vos jetons d'autorisation sont stockés en toute sécurité sur votre appareil et ne nous sont jamais envoyés. Les nouvelles connexions Dropbox ne voient que le dossier de l'application Glit dans Dropbox. Google Drive ne peut plus être connecté ; les projets déjà connectés continuent de se synchroniser et Glit n'accède qu'aux fichiers de ces projets. Glit n'accède jamais au mot de passe de votre compte.
+
+**Sur Android :** Glit se connecte directement à Dropbox ou Microsoft OneDrive via leurs API officielles pour synchroniser les fichiers que vous choisissez. Vous vous connectez via le flux OAuth sécurisé du service ; vos jetons d'autorisation sont stockés chiffrés sur votre appareil et ne nous sont jamais envoyés. Glit lit et écrit uniquement dans le dossier que vous avez choisi, et n'accède jamais au mot de passe de votre compte. La synchronisation avec Google Drive n'est pas disponible pour l'instant dans la version Android.
 
 ## Services tiers
 Lorsque vous utilisez un service cloud (sur n'importe quelle plateforme), ce service est régi par sa propre politique de confidentialité :
 
-- Google (Connexion Google, Google Drive) : <https://policies.google.com/privacy>
+- Google (Connexion Google, Google Drive — connexions existantes uniquement) : <https://policies.google.com/privacy>
 - Dropbox : <https://www.dropbox.com/privacy>
 - Microsoft (OneDrive) : <https://privacy.microsoft.com/privacystatement>
 
 L'utilisation et le transfert par Glit vers toute autre application des informations reçues des API Google respecteront la [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), y compris les exigences d'utilisation limitée (Limited Use).
+
+## Achats
+Le mode de paiement dépend de la plateforme :
+
+- **Sur macOS et Windows :** un achat unique débloque l'application complète.
+- **Sur iPhone, iPad et Android :** gratuit au départ avec un projet d'œuvre ; un achat unique facultatif dans l'application (Glit Pro) lève cette limite. Les notes, les dossiers et la synchronisation cloud sont toujours gratuits.
+
+Il n'y a aucun abonnement. Les achats sont traités par la boutique depuis laquelle vous avez installé l'application : le Mac App Store, le Microsoft Store, l'App Store ou Google Play. Nous ne recevons jamais vos informations de paiement. L'application conserve uniquement le fait que l'achat est actif, stocké localement sur votre appareil et confirmé auprès de la boutique ; cette information n'est partagée ni avec nous ni avec qui que ce soit.
 
 ## Mesure d'audience du site
 Cette section ne concerne que ce site. L'application Glit elle-même ne collecte toujours rien.

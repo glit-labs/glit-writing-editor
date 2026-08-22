@@ -88,7 +88,7 @@ excerpt: >
   <div class="feature-icon">
     <i class="fas fa-cloud" aria-hidden="true"></i>
     <h3>Synchronisieren oder offline bleiben</h3>
-    <p>Synchronisiere mit Google Drive, Dropbox oder OneDrive – oder arbeite völlig offline. Kein Konto, kein Abo.</p>
+    <p>Synchronisiere mit Dropbox oder OneDrive – oder arbeite völlig offline. Kein Konto, kein Abo.</p>
   </div>
 </div>
 

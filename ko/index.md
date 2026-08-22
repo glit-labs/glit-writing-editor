@@ -88,7 +88,7 @@ excerpt: >
   <div class="feature-icon">
     <i class="fas fa-cloud" aria-hidden="true"></i>
     <h3>동기화 또는 오프라인</h3>
-    <p>Google Drive·Dropbox·OneDrive로 동기화하거나 완전히 오프라인으로. 계정도 구독도 없습니다.</p>
+    <p>Dropbox·OneDrive로 동기화하거나 완전히 오프라인으로. 계정도 구독도 없습니다.</p>
   </div>
 </div>
 

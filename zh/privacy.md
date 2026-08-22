@@ -1,5 +1,5 @@
 ---
-description: "阅读 Glit：写作编辑器的隐私政策，了解你的数据在 macOS、Windows、iPhone 和 iPad 上是如何处理的。"
+description: "阅读 Glit：写作编辑器的隐私政策，了解你的数据在 macOS、Windows、iPhone、iPad 和 Android 上是如何处理的。"
 layout: single
 title: "隐私政策"
 lang: zh
@@ -7,9 +7,9 @@ locale: "zh-CN"
 toc: false
 ---
 
-最后更新：2026-08-15
+最后更新：2026-08-23
 
-Glit：写作编辑器（“Glit”“我们”）是一款面向网络小说创作者的写作应用。本政策说明在应用的所有版本（macOS、Windows、iPhone 和 iPad）以及本网站中如何处理你的数据。
+Glit：写作编辑器（“Glit”“我们”）是一款面向网络小说创作者的写作应用。本政策说明在应用的所有版本（macOS、Windows、iPhone、iPad 和 Android）以及本网站中如何处理你的数据。
 
 <div class="info-grid">
   <div class="info-card">
@@ -32,21 +32,33 @@ Glit：写作编辑器（“Glit”“我们”）是一款面向网络小说创
 ## 文件存储在你的设备上
 你创建或编辑的所有项目和文件都本地存储在你的设备上。
 
+在 Android 上，应用自身的设置（如主题和编辑器偏好）可能会包含在设备向你的 Google 账号所做的备份中。云端登录令牌和购买状态已从该备份中排除。
+
 ## 云存储（可选）
 Glit 从不要求使用云存储，可完全离线运行。若你选择使用，其运作方式取决于你的平台：
 
-**在 macOS 和 Windows 上：** 你通过安装云服务商自身的桌面应用（如 Google Drive、Dropbox 或 OneDrive）来同步作品，该应用会在你的电脑上创建一个同步文件夹。Glit 只是像对待其他本地文件夹一样，在该文件夹中打开和保存文件。Glit 本身不会连接云服务，也不会访问你的账户。
+**在 macOS 和 Windows 上：** 你通过安装云服务商自身的桌面应用（如 Dropbox 或 OneDrive）来同步作品，该应用会在你的电脑上创建一个同步文件夹。Glit 只是像对待其他本地文件夹一样，在该文件夹中打开和保存文件。Glit 本身不会连接云服务，也不会访问你的账户。
 
-**在 iPhone 和 iPad 上：** Glit 通过官方 API 直接连接 Google Drive、Dropbox 或 Microsoft OneDrive，以同步你选择的文件。你通过服务的安全 OAuth 流程登录；你的授权令牌安全地存储在你的设备上，绝不会发送给我们。Glit 只访问同步作品所需的文件，绝不访问你的账户密码。
+**在 iPhone 和 iPad 上：** Glit 通过官方 API 直接连接 Dropbox 或 Microsoft OneDrive，以同步你选择的文件。你通过服务的安全 OAuth 流程登录；你的授权令牌安全地存储在你的设备上，绝不会发送给我们。新建立的 Dropbox 连接只能看到 Dropbox 中的 Glit 应用文件夹。Google Drive 已无法再新建连接；已连接的项目会继续同步，Glit 仅访问这些项目中的文件。Glit 绝不访问你的账户密码。
+
+**在 Android 上：** Glit 通过官方 API 直接连接 Dropbox 或 Microsoft OneDrive，以同步你选择的文件。你通过服务的安全 OAuth 流程登录；你的授权令牌以加密方式存储在你的设备上，绝不会发送给我们。Glit 只在你选择的文件夹内读写文件，绝不访问你的账户密码。Google Drive 同步目前在 Android 版本中尚未提供。
 
 ## 第三方服务
 当你使用云服务时（在任何平台上），该服务受其自身隐私政策约束：
 
-- Google（Google 登录、Google Drive）：<https://policies.google.com/privacy>
+- Google（Google 登录、Google Drive — 仅限已有连接）：<https://policies.google.com/privacy>
 - Dropbox：<https://www.dropbox.com/privacy>
 - Microsoft（OneDrive）：<https://privacy.microsoft.com/privacystatement>
 
 Glit 对从 Google API 接收的信息的使用和向任何其他应用的传输，都将遵守 [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy)，包括其中的有限使用（Limited Use）要求。
+
+## 购买
+付费方式因平台而异：
+
+- **在 macOS 和 Windows 上：** 一次性购买即可解锁完整应用。
+- **在 iPhone、iPad 和 Android 上：** 可免费开始，包含 1 个作品项目；可选的一次性应用内购买（Glit Pro）将解除该限制。备忘、文件夹和云同步始终免费。
+
+没有订阅。付款由你安装应用的商店处理：Mac App Store、Microsoft Store、App Store 或 Google Play。我们绝不会收到你的支付信息。应用仅在本机保存购买是否有效的状态，并向商店进行核验；该记录不会分享给我们或任何第三方。
 
 ## 网站分析
 本节仅适用于本网站。Glit 应用本身仍然不收集任何信息。

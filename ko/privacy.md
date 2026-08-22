@@ -1,5 +1,5 @@
 ---
-description: "Glit: 웹소설 집필 에디터의 개인정보 처리방침입니다. macOS, Windows, iPhone, iPad에서 여러분의 데이터가 어떻게 처리되는지 확인하세요."
+description: "Glit: 웹소설 집필 에디터의 개인정보 처리방침입니다. macOS, Windows, iPhone, iPad, Android에서 여러분의 데이터가 어떻게 처리되는지 확인하세요."
 layout: single
 title: "개인정보 처리방침"
 lang: ko
@@ -7,9 +7,9 @@ locale: "ko-KR"
 toc: false
 ---
 
-최종 업데이트: 2026-08-15
+최종 업데이트: 2026-08-23
 
-Glit: 웹소설 집필 에디터("Glit", "당사")는 웹소설 창작자를 위한 글쓰기 앱입니다. 본 방침은 앱의 모든 버전(macOS, Windows, iPhone, iPad)과 본 웹사이트에서 여러분의 데이터가 어떻게 처리되는지 설명합니다.
+Glit: 웹소설 집필 에디터("Glit", "당사")는 웹소설 창작자를 위한 글쓰기 앱입니다. 본 방침은 앱의 모든 버전(macOS, Windows, iPhone, iPad, Android)과 본 웹사이트에서 여러분의 데이터가 어떻게 처리되는지 설명합니다.
 
 <div class="info-grid">
   <div class="info-card">
@@ -32,21 +32,33 @@ Glit: 웹소설 집필 에디터("Glit", "당사")는 웹소설 창작자를 위
 ## 파일은 여러분의 기기에 저장됩니다
 여러분이 만들거나 편집하는 모든 프로젝트와 파일은 여러분의 기기에 로컬로 저장됩니다.
 
+Android에서는 테마·편집기 설정 등 앱 자체 설정이 기기의 Google 계정 백업에 포함될 수 있습니다. 클라우드 로그인 토큰과 구매 상태는 해당 백업에서 제외됩니다.
+
 ## 클라우드 저장소 (선택)
 Glit은 클라우드 저장소를 요구하지 않으며 완전히 오프라인으로 작동합니다. 사용을 선택하시는 경우, 작동 방식은 플랫폼에 따라 다릅니다:
 
-**macOS와 Windows:** 클라우드 제공업체의 데스크톱 앱(Google Drive, Dropbox, OneDrive 등)을 설치하면 컴퓨터에 동기화 폴더가 생성되고, 그 폴더에서 작업을 동기화합니다. Glit은 다른 로컬 폴더와 마찬가지로 해당 폴더에서 파일을 열고 저장할 뿐입니다. Glit 자체는 클라우드 서비스에 연결하거나 여러분의 계정에 접근하지 않습니다.
+**macOS와 Windows:** 클라우드 제공업체의 데스크톱 앱(Dropbox, OneDrive 등)을 설치하면 컴퓨터에 동기화 폴더가 생성되고, 그 폴더에서 작업을 동기화합니다. Glit은 다른 로컬 폴더와 마찬가지로 해당 폴더에서 파일을 열고 저장할 뿐입니다. Glit 자체는 클라우드 서비스에 연결하거나 여러분의 계정에 접근하지 않습니다.
 
-**iPhone과 iPad:** Glit은 공식 API를 통해 Google Drive, Dropbox, Microsoft OneDrive에 직접 연결하여 여러분이 선택한 파일을 동기화합니다. 서비스의 보안 OAuth 절차로 로그인하며, 인증 토큰은 여러분의 기기에 안전하게 저장되고 당사로 전송되지 않습니다. Glit은 작업 동기화에 필요한 파일에만 접근하며, 계정 비밀번호에는 절대 접근하지 않습니다.
+**iPhone과 iPad:** Glit은 공식 API를 통해 Dropbox 또는 Microsoft OneDrive에 직접 연결하여 여러분이 선택한 파일을 동기화합니다. 서비스의 보안 OAuth 절차로 로그인하며, 인증 토큰은 여러분의 기기에 안전하게 저장되고 당사로 전송되지 않습니다. 새로 연결하는 Dropbox는 Dropbox 안의 Glit 앱 폴더만 볼 수 있습니다. Google Drive는 더 이상 새로 연결할 수 없으며, 이미 연결된 프로젝트는 계속 동기화되고 Glit은 해당 프로젝트의 파일에만 접근합니다. 계정 비밀번호에는 절대 접근하지 않습니다.
+
+**Android:** Glit은 공식 API를 통해 Dropbox 또는 Microsoft OneDrive에 직접 연결하여 여러분이 선택한 파일을 동기화합니다. 서비스의 보안 OAuth 절차로 로그인하며, 인증 토큰은 여러분의 기기에 암호화되어 저장되고 당사로 전송되지 않습니다. Glit은 여러분이 선택한 폴더 안에서만 파일을 읽고 쓰며, 계정 비밀번호에는 접근하지 않습니다. Google Drive 동기화는 현재 Android 버전에서 제공되지 않습니다.
 
 ## 제3자 서비스
 클라우드 서비스를 사용할 때(모든 플랫폼) 해당 서비스는 자체 개인정보 처리방침의 적용을 받습니다:
 
-- Google (Google 로그인, Google Drive): <https://policies.google.com/privacy>
+- Google (Google 로그인, Google Drive — 기존 연결에 한함): <https://policies.google.com/privacy>
 - Dropbox: <https://www.dropbox.com/privacy>
 - Microsoft (OneDrive): <https://privacy.microsoft.com/privacystatement>
 
 Glit이 Google API로부터 받은 정보를 사용하거나 다른 앱으로 전송하는 것은 제한적 사용(Limited Use) 요건을 포함하여 [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy)를 준수합니다.
+
+## 구매
+결제 방식은 플랫폼에 따라 다릅니다:
+
+- **macOS와 Windows:** 1회 구매로 앱의 모든 기능이 잠금 해제됩니다.
+- **iPhone·iPad와 Android:** 작업 프로젝트 1개로 무료로 시작하고, 선택 사항인 1회성 인앱 구매(Glit Pro)로 이 제한이 해제됩니다. 노트, 폴더, 클라우드 동기화는 언제나 무료입니다.
+
+구독은 없습니다. 결제는 앱을 설치한 스토어(Mac App Store, Microsoft Store, App Store, Google Play)가 처리하며, 당사는 결제 수단 정보를 일절 받지 않습니다. 앱은 구매가 유효한지 여부만 기기에 저장하고 스토어에 확인을 요청하며, 이 기록은 당사나 제3자에게 공유되지 않습니다.
 
 ## 웹사이트 분석
 이 항목은 본 웹사이트에만 해당합니다. Glit 앱 자체는 여전히 아무것도 수집하지 않습니다.

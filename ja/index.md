@@ -88,7 +88,7 @@ excerpt: >
   <div class="feature-icon">
     <i class="fas fa-cloud" aria-hidden="true"></i>
     <h3>同期もオフラインも</h3>
-    <p>Google Drive・Dropbox・OneDrive で同期するか、完全にオフラインで。アカウントもサブスクリプションも不要です。</p>
+    <p>Dropbox・OneDrive で同期するか、完全にオフラインで。アカウントもサブスクリプションも不要です。</p>
   </div>
 </div>
 

@@ -88,7 +88,7 @@ excerpt: >
   <div class="feature-icon">
     <i class="fas fa-cloud" aria-hidden="true"></i>
     <h3>Sincroniza o trabaja sin conexión</h3>
-    <p>Sincroniza con Google Drive, Dropbox o OneDrive, o trabaja totalmente sin conexión. Sin cuenta, sin suscripción.</p>
+    <p>Sincroniza con Dropbox o OneDrive, o trabaja totalmente sin conexión. Sin cuenta, sin suscripción.</p>
   </div>
 </div>
 

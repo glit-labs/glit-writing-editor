@@ -88,7 +88,7 @@ excerpt: >
   <div class="feature-icon">
     <i class="fas fa-cloud" aria-hidden="true"></i>
     <h3>同步或离线</h3>
-    <p>通过 Google Drive、Dropbox 或 OneDrive 同步，或完全离线工作。无需账户，无需订阅。</p>
+    <p>通过 Dropbox 或 OneDrive 同步，或完全离线工作。无需账户，无需订阅。</p>
   </div>
 </div>
 
