@@ -1,4 +1,10 @@
 ---
+# 비공개(2026-08-23) — 이 가이드는 전 과정이 Google Drive 기준인데, Glit은 더 이상
+# Google Drive 신규 연결을 제공하지 않는다(iOS 1.4.0, TASK-113). 새 사용자가 그대로
+# 따라 할 수 없으므로 Dropbox 기준으로 다시 쓸 때까지 내린다. 스크린샷
+# (/assets/images/guide/cloud-*.png)은 그대로 두었다.
+# 다시 공개할 때: 아래 published 줄을 지우면 가이드 목록·사이트맵에 자동으로 돌아온다.
+published: false
 description: "Google Drive로 Mac용 Glit과 아이폰·아이패드용 Glit을 연동하는 방법을 안내합니다. Mac에서 집필한 원고를 외출 중에도 모바일에서 바로 확인할 수 있어요."
 last_modified: 2026-08-09
 layout: single
