@@ -43,11 +43,11 @@ toc: false
   </div>
   <div class="faq__item">
     <p class="faq__q">云同步如何运作？</p>
-    <p class="faq__a">在 macOS 和 Windows 上，安装云服务商的桌面应用（Google Drive、Dropbox 或 OneDrive），并将项目放在其同步文件夹中。在 iPhone 和 iPad 上，Glit 通过官方登录直接连接 Google Drive、Dropbox 或 OneDrive。</p>
+    <p class="faq__a">在 macOS 和 Windows 上，安装云服务商的桌面应用（Dropbox 或 OneDrive），并将项目放在其同步文件夹中。在 iPhone 和 iPad 上，Glit 通过官方登录直接连接 Dropbox 或 OneDrive。</p>
   </div>
   <div class="faq__item">
     <p class="faq__q">Glit 支持哪些平台？</p>
-    <p class="faq__a">Glit 支持 macOS、Windows、iPhone 和 iPad。Android 正在开发中。链接见<a href="/zh/store.html">商店</a>，全部版本见<a href="/zh/releases.html">版本发布</a>页面。</p>
+    <p class="faq__a">Glit 支持 macOS、Windows、iPhone 和 iPad。<a href="/releases/android/zh.html">Android 正在开发中</a>。链接见<a href="/zh/store.html">商店</a>，全部版本见<a href="/zh/releases.html">版本发布</a>页面。</p>
   </div>
   <div class="faq__item">
     <p class="faq__q">我在一个平台购买了 Glit——还需要再次购买吗？</p>

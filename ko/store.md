@@ -41,7 +41,7 @@ toc: false
     <div class="store-card__icon"><i class="fab fa-google-play" aria-hidden="true"></i></div>
     <h3 class="store-card__name">Play Store (Android)</h3>
     <p class="store-card__platform">Android</p>
-    <p class="store-card__desc">개발 중입니다 — 곧 만나보세요.</p>
+    <p class="store-card__desc">폰과 태블릿용으로 개발 중입니다. <a href="/releases/android/ko.html">준비 중인 내용 보기</a></p>
     <p class="store-card__price">출시 예정</p>
     <span class="store-card__btn store-card__btn--disabled" aria-disabled="true">출시 예정</span>
   </div>

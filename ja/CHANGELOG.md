@@ -47,7 +47,7 @@ Glit: ウェブ小説執筆エディタのすべての重要な変更を、こ�
 
 ## 🤖 Android (Google Play)
 
-近日公開。[Android](/releases/android/) をご覧ください。
+まだ公開されたバージョンはありません。現在の進捗は [Android 版 Glit](/releases/android/ja.html) をご覧ください。
 
 ## 💡 言語コードについて
 

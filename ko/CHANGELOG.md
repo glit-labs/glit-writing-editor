@@ -47,7 +47,7 @@ Glit: 웹소설 집필 에디터의 모든 주요 변경 사항을 이 문서에
 
 ## 🤖 Android (Google Play)
 
-준비 중입니다. [Android](/releases/android/)를 참고하세요.
+아직 출시된 버전이 없습니다. 현재 진행 상황은 [Android용 Glit](/releases/android/ko.html)에서 확인하세요.
 
 ## 💡 언어 코드 안내
 

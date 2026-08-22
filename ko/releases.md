@@ -45,7 +45,7 @@ Windows 10 및 11을 지원하며, [Microsoft Store](https://apps.microsoft.com/
 
 ## iOS / iPadOS
 
-iPhone과 iPad를 지원하는 유니버설 앱으로, [App Store](https://apps.apple.com/app/glit-web-novel-writing/id6783972543)에서 이용할 수 있습니다. Google Drive, Dropbox, OneDrive와의 직접 클라우드 동기화를 지원합니다.
+iPhone과 iPad를 지원하는 유니버설 앱으로, [App Store](https://apps.apple.com/app/glit-web-novel-writing/id6783972543)에서 이용할 수 있습니다. Dropbox, OneDrive와의 직접 클라우드 동기화를 지원합니다.
 
 | 버전 | 출시일 | 주요 내용 | 릴리스 노트 |
 | :--- | :----- | :-------- | :---------- |
@@ -56,4 +56,4 @@ iPhone과 iPad를 지원하는 유니버설 앱으로, [App Store](https://apps.
 
 ## Android
 
-**준비 중입니다.** 안드로이드 버전은 개발 중입니다. 자세한 내용은 [Android 페이지](/releases/android/)를 참고하시거나, [스토어](/ko/store.html)에서 macOS, Windows, iPhone, iPad용 Glit을 지금 만나보세요.
+**개발 중입니다.** 안드로이드 버전은 폰과 태블릿을 위해 개발 중이며, Google Play에 출시되면 릴리스 노트가 이곳에 정리됩니다. 첫 버전에 담길 기능과 현재 진행 상황은 [Android용 Glit](/releases/android/ko.html)에서 확인하시거나, [스토어](/ko/store.html)에서 macOS, Windows, iPhone, iPad용 Glit을 지금 만나보세요.

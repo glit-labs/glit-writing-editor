@@ -40,7 +40,7 @@ Get Glit on the store for your platform. No subscription — buy once, and your 
     <div class="store-card__icon"><i class="fab fa-google-play" aria-hidden="true"></i></div>
     <h3 class="store-card__name">Play Store (Android)</h3>
     <p class="store-card__platform">Android</p>
-    <p class="store-card__desc">In development — check back soon.</p>
+    <p class="store-card__desc">In development for phones and tablets. <a href="/releases/android/">See what's coming.</a></p>
     <p class="store-card__price">Coming soon</p>
     <span class="store-card__btn store-card__btn--disabled" aria-disabled="true">Coming soon</span>
   </div>

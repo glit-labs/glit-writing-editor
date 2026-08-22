@@ -43,11 +43,11 @@ Glit 사용에 도움이 필요하신가요? 기꺼이 도와드립니다. 언�
   </div>
   <div class="faq__item">
     <p class="faq__q">클라우드 동기화는 어떻게 작동하나요?</p>
-    <p class="faq__a">macOS와 Windows에서는 클라우드 제공업체의 데스크톱 앱(Google Drive, Dropbox, OneDrive)을 설치하고 프로젝트를 동기화 폴더에 두세요. iPhone과 iPad에서는 Glit이 공식 로그인을 통해 Google Drive, Dropbox, OneDrive에 직접 연결합니다.</p>
+    <p class="faq__a">macOS와 Windows에서는 클라우드 제공업체의 데스크톱 앱(Dropbox, OneDrive)을 설치하고 프로젝트를 동기화 폴더에 두세요. iPhone과 iPad에서는 Glit이 공식 로그인을 통해 Dropbox, OneDrive에 직접 연결합니다.</p>
   </div>
   <div class="faq__item">
     <p class="faq__q">Glit은 어떤 플랫폼에서 사용할 수 있나요?</p>
-    <p class="faq__a">Glit은 macOS, Windows, iPhone, iPad에서 사용할 수 있습니다. Android는 개발 중입니다. 링크는 <a href="/ko/store.html">스토어</a>에서, 모든 버전은 <a href="/ko/releases.html">릴리스</a> 페이지에서 확인하세요.</p>
+    <p class="faq__a">Glit은 macOS, Windows, iPhone, iPad에서 사용할 수 있습니다. <a href="/releases/android/ko.html">Android는 개발 중입니다</a>. 링크는 <a href="/ko/store.html">스토어</a>에서, 모든 버전은 <a href="/ko/releases.html">릴리스</a> 페이지에서 확인하세요.</p>
   </div>
   <div class="faq__item">
     <p class="faq__q">한 플랫폼에서 Glit을 구매했는데 다시 구매해야 하나요?</p>

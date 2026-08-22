@@ -41,7 +41,7 @@ Procurez-vous Glit sur la boutique de votre plateforme. Sans abonnement : payez 
     <div class="store-card__icon"><i class="fab fa-google-play" aria-hidden="true"></i></div>
     <h3 class="store-card__name">Play Store (Android)</h3>
     <p class="store-card__platform">Android</p>
-    <p class="store-card__desc">En développement — revenez bientôt.</p>
+    <p class="store-card__desc">En développement pour smartphones et tablettes. <a href="/releases/android/fr.html">Voir ce qui arrive.</a></p>
     <p class="store-card__price">Bientôt disponible</p>
     <span class="store-card__btn store-card__btn--disabled" aria-disabled="true">Bientôt disponible</span>
   </div>

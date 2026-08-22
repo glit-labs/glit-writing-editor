@@ -104,10 +104,10 @@ defaults:
       comments: false
       share: false
       related: false
-  # Release notes get a table of contents.
-  - scope:
-      path: "releases"
-    values:
-      toc: true
-      toc_label: "Contents"
-      toc_sticky: true
+  # No sticky table of contents anywhere. The theme parks the right sidebar
+  # outside the page box (position: absolute; margin-right: -300px) and expects
+  # a matching gutter on `.page`; the "uniform content width" override in
+  # _includes/head/custom.html removes that gutter, so a TOC would hang off the
+  # right edge and scroll the whole page sideways at window widths of roughly
+  # 1024-1580px. Pages that need in-page jumps use the `.section-nav` pills
+  # instead (see releases.md).

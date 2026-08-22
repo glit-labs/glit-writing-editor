@@ -44,7 +44,7 @@ Available on the [Microsoft Store](https://apps.microsoft.com/detail/9n19p02fc7r
 
 ## iOS / iPadOS
 
-Universal app for iPhone and iPad, available on the [App Store](https://apps.apple.com/app/glit-web-novel-writing/id6783972543). Supports direct cloud sync with Google Drive, Dropbox, and OneDrive.
+Universal app for iPhone and iPad, available on the [App Store](https://apps.apple.com/app/glit-web-novel-writing/id6783972543). Supports direct cloud sync with Dropbox, and OneDrive.
 
 | Version | Release Date | Highlights | Release Notes |
 | :------ | :----------- | :--------- | :------------ |
@@ -55,4 +55,4 @@ Universal app for iPhone and iPad, available on the [App Store](https://apps.app
 
 ## Android
 
-**Coming soon.** Glit for Android is in development. See the [Android page](/releases/android/) for details, or grab Glit today on macOS, Windows, iPhone, or iPad from the [Store](/store.html).
+**In development.** Glit for Android is being built for phones and tablets, and release notes will be listed here once it reaches Google Play. See [Glit for Android](/releases/android/) for what the first version will include and how far along it is — or grab Glit today on macOS, Windows, iPhone, or iPad from the [Store](/store.html).

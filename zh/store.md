@@ -41,7 +41,7 @@ toc: false
     <div class="store-card__icon"><i class="fab fa-google-play" aria-hidden="true"></i></div>
     <h3 class="store-card__name">Play Store (Android)</h3>
     <p class="store-card__platform">Android</p>
-    <p class="store-card__desc">开发中——敬请期待。</p>
+    <p class="store-card__desc">正在为手机和平板开发。<a href="/releases/android/zh.html">看看即将带来什么</a></p>
     <p class="store-card__price">即将推出</p>
     <span class="store-card__btn store-card__btn--disabled" aria-disabled="true">即将推出</span>
   </div>

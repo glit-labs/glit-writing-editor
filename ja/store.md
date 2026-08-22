@@ -41,7 +41,7 @@ toc: false
     <div class="store-card__icon"><i class="fab fa-google-play" aria-hidden="true"></i></div>
     <h3 class="store-card__name">Play Store (Android)</h3>
     <p class="store-card__platform">Android</p>
-    <p class="store-card__desc">開発中です — もうしばらくお待ちください。</p>
+    <p class="store-card__desc">スマートフォンとタブレット向けに開発中です。<a href="/releases/android/ja.html">今後の内容を見る</a></p>
     <p class="store-card__price">近日公開</p>
     <span class="store-card__btn store-card__btn--disabled" aria-disabled="true">近日公開</span>
   </div>

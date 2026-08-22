@@ -43,11 +43,11 @@ Glit のことでお困りですか？ 喜んでお手伝いします。いつ�
   </div>
   <div class="faq__item">
     <p class="faq__q">クラウド同期はどう動作しますか？</p>
-    <p class="faq__a">macOS と Windows では、クラウド提供元のデスクトップアプリ（Google Drive、Dropbox、OneDrive）をインストールし、プロジェクトをその同期フォルダに置いてください。iPhone と iPad では、Glit が公式のサインインを通じて Google Drive、Dropbox、OneDrive に直接接続します。</p>
+    <p class="faq__a">macOS と Windows では、クラウド提供元のデスクトップアプリ（Dropbox、OneDrive）をインストールし、プロジェクトをその同期フォルダに置いてください。iPhone と iPad では、Glit が公式のサインインを通じて Dropbox、OneDrive に直接接続します。</p>
   </div>
   <div class="faq__item">
     <p class="faq__q">Glit はどのプラットフォームで使えますか？</p>
-    <p class="faq__a">Glit は macOS、Windows、iPhone、iPad で利用できます。Android は開発中です。リンクは<a href="/ja/store.html">ストア</a>で、すべてのバージョンは<a href="/ja/releases.html">リリース</a>ページでご確認ください。</p>
+    <p class="faq__a">Glit は macOS、Windows、iPhone、iPad で利用できます。<a href="/releases/android/ja.html">Android は開発中です</a>。リンクは<a href="/ja/store.html">ストア</a>で、すべてのバージョンは<a href="/ja/releases.html">リリース</a>ページでご確認ください。</p>
   </div>
   <div class="faq__item">
     <p class="faq__q">あるプラットフォームで Glit を購入しました。もう一度購入が必要ですか？</p>

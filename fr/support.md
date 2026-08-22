@@ -43,11 +43,11 @@ Quelques précisions nous aident à résoudre votre problème rapidement :
   </div>
   <div class="faq__item">
     <p class="faq__q">Comment fonctionne la synchronisation cloud ?</p>
-    <p class="faq__a">Sur macOS et Windows, installez l'application de bureau de votre fournisseur cloud (Google Drive, Dropbox ou OneDrive) et conservez vos projets dans son dossier synchronisé. Sur iPhone et iPad, Glit se connecte directement à Google Drive, Dropbox ou OneDrive via leur connexion officielle.</p>
+    <p class="faq__a">Sur macOS et Windows, installez l'application de bureau de votre fournisseur cloud (Dropbox ou OneDrive) et conservez vos projets dans son dossier synchronisé. Sur iPhone et iPad, Glit se connecte directement à Dropbox ou OneDrive via leur connexion officielle.</p>
   </div>
   <div class="faq__item">
     <p class="faq__q">Sur quelles plateformes Glit est-il disponible ?</p>
-    <p class="faq__a">Glit est disponible pour macOS, Windows, iPhone et iPad. Android est en développement. Consultez la <a href="/fr/store.html">Boutique</a> pour les liens, ou la page <a href="/fr/releases.html">Versions</a> pour toutes les versions.</p>
+    <p class="faq__a">Glit est disponible pour macOS, Windows, iPhone et iPad. <a href="/releases/android/fr.html">Android est en développement</a>. Consultez la <a href="/fr/store.html">Boutique</a> pour les liens, ou la page <a href="/fr/releases.html">Versions</a> pour toutes les versions.</p>
   </div>
   <div class="faq__item">
     <p class="faq__q">J'ai acheté Glit sur une plateforme — dois-je le racheter ?</p>

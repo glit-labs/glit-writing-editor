@@ -47,7 +47,7 @@ Glit：写作编辑器的所有重要变更都将记录在本文件中。
 
 ## 🤖 Android (Google Play)
 
-即将推出。请查看 [Android](/releases/android/)。
+开发中，尚无已发布版本。当前进展请查看 [Android 版 Glit](/releases/android/zh.html)。
 
 ## 💡 语言代码说明
 

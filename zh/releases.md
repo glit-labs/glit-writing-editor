@@ -45,7 +45,7 @@ Glit 各版本的发布说明，按平台整理。每个条目都链接到该版
 
 ## iOS / iPadOS
 
-适用于 iPhone 和 iPad 的通用应用，可在 [App Store](https://apps.apple.com/app/glit-web-novel-writing/id6783972543) 获取。支持与 Google Drive、Dropbox 和 OneDrive 的直接云同步。
+适用于 iPhone 和 iPad 的通用应用，可在 [App Store](https://apps.apple.com/app/glit-web-novel-writing/id6783972543) 获取。支持与 Dropbox 和 OneDrive 的直接云同步。
 
 | 版本 | 发布日期 | 亮点 | 发布说明 |
 | :--- | :------- | :--- | :------- |
@@ -56,4 +56,4 @@ Glit 各版本的发布说明，按平台整理。每个条目都链接到该版
 
 ## Android
 
-**即将推出。** Android 版 Glit 正在开发中。详情请查看 [Android 页面](/releases/android/)，或立即从[商店](/zh/store.html)获取 macOS、Windows、iPhone 或 iPad 版 Glit。
+**开发中。** Android 版 Glit 正在为手机和平板开发，上架 Google Play 后，发布说明会汇总在这里。首个版本会包含什么、目前进展如何，请查看 [Android 版 Glit](/releases/android/zh.html)，或立即从[商店](/zh/store.html)获取 macOS、Windows、iPhone 或 iPad 版 Glit。

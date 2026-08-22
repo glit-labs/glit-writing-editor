@@ -44,7 +44,7 @@ Releases are tracked per platform.
 
 ## 🤖 Android (Google Play)
 
-Coming soon. See [Android](/releases/android/).
+In development — no releases yet. See [Glit for Android](/releases/android/) for the current status.
 
 ## 💡 How to Read Language Codes
 

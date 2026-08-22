@@ -41,7 +41,7 @@ Hol dir Glit im Store deiner Plattform. Kein Abo – einmal kaufen, und deine Pr
     <div class="store-card__icon"><i class="fab fa-google-play" aria-hidden="true"></i></div>
     <h3 class="store-card__name">Play Store (Android)</h3>
     <p class="store-card__platform">Android</p>
-    <p class="store-card__desc">In Entwicklung – schau bald wieder vorbei.</p>
+    <p class="store-card__desc">In Entwicklung für Smartphones und Tablets. <a href="/releases/android/de.html">Sieh dir an, was kommt.</a></p>
     <p class="store-card__price">Demnächst</p>
     <span class="store-card__btn store-card__btn--disabled" aria-disabled="true">Demnächst</span>
   </div>

@@ -47,7 +47,7 @@ Releases werden pro Plattform geführt.
 
 ## 🤖 Android (Google Play)
 
-Demnächst. Siehe [Android](/releases/android/).
+In Entwicklung – noch keine Veröffentlichungen. Den aktuellen Stand gibt es auf [Glit für Android](/releases/android/de.html).
 
 ## 💡 So liest du die Sprachcodes
 

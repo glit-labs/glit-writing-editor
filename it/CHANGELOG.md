@@ -47,7 +47,7 @@ I rilasci sono tracciati per piattaforma.
 
 ## 🤖 Android (Google Play)
 
-Prossimamente. Consulta [Android](/releases/android/).
+In sviluppo, ancora nessuna versione pubblicata. Lo stato attuale è su [Glit per Android](/releases/android/it.html).
 
 ## 💡 Come leggere i codici lingua
 

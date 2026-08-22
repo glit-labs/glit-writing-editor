@@ -45,7 +45,7 @@ Windows 10 と 11 に対応し、[Microsoft Store](https://apps.microsoft.com/de
 
 ## iOS / iPadOS
 
-iPhone と iPad に対応したユニバーサルアプリで、[App Store](https://apps.apple.com/app/glit-web-novel-writing/id6783972543) で入手できます。Google Drive、Dropbox、OneDrive との直接クラウド同期に対応しています。
+iPhone と iPad に対応したユニバーサルアプリで、[App Store](https://apps.apple.com/app/glit-web-novel-writing/id6783972543) で入手できます。Dropbox、OneDrive との直接クラウド同期に対応しています。
 
 | バージョン | リリース日 | 概要 | リリースノート |
 | :--------- | :--------- | :--- | :------------- |
@@ -56,4 +56,4 @@ iPhone と iPad に対応したユニバーサルアプリで、[App Store](http
 
 ## Android
 
-**近日公開。** Android 版 Glit は開発中です。詳しくは [Android ページ](/releases/android/)をご覧いただくか、[ストア](/ja/store.html)から macOS、Windows、iPhone、iPad 版の Glit を今すぐ手に入れてください。
+**開発中です。** Android 版 Glit はスマートフォンとタブレット向けに開発中で、Google Play で公開され次第、リリースノートをここに掲載します。最初のバージョンに入る機能と現在の進捗は [Android 版 Glit](/releases/android/ja.html) をご覧いただくか、[ストア](/ja/store.html)から macOS、Windows、iPhone、iPad 版の Glit を今すぐ手に入れてください。

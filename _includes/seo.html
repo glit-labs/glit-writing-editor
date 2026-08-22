@@ -180,6 +180,9 @@
     * Per-version release notes (/releases/<platform>/<ver>/<lang>.html): link
       whichever of the 8 site languages actually exist for that version (older
       versions ship en/ko only, newer ones add more) — plus x-default(en).
+    * Platform status pages (/releases/<platform>/, e.g. the Android page) work
+      the same way, except English is the directory root itself rather than an
+      en.html file, and the localized siblings sit next to it.
     * Anything else (e.g. the Korean-only guides) has no parallel set, so we
       emit no hreflang at all.
 {%- endcomment -%}
@@ -193,11 +196,25 @@
 
 {%- assign rel_file = url_parts | last -%}
 {%- assign is_release_note = false -%}
+{%- assign note_base = "" -%}
 {%- if page.url contains "/releases/" -%}
   {%- assign rel_stub = rel_file | remove: ".html" -%}
   {%- for l in langs -%}
     {%- if l.code == rel_stub -%}{%- assign is_release_note = true -%}{%- endif -%}
   {%- endfor -%}
+  {%- if is_release_note -%}
+    {%- assign note_base = page.url | replace: rel_file, "" -%}
+  {%- else -%}
+    {%- comment -%}
+      A directory root under /releases/ (a platform status page) is the English
+      member of a set whose other languages are <lang>.html beside it.
+    {%- endcomment -%}
+    {%- assign last_char = page.url | slice: -1 -%}
+    {%- if last_char == "/" -%}
+      {%- assign is_release_note = true -%}
+      {%- assign note_base = page.url -%}
+    {%- endif -%}
+  {%- endif -%}
 {%- endif -%}
 
 {%- if is_core -%}
@@ -208,9 +225,25 @@
   {%- endfor -%}
 <link rel="alternate" hreflang="x-default" href="{{ "/" | append: rel_path | absolute_url }}">
 {%- elsif is_release_note -%}
-  {%- assign note_base = page.url | replace: rel_file, "" -%}
-  {%- comment -%} Emit an alternate only for the sibling language files that exist for this version. {%- endcomment -%}
-  {%- assign note_langs = "en,ko,ja,es,fr,de,it,zh" | split: "," -%}
+  {%- comment -%}
+    English is <base>en.html for a per-version note and the directory root for a
+    platform status page; take whichever of the two exists. The other languages
+    are emitted only where the sibling file is actually there.
+  {%- endcomment -%}
+  {%- assign en_href = "" -%}
+  {%- assign en_file = note_base | append: "en.html" -%}
+  {%- for p in site.html_pages -%}
+    {%- if p.url == en_file -%}{%- assign en_href = en_file -%}{%- break -%}{%- endif -%}
+  {%- endfor -%}
+  {%- if en_href == "" -%}
+    {%- for p in site.html_pages -%}
+      {%- if p.url == note_base -%}{%- assign en_href = note_base -%}{%- break -%}{%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+  {%- if en_href != "" -%}
+<link rel="alternate" hreflang="en" href="{{ en_href | absolute_url }}">
+  {%- endif -%}
+  {%- assign note_langs = "ko,ja,es,fr,de,it,zh" | split: "," -%}
   {%- for code in note_langs -%}
     {%- assign sibling = note_base | append: code | append: ".html" -%}
     {%- assign sib_exists = false -%}
@@ -221,7 +254,9 @@
 <link rel="alternate" hreflang="{{ code }}" href="{{ sibling | absolute_url }}">
     {%- endif -%}
   {%- endfor -%}
-<link rel="alternate" hreflang="x-default" href="{{ note_base | append: "en.html" | absolute_url }}">
+  {%- if en_href != "" -%}
+<link rel="alternate" hreflang="x-default" href="{{ en_href | absolute_url }}">
+  {%- endif -%}
 {%- endif -%}
 
 {% if paginator.previous_page %}

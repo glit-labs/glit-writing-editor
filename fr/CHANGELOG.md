@@ -47,7 +47,7 @@ Les versions sont suivies par plateforme.
 
 ## 🤖 Android (Google Play)
 
-Bientôt disponible. Consultez [Android](/releases/android/).
+En développement, aucune version publiée pour l'instant. Consultez [Glit pour Android](/releases/android/fr.html) pour l'état d'avancement.
 
 ## 💡 Comment lire les codes de langue
 
