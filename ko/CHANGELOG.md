@@ -47,11 +47,6 @@ Glit: 웹소설 집필 에디터의 모든 주요 변경 사항을 이 문서에
 
 ## 🤖 Android (Google Play)
 
-아직 출시된 버전이 없습니다. 현재 진행 상황은 [Android용 Glit](/releases/android/ko.html)에서 확인하세요.
-
-## 💡 언어 코드 안내
-
-특정 언어의 노트를 찾으신다면 위의 언어 코드를 참고하세요:
-
-- **en**: English (영어)
-- **ko**: 한국어
+| 버전 | 출시일 | 언어별 릴리스 노트 |
+| :--- | :----- | :----------------- |
+| **v1.0.4** | 2026-08-25 | [한국어](/releases/android/v1.0.4/ko.html) / [English](/releases/android/v1.0.4/en.html) / [日本語](/releases/android/v1.0.4/ja.html) / [Español](/releases/android/v1.0.4/es.html) / [Français](/releases/android/v1.0.4/fr.html) / [Deutsch](/releases/android/v1.0.4/de.html) / [Italiano](/releases/android/v1.0.4/it.html) / [简体中文](/releases/android/v1.0.4/zh.html) |

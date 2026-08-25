@@ -47,11 +47,6 @@ Glit：写作编辑器的所有重要变更都将记录在本文件中。
 
 ## 🤖 Android (Google Play)
 
-开发中，尚无已发布版本。当前进展请查看 [Android 版 Glit](/releases/android/zh.html)。
-
-## 💡 语言代码说明
-
-如果你在寻找特定语言的说明，请对照上方的语言代码：
-
-- **en**：English（英语）
-- **ko**：한국어（韩语）
+| 版本 | 发布日期 | 各语言发布说明 |
+| :--- | :------- | :------------- |
+| **v1.0.4** | 2026-08-25 | [简体中文](/releases/android/v1.0.4/zh.html) / [English](/releases/android/v1.0.4/en.html) / [한국어](/releases/android/v1.0.4/ko.html) / [日本語](/releases/android/v1.0.4/ja.html) / [Español](/releases/android/v1.0.4/es.html) / [Français](/releases/android/v1.0.4/fr.html) / [Deutsch](/releases/android/v1.0.4/de.html) / [Italiano](/releases/android/v1.0.4/it.html) |

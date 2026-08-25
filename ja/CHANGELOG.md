@@ -47,11 +47,6 @@ Glit: ウェブ小説執筆エディタのすべての重要な変更を、こ�
 
 ## 🤖 Android (Google Play)
 
-まだ公開されたバージョンはありません。現在の進捗は [Android 版 Glit](/releases/android/ja.html) をご覧ください。
-
-## 💡 言語コードについて
-
-特定の言語のノートをお探しの場合は、上記の言語コードをご参照ください:
-
-- **en**: English（英語）
-- **ko**: 한국어（韓国語）
+| バージョン | リリース日 | 言語別リリースノート |
+| :--------- | :--------- | :------------------- |
+| **v1.0.4** | 2026-08-25 | [日本語](/releases/android/v1.0.4/ja.html) / [English](/releases/android/v1.0.4/en.html) / [한국어](/releases/android/v1.0.4/ko.html) / [Español](/releases/android/v1.0.4/es.html) / [Français](/releases/android/v1.0.4/fr.html) / [Deutsch](/releases/android/v1.0.4/de.html) / [Italiano](/releases/android/v1.0.4/it.html) / [简体中文](/releases/android/v1.0.4/zh.html) |

@@ -47,11 +47,6 @@ Les versions sont suivies par plateforme.
 
 ## 🤖 Android (Google Play)
 
-En développement, aucune version publiée pour l'instant. Consultez [Glit pour Android](/releases/android/fr.html) pour l'état d'avancement.
-
-## 💡 Comment lire les codes de langue
-
-Si vous cherchez les notes dans une langue précise, reportez-vous aux codes de langue ci-dessus :
-
-- **en** : English (anglais)
-- **ko** : 한국어 (coréen)
+| Version | Date de sortie | Notes de version par langue |
+| :------ | :------------- | :-------------------------- |
+| **v1.0.4** | 2026-08-25 | [Français](/releases/android/v1.0.4/fr.html) / [English](/releases/android/v1.0.4/en.html) / [한국어](/releases/android/v1.0.4/ko.html) / [日本語](/releases/android/v1.0.4/ja.html) / [Español](/releases/android/v1.0.4/es.html) / [Deutsch](/releases/android/v1.0.4/de.html) / [Italiano](/releases/android/v1.0.4/it.html) / [简体中文](/releases/android/v1.0.4/zh.html) |
