@@ -12,9 +12,11 @@ header:
       url: "https://apps.microsoft.com/detail/9n19p02fc7rf"
     - label: "App Store (iOS / iPadOS)"
       url: "https://apps.apple.com/app/glit-web-novel-writing/id6783972543"
+    - label: "Google Play (Android)"
+      url: "https://play.google.com/store/apps/details?id=com.glitlab.gliteditor"
 excerpt: >
   웹소설 작가를 위해 처음부터 새로 만든 집중형 글쓰기 앱<br>
-  Mac, Windows, iPhone, iPad에서 만나보세요.
+  Mac, Windows, iPhone, iPad, Android에서 만나보세요.
 ---
 
 <p class="glit-hero" style="text-align: center; margin: 0 0 2.5em;">
@@ -96,7 +98,7 @@ excerpt: >
 
 <div class="cta-band">
   <h2 class="cta-band__title">모든 플랫폼에서 사용하세요</h2>
-  <p>Glit은 macOS, Windows, iPhone, iPad에서 동일한 경험을 제공하며 Android도 준비 중입니다. 한 번 구매로 끝 — 구독도, 추적도 없고, 파일은 언제나 당신의 것입니다.</p>
+  <p>Glit은 macOS, Windows, iPhone, iPad, Android에서 동일한 경험을 제공합니다. 한 번 구매로 끝 — 구독도, 추적도 없고, 파일은 언제나 당신의 것입니다.</p>
   <a class="btn btn--primary btn--large" href="/ko/store.html">스토어 둘러보기</a>
   <a class="btn btn--inverse btn--large" href="/ko/releases.html">릴리스 전체 보기</a>
 </div>

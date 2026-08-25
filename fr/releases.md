@@ -56,4 +56,8 @@ Application universelle pour iPhone et iPad, disponible sur l'[App Store](https:
 
 ## Android
 
-**En développement.** Glit pour Android est en cours de développement pour smartphones et tablettes, et les notes de version seront listées ici dès sa sortie sur Google Play. Consultez [Glit pour Android](/releases/android/fr.html) pour découvrir le contenu de la première version et son avancement, ou procurez-vous Glit dès aujourd'hui sur macOS, Windows, iPhone ou iPad depuis la [Boutique](/fr/store.html).
+Disponible sur [Google Play](https://play.google.com/store/apps/details?id=com.glitlab.gliteditor) pour les téléphones et tablettes sous Android 8.0 ou version ultérieure. Prend en charge la synchronisation cloud directe avec Dropbox et OneDrive.
+
+| Version | Date de sortie | Points clés | Notes de version |
+| :------ | :------------- | :---------- | :--------------- |
+| **v1.0.4** | 2026-08-25 | Version initiale | [Français](/releases/android/v1.0.4/fr.html) / [English](/releases/android/v1.0.4/en.html) / [한국어](/releases/android/v1.0.4/ko.html) / [日本語](/releases/android/v1.0.4/ja.html) / [Español](/releases/android/v1.0.4/es.html) / [Deutsch](/releases/android/v1.0.4/de.html) / [Italiano](/releases/android/v1.0.4/it.html) / [简体中文](/releases/android/v1.0.4/zh.html) |

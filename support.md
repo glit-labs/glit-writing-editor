@@ -46,7 +46,7 @@ Including a few details helps us resolve your issue quickly:
   </div>
   <div class="faq__item">
     <p class="faq__q">Which platforms is Glit available on?</p>
-    <p class="faq__a">Glit is available for macOS, Windows, iPhone, and iPad. <a href="/releases/android/">Android is in development</a>. See the <a href="/store.html">Store</a> for links, or the <a href="/releases.html">Releases</a> page for every version.</p>
+    <p class="faq__a">Glit is available for macOS, Windows, iPhone, iPad, and <a href="/releases/android/">Android</a>. See the <a href="/store.html">Store</a> for links, or the <a href="/releases.html">Releases</a> page for every version.</p>
   </div>
   <div class="faq__item">
     <p class="faq__q">I bought Glit on one platform — do I need to buy it again?</p>

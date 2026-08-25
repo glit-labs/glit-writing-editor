@@ -1,5 +1,5 @@
 ---
-description: "Get Glit for macOS, Windows, iPhone, and iPad. No subscription — buy once, and your projects stay as plain files that open on any device."
+description: "Get Glit for macOS, Windows, iPhone, iPad, and Android. No subscription — buy once, and your projects stay as plain files that open on any device."
 layout: single
 title: "Store"
 lang: en
@@ -36,20 +36,20 @@ Get Glit on the store for your platform. No subscription — buy once, and your 
     <a class="store-card__btn" href="https://apps.apple.com/app/glit-web-novel-writing/id6783972543">Get</a>
   </div>
 
-  <div class="store-card store-card--soon">
+  <div class="store-card">
     <div class="store-card__icon"><i class="fab fa-google-play" aria-hidden="true"></i></div>
     <h3 class="store-card__name">Play Store (Android)</h3>
     <p class="store-card__platform">Android</p>
-    <p class="store-card__desc">In development for phones and tablets. <a href="/releases/android/">See what's coming.</a></p>
-    <p class="store-card__price">Coming soon</p>
-    <span class="store-card__btn store-card__btn--disabled" aria-disabled="true">Coming soon</span>
+    <p class="store-card__desc">For phones and tablets, with direct cloud sync. Free to start; Glit Pro unlocks unlimited projects.</p>
+    <p class="store-card__price">Free <span class="note">· Glit Pro one-time purchase</span></p>
+    <a class="store-card__btn" href="https://play.google.com/store/apps/details?id=com.glitlab.gliteditor">Get</a>
   </div>
 </div>
 
 ## How pricing works
 
 - **macOS &amp; Windows** — a single one-time purchase unlocks the full app.
-- **iPhone &amp; iPad** — free to start with one work project; a one-time **Glit Pro** purchase adds unlimited projects. Notes, folders, and cloud sync are always free.
+- **iPhone, iPad &amp; Android** — free to start with one work project; a one-time **Glit Pro** purchase adds unlimited projects. Notes, folders, and cloud sync are always free.
 - **No subscription, ever.** Each store handles purchases separately, so a purchase on one platform doesn't carry to another — but your manuscripts are plain files you can open anywhere.
 
 Looking for what's new? See the [Releases](/releases.html) page for per-version notes, or the [Changelog](/CHANGELOG.html) for the full history.

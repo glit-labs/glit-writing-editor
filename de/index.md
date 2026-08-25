@@ -12,9 +12,11 @@ header:
       url: "https://apps.microsoft.com/detail/9n19p02fc7rf"
     - label: "App Store (iOS / iPadOS)"
       url: "https://apps.apple.com/app/glit-web-novel-writing/id6783972543"
+    - label: "Google Play (Android)"
+      url: "https://play.google.com/store/apps/details?id=com.glitlab.gliteditor"
 excerpt: >
   Eine fokussierte Schreib-App, von Grund auf für Web-Novel-Autoren entwickelt,<br>
-  für Mac, Windows, iPhone und iPad.
+  für Mac, Windows, iPhone, iPad und Android.
 ---
 
 <p class="glit-hero" style="text-align: center; margin: 0 0 2.5em;">
@@ -96,7 +98,7 @@ excerpt: >
 
 <div class="cta-band">
   <h2 class="cta-band__title">Auf jeder Plattform verfügbar</h2>
-  <p>Glit bietet ein einheitliches Erlebnis auf macOS, Windows, iPhone und iPad, Android ist in Arbeit. Einmal kaufen – kein Abo, kein Tracking, und deine Dateien gehören immer dir.</p>
+  <p>Glit bietet ein einheitliches Erlebnis auf macOS, Windows, iPhone, iPad und Android. Einmal kaufen – kein Abo, kein Tracking, und deine Dateien gehören immer dir.</p>
   <a class="btn btn--primary btn--large" href="/de/store.html">Store entdecken</a>
   <a class="btn btn--inverse btn--large" href="/de/releases.html">Alle Versionen ansehen</a>
 </div>

@@ -12,9 +12,11 @@ header:
       url: "https://apps.microsoft.com/detail/9n19p02fc7rf"
     - label: "App Store (iOS / iPadOS)"
       url: "https://apps.apple.com/app/glit-web-novel-writing/id6783972543"
+    - label: "Google Play (Android)"
+      url: "https://play.google.com/store/apps/details?id=com.glitlab.gliteditor"
 excerpt: >
   一款专为网络小说作者从零打造的专注写作应用，<br>
-  支持 Mac、Windows、iPhone 和 iPad。
+  支持 Mac、Windows、iPhone、iPad 和 Android。
 ---
 
 <p class="glit-hero" style="text-align: center; margin: 0 0 2.5em;">
@@ -96,7 +98,7 @@ excerpt: >
 
 <div class="cta-band">
   <h2 class="cta-band__title">全平台可用</h2>
-  <p>Glit 在 macOS、Windows、iPhone 和 iPad 上提供一致的体验，Android 版本也在筹备中。一次购买即可——无订阅、无追踪，文件永远属于你。</p>
+  <p>Glit 在 macOS、Windows、iPhone、iPad 和 Android 上提供一致的体验。一次购买即可——无订阅、无追踪，文件永远属于你。</p>
   <a class="btn btn--primary btn--large" href="/zh/store.html">浏览商店</a>
   <a class="btn btn--inverse btn--large" href="/zh/releases.html">查看全部版本</a>
 </div>

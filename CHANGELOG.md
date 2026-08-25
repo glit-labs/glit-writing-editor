@@ -1,5 +1,5 @@
 ---
-description: "A single chronological changelog for Glit: Writing Editor across all platforms — every macOS, Windows, iOS, and iPadOS release in one place."
+description: "A single chronological changelog for Glit: Writing Editor across all platforms — every macOS, Windows, iOS, iPadOS, and Android release in one place."
 ---
 
 # Changelog

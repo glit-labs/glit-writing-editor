@@ -56,4 +56,8 @@ iPhone と iPad に対応したユニバーサルアプリで、[App Store](http
 
 ## Android
 
-**開発中です。** Android 版 Glit はスマートフォンとタブレット向けに開発中で、Google Play で公開され次第、リリースノートをここに掲載します。最初のバージョンに入る機能と現在の進捗は [Android 版 Glit](/releases/android/ja.html) をご覧いただくか、[ストア](/ja/store.html)から macOS、Windows、iPhone、iPad 版の Glit を今すぐ手に入れてください。
+Android 8.0 以降のスマートフォンとタブレットに対応し、[Google Play](https://play.google.com/store/apps/details?id=com.glitlab.gliteditor) で公開されています。Dropbox、OneDrive との直接クラウド同期に対応しています。
+
+| バージョン | リリース日 | 概要 | リリースノート |
+| :--------- | :--------- | :--- | :------------- |
+| **v1.0.4** | 2026-08-25 | 初回リリース | [日本語](/releases/android/v1.0.4/ja.html) / [English](/releases/android/v1.0.4/en.html) / [한국어](/releases/android/v1.0.4/ko.html) / [Español](/releases/android/v1.0.4/es.html) / [Français](/releases/android/v1.0.4/fr.html) / [Deutsch](/releases/android/v1.0.4/de.html) / [Italiano](/releases/android/v1.0.4/it.html) / [简体中文](/releases/android/v1.0.4/zh.html) |

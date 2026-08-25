@@ -1,5 +1,5 @@
 ---
-description: "Glit per macOS, Windows, iPhone e iPad. Nessun abbonamento: paghi una volta e apri i progetti come file normali su qualsiasi dispositivo."
+description: "Glit per macOS, Windows, iPhone, iPad e Android. Nessun abbonamento: paghi una volta e apri i progetti come file normali su qualsiasi dispositivo."
 layout: single
 title: "Store"
 lang: it
@@ -37,20 +37,20 @@ Ottieni Glit sullo store della tua piattaforma. Senza abbonamento: acquisti una 
     <a class="store-card__btn" href="https://apps.apple.com/app/glit-web-novel-writing/id6783972543">Ottieni</a>
   </div>
 
-  <div class="store-card store-card--soon">
+  <div class="store-card">
     <div class="store-card__icon"><i class="fab fa-google-play" aria-hidden="true"></i></div>
     <h3 class="store-card__name">Play Store (Android)</h3>
     <p class="store-card__platform">Android</p>
-    <p class="store-card__desc">In sviluppo per smartphone e tablet. <a href="/releases/android/it.html">Scopri cosa arriverà.</a></p>
-    <p class="store-card__price">Prossimamente</p>
-    <span class="store-card__btn store-card__btn--disabled" aria-disabled="true">Prossimamente</span>
+    <p class="store-card__desc">Per smartphone e tablet, con sincronizzazione cloud diretta. Gratis per iniziare; Glit Pro sblocca progetti illimitati.</p>
+    <p class="store-card__price">Gratis <span class="note">· Glit Pro con acquisto unico</span></p>
+    <a class="store-card__btn" href="https://play.google.com/store/apps/details?id=com.glitlab.gliteditor">Ottieni</a>
   </div>
 </div>
 
 ## Come funzionano i prezzi
 
 - **macOS e Windows** — un singolo acquisto una tantum sblocca l'app completa.
-- **iPhone e iPad** — gratis per iniziare con un progetto di lavoro; un acquisto unico di **Glit Pro** aggiunge progetti illimitati. Note, cartelle e sincronizzazione cloud sono sempre gratuite.
+- **iPhone, iPad e Android** — gratis per iniziare con un progetto di lavoro; un acquisto unico di **Glit Pro** aggiunge progetti illimitati. Note, cartelle e sincronizzazione cloud sono sempre gratuite.
 - **Mai un abbonamento.** Ogni store gestisce gli acquisti separatamente, quindi un acquisto su una piattaforma non si trasferisce a un'altra — ma i tuoi manoscritti sono file normali che puoi aprire ovunque.
 
 Cerchi le novità? Consulta la pagina [Versioni](/it/releases.html) per le note di ciascuna versione, o il [Registro modifiche](/it/CHANGELOG.html) per la cronologia completa.

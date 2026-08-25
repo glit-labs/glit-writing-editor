@@ -47,7 +47,7 @@ Glit のことでお困りですか？ 喜んでお手伝いします。いつ�
   </div>
   <div class="faq__item">
     <p class="faq__q">Glit はどのプラットフォームで使えますか？</p>
-    <p class="faq__a">Glit は macOS、Windows、iPhone、iPad で利用できます。<a href="/releases/android/ja.html">Android は開発中です</a>。リンクは<a href="/ja/store.html">ストア</a>で、すべてのバージョンは<a href="/ja/releases.html">リリース</a>ページでご確認ください。</p>
+    <p class="faq__a">Glit は macOS、Windows、iPhone、iPad、<a href="/releases/android/ja.html">Android</a> で利用できます。リンクは<a href="/ja/store.html">ストア</a>で、すべてのバージョンは<a href="/ja/releases.html">リリース</a>ページでご確認ください。</p>
   </div>
   <div class="faq__item">
     <p class="faq__q">あるプラットフォームで Glit を購入しました。もう一度購入が必要ですか？</p>
