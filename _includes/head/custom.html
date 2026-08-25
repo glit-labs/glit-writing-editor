@@ -318,14 +318,21 @@
   .store-card__desc { color: #6f685f; font-size: 0.92rem; line-height: 1.5; margin: 0 0 1.3rem; }
   .store-card__price { color: #211f1c; font-size: 1.1rem; font-weight: 600; margin: 0 0 1.3rem; }
   .store-card__price .note { color: #8a8378; font-weight: 400; font-size: 0.85rem; }
-  .store-card__btn {
+  /* The :visited variants are load-bearing. The theme's `a:visited` is #c96a45
+     — the same terracotta as this button's background — and it outranks a bare
+     `.store-card__btn` on specificity, so a store the reader has already opened
+     would paint its label invisible. The theme's own .btn--* classes each ship
+     a :visited variant for exactly this reason. */
+  .store-card__btn,
+  .store-card__btn:visited {
     align-self: flex-start; margin-top: auto; display: inline-block;
     background: #c96a45; color: #fff; text-decoration: none;
     font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; font-size: 0.8rem;
     padding: 0.7rem 1.5rem; border-radius: 5px;
   }
   .store-card__btn:hover { background: #a9522f; color: #fff; }
-  .store-card__btn--disabled { background: #d8d1c4; color: #fff; pointer-events: none; }
+  .store-card__btn--disabled,
+  .store-card__btn--disabled:visited { background: #d8d1c4; color: #fff; pointer-events: none; }
   @media (max-width: 600px) { .store-grid { grid-template-columns: 1fr; } }
 
   /* ===== Landing page (home) ===== */
