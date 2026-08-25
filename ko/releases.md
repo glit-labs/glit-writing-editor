@@ -1,10 +1,11 @@
 ---
-description: "플랫폼별로 정리한 Glit의 모든 버전 릴리스 노트입니다. macOS, Windows, iOS, iPadOS. 웹소설 집필 앱의 새로운 소식을 확인하세요."
+description: "플랫폼별로 정리한 Glit의 모든 버전 릴리스 노트입니다. macOS, Windows, iOS, iPadOS, Android. 웹소설 집필 앱의 새로운 소식을 확인하세요."
 layout: single
 title: "릴리스"
 lang: ko
 locale: "ko-KR"
 toc: false
+classes: release-tables
 ---
 
 플랫폼별 Glit 전체 버전의 릴리스 노트입니다. 각 항목은 해당 버전에 제공되는 언어의 상세 노트로 연결됩니다. 모든 플랫폼을 아우르는 시간순 보기는 [변경 이력](/ko/CHANGELOG.html)을 참고하세요.

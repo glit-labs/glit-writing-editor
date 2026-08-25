@@ -1,10 +1,11 @@
 ---
-description: "按平台整理的 Glit 各版本发行说明 — macOS、Windows、iOS 和 iPadOS。了解这款网络小说写作应用的最新变化。"
+description: "按平台整理的 Glit 各版本发行说明 — macOS、Windows、iOS、iPadOS 和 Android。了解这款网络小说写作应用的最新变化。"
 layout: single
 title: "版本发布"
 lang: zh
 locale: "zh-CN"
 toc: false
+classes: release-tables
 ---
 
 Glit 各版本的发布说明，按平台整理。每个条目都链接到该版本可用语言的完整说明。如需跨所有平台的单一时间线视图，请查看[更新日志](/zh/CHANGELOG.html)。

@@ -1,10 +1,11 @@
 ---
-description: "プラットフォーム別に整理した Glit の全バージョンのリリースノート。macOS、Windows、iOS、iPadOS。ウェブ小説執筆アプリの最新情報をご覧ください。"
+description: "プラットフォーム別に整理した Glit の全バージョンのリリースノート。macOS、Windows、iOS、iPadOS、Android。ウェブ小説執筆アプリの最新情報をご覧ください。"
 layout: single
 title: "リリース"
 lang: ja
 locale: "ja-JP"
 toc: false
+classes: release-tables
 ---
 
 Glit の全バージョンのリリースノートを、プラットフォームごとにまとめています。各項目は、そのバージョンで利用可能な言語の詳細ノートにリンクしています。全プラットフォームを時系列で見るには、[変更履歴](/ja/CHANGELOG.html)をご覧ください。

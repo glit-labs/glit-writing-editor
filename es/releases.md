@@ -1,10 +1,11 @@
 ---
-description: "Notas de cada versión de Glit por plataforma: macOS, Windows, iOS e iPadOS. Descubre las novedades de la app de escritura."
+description: "Notas de cada versión de Glit por plataforma: macOS, Windows, iOS, iPadOS y Android. Descubre las novedades de la app de escritura."
 layout: single
 title: "Versiones"
 lang: es
 locale: "es-ES"
 toc: false
+classes: release-tables
 ---
 
 Notas de cada versión de Glit, organizadas por plataforma. Cada entrada enlaza con las notas completas en los idiomas disponibles para esa versión. Para una vista cronológica única de todas las plataformas, consulta el [Registro de cambios](/es/CHANGELOG.html).

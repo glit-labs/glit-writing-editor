@@ -199,6 +199,19 @@
   .page__content table { display: table; width: 100%; margin: 1.2rem 0 2rem; }
   .page__content th { background: #efe9de; }
 
+  /* Releases page only (`classes: release-tables`): put every platform table on
+     one shared column grid. Auto layout sizes each table from its own content,
+     so a platform with a single short Highlights cell — Android's "Initial
+     release" — lands its columns out of line with the longer tables above it.
+     Left off below 64em, where the tables are cramped and each needs the room
+     its own content asks for. */
+  @media (min-width: 64em) {
+    .release-tables .page__content table { table-layout: fixed; }
+    .release-tables .page__content th:nth-child(1) { width: 9%; }
+    .release-tables .page__content th:nth-child(2) { width: 14%; }
+    .release-tables .page__content th:nth-child(3) { width: 18%; }
+  }
+
   /* Hide the theme's auto-injected heading anchor ("Permalink") links. The
      heading `id`s remain, so in-page anchors still work. */
   .header-link { display: none; }

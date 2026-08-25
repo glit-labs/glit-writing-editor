@@ -1,10 +1,11 @@
 ---
-description: "Versionshinweise zu Glit nach Plattform: macOS, Windows, iOS und iPadOS. Sieh, was in der Schreib-App für Webromane neu ist."
+description: "Versionshinweise zu Glit nach Plattform: macOS, Windows, iOS, iPadOS und Android. Sieh, was in der Schreib-App für Webromane neu ist."
 layout: single
 title: "Versionen"
 lang: de
 locale: "de-DE"
 toc: false
+classes: release-tables
 ---
 
 Versionshinweise zu jeder Version von Glit, nach Plattform geordnet. Jeder Eintrag verlinkt die vollständigen Hinweise in den für die jeweilige Version verfügbaren Sprachen. Eine einzige chronologische Ansicht über alle Plattformen findest du im [Änderungsprotokoll](/de/CHANGELOG.html).

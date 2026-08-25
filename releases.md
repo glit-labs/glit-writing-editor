@@ -1,9 +1,10 @@
 ---
-description: "Release notes for every version of Glit, organized by platform — macOS, Windows, iOS, and iPadOS. See what's new in the web novel writing app."
+description: "Release notes for every version of Glit, organized by platform — macOS, Windows, iOS, iPadOS, and Android. See what's new in the web novel writing app."
 layout: single
 title: "Releases"
 lang: en
 toc: false
+classes: release-tables
 ---
 
 Release notes for every version of Glit, organized by platform. Each entry links to the full notes in the languages available for that version. For a single chronological view across all platforms, see the [Changelog](/CHANGELOG.html).
