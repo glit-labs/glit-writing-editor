@@ -7,7 +7,7 @@ locale: "zh-CN"
 toc: false
 ---
 
-最后更新：2026-08-23
+最后更新：2026-10-04
 
 Glit：写作编辑器（“Glit”“我们”）是一款面向网络小说创作者的写作应用。本政策说明在应用的所有版本（macOS、Windows、iPhone、iPad 和 Android）以及本网站中如何处理你的数据。
 
@@ -72,6 +72,17 @@ Glit 对从 Google API 接收的信息的使用和向任何其他应用的传输
 - **拒绝方式：** 任何内容拦截或反追踪工具都能阻止该信标运行，网站功能不受任何影响。
 
 Cloudflare 对这些数据的处理方式：<https://www.cloudflare.com/privacypolicy/>
+
+## 网站中的 YouTube 视频
+本节仅适用于本网站。
+
+指南页面等部分页面会展示发布在 YouTube 上的视频。只有在你点击播放按钮后，视频才会加载。
+
+- **播放前：** 页面只显示存放在本网站上的预览图片，不会向 YouTube 或 Google 发送任何信息。
+- **播放后：** 视频以 YouTube 的隐私增强模式（youtube-nocookie.com）加载。此后，与观看其他 YouTube 视频一样，Google 会收到你的 IP 地址以及浏览器和设备信息，并可能在你的设备上存储数据。
+- **拒绝方式：** 不点击播放按钮即可。不观看视频也不影响页面其他内容的使用。
+
+Google 对这些数据的处理方式：<https://policies.google.com/privacy>
 
 ## 你的权利
 在我们处理个人数据的范围内，你可以要求访问、更正、删除或限制处理，也可以对处理提出异议。请联系 [kr.johng@gmail.com](mailto:kr.johng@gmail.com)。

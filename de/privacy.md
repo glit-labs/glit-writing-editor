@@ -7,7 +7,7 @@ locale: "de-DE"
 toc: false
 ---
 
-Zuletzt aktualisiert: 2026-08-23
+Zuletzt aktualisiert: 2026-10-04
 
 Glit: Schreib-Editor („Glit“, „wir“) ist eine Schreib-App für Web-Novel-Autoren. Diese Erklärung beschreibt, wie deine Daten in allen Versionen der App (macOS, Windows, iPhone, iPad und Android) und auf dieser Website verarbeitet werden.
 
@@ -73,6 +73,18 @@ Wir nutzen Cloudflare Web Analytics, um zu sehen, wie viele Menschen glit.app be
 - **Widerspruch:** Jeder Inhalts- oder Tracking-Blocker verhindert das Beacon; die Website funktioniert dann unverändert.
 
 Wie Cloudflare diese Daten behandelt: <https://www.cloudflare.com/privacypolicy/>
+
+## YouTube-Videos
+Dieser Abschnitt betrifft nur diese Website.
+
+Einige Seiten, etwa die Anleitungsseite, zeigen Videos, die auf YouTube veröffentlicht sind. Ein Video wird erst geladen, wenn du auf Abspielen drückst:
+
+- **Vor dem Abspielen:** Die Seite zeigt nur ein Vorschaubild, das auf dieser Website gespeichert ist. Es werden keine Daten an YouTube oder Google übertragen.
+- **Nach dem Abspielen:** Das Video wird im erweiterten Datenschutzmodus von YouTube (youtube-nocookie.com) geladen. Ab dann erhält Google wie bei jedem YouTube-Video deine IP-Adresse sowie Angaben zu Browser und Gerät und kann Daten auf deinem Gerät speichern.
+- **Rechtsgrundlage:** deine Einwilligung durch das Drücken auf Abspielen, Art. 6 Abs. 1 lit. a DSGVO. Google kann die Daten in den USA verarbeiten.
+- **Widerspruch:** Drücke einfach nicht auf Abspielen. Der Rest der Seite funktioniert genauso.
+
+Wie Google diese Daten verarbeitet: <https://policies.google.com/privacy>
 
 ## Deine Rechte
 Soweit wir personenbezogene Daten verarbeiten, kannst du Auskunft, Berichtigung, Löschung oder Einschränkung verlangen und der Verarbeitung widersprechen. Schreib uns an [kr.johng@gmail.com](mailto:kr.johng@gmail.com). Du kannst dich außerdem bei einer Datenschutz-Aufsichtsbehörde beschweren.

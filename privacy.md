@@ -6,7 +6,7 @@ lang: en
 toc: false
 ---
 
-Last updated: 2026-08-23
+Last updated: 2026-10-04
 
 Glit: Writing Editor ("Glit", "we") is a writing app for web novel creators. This policy explains how your data is handled in all versions of the app (macOS, Windows, iPhone, iPad, and Android) and on this website.
 
@@ -72,6 +72,18 @@ We use Cloudflare Web Analytics to see how many people visit glit.app, which pag
 - **Opting out:** any content or tracker blocker stops the beacon, and the site works exactly the same without it.
 
 Cloudflare's own handling of this data: <https://www.cloudflare.com/privacypolicy/>
+
+## YouTube videos
+This section covers this website only.
+
+Some pages, such as the guide page, show videos hosted on YouTube. A video loads only when you press play:
+
+- **Before you press play:** the page shows a preview image stored on this site. Nothing is sent to YouTube or Google.
+- **After you press play:** the video loads in YouTube's privacy-enhanced mode (youtube-nocookie.com). From then on Google receives your IP address and information about your browser and device, and may store data on your device, as with any YouTube video.
+- **Legal basis (GDPR):** your consent, given by pressing play, Art. 6(1)(a). Google may process the data in the United States.
+- **Opting out:** simply don't press play. The rest of the page works exactly the same.
+
+Google's own handling of this data: <https://policies.google.com/privacy>
 
 ## Your rights
 Where we process personal data, you may request access to it, correction, erasure or restriction, and you may object to the processing. Write to [kr.johng@gmail.com](mailto:kr.johng@gmail.com). You may also lodge a complaint with your national data protection authority.

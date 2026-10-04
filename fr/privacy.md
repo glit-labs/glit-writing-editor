@@ -7,7 +7,7 @@ locale: "fr-FR"
 toc: false
 ---
 
-Dernière mise à jour : 2026-08-23
+Dernière mise à jour : 2026-10-04
 
 Glit : éditeur d'écriture (« Glit », « nous ») est une application d'écriture pour les auteurs de romans en ligne. Cette politique explique comment vos données sont traitées dans toutes les versions de l'application (macOS, Windows, iPhone, iPad et Android) et sur ce site.
 
@@ -73,6 +73,18 @@ Nous utilisons Cloudflare Web Analytics pour savoir combien de personnes visiten
 - **Opposition :** tout bloqueur de contenu ou de traceurs empêche le fonctionnement de la balise, et le site fonctionne exactement de la même manière.
 
 Le traitement de ces données par Cloudflare : <https://www.cloudflare.com/privacypolicy/>
+
+## Vidéos YouTube
+Cette section ne concerne que ce site.
+
+Certaines pages, comme la page des guides, affichent des vidéos publiées sur YouTube. Une vidéo ne se charge que lorsque vous appuyez sur lecture :
+
+- **Avant la lecture :** la page n'affiche qu'une image d'aperçu hébergée sur ce site. Rien n'est envoyé à YouTube ni à Google.
+- **Après la lecture :** la vidéo se charge dans le mode de confidentialité renforcée de YouTube (youtube-nocookie.com). Dès lors, comme pour toute vidéo YouTube, Google reçoit votre adresse IP et des informations sur votre navigateur et votre appareil, et peut enregistrer des données sur votre appareil.
+- **Base légale :** votre consentement, donné en appuyant sur lecture, art. 6, §1, a) du RGPD. Google peut traiter les données aux États-Unis.
+- **Pour refuser :** il suffit de ne pas appuyer sur lecture. Le reste de la page fonctionne exactement de la même façon.
+
+Traitement de ces données par Google : <https://policies.google.com/privacy>
 
 ## Vos droits
 Lorsque nous traitons des données personnelles, vous pouvez en demander l'accès, la rectification, l'effacement ou la limitation, et vous opposer au traitement. Écrivez-nous à [kr.johng@gmail.com](mailto:kr.johng@gmail.com). Vous pouvez également introduire une réclamation auprès de la CNIL.

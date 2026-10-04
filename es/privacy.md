@@ -7,7 +7,7 @@ locale: "es-ES"
 toc: false
 ---
 
-Última actualización: 2026-08-23
+Última actualización: 2026-10-04
 
 Glit: editor de escritura («Glit», «nosotros») es una app de escritura para creadores de novelas web. Esta política explica cómo se tratan tus datos en todas las versiones de la app (macOS, Windows, iPhone, iPad y Android) y en este sitio web.
 
@@ -73,6 +73,18 @@ Usamos Cloudflare Web Analytics para saber cuántas personas visitan glit.app, q
 - **Oposición:** cualquier bloqueador de contenido o de rastreadores impide que se ejecute la baliza, y el sitio funciona exactamente igual.
 
 Cómo trata Cloudflare estos datos: <https://www.cloudflare.com/privacypolicy/>
+
+## Vídeos de YouTube
+Esta sección se refiere solo a este sitio web.
+
+Algunas páginas, como la de guías, muestran vídeos publicados en YouTube. Un vídeo solo se carga cuando pulsas el botón de reproducción:
+
+- **Antes de reproducir:** la página muestra solo una imagen de vista previa guardada en este sitio. No se envía nada a YouTube ni a Google.
+- **Después de reproducir:** el vídeo se carga en el modo de privacidad mejorada de YouTube (youtube-nocookie.com). A partir de ese momento, como con cualquier vídeo de YouTube, Google recibe tu dirección IP e información sobre tu navegador y dispositivo, y puede guardar datos en tu dispositivo.
+- **Base jurídica:** tu consentimiento, dado al pulsar el botón de reproducción, art. 6.1.a del RGPD. Google puede tratar los datos en Estados Unidos.
+- **Cómo evitarlo:** basta con no pulsar el botón de reproducción. El resto de la página funciona exactamente igual.
+
+Cómo trata Google estos datos: <https://policies.google.com/privacy>
 
 ## Tus derechos
 Cuando tratamos datos personales, puedes solicitar el acceso, la rectificación, la supresión o la limitación, y oponerte al tratamiento. Escríbenos a [kr.johng@gmail.com](mailto:kr.johng@gmail.com). También puedes presentar una reclamación ante la Agencia Española de Protección de Datos.

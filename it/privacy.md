@@ -7,7 +7,7 @@ locale: "it-IT"
 toc: false
 ---
 
-Ultimo aggiornamento: 2026-08-23
+Ultimo aggiornamento: 2026-10-04
 
 Glit: editor di scrittura («Glit», «noi») è un'app di scrittura per autori di web novel. Questa informativa spiega come vengono trattati i tuoi dati in tutte le versioni dell'app (macOS, Windows, iPhone, iPad e Android) e su questo sito.
 
@@ -73,6 +73,18 @@ Utilizziamo Cloudflare Web Analytics per sapere quante persone visitano glit.app
 - **Opposizione:** qualsiasi blocco dei contenuti o dei tracciatori impedisce l'esecuzione del beacon e il sito continua a funzionare allo stesso modo.
 
 Il trattamento di questi dati da parte di Cloudflare: <https://www.cloudflare.com/privacypolicy/>
+
+## Video di YouTube
+Questa sezione riguarda solo questo sito.
+
+Alcune pagine, come quella delle guide, mostrano video pubblicati su YouTube. Un video si carica solo quando premi il pulsante di riproduzione:
+
+- **Prima della riproduzione:** la pagina mostra solo un'immagine di anteprima salvata su questo sito. Non viene inviato nulla a YouTube né a Google.
+- **Dopo la riproduzione:** il video si carica nella modalità di privacy avanzata di YouTube (youtube-nocookie.com). Da quel momento, come per qualsiasi video di YouTube, Google riceve il tuo indirizzo IP e informazioni sul browser e sul dispositivo, e può salvare dati sul tuo dispositivo.
+- **Base giuridica:** il tuo consenso, espresso premendo il pulsante di riproduzione, art. 6, par. 1, lett. a) del Regolamento (UE) 2016/679. Google può trattare i dati negli Stati Uniti.
+- **Come evitarlo:** basta non premere il pulsante di riproduzione. Il resto della pagina funziona esattamente allo stesso modo.
+
+Come Google tratta questi dati: <https://policies.google.com/privacy>
 
 ## I tuoi diritti
 Nella misura in cui trattiamo dati personali, puoi chiederne l'accesso, la rettifica, la cancellazione o la limitazione e puoi opporti al trattamento. Scrivi a [kr.johng@gmail.com](mailto:kr.johng@gmail.com). Puoi inoltre proporre reclamo al Garante per la protezione dei dati personali.
