@@ -7,20 +7,23 @@ lang: ko
 locale: "ko-KR"
 toc: false
 guide: true
+classes: guide-article
 order: 1
 summary: "닥터 셜록 샘플 zip을 다운로드하고 압축을 풀어 Glit에서 폴더로 불러오는 방법을 안내합니다. 1분이면 샘플 웹소설을 열어볼 수 있어요."
 ---
 
-<p class="guide-back"><a href="/ko/guide.html">← 가이드 목록</a></p>
-
-이 가이드는 **닥터 셜록** 샘플 zip을 다운로드 → 압축 해제 → Glit에서 폴더로 불러오는 방법을 안내합니다. 1분이면 샘플 웹소설을 열어볼 수 있어요.
-
-<nav class="section-nav" aria-label="가이드 바로가기">
-  <a href="#step-1-샘플-파일-다운로드--압축-풀기">STEP 1. 다운로드</a>
-  <a href="#step-2-샘플-작품-열기불러오기">STEP 2. 불러오기</a>
-  <a href="#선택-001화-편집해-보기">001화 편집</a>
-  <a href="#glit-앱-구매-링크">구매 링크</a>
-</nav>
+<header class="guide-hero">
+  <p class="guide-back"><a href="/ko/guide.html">← 가이드 목록</a></p>
+  <span class="guide-hero__eyebrow">글 가이드</span>
+  <h1 class="guide-hero__title">{{ page.title }}</h1>
+  <p class="guide-hero__lead">이 가이드는 <strong>닥터 셜록</strong> 샘플 zip을 다운로드 → 압축 해제 → Glit에서 폴더로 불러오는 방법을 안내합니다. 1분이면 샘플 웹소설을 열어볼 수 있어요.</p>
+  <nav class="section-nav" aria-label="가이드 바로가기">
+    <a href="#step-1-샘플-파일-다운로드--압축-풀기">STEP 1. 다운로드</a>
+    <a href="#step-2-샘플-작품-열기불러오기">STEP 2. 불러오기</a>
+    <a href="#선택-001화-편집해-보기">001화 편집</a>
+    <a href="#glit-앱-구매-링크">구매 링크</a>
+  </nav>
+</header>
 
 ## STEP 1. 샘플 파일 다운로드 / 압축 풀기
 

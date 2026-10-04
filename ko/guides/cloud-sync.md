@@ -13,21 +13,24 @@ lang: ko
 locale: "ko-KR"
 toc: false
 guide: true
+classes: guide-article
 order: 2
 summary: "Google Drive를 이용해 Mac용 Glit과 아이폰·아이패드용 Glit을 연동하고, 집필 중인 원고를 모바일에서 확인하는 방법을 안내합니다."
 ---
 
-<p class="guide-back"><a href="/ko/guide.html">← 가이드 목록</a></p>
-
-이 가이드는 **Google Drive**를 이용해 Mac용 Glit과 아이폰·아이패드용 Glit을 연동하는 방법을 안내합니다. 작품 프로젝트 폴더를 Google Drive 안에 두면, Mac에서 집필한 원고를 이동 중에도 모바일에서 그대로 확인할 수 있어요.
-
-<nav class="section-nav" aria-label="가이드 바로가기">
-  <a href="#준비물">준비물</a>
-  <a href="#step-1-mac-에서-준비하기">STEP 1. Mac 준비</a>
-  <a href="#step-2-아이폰아이패드에서-연결하기">STEP 2. 모바일 연결</a>
-  <a href="#step-3-원고-확인하기">STEP 3. 원고 확인</a>
-  <a href="#알아두면-좋아요">알아두면 좋아요</a>
-</nav>
+<header class="guide-hero">
+  <p class="guide-back"><a href="/ko/guide.html">← 가이드 목록</a></p>
+  <span class="guide-hero__eyebrow">글 가이드</span>
+  <h1 class="guide-hero__title">{{ page.title }}</h1>
+  <p class="guide-hero__lead">이 가이드는 <strong>Google Drive</strong>를 이용해 Mac용 Glit과 아이폰·아이패드용 Glit을 연동하는 방법을 안내합니다. 작품 프로젝트 폴더를 Google Drive 안에 두면, Mac에서 집필한 원고를 이동 중에도 모바일에서 그대로 확인할 수 있어요.</p>
+  <nav class="section-nav" aria-label="가이드 바로가기">
+    <a href="#준비물">준비물</a>
+    <a href="#step-1-mac-에서-준비하기">STEP 1. Mac 준비</a>
+    <a href="#step-2-아이폰아이패드에서-연결하기">STEP 2. 모바일 연결</a>
+    <a href="#step-3-원고-확인하기">STEP 3. 원고 확인</a>
+    <a href="#알아두면-좋아요">알아두면 좋아요</a>
+  </nav>
+</header>
 
 ## 준비물
 

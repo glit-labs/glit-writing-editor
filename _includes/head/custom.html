@@ -240,6 +240,181 @@
   .guide-card__desc { margin: 0 0 0.9rem; color: #6f685f; font-size: 0.98rem; line-height: 1.6; }
   .guide-card__more { display: inline-block; color: #c96a45; font-weight: 700; font-size: 0.9rem; letter-spacing: 0.02em; }
 
+  /* ===== Video guides (click-to-play YouTube, _includes/video-embed.html) =====
+     Laid out like the home page's feature rows: no boxes, text on the left and
+     the video on the right, every video column the same width so the rows keep
+     one rhythm. Steps carry a terracotta Playfair numeral (as in the guide
+     walkthroughs) and are separated by a hairline. */
+  .page__content a.video-embed,
+  .video-embed {
+    position: relative; display: block; overflow: hidden;
+    aspect-ratio: 16 / 9; border-radius: 10px; background: #2f2b28;
+    box-shadow: 0 10px 30px rgba(33, 31, 28, 0.10), 0 1px 3px rgba(33, 31, 28, 0.08);
+    text-decoration: none;
+  }
+  .video-embed img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease; }
+  .video-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  /* Play control as a pill in the lower-left corner, so it never covers the
+     title the posters carry in their centre. */
+  .video-embed__play {
+    position: absolute; left: 0.9rem; bottom: 0.9rem;
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    padding: 0.5rem 0.95rem 0.5rem 0.8rem; border-radius: 999px;
+    background: #c96a45; color: #fff; font-size: 0.85rem; font-weight: 700; line-height: 1; letter-spacing: 0.02em;
+    box-shadow: 0 4px 14px rgba(33, 31, 28, 0.25);
+    transition: background-color 0.15s ease;
+  }
+  .video-embed__play::before {
+    content: ""; flex: none;
+    border-left: 0.62rem solid #fff; border-top: 0.38rem solid transparent; border-bottom: 0.38rem solid transparent;
+  }
+  /* Fullscreen pill: same shape in the lower-right corner, in a quieter dark
+     so the terracotta play pill stays the primary action. Hidden until the
+     page script confirms the browser supports element fullscreen. */
+  .video-embed__fs {
+    position: absolute; right: 0.9rem; bottom: 0.9rem;
+    display: none; align-items: center; gap: 0.45rem;
+    padding: 0.5rem 0.9rem; border-radius: 999px;
+    background: rgba(33, 31, 28, 0.72); color: #fff; font-size: 0.85rem; font-weight: 700; line-height: 1; letter-spacing: 0.02em;
+    box-shadow: 0 4px 14px rgba(33, 31, 28, 0.25);
+    transition: background-color 0.15s ease;
+  }
+  .has-fullscreen .video-embed__fs { display: inline-flex; }
+  .video-embed__fs:hover { background: #c96a45; }
+  .video-embed:hover img { transform: scale(1.02); }
+  .video-embed:hover .video-embed__play { background: #a9522f; }
+  .page__content a.video-embed:focus-visible { outline: 3px solid #c96a45; outline-offset: 3px; }
+
+  .video-row { display: grid; gap: 1.3rem; padding: 2rem 0; }
+  /* Break Korean lines between words, not mid-word. */
+  .video-row__text, .page__content p.video-group__lead { word-break: keep-all; overflow-wrap: break-word; }
+  @media (min-width: 48em) {
+    .video-row { grid-template-columns: minmax(0, 1fr) minmax(0, 1.8fr); gap: 2.75rem; align-items: center; }
+  }
+  .video-row--feature { padding-top: 1.2rem; }
+  .video-steps .video-row { border-top: 1px solid #e7e1d6; }
+  .video-row__step { display: block; font-family: "Playfair Display", Georgia, serif; font-size: 2.6rem; font-weight: 500; line-height: 1; color: #c96a45; margin: 0 0 0.75rem; }
+  .video-row__eyebrow { display: inline-block; font-size: 0.76rem; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; color: #c96a45; margin: 0 0 0.55rem; }
+  .page__content .video-row__title { font-family: "Playfair Display", Georgia, serif; font-weight: 600; font-size: 1.5rem; line-height: 1.25; margin: 0 0 0.6rem; color: #211f1c; }
+  .page__content .video-row--feature .video-row__title { font-size: 1.75rem; }
+  .page__content p.video-row__desc { margin: 0; color: #4a453e; font-size: 1rem; line-height: 1.65; }
+  /* A Short: the link itself is a 16:9 box the size of the other videos, so
+     the whole box takes the hover and the click, and the play pill sits in the
+     same lower-left corner. The 9:16 poster — and, once playing, the 9:16
+     player — is centred inside it. On phones the box shrinks to the Short. */
+  .page__content a.video-embed--vertical,
+  .video-embed--vertical { background: #ebe5da; }
+  .video-embed--vertical img,
+  .video-embed--vertical iframe {
+    position: absolute; inset: auto; top: 1.1rem; left: 50%;
+    height: calc(100% - 2.2rem); width: auto; aspect-ratio: 9 / 16;
+    transform: translateX(-50%); border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(33, 31, 28, 0.14);
+  }
+  .video-embed--vertical:hover img { transform: translateX(-50%) scale(1.02); }
+  @media (max-width: 47.99em) {
+    .page__content a.video-embed--vertical,
+    .video-embed--vertical { aspect-ratio: auto; padding: 1.1rem; }
+    .video-embed--vertical img,
+    .video-embed--vertical iframe { position: relative; top: auto; left: auto; transform: none; width: 100%; max-width: 260px; height: auto; margin: 0 auto; }
+    .video-embed--vertical:hover img { transform: scale(1.02); }
+  }
+  /* "YouTube에서 보기" link — same weight and colour as the guide cards' "가이드 보기 →".
+     :visited is spelled out because the theme's visited colour would otherwise win. */
+  .page__content a.video-card__yt,
+  .page__content a.video-card__yt:visited {
+    display: inline-flex; align-items: center; gap: 0.4em; margin-top: 1rem;
+    color: #c96a45; font-weight: 700; font-size: 0.9rem; letter-spacing: 0.02em; text-decoration: none;
+  }
+  .page__content a.video-card__yt:hover { color: #a9522f; text-decoration: none; }
+  .video-card__yt .fa-youtube { font-size: 1.1em; }
+  .page__content h3.video-group__title { font-family: "Playfair Display", Georgia, serif; font-size: 1.4rem; margin: 2.4rem 0 0.4rem; }
+  .page__content p.video-group__lead { margin: 0 0 0.6rem; color: #6f685f; font-size: 0.98rem; line-height: 1.6; }
+  .page__content p.video-note { margin: 0.4rem 0 0; color: #8a8378; font-size: 0.88rem; }
+
+  /* Text guides on the guide index, set apart from the video guides above as an
+     inverted band — the same warm dark and radius as the home page's closing
+     CTA band. Cards sit one step lighter than the band. The link uses a lighter
+     terracotta: #c96a45 on this dark falls short of comfortable contrast at
+     small sizes. */
+  /* Full-bleed: the spread shadow paints the band out to both edges of the
+     window and clip-path trims it back to the band's own height, so the
+     content stays on the page column and the layout gains no width (no
+     horizontal scroll, unlike a 100vw box). */
+  .guide-band {
+    background: #2f2b28; box-shadow: 0 0 0 100vmax #2f2b28; clip-path: inset(0 -100vmax);
+    padding: 3rem 0 3.2rem; margin: 3.4rem 0 0; word-break: keep-all;
+  }
+  .page__content h2.guide-band__title { color: #fff; border-bottom: 0; padding-bottom: 0; margin: 0 0 0.4rem; font-size: 1.6rem; }
+  .page__content p.guide-band__lead { color: #bfb7aa; margin: 0 0 1.6rem; font-size: 0.98rem; line-height: 1.6; }
+  .guide-band .guide-list { margin: 0; }
+  .page__content .guide-band a.guide-card { background: #3a3532; border-color: #4a443e; }
+  .page__content .guide-band a.guide-card:hover { border-color: #e58a62; box-shadow: 0 8px 22px rgba(0, 0, 0, 0.3); }
+  .guide-band .guide-card__title { color: #f4f1ea; }
+  .guide-band .guide-card__desc { color: #bfb7aa; }
+  .guide-band .guide-card__more { color: #e58a62; }
+  @media (max-width: 600px) { .guide-band { padding: 2.2rem 0 2.4rem; } }
+  /* The band closes the guide index (`classes: guide-index`), so let it run
+     straight into the footer: drop the empty page meta (margin-top 2em) and
+     the footer's own margin-top (3em) that would leave a cream strip between. */
+  .guide-index .page__meta { display: none; }
+  .guide-index .page__footer { margin-top: 0; }
+  /* Guide index table of contents: every video and every text guide, in two
+     groups side by side (stacked on phones), each a cream hairline card like
+     the guide cards. A click scrolls to that item — smoothly on this page
+     only, and not for visitors who asked for reduced motion; the targets keep
+     a little air above them. */
+  .guide-toc { display: grid; gap: 1rem; margin: 1.4rem 0 0.6rem; word-break: keep-all; }
+  @media (min-width: 48em) { .guide-toc { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 1.25rem; } }
+  .guide-toc__group { background: #fbf9f5; border: 1px solid #e7e1d6; border-radius: 10px; padding: 1.1rem 1.35rem 0.6rem; }
+  .page__content a.guide-toc__head,
+  .page__content a.guide-toc__head:visited {
+    display: inline-block; margin: 0 0 0.35rem; text-decoration: none;
+    font-size: 0.76rem; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; color: #c96a45;
+  }
+  .page__content a.guide-toc__head:hover { color: #a9522f; }
+  .guide-toc__count { margin-left: 0.25em; color: #8a8378; }
+  .page__content ul.guide-toc__list { list-style: none; margin: 0; padding: 0; }
+  .page__content ul.guide-toc__list li { margin: 0; border-top: 1px solid #e7e1d6; }
+  .page__content ul.guide-toc__list li:first-child { border-top: 0; }
+  .page__content .guide-toc__list a,
+  .page__content .guide-toc__list a:visited {
+    display: flex; align-items: baseline; gap: 0.6rem; padding: 0.62rem 0;
+    color: #211f1c; font-size: 0.96rem; line-height: 1.45; text-decoration: none;
+  }
+  .page__content .guide-toc__list a:hover { color: #a9522f; }
+  .guide-toc__list i { flex: none; color: #c96a45; font-size: 0.9em; }
+  .guide-toc__label { flex: 1 1 auto; min-width: 0; }
+  .guide-toc__meta { flex: none; color: #8a8378; font-size: 0.85rem; font-variant-numeric: tabular-nums; }
+  @media (prefers-reduced-motion: no-preference) { html:has(body.guide-index) { scroll-behavior: smooth; } }
+  .guide-index #video-guides, .guide-index .video-row[id] { scroll-margin-top: 1.5rem; }
+  .guide-index #text-guides { scroll-margin-top: 4.5rem; }
+  .guide-index .guide-card[id] { scroll-margin-top: 2rem; }
+
+  /* ===== Text guide pages (`classes: guide-article`) =====
+     A full-bleed dark header band carries the back link, title, lead and step
+     links, in the same warm dark as the text-guide band on the guide index, so
+     clicking a guide reads as stepping into that band. The body below stays
+     cream, so the light app screenshots do not glare. The band's paint runs up
+     under the masthead (z-index 20) so it meets it with no seam, and the
+     theme's own title header is hidden since the band carries the h1. */
+  .guide-article .page__inner-wrap > header { display: none; }
+  .guide-hero {
+    background: #2f2b28; box-shadow: 0 0 0 100vmax #2f2b28; clip-path: inset(-100vmax -100vmax 0 -100vmax);
+    padding: 0.2rem 0 2.4rem; margin: 0 0 2.6rem; color: #d9d2c7; word-break: keep-all;
+  }
+  .guide-hero .guide-back { margin: 0 0 1.6rem; }
+  .guide-hero .guide-back a, .guide-hero .guide-back a:visited { color: #e58a62; }
+  .guide-hero .guide-back a:hover { color: #f2a582; }
+  .guide-hero__eyebrow { display: block; font-size: 0.76rem; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; color: #e58a62; margin: 0 0 0.5rem; }
+  .page__content h1.guide-hero__title { font-family: "Playfair Display", Georgia, serif; font-weight: 500; font-size: 2.1rem; line-height: 1.25; color: #fff; margin: 0 0 0.9rem; }
+  .page__content p.guide-hero__lead { color: #cfc7ba; font-size: 1.02rem; line-height: 1.65; margin: 0 0 1.5rem; max-width: 46rem; }
+  .guide-hero__lead strong { color: #fff; }
+  .guide-hero .section-nav { margin: 0; }
+  .guide-hero .section-nav a, .guide-hero .section-nav a:visited { background: #3a3532; border-color: #4a443e; color: #f4f1ea; }
+  .guide-hero .section-nav a:hover { background: #c96a45; border-color: #c96a45; color: #fff; }
+  @media (max-width: 600px) { .page__content h1.guide-hero__title { font-size: 1.6rem; } }
+
   /* "← 가이드 목록" back link on individual guide pages. */
   .guide-back { margin: 0 0 1.5rem; }
   .guide-back a { font-weight: 600; font-size: 0.92rem; }

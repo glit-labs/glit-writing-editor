@@ -1,0 +1,27 @@
+{%- comment -%}
+  Click-to-play YouTube player. Until the visitor presses play, the page shows
+  only a self-hosted poster and makes no request to YouTube or Google — the same
+  reason the webfonts are self-hosted (see head/custom.html). The click swaps
+  in a youtube-nocookie.com iframe; the script for that lives on the page that
+  includes this (ko/guide.md). Without JavaScript the link simply opens the
+  video on YouTube.
+
+  Params: id (YouTube video ID), title, poster (site path), vertical (Shorts, 9:16),
+  eager (above-the-fold poster: load at once instead of lazily), duration (shown
+  on the play button, e.g. "2:09").
+
+  The "전체 화면" pill starts playback straight in fullscreen. It lives on the
+  poster only: once the player is in, nothing may sit in front of it (YouTube
+  Required Minimum Functionality). The page script reveals it only where the
+  browser allows element fullscreen — not on iPhone.
+{%- endcomment -%}
+{%- if include.vertical -%}
+  {%- assign yt_url = "https://www.youtube.com/shorts/" | append: include.id -%}
+{%- else -%}
+  {%- assign yt_url = "https://www.youtube.com/watch?v=" | append: include.id -%}
+{%- endif -%}
+<a class="video-embed{% if include.vertical %} video-embed--vertical{% endif %}" href="{{ yt_url }}" data-video-id="{{ include.id }}" data-video-title="{{ include.title | escape }}" target="_blank" rel="noopener" aria-label="영상 재생: {{ include.title | escape }}">
+  <img src="{{ include.poster | relative_url }}" alt="" {% if include.eager %}fetchpriority="high"{% else %}loading="lazy"{% endif %}>
+  <span class="video-embed__play" aria-hidden="true">재생{% if include.duration %} {{ include.duration }}{% endif %}</span>
+  <span class="video-embed__fs" aria-hidden="true"><i class="fas fa-expand"></i>전체 화면</span>
+</a>
