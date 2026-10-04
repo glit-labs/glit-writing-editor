@@ -17,6 +17,9 @@ Les versions sont suivies par plateforme.
 
 | Version | Date de sortie | Notes de version par langue |
 | :------ | :------------- | :-------------------------- |
+| **v1.4.0** | 2026-10-02 | [Français](/releases/mac/v1.4.0/fr.html) / [English](/releases/mac/v1.4.0/en.html) / [한국어](/releases/mac/v1.4.0/ko.html) / [日本語](/releases/mac/v1.4.0/ja.html) / [Español](/releases/mac/v1.4.0/es.html) / [Deutsch](/releases/mac/v1.4.0/de.html) / [Italiano](/releases/mac/v1.4.0/it.html) / [简体中文](/releases/mac/v1.4.0/zh.html) |
+| **v1.3.1** | 2026-08-27 | [Français](/releases/mac/v1.3.1/fr.html) / [English](/releases/mac/v1.3.1/en.html) / [한국어](/releases/mac/v1.3.1/ko.html) / [日本語](/releases/mac/v1.3.1/ja.html) / [Español](/releases/mac/v1.3.1/es.html) / [Deutsch](/releases/mac/v1.3.1/de.html) / [Italiano](/releases/mac/v1.3.1/it.html) / [简体中文](/releases/mac/v1.3.1/zh.html) |
+| **v1.3.0** | 2026-08-24 | [Français](/releases/mac/v1.3.0/fr.html) / [English](/releases/mac/v1.3.0/en.html) / [한국어](/releases/mac/v1.3.0/ko.html) / [日本語](/releases/mac/v1.3.0/ja.html) / [Español](/releases/mac/v1.3.0/es.html) / [Deutsch](/releases/mac/v1.3.0/de.html) / [Italiano](/releases/mac/v1.3.0/it.html) / [简体中文](/releases/mac/v1.3.0/zh.html) |
 | **v1.2.3** | 2026-07-23 | [Français](/releases/mac/v1.2.3/fr.html) / [English](/releases/mac/v1.2.3/en.html) / [한국어](/releases/mac/v1.2.3/ko.html) / [日本語](/releases/mac/v1.2.3/ja.html) / [Español](/releases/mac/v1.2.3/es.html) / [Deutsch](/releases/mac/v1.2.3/de.html) / [Italiano](/releases/mac/v1.2.3/it.html) / [简体中文](/releases/mac/v1.2.3/zh.html) |
 | **v1.2.2** | 2026-07-07 | [English](/releases/mac/v1.2.2/en.html) / [한국어](/releases/mac/v1.2.2/ko.html) / [日本語](/releases/mac/v1.2.2/ja.html) |
 | **v1.2.1** | 2026-07-02 | [English](/releases/mac/v1.2.1/en.html) / [한국어](/releases/mac/v1.2.1/ko.html) / [日本語](/releases/mac/v1.2.1/ja.html) |
@@ -29,6 +32,8 @@ Les versions sont suivies par plateforme.
 
 | Version | Date de sortie | Notes de version par langue |
 | :------ | :------------- | :-------------------------- |
+| **v1.4.0** | 2026-10-03 | [Français](/releases/windows/v1.4.0/fr.html) / [English](/releases/windows/v1.4.0/en.html) / [한국어](/releases/windows/v1.4.0/ko.html) / [日本語](/releases/windows/v1.4.0/ja.html) / [Español](/releases/windows/v1.4.0/es.html) / [Deutsch](/releases/windows/v1.4.0/de.html) / [Italiano](/releases/windows/v1.4.0/it.html) / [简体中文](/releases/windows/v1.4.0/zh.html) |
+| **v1.3.1** | 2026-08-27 | [Français](/releases/windows/v1.3.1/fr.html) / [English](/releases/windows/v1.3.1/en.html) / [한국어](/releases/windows/v1.3.1/ko.html) / [日本語](/releases/windows/v1.3.1/ja.html) / [Español](/releases/windows/v1.3.1/es.html) / [Deutsch](/releases/windows/v1.3.1/de.html) / [Italiano](/releases/windows/v1.3.1/it.html) / [简体中文](/releases/windows/v1.3.1/zh.html) |
 | **v1.2.3** | 2026-07-23 | [Français](/releases/windows/v1.2.3/fr.html) / [English](/releases/windows/v1.2.3/en.html) / [한국어](/releases/windows/v1.2.3/ko.html) / [日本語](/releases/windows/v1.2.3/ja.html) / [Español](/releases/windows/v1.2.3/es.html) / [Deutsch](/releases/windows/v1.2.3/de.html) / [Italiano](/releases/windows/v1.2.3/it.html) / [简体中文](/releases/windows/v1.2.3/zh.html) |
 | **v1.2.1** | 2026-06-30 | [English](/releases/windows/v1.2.1/en.html) / [한국어](/releases/windows/v1.2.1/ko.html) / [日本語](/releases/windows/v1.2.1/ja.html) |
 | **v1.2.0** | 2026-06-30 | [English](/releases/windows/v1.2.0/en.html) / [한국어](/releases/windows/v1.2.0/ko.html) |
