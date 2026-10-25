@@ -17,6 +17,7 @@ Las versiones se registran por plataforma.
 
 | Versión | Fecha | Notas de la versión por idioma |
 | :------ | :---- | :----------------------------- |
+| **v1.5.0** | 2026-10-25 | [Español](/releases/mac/v1.5.0/es.html) / [English](/releases/mac/v1.5.0/en.html) / [한국어](/releases/mac/v1.5.0/ko.html) / [日本語](/releases/mac/v1.5.0/ja.html) / [Français](/releases/mac/v1.5.0/fr.html) / [Deutsch](/releases/mac/v1.5.0/de.html) / [Italiano](/releases/mac/v1.5.0/it.html) / [简体中文](/releases/mac/v1.5.0/zh.html) |
 | **v1.4.0** | 2026-10-02 | [Español](/releases/mac/v1.4.0/es.html) / [English](/releases/mac/v1.4.0/en.html) / [한국어](/releases/mac/v1.4.0/ko.html) / [日本語](/releases/mac/v1.4.0/ja.html) / [Français](/releases/mac/v1.4.0/fr.html) / [Deutsch](/releases/mac/v1.4.0/de.html) / [Italiano](/releases/mac/v1.4.0/it.html) / [简体中文](/releases/mac/v1.4.0/zh.html) |
 | **v1.3.1** | 2026-08-27 | [Español](/releases/mac/v1.3.1/es.html) / [English](/releases/mac/v1.3.1/en.html) / [한국어](/releases/mac/v1.3.1/ko.html) / [日本語](/releases/mac/v1.3.1/ja.html) / [Français](/releases/mac/v1.3.1/fr.html) / [Deutsch](/releases/mac/v1.3.1/de.html) / [Italiano](/releases/mac/v1.3.1/it.html) / [简体中文](/releases/mac/v1.3.1/zh.html) |
 | **v1.3.0** | 2026-08-24 | [Español](/releases/mac/v1.3.0/es.html) / [English](/releases/mac/v1.3.0/en.html) / [한국어](/releases/mac/v1.3.0/ko.html) / [日本語](/releases/mac/v1.3.0/ja.html) / [Français](/releases/mac/v1.3.0/fr.html) / [Deutsch](/releases/mac/v1.3.0/de.html) / [Italiano](/releases/mac/v1.3.0/it.html) / [简体中文](/releases/mac/v1.3.0/zh.html) |
