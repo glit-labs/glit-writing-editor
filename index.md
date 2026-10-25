@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Glit: Writing Editor"
+title: "Glit: Web Novel Writing Editor"
 header:
   overlay_color: "#2f2b28"
   actions:
@@ -12,8 +12,9 @@ header:
       url: "https://apps.apple.com/app/glit-web-novel-writing/id6783972543"
     - label: "Google Play (Android)"
       url: "https://play.google.com/store/apps/details?id=com.glitlab.gliteditor"
+description: "A focused writing app for web novels and serial fiction. Write chapters and episodes without distraction, keep your characters close, and preview like a reader."
 excerpt: >
-  A focused writing app built from the ground up for web novelists<br>
+  A focused writing app built from the ground up for web novel and serial fiction writers<br>
   on Mac, Windows, iPhone, iPad, and Android.
 ---
 

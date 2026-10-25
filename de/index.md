@@ -2,7 +2,8 @@
 layout: splash
 lang: de
 locale: "de-DE"
-title: "Glit: Schreib-Editor"
+title: "Glit: Editor für Webnovels"
+description: "Schreib Webnovels und Belletristik ohne Ablenkung, behalte Figuren und Handlung neben dem Manuskript und prüfe jedes Kapitel mit Leser-Vorschau."
 header:
   overlay_color: "#2f2b28"
   actions:

@@ -1,14 +1,14 @@
 ---
-description: "Read the privacy policy for Glit: Writing Editor and learn how your data is handled across macOS, Windows, iPhone, iPad, and Android."
+description: "Read the privacy policy for Glit: Web Novel Writing Editor and learn how your data is handled across macOS, Windows, iPhone, iPad, and Android."
 layout: single
 title: "Privacy Policy"
 lang: en
 toc: false
 ---
 
-Last updated: 2026-10-04
+Last updated: 2026-10-26
 
-Glit: Writing Editor ("Glit", "we") is a writing app for web novel creators. This policy explains how your data is handled in all versions of the app (macOS, Windows, iPhone, iPad, and Android) and on this website.
+Glit: Web Novel Writing Editor ("Glit", "we") is a writing app for web novel creators. This policy explains how your data is handled in all versions of the app (macOS, Windows, iPhone, iPad, and Android) and on this website.
 
 <div class="info-grid">
   <div class="info-card">

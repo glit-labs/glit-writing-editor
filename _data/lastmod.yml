@@ -13,10 +13,10 @@
 # ignore the field — including on the release notes, where the dates are real.
 # A page with no entry here simply gets no <lastmod>.
 
-"@": 2026-08-26
+"@": 2026-10-26
 store.html: 2026-08-26
-support.html: 2026-08-26
+support.html: 2026-10-26
 guide.html: 2026-10-26
-privacy.html: 2026-10-04
+privacy.html: 2026-10-26
 releases.html: 2026-10-25
-CHANGELOG.html: 2026-10-25
+CHANGELOG.html: 2026-10-26

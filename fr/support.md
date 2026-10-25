@@ -63,4 +63,4 @@ Quelques précisions nous aident à résoudre votre problème rapidement :
   </div>
 </div>
 
-Merci d'utiliser Glit : éditeur d'écriture.
+Merci d'utiliser Glit : Éditeur de romans web.

@@ -2,7 +2,8 @@
 layout: splash
 lang: ja
 locale: "ja-JP"
-title: "Glit: ウェブ小説執筆エディタ"
+title: "Glit: Web小説執筆エディタ"
+description: "Web小説の原稿を集中して書き、読者の目線で確認。エピソードの整理や登場人物・世界観の管理に対応した執筆エディタです。"
 header:
   overlay_color: "#2f2b28"
   actions:

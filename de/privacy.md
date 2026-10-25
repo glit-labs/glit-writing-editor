@@ -1,5 +1,5 @@
 ---
-description: "Datenschutzerklärung von Glit: Writing Editor. Erfahre, wie deine Daten auf macOS, Windows, iPhone, iPad und Android verarbeitet werden."
+description: "Datenschutzerklärung von Glit: Editor für Webnovels. Erfahre, wie deine Daten auf macOS, Windows, iPhone, iPad und Android verarbeitet werden."
 layout: single
 title: "Datenschutzerklärung"
 lang: de
@@ -7,9 +7,9 @@ locale: "de-DE"
 toc: false
 ---
 
-Zuletzt aktualisiert: 2026-10-04
+Zuletzt aktualisiert: 2026-10-26
 
-Glit: Schreib-Editor („Glit“, „wir“) ist eine Schreib-App für Web-Novel-Autoren. Diese Erklärung beschreibt, wie deine Daten in allen Versionen der App (macOS, Windows, iPhone, iPad und Android) und auf dieser Website verarbeitet werden.
+Glit: Editor für Webnovels („Glit“, „wir“) ist eine Schreib-App für Web-Novel-Autoren. Diese Erklärung beschreibt, wie deine Daten in allen Versionen der App (macOS, Windows, iPhone, iPad und Android) und auf dieser Website verarbeitet werden.
 
 <div class="info-grid">
   <div class="info-card">

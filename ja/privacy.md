@@ -1,5 +1,5 @@
 ---
-description: "Glit: ウェブ小説執筆エディタのプライバシーポリシーです。macOS、Windows、iPhone、iPad、Android でお客様のデータがどのように扱われるかをご確認いただけます。"
+description: "Glit: Web小説執筆エディタのプライバシーポリシーです。macOS、Windows、iPhone、iPad、Android でお客様のデータがどのように扱われるかをご確認いただけます。"
 layout: single
 title: "プライバシーポリシー"
 lang: ja
@@ -7,9 +7,9 @@ locale: "ja-JP"
 toc: false
 ---
 
-最終更新: 2026-10-04
+最終更新: 2026-10-26
 
-Glit: ウェブ小説執筆エディタ（「Glit」「当方」）は、ウェブ小説の書き手のための執筆アプリです。本ポリシーは、アプリのすべてのバージョン（macOS、Windows、iPhone、iPad、Android）および本ウェブサイトでお客様のデータがどのように扱われるかを説明します。
+Glit: Web小説執筆エディタ（「Glit」「当方」）は、ウェブ小説の書き手のための執筆アプリです。本ポリシーは、アプリのすべてのバージョン（macOS、Windows、iPhone、iPad、Android）および本ウェブサイトでお客様のデータがどのように扱われるかを説明します。
 
 <div class="info-grid">
   <div class="info-card">

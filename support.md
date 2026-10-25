@@ -62,4 +62,4 @@ Including a few details helps us resolve your issue quickly:
   </div>
 </div>
 
-Thank you for using Glit: Writing Editor.
+Thank you for using Glit: Web Novel Writing Editor.

@@ -2,7 +2,8 @@
 layout: splash
 lang: it
 locale: "it-IT"
-title: "Glit: editor di scrittura"
+title: "Glit: Editor di web novel"
+description: "Scrivi web novel e narrativa senza distrazioni, tieni personaggi e trama accanto al manoscritto e rivedi ogni capitolo con l'anteprima da lettore."
 header:
   overlay_color: "#2f2b28"
   actions:

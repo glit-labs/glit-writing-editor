@@ -1,5 +1,5 @@
 ---
-description: "Journal des modifications de Glit : Writing Editor, toutes plateformes : chaque version macOS, Windows, iOS, iPadOS et Android réunie."
+description: "Journal des modifications de Glit : Éditeur de romans web, toutes plateformes : chaque version macOS, Windows, iOS, iPadOS et Android réunie."
 layout: single
 title: "Journal des modifications"
 lang: fr
@@ -7,7 +7,7 @@ locale: "fr-FR"
 toc: false
 ---
 
-Toutes les modifications notables de Glit : éditeur d'écriture seront consignées dans ce fichier.
+Toutes les modifications notables de Glit : Éditeur de romans web seront consignées dans ce fichier.
 
 Ce projet suit la [gestion sémantique de version](https://semver.org/spec/v2.0.0.html).
 

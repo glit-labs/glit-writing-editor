@@ -1,10 +1,10 @@
 ---
-description: "A single chronological changelog for Glit: Writing Editor across all platforms — every macOS, Windows, iOS, iPadOS, and Android release in one place."
+description: "A single chronological changelog for Glit: Web Novel Writing Editor across all platforms — every macOS, Windows, iOS, iPadOS, and Android release in one place."
 ---
 
 # Changelog
 
-All notable changes to Glit: Writing Editor will be documented in this file.
+All notable changes to Glit: Web Novel Writing Editor will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 

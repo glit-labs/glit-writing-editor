@@ -1,5 +1,5 @@
 ---
-description: "全プラットフォームを横断した Glit: ウェブ小説執筆エディタの時系列変更履歴です。macOS、Windows、iOS、iPadOS、Android のリリースを一か所でご確認いただけます。"
+description: "全プラットフォームを横断した Glit: Web小説執筆エディタの時系列変更履歴です。macOS、Windows、iOS、iPadOS、Android のリリースを一か所でご確認いただけます。"
 layout: single
 title: "変更履歴"
 lang: ja
@@ -7,7 +7,7 @@ locale: "ja-JP"
 toc: false
 ---
 
-Glit: ウェブ小説執筆エディタのすべての重要な変更を、このファイルに記録します。
+Glit: Web小説執筆エディタのすべての重要な変更を、このファイルに記録します。
 
 本プロジェクトは[セマンティック バージョニング](https://semver.org/spec/v2.0.0.html)に従います。
 

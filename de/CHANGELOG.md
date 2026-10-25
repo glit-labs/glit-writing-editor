@@ -1,5 +1,5 @@
 ---
-description: "Änderungsprotokoll von Glit: Writing Editor über alle Plattformen: jede macOS-, Windows-, iOS-, iPadOS- und Android-Version an einem Ort."
+description: "Änderungsprotokoll von Glit: Editor für Webnovels über alle Plattformen: jede macOS-, Windows-, iOS-, iPadOS- und Android-Version an einem Ort."
 layout: single
 title: "Änderungsprotokoll"
 lang: de
@@ -7,7 +7,7 @@ locale: "de-DE"
 toc: false
 ---
 
-Alle nennenswerten Änderungen an Glit: Schreib-Editor werden in dieser Datei dokumentiert.
+Alle nennenswerten Änderungen an Glit: Editor für Webnovels werden in dieser Datei dokumentiert.
 
 Dieses Projekt folgt der [semantischen Versionierung](https://semver.org/spec/v2.0.0.html).
 

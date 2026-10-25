@@ -14,7 +14,7 @@
 - code: en
   name: "English"
   url: /
-  brand: "Glit: Writing Editor"
+  brand: "Glit: Web Novel Writing Editor"
   twitter: "Glit_labs"
 - code: ko
   name: "한국어"
@@ -23,25 +23,25 @@
 - code: ja
   name: "日本語"
   url: /ja/
-  brand: "Glit: ウェブ小説執筆エディタ"
+  brand: "Glit: Web小説執筆エディタ"
   twitter: "Glit_labs_jp"
 - code: es
   name: "Español"
   url: /es/
-  brand: "Glit: editor de escritura"
+  brand: "Glit: Editor de novelas web"
 - code: fr
   name: "Français"
   url: /fr/
-  brand: "Glit : éditeur d'écriture"
+  brand: "Glit : Éditeur de romans web"
 - code: de
   name: "Deutsch"
   url: /de/
-  brand: "Glit: Schreib-Editor"
+  brand: "Glit: Editor für Webnovels"
 - code: it
   name: "Italiano"
   url: /it/
-  brand: "Glit: editor di scrittura"
+  brand: "Glit: Editor di web novel"
 - code: zh
   name: "简体中文"
   url: /zh/
-  brand: "Glit：面向网络小说创作者的写作编辑器"
+  brand: "Glit: 网络小说写作编辑器"

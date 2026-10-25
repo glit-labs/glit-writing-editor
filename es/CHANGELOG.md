@@ -1,5 +1,5 @@
 ---
-description: "Changelog cronológico de Glit: Writing Editor en todas las plataformas: cada versión de macOS, Windows, iOS, iPadOS y Android en un solo lugar."
+description: "Changelog cronológico de Glit: Editor de novelas web en todas las plataformas: cada versión de macOS, Windows, iOS, iPadOS y Android en un solo lugar."
 layout: single
 title: "Registro de cambios"
 lang: es
@@ -7,7 +7,7 @@ locale: "es-ES"
 toc: false
 ---
 
-Todos los cambios notables de Glit: editor de escritura se documentarán en este archivo.
+Todos los cambios notables de Glit: Editor de novelas web se documentarán en este archivo.
 
 Este proyecto sigue el [versionado semántico](https://semver.org/spec/v2.0.0.html).
 
