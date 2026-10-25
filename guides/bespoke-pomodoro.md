@@ -24,6 +24,7 @@ summary: "A focus timer built for Web Novel Mode. Pick a mode, write in alternat
     <a href="#focus-writing">Option 2. Focus Writing</a>
     <a href="#focus-and-break">Focus and breaks</a>
     <a href="#good-to-know">Good to know</a>
+    <a href="#get-glit">Get Glit</a>
   </nav>
 </header>
 
@@ -32,10 +33,6 @@ summary: "A focus timer built for Web Novel Mode. Pick a mode, write in alternat
 Bespoke Pomodoro is available when all of the following are true.
 
 <div class="info-grid">
-  <div class="info-card">
-    <h3>Glit for Mac 1.5.0 or later</h3>
-    <p>Update Glit to the latest version from the Mac App Store.</p>
-  </div>
   <div class="info-card">
     <h3>Web Novel Mode</h3>
     <p>It appears only while Web Novel Mode is on. You can turn the mode on right from the sidebar.</p>
@@ -58,7 +55,7 @@ Pick a mode from the **Type & purpose** list on the settings screen, and the foc
 | **Daily Serial Master** · The most stable daily routine | 25 min | 5 min | 4 | 115 min |
 | **Deep Writing Immersion** · For long, dense passages | 50 min | 10 min | 2 | 110 min |
 
-New to it? Start with **Daily Serial Master**: four rounds of 25 minutes of focus and 5 minutes of rest are about right for one episode. If you have your own timing in mind, set it yourself with [Custom mode](#custom-mode) below.
+New to it? Start with **Writer's Block Breaker**: six rounds of 15 minutes of focus and 3 minutes of rest. If you have your own timing in mind, set it yourself with [Custom mode](#custom-mode) below.
 
 ## Set your own timing with Custom mode {#custom-mode}
 
@@ -227,4 +224,46 @@ The settings screen shows these two rules as well.
   </div>
 </div>
 
-See the [macOS v1.5.0 release notes](/releases/mac/v1.5.0/en.html) for everything else in this update. Have more questions? Browse the FAQ on the [Support](/support.html) page or email us any time.
+## Get Glit {#get-glit}
+
+Glit is available from the stores below.
+
+<div class="store-grid">
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--included">Pomodoro included</span>
+    <div class="store-card__icon"><i class="fab fa-app-store" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">Mac App Store</h3>
+    <p class="store-card__platform">macOS</p>
+    <p class="store-card__price">$4.99</p>
+    <a class="store-card__btn" href="https://apps.apple.com/us/app/glit-web-novel-writing-editor/id6764386721">Buy now</a>
+  </div>
+
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--planned">Pomodoro coming</span>
+    <div class="store-card__icon"><i class="fab fa-microsoft" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">Microsoft Store</h3>
+    <p class="store-card__platform">Windows</p>
+    <p class="store-card__price">$4.99</p>
+    <a class="store-card__btn" href="https://apps.microsoft.com/detail/9n19p02fc7rf">Buy now</a>
+  </div>
+
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--planned">Pomodoro coming</span>
+    <div class="store-card__icon"><i class="fab fa-app-store-ios" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">App Store (iOS / iPadOS)</h3>
+    <p class="store-card__platform">iPhone · iPad</p>
+    <p class="store-card__price">Free <span class="note">· Glit Pro one-time purchase</span></p>
+    <a class="store-card__btn" href="https://apps.apple.com/app/glit-web-novel-writing/id6783972543">Get</a>
+  </div>
+
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--planned">Pomodoro coming</span>
+    <div class="store-card__icon"><i class="fab fa-google-play" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">Play Store (Android)</h3>
+    <p class="store-card__platform">Android</p>
+    <p class="store-card__price">Free <span class="note">· Glit Pro one-time purchase</span></p>
+    <a class="store-card__btn" href="https://play.google.com/store/apps/details?id=com.glitlab.gliteditor">Get</a>
+  </div>
+</div>
+
+Have more questions? Browse the FAQ on the [Support](/support.html) page or email us any time.

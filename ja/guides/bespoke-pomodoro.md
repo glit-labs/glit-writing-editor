@@ -25,6 +25,7 @@ summary: "Web小説執筆モード専用の集中タイマーです。モード�
     <a href="#focus-writing">方法 2. 集中執筆</a>
     <a href="#focus-and-break">集中と休憩</a>
     <a href="#good-to-know">知っておくと便利</a>
+    <a href="#get-glit">入手</a>
   </nav>
 </header>
 
@@ -33,10 +34,6 @@ summary: "Web小説執筆モード専用の集中タイマーです。モード�
 ビスポーク・ポモドーロは、次の条件で使えます。
 
 <div class="info-grid">
-  <div class="info-card">
-    <h3>Mac 版 Glit 1.5.0 以降</h3>
-    <p>Mac App Store で Glit を最新バージョンにアップデートしてください。</p>
-  </div>
   <div class="info-card">
     <h3>Web小説執筆モード</h3>
     <p>Web小説執筆モードがオンのときだけ表示されます。サイドバーからすぐにオンにできます。</p>
@@ -59,7 +56,7 @@ summary: "Web小説執筆モード専用の集中タイマーです。モード�
 | **デイリー連載マスターモード** · 最も安定した毎日のルーティン | 25 分 | 5 分 | 4 回 | 115 分 |
 | **深層執筆没入モード** · 長く密度の高い叙述向け | 50 分 | 10 分 | 2 回 | 110 分 |
 
-初めてなら **デイリー連載マスターモード** から始めてみてください。集中 25 分・休憩 5 分を 4 回繰り返す流れは、1 エピソードを書くのにちょうどよい長さです。好みの時間があるなら、下の[自由設定モード](#custom-mode)で自分で決められます。
+初めてなら **スランプ突破モード** から始めてみてください。集中 15 分・休憩 3 分を 6 回繰り返します。好みの時間があるなら、下の[自由設定モード](#custom-mode)で自分で決められます。
 
 ## 自由設定モードで自分で決める {#custom-mode}
 
@@ -228,4 +225,46 @@ summary: "Web小説執筆モード専用の集中タイマーです。モード�
   </div>
 </div>
 
-今回のアップデートのその他の変更点は [macOS v1.5.0 リリースノート](/releases/mac/v1.5.0/ja.html)でご覧いただけます。ほかにご不明な点はありますか？ [サポート](/ja/support.html)ページのよくある質問をご覧いただくか、いつでもメールでお問い合わせください。
+## Glit の入手 {#get-glit}
+
+Glit は以下のストアから入手できます。
+
+<div class="store-grid">
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--included">ポモドーロ対応</span>
+    <div class="store-card__icon"><i class="fab fa-app-store" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">Mac App Store</h3>
+    <p class="store-card__platform">macOS</p>
+    <p class="store-card__price">$4.99</p>
+    <a class="store-card__btn" href="https://apps.apple.com/us/app/glit-web-novel-writing-editor/id6764386721">今すぐ購入</a>
+  </div>
+
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--planned">ポモドーロ対応予定</span>
+    <div class="store-card__icon"><i class="fab fa-microsoft" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">Microsoft Store</h3>
+    <p class="store-card__platform">Windows</p>
+    <p class="store-card__price">$4.99</p>
+    <a class="store-card__btn" href="https://apps.microsoft.com/detail/9n19p02fc7rf">今すぐ購入</a>
+  </div>
+
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--planned">ポモドーロ対応予定</span>
+    <div class="store-card__icon"><i class="fab fa-app-store-ios" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">App Store (iOS / iPadOS)</h3>
+    <p class="store-card__platform">iPhone · iPad</p>
+    <p class="store-card__price">無料 <span class="note">· Glit Pro は買い切り</span></p>
+    <a class="store-card__btn" href="https://apps.apple.com/app/glit-web-novel-writing/id6783972543">入手</a>
+  </div>
+
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--planned">ポモドーロ対応予定</span>
+    <div class="store-card__icon"><i class="fab fa-google-play" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">Play Store (Android)</h3>
+    <p class="store-card__platform">Android</p>
+    <p class="store-card__price">無料 <span class="note">· Glit Pro は買い切り</span></p>
+    <a class="store-card__btn" href="https://play.google.com/store/apps/details?id=com.glitlab.gliteditor">入手</a>
+  </div>
+</div>
+
+ほかにご不明な点はありますか？ [サポート](/ja/support.html)ページのよくある質問をご覧いただくか、いつでもメールでお問い合わせください。

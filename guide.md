@@ -1,6 +1,6 @@
 ---
 description: "Step-by-step guides for Glit, the writing app for web novelists. Learn how to write in focus and break sessions with Bespoke Pomodoro."
-last_modified: 2026-10-25
+last_modified: 2026-10-26
 layout: single
 title: "Guides"
 lang: en
@@ -11,8 +11,6 @@ classes: guide-index
 Step-by-step guides to help you get more out of Glit.
 
 {% assign guides = site.pages | where_exp: "p", "p.guide == true" | where: "lang", "en" | sort: "order" %}
-
-Video guides are currently available in Korean only. You can watch them on the [Korean guide page](/ko/guide.html).
 
 <section class="guide-band" aria-labelledby="text-guides">
   <h2 class="guide-band__title" id="text-guides">Text guides</h2>

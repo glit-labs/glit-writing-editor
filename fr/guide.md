@@ -1,6 +1,6 @@
 ---
 description: "Guides pas à pas de Glit, l'app d'écriture pour les auteurs de romans web. Apprenez à écrire en alternant concentration et pause avec le Pomodoro sur mesure."
-last_modified: 2026-10-25
+last_modified: 2026-10-26
 layout: single
 title: "Guides"
 lang: fr
@@ -12,8 +12,6 @@ classes: guide-index
 Des guides pas à pas pour tirer le meilleur parti de Glit.
 
 {% assign guides = site.pages | where_exp: "p", "p.guide == true" | where: "lang", "fr" | sort: "order" %}
-
-Les guides vidéo ne sont pour l'instant disponibles qu'en coréen. Vous pouvez les regarder sur la [page des guides en coréen](/ko/guide.html).
 
 <section class="guide-band" aria-labelledby="text-guides">
   <h2 class="guide-band__title" id="text-guides">Guides écrits</h2>

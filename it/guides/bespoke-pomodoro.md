@@ -25,6 +25,7 @@ summary: "Un timer di concentrazione pensato per la modalità romanzo a puntate.
     <a href="#focus-writing">Opzione 2. Scrittura focalizzata</a>
     <a href="#focus-and-break">Concentrazione e pausa</a>
     <a href="#good-to-know">Buono a sapersi</a>
+    <a href="#get-glit">Scarica Glit</a>
   </nav>
 </header>
 
@@ -33,10 +34,6 @@ summary: "Un timer di concentrazione pensato per la modalità romanzo a puntate.
 Il Pomodoro su misura è disponibile alle condizioni seguenti.
 
 <div class="info-grid">
-  <div class="info-card">
-    <h3>Glit per Mac 1.5.0 o successivo</h3>
-    <p>Aggiorna Glit all'ultima versione dal Mac App Store.</p>
-  </div>
   <div class="info-card">
     <h3>Modalità romanzo a puntate</h3>
     <p>Compare solo quando la modalità romanzo a puntate è attiva. Puoi attivarla direttamente dalla barra laterale.</p>
@@ -59,7 +56,7 @@ Scegli una modalità dall'elenco **Tipo e scopo** nella schermata delle impostaz
 | **Maestro del seriale quotidiano** · La routine quotidiana più stabile | 25 min | 5 min | 4 | 115 min |
 | **Immersione profonda** · Per passaggi lunghi e densi | 50 min | 10 min | 2 | 110 min |
 
-È la prima volta? Inizia con **Maestro del seriale quotidiano**: quattro giri da 25 minuti di concentrazione e 5 di pausa sono la misura giusta per un episodio. Se hai in mente altri tempi, impostali tu con la [Modalità personalizzata](#custom-mode).
+È la prima volta? Inizia con **Sblocca-scrittura**: sei giri da 15 minuti di concentrazione e 3 di pausa. Se hai in mente altri tempi, impostali tu con la [Modalità personalizzata](#custom-mode).
 
 ## Imposta i tuoi tempi con la Modalità personalizzata {#custom-mode}
 
@@ -228,4 +225,46 @@ Anche la schermata delle impostazioni ricorda queste due regole.
   </div>
 </div>
 
-Consulta le [note di rilascio di macOS v1.5.0](/releases/mac/v1.5.0/it.html) per le altre novità di questo aggiornamento. Hai altre domande? Sfoglia le FAQ nella pagina [Supporto](/it/support.html) o scrivici quando vuoi.
+## Scarica Glit {#get-glit}
+
+Glit è disponibile negli store qui sotto.
+
+<div class="store-grid">
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--included">Pomodoro incluso</span>
+    <div class="store-card__icon"><i class="fab fa-app-store" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">Mac App Store</h3>
+    <p class="store-card__platform">macOS</p>
+    <p class="store-card__price">$4.99</p>
+    <a class="store-card__btn" href="https://apps.apple.com/us/app/glit-web-novel-writing-editor/id6764386721">Acquista ora</a>
+  </div>
+
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--planned">Pomodoro in arrivo</span>
+    <div class="store-card__icon"><i class="fab fa-microsoft" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">Microsoft Store</h3>
+    <p class="store-card__platform">Windows</p>
+    <p class="store-card__price">$4.99</p>
+    <a class="store-card__btn" href="https://apps.microsoft.com/detail/9n19p02fc7rf">Acquista ora</a>
+  </div>
+
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--planned">Pomodoro in arrivo</span>
+    <div class="store-card__icon"><i class="fab fa-app-store-ios" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">App Store (iOS / iPadOS)</h3>
+    <p class="store-card__platform">iPhone · iPad</p>
+    <p class="store-card__price">Gratis <span class="note">· Glit Pro con acquisto unico</span></p>
+    <a class="store-card__btn" href="https://apps.apple.com/app/glit-web-novel-writing/id6783972543">Ottieni</a>
+  </div>
+
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--planned">Pomodoro in arrivo</span>
+    <div class="store-card__icon"><i class="fab fa-google-play" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">Play Store (Android)</h3>
+    <p class="store-card__platform">Android</p>
+    <p class="store-card__price">Gratis <span class="note">· Glit Pro con acquisto unico</span></p>
+    <a class="store-card__btn" href="https://play.google.com/store/apps/details?id=com.glitlab.gliteditor">Ottieni</a>
+  </div>
+</div>
+
+Hai altre domande? Sfoglia le FAQ nella pagina [Supporto](/it/support.html) o scrivici quando vuoi.

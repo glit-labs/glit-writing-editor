@@ -1,6 +1,6 @@
 ---
 description: "Web小説執筆アプリ Glit のガイド集です。ビスポーク・ポモドーロで集中時間と休憩時間を交互に繰り返して書く方法を、手順を追って案内します。"
-last_modified: 2026-10-25
+last_modified: 2026-10-26
 layout: single
 title: "ガイド"
 lang: ja
@@ -12,8 +12,6 @@ classes: guide-index
 Glit をもっと活用するためのガイドを、手順を追って案内します。
 
 {% assign guides = site.pages | where_exp: "p", "p.guide == true" | where: "lang", "ja" | sort: "order" %}
-
-動画ガイドは現在、韓国語版のみです。[韓国語のガイドページ](/ko/guide.html)でご覧いただけます。
 
 <section class="guide-band" aria-labelledby="text-guides">
   <h2 class="guide-band__title" id="text-guides">テキストガイド</h2>

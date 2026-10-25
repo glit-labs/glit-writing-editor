@@ -25,6 +25,7 @@ summary: "专为网络小说创作模式打造的专注计时器。选择模式�
     <a href="#focus-writing">方法 2. 专注写作</a>
     <a href="#focus-and-break">专注与休息</a>
     <a href="#good-to-know">小贴士</a>
+    <a href="#get-glit">获取 Glit</a>
   </nav>
 </header>
 
@@ -33,10 +34,6 @@ summary: "专为网络小说创作模式打造的专注计时器。选择模式�
 满足以下条件即可使用定制番茄钟。
 
 <div class="info-grid">
-  <div class="info-card">
-    <h3>Mac 版 Glit 1.5.0 或更高版本</h3>
-    <p>请在 Mac App Store 中将 Glit 更新到最新版本。</p>
-  </div>
   <div class="info-card">
     <h3>网络小说创作模式</h3>
     <p>仅在开启网络小说创作模式时显示。可直接在侧边栏中开启该模式。</p>
@@ -59,7 +56,7 @@ summary: "专为网络小说创作模式打造的专注计时器。选择模式�
 | **每日连载大师模式** · 最稳定的日常节奏 | 25 分钟 | 5 分钟 | 4 次 | 115 分钟 |
 | **深度写作沉浸模式** · 适合长篇高密度叙述 | 50 分钟 | 10 分钟 | 2 次 | 110 分钟 |
 
-第一次使用？建议从**每日连载大师模式**开始：专注 25 分钟、休息 5 分钟，重复四次，正适合写完一章。如果心里有自己的时间安排，可以用下方的[自定义模式](#custom-mode)自行设定。
+第一次使用？建议从**打破写作瓶颈模式**开始：专注 15 分钟、休息 3 分钟，重复六次。如果心里有自己的时间安排，可以用下方的[自定义模式](#custom-mode)自行设定。
 
 ## 用自定义模式自行设定 {#custom-mode}
 
@@ -228,4 +225,46 @@ summary: "专为网络小说创作模式打造的专注计时器。选择模式�
   </div>
 </div>
 
-本次更新的其他变更请参阅 [macOS v1.5.0 发布说明](/releases/mac/v1.5.0/zh.html)。还有其他问题？欢迎查看[支持](/zh/support.html)页面的常见问题，或随时发送邮件联系我们。
+## 获取 Glit {#get-glit}
+
+可在以下商店获取 Glit。
+
+<div class="store-grid">
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--included">含番茄钟</span>
+    <div class="store-card__icon"><i class="fab fa-app-store" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">Mac App Store</h3>
+    <p class="store-card__platform">macOS</p>
+    <p class="store-card__price">$4.99</p>
+    <a class="store-card__btn" href="https://apps.apple.com/us/app/glit-web-novel-writing-editor/id6764386721">立即购买</a>
+  </div>
+
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--planned">番茄钟即将推出</span>
+    <div class="store-card__icon"><i class="fab fa-microsoft" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">Microsoft Store</h3>
+    <p class="store-card__platform">Windows</p>
+    <p class="store-card__price">$4.99</p>
+    <a class="store-card__btn" href="https://apps.microsoft.com/detail/9n19p02fc7rf">立即购买</a>
+  </div>
+
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--planned">番茄钟即将推出</span>
+    <div class="store-card__icon"><i class="fab fa-app-store-ios" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">App Store (iOS / iPadOS)</h3>
+    <p class="store-card__platform">iPhone · iPad</p>
+    <p class="store-card__price">免费 <span class="note">· Glit Pro 一次性购买</span></p>
+    <a class="store-card__btn" href="https://apps.apple.com/app/glit-web-novel-writing/id6783972543">获取</a>
+  </div>
+
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--planned">番茄钟即将推出</span>
+    <div class="store-card__icon"><i class="fab fa-google-play" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">Play Store (Android)</h3>
+    <p class="store-card__platform">Android</p>
+    <p class="store-card__price">免费 <span class="note">· Glit Pro 一次性购买</span></p>
+    <a class="store-card__btn" href="https://play.google.com/store/apps/details?id=com.glitlab.gliteditor">获取</a>
+  </div>
+</div>
+
+还有其他问题？欢迎查看[支持](/zh/support.html)页面的常见问题，或随时发送邮件联系我们。

@@ -25,6 +25,7 @@ summary: "웹소설 집필 모드 전용 집중 타이머입니다. 모드를 �
     <a href="#focus-writing">방법 2. 집중 글쓰기</a>
     <a href="#focus-and-break">집중과 휴식</a>
     <a href="#good-to-know">알아 두면 좋아요</a>
+    <a href="#get-glit">구매 링크</a>
   </nav>
 </header>
 
@@ -33,10 +34,6 @@ summary: "웹소설 집필 모드 전용 집중 타이머입니다. 모드를 �
 비스포크 뽀모도로는 아래 조건에서 쓸 수 있습니다.
 
 <div class="info-grid">
-  <div class="info-card">
-    <h3>Mac용 Glit 1.5.0 이상</h3>
-    <p>Mac App Store에서 Glit을 최신 버전으로 업데이트하세요.</p>
-  </div>
   <div class="info-card">
     <h3>웹소설 집필 모드</h3>
     <p>웹소설 집필 모드가 켜져 있을 때만 나타납니다. 사이드바에서 바로 켤 수 있습니다.</p>
@@ -59,7 +56,7 @@ summary: "웹소설 집필 모드 전용 집중 타이머입니다. 모드를 �
 | **데일리 연재 마스터 모드** · 가장 안정적인 일상 루틴 | 25분 | 5분 | 4회 | 115분 |
 | **심층 집필 몰입 모드** · 긴 호흡의 고밀도 서술용 | 50분 | 10분 | 2회 | 110분 |
 
-처음이라면 **데일리 연재 마스터 모드**로 시작해 보세요. 집중 25분, 휴식 5분을 네 번 이어 가며 한 회차를 쓰기에 알맞습니다. 원하는 시간이 따로 있다면 아래 [자유 설정 모드](#custom-mode)로 직접 정할 수 있습니다.
+처음이라면 **작가의 벽 부수기 모드**로 시작해 보세요. 집중 15분, 휴식 3분을 여섯 번 이어 갑니다. 원하는 시간이 따로 있다면 아래 [자유 설정 모드](#custom-mode)로 직접 정할 수 있습니다.
 
 ## 자유 설정 모드로 직접 정하기 {#custom-mode}
 
@@ -228,4 +225,46 @@ summary: "웹소설 집필 모드 전용 집중 타이머입니다. 모드를 �
   </div>
 </div>
 
-이번 업데이트의 다른 변경 사항은 [macOS v1.5.0 릴리스 노트](/releases/mac/v1.5.0/ko.html)에서 볼 수 있습니다. 더 궁금한 점이 있으신가요? [지원](/ko/support.html) 페이지에서 자주 묻는 질문을 살펴보거나 언제든 이메일로 문의해 주세요.
+## Glit 앱 구매 링크 {#get-glit}
+
+Glit 앱은 아래 스토어에서 받을 수 있어요.
+
+<div class="store-grid">
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--included">뽀모도로 포함</span>
+    <div class="store-card__icon"><i class="fab fa-app-store" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">Mac (App Store)</h3>
+    <p class="store-card__platform">macOS</p>
+    <p class="store-card__price">₩6,600</p>
+    <a class="store-card__btn" href="https://apps.apple.com/kr/app/glit-웹소설-글쓰기-에디터/id6764386721?mt=12">지금 구매</a>
+  </div>
+
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--planned">뽀모도로 예정</span>
+    <div class="store-card__icon"><i class="fab fa-microsoft" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">Windows (Microsoft Store)</h3>
+    <p class="store-card__platform">Windows</p>
+    <p class="store-card__price">₩6,600</p>
+    <a class="store-card__btn" href="https://apps.microsoft.com/detail/9n19p02fc7rf?hl=ko-KR&gl=KR">지금 구매</a>
+  </div>
+
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--planned">뽀모도로 예정</span>
+    <div class="store-card__icon"><i class="fab fa-app-store-ios" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">iPhone · iPad (App Store)</h3>
+    <p class="store-card__platform">iOS · iPadOS</p>
+    <p class="store-card__price">무료 <span class="note">· Glit Pro 1회 구매</span></p>
+    <a class="store-card__btn" href="https://apps.apple.com/kr/app/글릿-웹소설-글쓰기-에디터/id6783972543">받기</a>
+  </div>
+
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--planned">뽀모도로 예정</span>
+    <div class="store-card__icon"><i class="fab fa-google-play" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">Android (Google Play)</h3>
+    <p class="store-card__platform">Android</p>
+    <p class="store-card__price">무료 <span class="note">· Glit Pro 1회 구매</span></p>
+    <a class="store-card__btn" href="https://play.google.com/store/apps/details?id=com.glitlab.gliteditor&hl=ko&gl=KR">받기</a>
+  </div>
+</div>
+
+더 궁금한 점이 있으신가요? [지원](/ko/support.html) 페이지에서 자주 묻는 질문을 살펴보거나 언제든 이메일로 문의해 주세요.

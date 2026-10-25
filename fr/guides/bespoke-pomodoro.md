@@ -25,6 +25,7 @@ summary: "Un minuteur de concentration conçu pour le mode roman-feuilleton. Cho
     <a href="#focus-writing">Option 2. Écriture concentrée</a>
     <a href="#focus-and-break">Concentration et pause</a>
     <a href="#good-to-know">Bon à savoir</a>
+    <a href="#get-glit">Obtenir Glit</a>
   </nav>
 </header>
 
@@ -33,10 +34,6 @@ summary: "Un minuteur de concentration conçu pour le mode roman-feuilleton. Cho
 Le Pomodoro sur mesure est disponible dans les conditions suivantes.
 
 <div class="info-grid">
-  <div class="info-card">
-    <h3>Glit pour Mac 1.5.0 ou ultérieur</h3>
-    <p>Mettez Glit à jour vers la dernière version depuis le Mac App Store.</p>
-  </div>
   <div class="info-card">
     <h3>Mode roman-feuilleton</h3>
     <p>Il n'apparaît que lorsque le mode roman-feuilleton est activé. Vous pouvez l'activer directement depuis la barre latérale.</p>
@@ -59,7 +56,7 @@ Choisissez un mode dans la liste **Type et objectif** de l'écran de réglages :
 | **Maître du feuilleton quotidien** · La routine quotidienne la plus stable | 25 min | 5 min | 4 | 115 min |
 | **Immersion profonde** · Pour les passages longs et denses | 50 min | 10 min | 2 | 110 min |
 
-Première fois ? Commencez par **Maître du feuilleton quotidien** : quatre tours de 25 minutes de concentration et 5 minutes de pause conviennent bien à un épisode. Si vous avez d'autres durées en tête, réglez-les vous-même avec le [Mode personnalisé](#custom-mode).
+Première fois ? Commencez par **Anti-blocage** : six tours de 15 minutes de concentration et 3 minutes de pause. Si vous avez d'autres durées en tête, réglez-les vous-même avec le [Mode personnalisé](#custom-mode).
 
 ## Régler vos propres durées avec le Mode personnalisé {#custom-mode}
 
@@ -228,4 +225,46 @@ L'écran de réglages rappelle aussi ces deux règles.
   </div>
 </div>
 
-Consultez les [notes de version macOS v1.5.0](/releases/mac/v1.5.0/fr.html) pour les autres nouveautés de cette mise à jour. D'autres questions ? Parcourez la FAQ de la page [Assistance](/fr/support.html) ou écrivez-nous à tout moment.
+## Obtenir Glit {#get-glit}
+
+Glit est disponible dans les boutiques ci-dessous.
+
+<div class="store-grid">
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--included">Pomodoro inclus</span>
+    <div class="store-card__icon"><i class="fab fa-app-store" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">Mac App Store</h3>
+    <p class="store-card__platform">macOS</p>
+    <p class="store-card__price">$4.99</p>
+    <a class="store-card__btn" href="https://apps.apple.com/us/app/glit-web-novel-writing-editor/id6764386721">Acheter</a>
+  </div>
+
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--planned">Pomodoro bientôt</span>
+    <div class="store-card__icon"><i class="fab fa-microsoft" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">Microsoft Store</h3>
+    <p class="store-card__platform">Windows</p>
+    <p class="store-card__price">$4.99</p>
+    <a class="store-card__btn" href="https://apps.microsoft.com/detail/9n19p02fc7rf">Acheter</a>
+  </div>
+
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--planned">Pomodoro bientôt</span>
+    <div class="store-card__icon"><i class="fab fa-app-store-ios" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">App Store (iOS / iPadOS)</h3>
+    <p class="store-card__platform">iPhone · iPad</p>
+    <p class="store-card__price">Gratuit <span class="note">· Glit Pro en achat unique</span></p>
+    <a class="store-card__btn" href="https://apps.apple.com/app/glit-web-novel-writing/id6783972543">Obtenir</a>
+  </div>
+
+  <div class="store-card">
+    <span class="store-card__badge store-card__badge--planned">Pomodoro bientôt</span>
+    <div class="store-card__icon"><i class="fab fa-google-play" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">Play Store (Android)</h3>
+    <p class="store-card__platform">Android</p>
+    <p class="store-card__price">Gratuit <span class="note">· Glit Pro en achat unique</span></p>
+    <a class="store-card__btn" href="https://play.google.com/store/apps/details?id=com.glitlab.gliteditor">Obtenir</a>
+  </div>
+</div>
+
+D'autres questions ? Parcourez la FAQ de la page [Assistance](/fr/support.html) ou écrivez-nous à tout moment.

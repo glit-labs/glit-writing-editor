@@ -1,6 +1,6 @@
 ---
 description: "Schritt-für-Schritt-Anleitungen für Glit, die Schreib-App für Webroman-Autoren. So schreibst du mit dem Bespoke-Pomodoro im Wechsel aus Fokus und Pause."
-last_modified: 2026-10-25
+last_modified: 2026-10-26
 layout: single
 title: "Anleitungen"
 lang: de
@@ -12,8 +12,6 @@ classes: guide-index
 Schritt-für-Schritt-Anleitungen, mit denen du mehr aus Glit herausholst.
 
 {% assign guides = site.pages | where_exp: "p", "p.guide == true" | where: "lang", "de" | sort: "order" %}
-
-Video-Anleitungen gibt es derzeit nur auf Koreanisch. Du findest sie auf der [koreanischen Anleitungsseite](/ko/guide.html).
 
 <section class="guide-band" aria-labelledby="text-guides">
   <h2 class="guide-band__title" id="text-guides">Text-Anleitungen</h2>
