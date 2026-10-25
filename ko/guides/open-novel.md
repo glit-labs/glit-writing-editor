@@ -1,6 +1,6 @@
 ---
 description: "닥터 셜록 샘플 zip을 다운로드하고 압축을 풀어 Glit에서 폴더로 불러오는 방법을 안내합니다. 1분이면 샘플 웹소설을 열어볼 수 있어요."
-last_modified: 2026-07-05
+last_modified: 2026-10-26
 layout: single
 title: "Glit 시작 가이드 — 샘플 웹소설(닥터 셜록) 열기/불러오기"
 lang: ko
@@ -114,7 +114,7 @@ summary: "닥터 셜록 샘플 zip을 다운로드하고 압축을 풀어 Glit�
 
 ## Glit 앱 구매 링크
 
-Glit 앱은 아래 스토어에서 구매할 수 있어요 (₩6,600).
+Glit 앱은 아래 스토어에서 받을 수 있어요.
 
 <div class="store-grid">
   <div class="store-card">
@@ -122,7 +122,7 @@ Glit 앱은 아래 스토어에서 구매할 수 있어요 (₩6,600).
     <h3 class="store-card__name">Mac (App Store)</h3>
     <p class="store-card__platform">macOS</p>
     <p class="store-card__price">₩6,600</p>
-    <a class="store-card__btn" href="https://apps.apple.com/kr/app/glit-웹소설-글쓰기-에디터/id6764386721?mt=12">App Store에서 보기</a>
+    <a class="store-card__btn" href="https://apps.apple.com/kr/app/glit-웹소설-글쓰기-에디터/id6764386721?mt=12">지금 구매</a>
   </div>
 
   <div class="store-card">
@@ -130,7 +130,23 @@ Glit 앱은 아래 스토어에서 구매할 수 있어요 (₩6,600).
     <h3 class="store-card__name">Windows (Microsoft Store)</h3>
     <p class="store-card__platform">Windows</p>
     <p class="store-card__price">₩6,600</p>
-    <a class="store-card__btn" href="https://apps.microsoft.com/detail/9n19p02fc7rf?hl=ko-KR&gl=KR">Microsoft Store에서 보기</a>
+    <a class="store-card__btn" href="https://apps.microsoft.com/detail/9n19p02fc7rf?hl=ko-KR&gl=KR">지금 구매</a>
+  </div>
+
+  <div class="store-card">
+    <div class="store-card__icon"><i class="fab fa-app-store-ios" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">iPhone · iPad (App Store)</h3>
+    <p class="store-card__platform">iOS · iPadOS</p>
+    <p class="store-card__price">무료 <span class="note">· Glit Pro 1회 구매</span></p>
+    <a class="store-card__btn" href="https://apps.apple.com/kr/app/글릿-웹소설-글쓰기-에디터/id6783972543">받기</a>
+  </div>
+
+  <div class="store-card">
+    <div class="store-card__icon"><i class="fab fa-google-play" aria-hidden="true"></i></div>
+    <h3 class="store-card__name">Android (Google Play)</h3>
+    <p class="store-card__platform">Android</p>
+    <p class="store-card__price">무료 <span class="note">· Glit Pro 1회 구매</span></p>
+    <a class="store-card__btn" href="https://play.google.com/store/apps/details?id=com.glitlab.gliteditor&hl=ko&gl=KR">받기</a>
   </div>
 </div>
 
