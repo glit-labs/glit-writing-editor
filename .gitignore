@@ -1,6 +1,9 @@
 # Claude Code local settings & memory
 .claude/
 
+# Local-only notes (e.g. how to test the site locally); never pushed
+doc/
+
 # macOS
 .DS_Store
 
