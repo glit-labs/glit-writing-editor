@@ -16,6 +16,8 @@ main:
     children:
       - title: "Support"
         url: /support.html
+      - title: "Guides"
+        url: /guide.html
       - title: "Privacy"
         url: /privacy.html
 
@@ -50,6 +52,8 @@ main_ja:
     children:
       - title: "サポート"
         url: /ja/support.html
+      - title: "ガイド"
+        url: /ja/guide.html
       - title: "プライバシー"
         url: /ja/privacy.html
 
@@ -66,6 +70,8 @@ main_es:
     children:
       - title: "Soporte"
         url: /es/support.html
+      - title: "Guías"
+        url: /es/guide.html
       - title: "Privacidad"
         url: /es/privacy.html
 
@@ -82,6 +88,8 @@ main_fr:
     children:
       - title: "Assistance"
         url: /fr/support.html
+      - title: "Guides"
+        url: /fr/guide.html
       - title: "Confidentialité"
         url: /fr/privacy.html
 
@@ -98,6 +106,8 @@ main_de:
     children:
       - title: "Support"
         url: /de/support.html
+      - title: "Anleitungen"
+        url: /de/guide.html
       - title: "Datenschutz"
         url: /de/privacy.html
 
@@ -114,6 +124,8 @@ main_it:
     children:
       - title: "Supporto"
         url: /it/support.html
+      - title: "Guide"
+        url: /it/guide.html
       - title: "Privacy"
         url: /it/privacy.html
 
@@ -130,5 +142,7 @@ main_zh:
     children:
       - title: "支持"
         url: /zh/support.html
+      - title: "指南"
+        url: /zh/guide.html
       - title: "隐私"
         url: /zh/privacy.html

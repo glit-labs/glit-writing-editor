@@ -13,7 +13,7 @@
   instead of always jumping to the home page. English lives at the site root, so
   its pages have no language prefix to strip.
 
-  Only top-level localized pages (home, store, support, privacy, releases,
+  Only top-level localized pages (home, store, support, guide, privacy, releases,
   CHANGELOG) exist in every language, and their base path has no remaining
   slash. Anything nested — e.g. the bilingual per-version notes under
   /releases/…/ — keeps `page_base` with a slash, so we fall back to the target
@@ -80,6 +80,20 @@
                     {%- endif -%}
                   {%- else -%}
                     {%- assign lang_href = lang.url -%}
+                    {%- comment -%}
+                      A guide article keeps the reader on the same guide when that
+                      language has it; a Korean-only guide falls back to the home page.
+                    {%- endcomment -%}
+                    {%- if page_base contains 'guides/' -%}
+                      {%- if lang.code == 'en' -%}
+                        {%- assign guide_href = page_base | prepend: '/' -%}
+                      {%- else -%}
+                        {%- assign guide_href = page_base | prepend: '/' | prepend: lang.code | prepend: '/' -%}
+                      {%- endif -%}
+                      {%- for p in site.html_pages -%}
+                        {%- if p.url == guide_href -%}{%- assign lang_href = guide_href -%}{%- break -%}{%- endif -%}
+                      {%- endfor -%}
+                    {%- endif -%}
                   {%- endif -%}
                   <li>
                     <a href="{{ lang_href | relative_url }}"{% if lang.code == page_lang %} aria-current="true"{% endif %}>{{ lang.name }}</a>

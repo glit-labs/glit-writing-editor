@@ -6,7 +6,7 @@ sitemap: false
 <!--
   Custom sitemap with multilingual hreflang alternates.
 
-  The six core pages (home, store, support, privacy, releases, CHANGELOG) exist
+  The seven core pages (home, store, support, guide, privacy, releases, CHANGELOG) exist
   in every language listed in `_data/languages.yml`, at parallel paths:
   English lives at the site root (e.g. /store.html) and each other language
   under /<code>/ (e.g. /ko/store.html). For each of those pages we emit one
@@ -29,7 +29,7 @@ sitemap: false
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 {%- assign langs = site.data.languages -%}
 {%- comment -%} "@" stands in for the home page's empty slug. {%- endcomment -%}
-{%- assign slugs = "@|store.html|support.html|privacy.html|releases.html|CHANGELOG.html" | split: "|" -%}
+{%- assign slugs = "@|store.html|support.html|guide.html|privacy.html|releases.html|CHANGELOG.html" | split: "|" -%}
 {%- for slug in slugs -%}
   {%- if slug == "@" -%}{%- assign path = "" -%}{%- else -%}{%- assign path = slug -%}{%- endif -%}
   {%- for cur in langs -%}
@@ -59,9 +59,12 @@ sitemap: false
   </url>
   {%- endif -%}
 {%- endfor -%}
-{%- comment -%} Korean-only guides: the list page and each article under /ko/guides/. {%- endcomment -%}
+{%- comment -%}
+  Guide articles under /guides/ (English) and /<lang>/guides/. The guide list
+  pages are core pages above; the articles' hreflang lives in each page's head.
+{%- endcomment -%}
 {%- for page in site.html_pages -%}
-  {%- if page.url == "/ko/guide.html" or page.url contains "/ko/guides/" -%}
+  {%- if page.url contains "/guides/" -%}
   <url>
     <loc>{{ page.url | absolute_url }}</loc>
     {%- assign lm = page.last_modified_at | default: page.last_modified | default: page.date -%}

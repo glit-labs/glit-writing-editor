@@ -462,6 +462,17 @@
     .walkthrough > li { padding: 1.25rem 1.2rem 1.4rem; }
     .walkthrough__img { margin-left: 0; }
   }
+  /* Full Mac window captures (with the transparent macOS shadow around the
+     window) span the whole step card instead of the 620px indented column.
+     The captures are 1348x868 with the window at x 34-1313, y 26-825, so the
+     image is drawn 1348/1280 wide and pulled out by the shadow margins
+     (percentages of the card width, vertical ones too): the window's edges
+     then line up with the card text and the shadow falls into the padding. */
+  .walkthrough__img--window {
+    width: 105.3125%; max-width: none;
+    margin: calc(1.15rem - 2.03125%) 0 -3.28125% -2.65625%;
+    border: 0; border-radius: 0; background: none;
+  }
 
   /* Support page cards + FAQ. */
   .support-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin: 2rem 0; }

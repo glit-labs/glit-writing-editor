@@ -1,6 +1,6 @@
 ---
-description: "영상과 글로 보는 Glit 가이드 모음입니다. 1분 데모, 모바일에서 만든 작품을 Dropbox로 데스크톱에서 이어 쓰는 방법, 샘플 웹소설 열기를 안내합니다."
-last_modified: 2026-10-04
+description: "영상과 글로 보는 Glit 가이드 모음입니다. 1분 데모, Dropbox로 모바일과 데스크톱에서 이어 쓰는 방법, 샘플 웹소설 열기, 비스포크 뽀모도로 사용법을 안내합니다."
+last_modified: 2026-10-25
 layout: single
 title: "가이드"
 lang: ko

@@ -175,18 +175,20 @@
   Emit reciprocal rel="alternate" links only for pages that actually have
   parallel language versions (mirrors the URL model documented in sitemap.xml):
 
-    * Core pages (home + Store/Support/Privacy/Releases/CHANGELOG) exist in
-      every language in _data/languages.yml — emit all of them + x-default(en).
+    * Core pages (home + Store/Support/Guide/Privacy/Releases/CHANGELOG) exist
+      in every language in _data/languages.yml — emit all of them + x-default(en).
     * Per-version release notes (/releases/<platform>/<ver>/<lang>.html): link
       whichever of the 8 site languages actually exist for that version (older
       versions ship en/ko only, newer ones add more) — plus x-default(en).
     * Platform status pages (/releases/<platform>/, e.g. the Android page) work
       the same way, except English is the directory root itself rather than an
       en.html file, and the localized siblings sit next to it.
-    * Anything else (e.g. the Korean-only guides) has no parallel set, so we
-      emit no hreflang at all.
+    * Guide articles (/guides/<slug>.html in English, /<lang>/guides/<slug>.html
+      otherwise): link whichever language versions of that slug exist, but only
+      when there are at least two. A Korean-only guide gets no hreflang.
+    * Anything else has no parallel set, so we emit no hreflang at all.
 {%- endcomment -%}
-{%- assign core_slugs = "store.html,support.html,privacy.html,releases.html,CHANGELOG.html" | split: "," -%}
+{%- assign core_slugs = "store.html,support.html,guide.html,privacy.html,releases.html,CHANGELOG.html" | split: "," -%}
 {%- assign is_home = false -%}
 {%- if rel_path == "" -%}{%- assign is_home = true -%}{%- endif -%}
 {%- assign is_core = is_home -%}
@@ -256,6 +258,26 @@
   {%- endfor -%}
   {%- if en_href != "" -%}
 <link rel="alternate" hreflang="x-default" href="{{ en_href | absolute_url }}">
+  {%- endif -%}
+{%- elsif rel_path contains "guides/" -%}
+  {%- assign guide_codes = "" -%}
+  {%- for l in langs -%}
+    {%- if l.code == "en" -%}{%- assign gpath = "/" | append: rel_path -%}
+    {%- else -%}{%- assign gpath = "/" | append: l.code | append: "/" | append: rel_path -%}{%- endif -%}
+    {%- for p in site.html_pages -%}
+      {%- if p.url == gpath -%}{%- assign guide_codes = guide_codes | append: l.code | append: "," -%}{%- break -%}{%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+  {%- assign guide_codes = guide_codes | split: "," -%}
+  {%- if guide_codes.size > 1 -%}
+    {%- for code in guide_codes -%}
+      {%- if code == "en" -%}{%- assign gpath = "/" | append: rel_path -%}
+      {%- else -%}{%- assign gpath = "/" | append: code | append: "/" | append: rel_path -%}{%- endif -%}
+<link rel="alternate" hreflang="{{ code }}" href="{{ gpath | absolute_url }}">
+    {%- endfor -%}
+    {%- if guide_codes contains "en" -%}
+<link rel="alternate" hreflang="x-default" href="{{ "/" | append: rel_path | absolute_url }}">
+    {%- endif -%}
   {%- endif -%}
 {%- endif -%}
 
