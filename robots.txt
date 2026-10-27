@@ -6,3 +6,5 @@ User-agent: *
 Allow: /
 
 Sitemap: {{ '/sitemap.xml' | absolute_url }}
+
+#DaumWebMasterTool:e7d821c3239c95a73dfe6a244ac04b1906017d55a82888f9e05fc0cc1f64711c:/Dn1va1+69DmjyIIIsTgww==
