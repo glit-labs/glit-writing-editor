@@ -332,6 +332,102 @@
   .page__content p.video-group__lead { margin: 0 0 0.6rem; color: #6f685f; font-size: 0.98rem; line-height: 1.6; }
   .page__content p.video-note { margin: 0.4rem 0 0; color: #8a8378; font-size: 0.88rem; }
 
+  /* ===== Insights index (insights.md, <lang>/insights.md) =====
+     Reuses the guide cards; adds the post date above the title and a quiet
+     placeholder card while no article has been published yet. */
+  .insight-card__date { display: block; margin: 0 0 0.35rem; color: #8a8278; font-size: 0.85rem; letter-spacing: 0.02em; }
+  .insight-empty {
+    background: #fbf9f5; border: 1px dashed #d9d1c4; border-radius: 10px;
+    padding: 2rem 1.7rem; margin: 2rem 0; text-align: center; color: #6f685f; word-break: keep-all;
+  }
+
+  /* ===== Insight articles (`classes: guide-article insight-article`) =====
+     Long-form reading, unlike the step-by-step guides: the same page width as
+     the rest of the site, with larger type, airy leading, generous section
+     spacing, and a few distinct blocks (summary card, kicker above each
+     section, pull quote, cards) so the eye has places to rest. Product talk
+     stays out of the body: at most one quiet maker's note at the end. */
+  .insight-article .page__content {
+    font-size: 1.08rem; line-height: 1.9; color: #2f2b28; word-break: keep-all; overflow-wrap: break-word;
+  }
+  /* `keep-all` only breaks at spaces, which suits Korean but leaves Japanese
+     and Chinese (no spaces) breaking only at punctuation. */
+  html[lang^="ja"] .insight-article .page__content,
+  html[lang^="ja"] .insight-article .guide-hero,
+  html[lang^="zh"] .insight-article .page__content,
+  html[lang^="zh"] .insight-article .guide-hero { word-break: normal; line-break: strict; }
+  .insight-article .page__content p { margin-bottom: 1.45em; }
+  .insight-article .page__content strong { color: #211f1c; }
+  .insight-article .page__content .guide-hero strong { color: #fff; }
+  .insight-article .page__content ul > li { margin-bottom: 0.55em; }
+
+  /* Hero: date and reading time under the title. */
+  .insight-meta { display: flex; flex-wrap: wrap; gap: 0.35rem 1.1rem; margin: 0 0 1.3rem; color: #a99f92; font-size: 0.9rem; }
+  .insight-meta i { color: #e58a62; margin-right: 0.35rem; }
+  .insight-article .page__content p.guide-hero__lead { font-size: 1.08rem; line-height: 1.8; }
+
+  /* Section headings: more air above, a hairline rule, and a small terracotta
+     kicker ("습관 1") on its own line just above. */
+  .insight-article .page__content h2 {
+    font-size: 1.65rem; line-height: 1.4; margin-top: 4.2rem; margin-bottom: 1.2rem;
+    padding: 1.6rem 0 0; border-bottom: 0; border-top: 1px solid #e7e1d6;
+  }
+  .insight-article .page__content h2[id] { scroll-margin-top: 1.5rem; }
+  .insight-article .page__content p.insight-kicker {
+    margin-top: 4.2rem; margin-bottom: 0.6rem; padding-top: 1.8rem; border-top: 1px solid #e7e1d6;
+    font-size: 0.8rem; font-weight: 700; letter-spacing: 0.12em; color: #c96a45; line-height: 1;
+  }
+  .insight-article .page__content p.insight-kicker + h2 { margin-top: 0; padding-top: 0; border-top: 0; }
+
+  /* Key-takeaways card at the top. */
+  .insight-summary {
+    background: #fbf9f5; border: 1px solid #e7e1d6; border-radius: 14px;
+    padding: 1.6rem 1.8rem 1.4rem; margin-top: 0.5rem; margin-bottom: 3rem;
+  }
+  .insight-summary__title { display: block; margin: 0 0 0.9rem; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.12em; color: #c96a45; }
+  .insight-summary ol { list-style: none; counter-reset: isum; margin: 0; padding: 0; }
+  .insight-summary li {
+    counter-increment: isum; position: relative; padding: 0.7rem 0 0.7rem 2.6rem; margin: 0;
+    border-top: 1px dashed #e2dacd; line-height: 1.7; font-size: 1rem;
+  }
+  .insight-summary li:first-child { border-top: 0; padding-top: 0.2rem; }
+  .insight-summary li::before {
+    content: counter(isum, decimal-leading-zero); position: absolute; left: 0; top: 0.75rem;
+    font-family: "Playfair Display", Georgia, serif; font-size: 1.15rem; font-weight: 600; color: #c96a45; line-height: 1.4;
+  }
+  .insight-summary li:first-child::before { top: 0.25rem; }
+
+  /* Pull quote. */
+  .insight-article .page__content blockquote {
+    margin-top: 2.6rem; margin-bottom: 2.6rem; padding: 0.3rem 0 0.3rem 1.4rem;
+    border-left: 3px solid #c96a45; font-style: normal;
+    font-size: 1.3rem; line-height: 1.65; color: #211f1c; font-weight: 500;
+  }
+  .insight-article .page__content blockquote p { margin: 0; }
+
+  /* Three-up / two-up cards. */
+  .insight-article .info-grid { grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 1rem; margin-top: 1.6rem; margin-bottom: 2.2rem; }
+  .insight-article .info-grid--two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  @media (max-width: 600px) { .insight-article .info-grid--two { grid-template-columns: 1fr; } }
+  .insight-article .info-card p { line-height: 1.65; }
+  .insight-article .info-card h3 { margin-top: 0; }
+
+  /* Closing note from the makers: one quiet paragraph, no buttons, so the
+     article ends on the advice rather than a sales pitch. */
+  .insight-article .page__content p.insight-maker {
+    margin-top: 2.6rem; padding-top: 1.4rem; border-top: 1px dashed #d9d1c4;
+    color: #6f685f; font-size: 0.98rem; line-height: 1.8;
+  }
+  .insight-article .page__content p.insight-back { margin-top: 1.5rem; text-align: center; font-size: 0.95rem; }
+
+  @media (max-width: 600px) {
+    .insight-article .page__content { font-size: 1.04rem; line-height: 1.85; }
+    .insight-article .page__content h2 { font-size: 1.4rem; margin-top: 3.4rem; }
+    .insight-article .page__content p.insight-kicker { margin-top: 3.4rem; }
+    .insight-summary { padding: 1.3rem 1.2rem 1.1rem; }
+    .insight-article .page__content blockquote { font-size: 1.15rem; }
+  }
+
   /* Text guides on the guide index, set apart from the video guides above as an
      inverted band — the same warm dark and radius as the home page's closing
      CTA band. Cards sit one step lighter than the band. The link uses a lighter

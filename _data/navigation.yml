@@ -12,6 +12,8 @@ main:
         url: /CHANGELOG.html
   - title: "Store"
     url: /store.html
+  - title: "Insights"
+    url: /insights.html
   - title: "Support"
     children:
       - title: "Support"
@@ -30,6 +32,8 @@ main_ko:
         url: /ko/CHANGELOG.html
   - title: "스토어"
     url: /ko/store.html
+  - title: "인사이트"
+    url: /ko/insights.html
   - title: "지원"
     children:
       - title: "지원"
@@ -48,6 +52,8 @@ main_ja:
         url: /ja/CHANGELOG.html
   - title: "ストア"
     url: /ja/store.html
+  - title: "インサイト"
+    url: /ja/insights.html
   - title: "サポート"
     children:
       - title: "サポート"
@@ -66,6 +72,8 @@ main_es:
         url: /es/CHANGELOG.html
   - title: "Tienda"
     url: /es/store.html
+  - title: "Perspectivas"
+    url: /es/insights.html
   - title: "Soporte"
     children:
       - title: "Soporte"
@@ -84,6 +92,8 @@ main_fr:
         url: /fr/CHANGELOG.html
   - title: "Boutique"
     url: /fr/store.html
+  - title: "Perspectives"
+    url: /fr/insights.html
   - title: "Assistance"
     children:
       - title: "Assistance"
@@ -102,6 +112,8 @@ main_de:
         url: /de/CHANGELOG.html
   - title: "Store"
     url: /de/store.html
+  - title: "Einblicke"
+    url: /de/insights.html
   - title: "Support"
     children:
       - title: "Support"
@@ -120,6 +132,8 @@ main_it:
         url: /it/CHANGELOG.html
   - title: "Store"
     url: /it/store.html
+  - title: "Approfondimenti"
+    url: /it/insights.html
   - title: "Supporto"
     children:
       - title: "Supporto"
@@ -138,6 +152,8 @@ main_zh:
         url: /zh/CHANGELOG.html
   - title: "商店"
     url: /zh/store.html
+  - title: "洞察"
+    url: /zh/insights.html
   - title: "支持"
     children:
       - title: "支持"

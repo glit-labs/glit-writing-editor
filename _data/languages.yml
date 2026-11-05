@@ -1,7 +1,7 @@
 # Languages shown in the top-right language selector.
 # English is the default and lives at the site root (/); every other language
 # has its own home page under `/<code>/`. Pages that aren't translated yet
-# (Store, Support, Privacy, Releases) fall back to the English versions.
+# (Store, Support, Insights, Privacy, Releases) fall back to the English versions.
 #
 # `brand` is the descriptive "Glit: <descriptor>" string used as the <title>
 # suffix for that language (see _includes/seo.html). It keeps terse page titles

@@ -154,8 +154,13 @@
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
 {% endif %}
 
-{% if og_type == "article" and page.last_modified_at %}
-  <meta property="article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}">
+{%- comment -%}
+  Pages on this site record their edit date as `last_modified` (the theme's
+  name is `last_modified_at`); accept either so the tag is not silently lost.
+{%- endcomment -%}
+{%- assign page_modified = page.last_modified_at | default: page.last_modified -%}
+{% if og_type == "article" and page_modified %}
+  <meta property="article:modified_time" content="{{ page_modified | date_to_xmlschema }}">
 {% endif %}
 
 {% if site.facebook %}
@@ -175,7 +180,7 @@
   Emit reciprocal rel="alternate" links only for pages that actually have
   parallel language versions (mirrors the URL model documented in sitemap.xml):
 
-    * Core pages (home + Store/Support/Guide/Privacy/Releases/CHANGELOG) exist
+    * Core pages (home + Store/Support/Guide/Insights/Privacy/Releases/CHANGELOG) exist
       in every language in _data/languages.yml — emit all of them + x-default(en).
     * Per-version release notes (/releases/<platform>/<ver>/<lang>.html): link
       whichever of the 8 site languages actually exist for that version (older
@@ -183,12 +188,12 @@
     * Platform status pages (/releases/<platform>/, e.g. the Android page) work
       the same way, except English is the directory root itself rather than an
       en.html file, and the localized siblings sit next to it.
-    * Guide articles (/guides/<slug>.html in English, /<lang>/guides/<slug>.html
-      otherwise): link whichever language versions of that slug exist, but only
+    * Guide and insight articles (/guides/<slug>.html or /insights/<slug>.html
+      in English, /<lang>/guides/… or /<lang>/insights/… otherwise): link whichever language versions of that slug exist, but only
       when there are at least two. A Korean-only guide gets no hreflang.
     * Anything else has no parallel set, so we emit no hreflang at all.
 {%- endcomment -%}
-{%- assign core_slugs = "store.html,support.html,guide.html,privacy.html,releases.html,CHANGELOG.html" | split: "," -%}
+{%- assign core_slugs = "store.html,support.html,guide.html,insights.html,privacy.html,releases.html,CHANGELOG.html" | split: "," -%}
 {%- assign is_home = false -%}
 {%- if rel_path == "" -%}{%- assign is_home = true -%}{%- endif -%}
 {%- assign is_core = is_home -%}
@@ -259,7 +264,7 @@
   {%- if en_href != "" -%}
 <link rel="alternate" hreflang="x-default" href="{{ en_href | absolute_url }}">
   {%- endif -%}
-{%- elsif rel_path contains "guides/" -%}
+{%- elsif rel_path contains "guides/" or rel_path contains "insights/" -%}
   {%- assign guide_codes = "" -%}
   {%- for l in langs -%}
     {%- if l.code == "en" -%}{%- assign gpath = "/" | append: rel_path -%}
@@ -291,9 +296,12 @@
 {%- comment -%}
   === Structured data =================================================
   Home pages (every language) describe the product itself → SoftwareApplication.
+  Insight articles (`insight: true`) → Article, so search engines and AI
+  answers read them as dated, attributed articles.
   All other pages get a lightweight WebPage node. Replaces the theme's default
   schema.html include, which emitted "@type": Person with a null name.
 {%- endcomment -%}
+{%- assign page_lang = page.locale | default: site.locale | replace: "_", "-" | default: "en" -%}
 {%- if is_home -%}
   <script type="application/ld+json">
 {
@@ -306,6 +314,28 @@
   "sameAs": {{ site.social.links | jsonify }},{% endif %}
   "inLanguage": {{ page.locale | default: site.locale | replace: "_", "-" | default: "en" | jsonify }}{% if seo_description %},
   "description": {{ seo_description | jsonify }}{% endif %}
+}
+</script>
+{%- elsif page.insight -%}
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ page.title | jsonify }},
+  "url": {{ canonical_url | jsonify }},
+  "mainEntityOfPage": { "@type": "WebPage", "@id": {{ canonical_url | jsonify }} },
+  "inLanguage": {{ page_lang | jsonify }},{% if seo_description %}
+  "description": {{ seo_description | jsonify }},{% endif %}{% if og_image %}
+  "image": {{ og_image | jsonify }},{% endif %}
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  "dateModified": {{ page_modified | default: page.date | date_to_xmlschema | jsonify }},
+  "author": { "@type": "Organization", "name": "Glit", "url": {{ "/" | absolute_url | jsonify }} },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Glit",
+    "url": {{ "/" | absolute_url | jsonify }},
+    "logo": { "@type": "ImageObject", "url": {{ "/assets/images/glit-icon.png" | absolute_url | jsonify }} }
+  }
 }
 </script>
 {%- else -%}
