@@ -1,6 +1,6 @@
 ---
 description: "Come scrivere ogni giorno una web novel a puntate: cinque abitudini per arrivare in fondo a ogni capitolo e qualche rimedio per i giorni di blocco."
-last_modified: 2026-11-05
+last_modified: 2026-11-09
 layout: single
 title: "Web novel, un capitolo al giorno: 5 abitudini per arrivare fino in fondo"
 lang: it
@@ -10,6 +10,8 @@ insight: true
 date: 2026-11-05
 classes: guide-article insight-article
 summary: "Pubblicare ogni giorno è una questione di metodo più che di forza di volontà. Dal lasciare già pronta la prima frase del capitolo successivo al suddividere le parole in blocchi di tempo, cinque abitudini per portare a termine ogni capitolo."
+header:
+  og_image: /assets/images/insights/daily-serial-habits/cover.jpg
 ---
 
 {%- comment -%} Tempo di lettura: circa 220 parole al minuto (stima, markup compreso). {%- endcomment -%}
@@ -35,6 +37,10 @@ summary: "Pubblicare ogni giorno è una questione di metodo più che di forza di
     <a href="#faq">Domande frequenti</a>
   </nav>
 </header>
+
+<figure class="insight-figure insight-figure--cover">
+  <img src="/assets/images/insights/daily-serial-habits/cover.jpg" width="1500" height="780" alt="Mani che scrivono un manoscritto al portatile su una scrivania illuminata dal sole, con appunti e una tazza di caffè fumante" />
+</figure>
 
 <section class="insight-summary" id="summary" aria-label="In sintesi">
   <span class="insight-summary__title">In sintesi</span>
@@ -63,6 +69,10 @@ Non sapere da dove cominciare. Interrompersi mentre si scrive per cercare un det
 
 La frase più difficile della giornata è la prima. Per questo, quando chiudi il capitolo di oggi, **scrivi già una o due righe d'apertura del successivo** e solo allora fermati.
 
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-1-first-sentence.jpg" width="1200" height="800" loading="lazy" alt="Un quaderno di manoscritto aperto sotto la lampada, con solo la prima riga del capitolo successivo su una pagina bianca e una mano accanto alla penna" />
+</figure>
+
 Meglio ancora se ti fermi nel vivo di una scena. Quando domani aprirai il manoscritto, troverai già pronta la frase da cui ripartire, e la scena del giorno prima ti tornerà in mente senza fatica.
 
 Questo metodo si sposa benissimo con il cliffhanger a fine capitolo. Se interrompi il capitolo proprio dove il lettore muore dalla voglia di sapere cosa succede, la prima frase del successivo diventa la prima risposta a quella curiosità. Ricorda: la frase che spinge il lettore ad aprire il capitolo successivo è anche il tuo motivo per tornare alla scrivania il giorno dopo.
@@ -72,6 +82,10 @@ Questo metodo si sposa benissimo con il cliffhanger a fine capitolo. Se interrom
 ## Prima di scrivere, fissare le scene in tre righe {#habit-2}
 
 Se pianificare la trama non ti è ancora familiare, non perdere tempo a stendere subito una scaletta dettagliata. Prima di cominciare ti bastano queste tre righe.
+
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-2-three-lines.jpg" width="1200" height="800" loading="lazy" alt="Tre schede che segnano l'inizio, la svolta e la fine di un capitolo, in fila e unite da un filo color terracotta" />
+</figure>
 
 <div class="info-grid">
   <div class="info-card">
@@ -98,6 +112,10 @@ Puoi lasciare le tre righe in cima al manoscritto e cancellarle a capitolo finit
 
 Un obiettivo come «oggi 2.500 parole» può pesare ancora prima di cominciare. Se dividi lo stesso obiettivo **in blocchi di tempo**, il primo passo diventa molto più facile. Per esempio, quattro giri da 25 minuti di concentrazione e 5 di pausa ti danno un ritmo con cui finire un capitolo in poco più di due ore.
 
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-3-time-blocks.jpg" width="1200" height="800" loading="lazy" alt="Una clessidra, quattro blocchi di concentrazione separati da brevi pause, un timer e una tazza di tè in fila" />
+</figure>
+
 Quando dividi il tempo, la cosa più importante è usare le pause solo per riposare. Se continui a ritoccare il manoscritto durante la pausa, il blocco di concentrazione successivo perde mordente. Durante i blocchi di scrittura non tornare indietro a correggere le frasi precedenti: vai avanti. Per sistemarle c'è il momento della revisione.
 
 Va bene qualsiasi timer: anche quello del telefono basta e avanza. L'importante è che premere «Avvia» diventi un segnale: «adesso è il momento di scrivere». Se è la prima volta, comincia con blocchi brevi, come 15 minuti di concentrazione e 3 di pausa, e trova con calma una routine tutta tua.
@@ -108,6 +126,10 @@ Va bene qualsiasi timer: anche quello del telefono basta e avanza. L'importante 
 
 Man mano che la storia va avanti, personaggi, luoghi, fazioni e termini diventano decine. Appena apri un'altra app o un altro file per controllare il nome di un personaggio secondario o di un'abilità, il ritmo della frase che stavi scrivendo si spezza. E anche quando torni, ci vuole tempo per ritrovare il passo di un attimo prima.
 
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-4-notes-beside.jpg" width="1200" height="800" loading="lazy" alt="Schede di appunti su personaggi, luoghi e termini proprio accanto al manoscritto sul portatile, con una mano che le raggiunge" />
+</figure>
+
 Tieni gli appunti **a portata di sguardo, sullo stesso schermo su cui scrivi**. Quando nasce un nuovo dettaglio, annotalo subito e riordina tutto a capitolo finito. Mentre scrivi, l'obiettivo è ridurre al minimo il tempo passato a «cercare».
 
 Non serve un formato perfetto. Basta una nota accanto al manoscritto, divisa a grandi linee in personaggi, luoghi e termini. Nel pieno della scrittura, una nota che vedi con un'occhiata è più utile di un compendio dell'ambientazione curato nei minimi dettagli.
@@ -117,6 +139,10 @@ Non serve un formato perfetto. Basta una nota accanto al manoscritto, divisa a g
 ## Fare la revisione sullo schermo dei tuoi lettori {#habit-5}
 
 La maggior parte dei lettori di web novel legge sul telefono. Un paragrafo che sembra della misura giusta su un monitor largo può diventare, sullo smartphone, un muro di testo che riempie tutto lo schermo. La spaziatura tra dialoghi e narrazione, i punti in cui spezzi i paragrafi, il punto dello schermo in cui cade l'ultima riga del capitolo: tutto questo si vede bene solo **leggendo alla stessa larghezza di schermo dei tuoi lettori**.
+
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-5-mobile-review.jpg" width="1200" height="800" loading="lazy" alt="Una mano che tiene uno smartphone per leggere un manoscritto diviso in paragrafi brevi, tra un portatile e un foglio stampato con correzioni" />
+</figure>
 
 È meglio fare la revisione in un giorno diverso da quello della stesura, o almeno in un momento diverso. Le frasi appena scritte si sovrappongono a ciò che avevi in mente, e i vuoti sfuggono. Se organizzi la giornata così (prima rivedi il capitolo di ieri, poi scrivi quello nuovo), riesci a scrivere e a rifinire un capitolo al giorno senza perdere il ritmo.
 

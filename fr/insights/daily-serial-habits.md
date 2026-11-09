@@ -1,6 +1,6 @@
 ---
 description: "Publier un roman en ligne et écrire tous les jours : cinq habitudes pour aller au bout de chaque épisode, et que faire les jours de blocage."
-last_modified: 2026-11-05
+last_modified: 2026-11-09
 layout: single
 title: "Publier un roman en ligne chaque jour : 5 habitudes pour finir chaque épisode"
 lang: fr
@@ -10,6 +10,8 @@ insight: true
 date: 2026-11-05
 classes: guide-article insight-article
 summary: "Publier chaque jour est une affaire de méthode plus que de volonté. De la première phrase de l'épisode suivant écrite à l'avance au découpage de l'objectif en blocs de temps, voici cinq habitudes pour aller au bout de chaque épisode."
+header:
+  og_image: /assets/images/insights/daily-serial-habits/cover.jpg
 ---
 
 {%- comment -%} Temps de lecture : environ 220 mots par minute (approximatif, balisage compris). {%- endcomment -%}
@@ -35,6 +37,10 @@ summary: "Publier chaque jour est une affaire de méthode plus que de volonté. 
     <a href="#faq">Questions fréquentes</a>
   </nav>
 </header>
+
+<figure class="insight-figure insight-figure--cover">
+  <img src="/assets/images/insights/daily-serial-habits/cover.jpg" width="1500" height="780" alt="Des mains tapant un manuscrit sur un ordinateur portable à un bureau ensoleillé, avec des notes et une tasse de café fumante" />
+</figure>
 
 <section class="insight-summary" id="summary" aria-label="L'essentiel">
   <span class="insight-summary__title">L'essentiel</span>
@@ -63,6 +69,10 @@ Ne pas savoir par où commencer. Devoir s'interrompre en pleine écriture pour r
 
 La phrase la plus difficile de la journée, c'est la première. Alors, quand vous bouclez l'épisode du jour, **écrivez déjà une ou deux lignes du début du suivant** avant de vous arrêter.
 
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-1-first-sentence.jpg" width="1200" height="800" loading="lazy" alt="Un carnet de manuscrit ouvert sous la lampe, avec seulement la première ligne de l'épisode suivant sur une page blanche et une main posée près du stylo" />
+</figure>
+
 L'idéal est de vous interrompre en pleine montée de tension. Demain, en ouvrant le manuscrit, vous trouverez une phrase prête à être poursuivie, et la scène de la veille vous reviendra sans effort.
 
 Cette méthode se marie très bien avec le cliffhanger de fin d'épisode. Si vous coupez l'épisode au moment où le lecteur brûle de connaître la suite, la première phrase de l'épisode suivant devient la première réponse à cette curiosité. Souvenez-vous : la phrase qui pousse le lecteur à cliquer sur « épisode suivant » est aussi celle qui vous donnera une raison de vous remettre à votre bureau le lendemain.
@@ -72,6 +82,10 @@ Cette méthode se marie très bien avec le cliffhanger de fin d'épisode. Si vou
 ## Poser ses scènes en trois lignes avant d'écrire {#habit-2}
 
 Si vous n'avez pas encore l'habitude de préparer vos intrigues, ne vous lancez pas tête baissée dans un plan détaillé qui vous ferait perdre du temps. Notez simplement ces trois lignes avant de commencer.
+
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-2-three-lines.jpg" width="1200" height="800" loading="lazy" alt="Trois fiches marquant le début, le tournant et la fin d'un épisode, alignées et reliées par un fil terracotta" />
+</figure>
 
 <div class="info-grid">
   <div class="info-card">
@@ -98,6 +112,10 @@ Vous pouvez laisser ces trois lignes en haut du manuscrit et les effacer une foi
 
 Un objectif comme « 2 500 mots aujourd'hui » peut peser lourd avant même qu'on s'y mette. Découpez ce même objectif **en blocs de temps**, et le premier pas devient bien plus facile. Par exemple, quatre cycles de 25 minutes de concentration suivies de 5 minutes de pause donnent un rythme qui permet de boucler un épisode en un peu plus de deux heures.
 
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-3-time-blocks.jpg" width="1200" height="800" loading="lazy" alt="Un sablier, quatre blocs de concentration séparés par de courtes pauses, un minuteur et une tasse de thé alignés" />
+</figure>
+
 Dans ce découpage, l'essentiel est que la pause reste une vraie pause. Si vous continuez à retoucher votre texte pendant la pause, la session suivante perd de son mordant. Pendant les sessions de concentration, ne revenez pas sur les phrases déjà écrites : avancez. Les corrections attendront le moment de la relecture.
 
 N'importe quel minuteur fait l'affaire ; celui du téléphone suffit largement. L'important, c'est qu'au moment où vous le lancez, vous vous envoyiez un signal : « maintenant, j'écris ». Si vous débutez, commencez par des cycles courts, par exemple 15 minutes de concentration et 3 minutes de pause, puis trouvez peu à peu votre propre rythme.
@@ -108,6 +126,10 @@ N'importe quel minuteur fait l'affaire ; celui du téléphone suffit largement
 
 À mesure que le feuilleton s'allonge, personnages, lieux, factions et termes se comptent par dizaines. Dès que vous ouvrez une autre application ou un autre fichier pour vérifier le nom d'un personnage secondaire ou d'une technique, le rythme de la phrase en cours se brise. Et une fois revenu au texte, il faut du temps pour retrouver l'élan d'il y a un instant.
 
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-4-notes-beside.jpg" width="1200" height="800" loading="lazy" alt="Des fiches sur les personnages, les lieux et les termes posées juste à côté du manuscrit sur l'ordinateur, une main tendue vers elles" />
+</figure>
+
 Placez vos notes **à portée immédiate de l'écran où vous écrivez**. Quand un nouvel élément apparaît, notez-le sur-le-champ, puis mettez de l'ordre dans le tout une fois l'épisode terminé. Pendant l'écriture, l'objectif est de réduire au maximum le temps passé à « chercher ».
 
 Inutile de viser une présentation parfaite. Une simple note à côté du manuscrit, divisée en personnages, lieux et termes, suffit amplement. En plein épisode, une note visible d'un simple coup d'œil est plus utile qu'une bible d'univers impeccablement organisée.
@@ -117,6 +139,10 @@ Inutile de viser une présentation parfaite. Une simple note à côté du manusc
 ## Relire sur l'écran de ses lecteurs {#habit-5}
 
 La plupart des lecteurs de romans en ligne lisent sur leur téléphone. Un paragraphe qui paraissait raisonnable sur un grand moniteur peut devenir, sur mobile, un véritable mur de texte qui occupe tout l'écran. L'espacement entre dialogues et narration, l'endroit où couper les paragraphes, l'endroit où tombe la dernière ligne de l'épisode à l'écran : tout cela ne se voit vraiment qu'en **lisant à la largeur d'écran de vos lecteurs**.
+
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-5-mobile-review.jpg" width="1200" height="800" loading="lazy" alt="Une main tenant un téléphone pour lire un manuscrit découpé en paragraphes courts, entre un ordinateur et une page imprimée annotée" />
+</figure>
 
 Mieux vaut relire un autre jour que celui où vous avez écrit, ou du moins à un autre moment. Un texte tout juste écrit se confond encore avec ce que vous aviez en tête, si bien que ses manques vous échappent. Organisez vos journées ainsi : relire l'épisode de la veille, puis écrire le nouveau. Vous tiendrez un rythme où, chaque jour, un épisode s'écrit et un autre se peaufine.
 

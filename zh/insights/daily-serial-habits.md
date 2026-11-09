@@ -1,6 +1,6 @@
 ---
 description: "网文日更怎么坚持？提前写好下一章第一句、三行定场景、把字数拆成时间段，本文整理了写完每一章的 5 个习惯，以及卡文时怎么办。"
-last_modified: 2026-11-05
+last_modified: 2026-11-09
 layout: single
 title: "网文日更：写完每一章的 5 个习惯"
 lang: zh
@@ -10,6 +10,8 @@ insight: true
 date: 2026-11-05
 classes: guide-article insight-article
 summary: "日更与其说考验意志力，不如说考验流程。从提前写好下一章的第一句，到把字数拆成时间段，本文整理了帮你写完每一章的五个习惯。"
+header:
+  og_image: /assets/images/insights/daily-serial-habits/cover.jpg
 ---
 
 {%- comment -%} 阅读时间：中文按每分钟约500字估算（含标记，近似值）。 {%- endcomment -%}
@@ -35,6 +37,10 @@ summary: "日更与其说考验意志力，不如说考验流程。从提前写�
     <a href="#faq">常见问题</a>
   </nav>
 </header>
+
+<figure class="insight-figure insight-figure--cover">
+  <img src="/assets/images/insights/daily-serial-habits/cover.jpg" width="1500" height="780" alt="阳光洒落的书桌前，双手在笔记本电脑上敲打稿子，旁边放着稿纸和一杯冒着热气的咖啡的插画" />
+</figure>
 
 <section class="insight-summary" id="summary" aria-label="要点速览">
   <span class="insight-summary__title">要点速览</span>
@@ -63,6 +69,10 @@ summary: "日更与其说考验意志力，不如说考验流程。从提前写�
 
 一天里最难写的，是第一句话。所以写完今天这一章时，**先把下一章开头的一两句写好**再收工。
 
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-1-first-sentence.jpg" width="1200" height="800" loading="lazy" alt="台灯下摊开的稿本空白页上只写好下一章的第一句，手放在笔旁边的插画" />
+</figure>
+
 如果能停在情节正激烈的地方就更好了。明天打开稿子，要接着写的句子已经摆在那里，昨天那一幕也很容易在脑海里重现。
 
 这个方法和断章也很搭。如果这一章断在了吊人胃口的地方，下一章的第一句就是对这份悬念的第一个回应。别忘了：让读者忍不住点开下一章的那句话，也是让你第二天重新坐回书桌前的理由。
@@ -72,6 +82,10 @@ summary: "日更与其说考验意志力，不如说考验流程。从提前写�
 ## 动笔前，用三行定好场景 {#habit-2}
 
 如果你还不习惯做大纲，就别急着花大量时间去写详细的大纲。动笔前，只要写下下面这三行就够了。
+
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-2-three-lines.jpg" width="1200" height="800" loading="lazy" alt="代表开头、转折和结尾的三张卡片排成一行，由一根赤陶色细线相连的插画" />
+</figure>
 
 <div class="info-grid">
   <div class="info-card">
@@ -98,6 +112,10 @@ summary: "日更与其说考验意志力，不如说考验流程。从提前写�
 
 “今天写 4,000 字”这样的目标，还没动笔就可能先让人有压力。把同样的目标**按时间拆分**，迈出第一步就容易多了。比如专注 25 分钟、休息 5 分钟，重复四次，就形成了两个多小时写完一章的节奏。
 
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-3-time-blocks.jpg" width="1200" height="800" loading="lazy" alt="沙漏、隔着短暂休息排开的四个专注时间块、计时器和一杯茶排成一行的插画" />
+</figure>
+
 按时间拆分时，最重要的是让休息只用来休息。休息时还忍不住改稿，下一轮专注就没那么集中了。专注时也别回头改前面的句子，只管往下写。改句子的事，留到修文的时候再做。
 
 计时器用什么都行，手机自带的就足够了。关键是在按下开始的那一刻，给自己一个“现在是写作时间”的信号。如果是第一次尝试，可以先从专注 15 分钟、休息 3 分钟这样的短时段起步，慢慢摸索出适合自己的节奏。
@@ -108,6 +126,10 @@ summary: "日更与其说考验意志力，不如说考验流程。从提前写�
 
 连载时间一长，人物、地名、势力、术语动辄就有几十个。只为确认一个配角的名字或一个招式名，就得去翻别的软件或文件，那一刻，正在写的句子的节奏就断了。就算切回来，也要花点时间才能找回刚才的手感。
 
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-4-notes-beside.jpg" width="1200" height="800" loading="lazy" alt="笔记本电脑上的稿子旁摊开人物、地点、术语设定卡片，伸手查看的插画" />
+</figure>
+
 把设定资料放在**写稿时随手就能翻到的地方**。有了新设定就当场记下来，写完这一章再统一整理。写作过程中，要尽量减少“找东西”这件事。
 
 格式不必追求完美。在稿子旁边放一份设定笔记，粗略分成人物、地点、术语几类就够了。写稿的时候，一转头就能看到的笔记，比整理得井井有条的设定集更好用。
@@ -117,6 +139,10 @@ summary: "日更与其说考验意志力，不如说考验流程。从提前写�
 ## 在读者看到的屏幕上修文 {#habit-5}
 
 大多数网文读者都用手机看书。在宽屏显示器上看着刚好的段落，到了手机上，可能就成了塞满一整屏的“文字墙”。对话和叙述之间的间距、段落在哪里断开、章末最后一行落在屏幕的什么位置，只有**按读者屏幕的宽度读一遍**，才能真正看清。
+
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-5-mobile-review.jpg" width="1200" height="800" loading="lazy" alt="在笔记本电脑和改过的打印稿之间，手拿手机阅读分成短段落的稿子的插画" />
+</figure>
 
 修文最好和写作分开：换一天做，至少也要换个时间。刚写完的句子会和脑子里的构想叠在一起，很难看出哪里有缺漏。不妨把每天安排成先修昨天写的那一章、再写新的一章，这样就能同时保持每天写一章、修一章的节奏。
 

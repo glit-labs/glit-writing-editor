@@ -1,6 +1,6 @@
 ---
 description: "Cómo publicar una novela por capítulos a diario, en Wattpad o donde sea: cinco hábitos para terminar cada capítulo y qué hacer los días de bloqueo."
-last_modified: 2026-11-05
+last_modified: 2026-11-09
 layout: single
 title: "Novela por capítulos a diario: 5 hábitos para terminar cada entrega"
 lang: es
@@ -10,6 +10,8 @@ insight: true
 date: 2026-11-05
 classes: guide-article insight-article
 summary: "Publicar a diario es más una cuestión de estructura que de fuerza de voluntad. Desde dejar escrita la primera frase del próximo capítulo hasta convertir tu objetivo de palabras en bloques de tiempo: cinco hábitos para llegar al final de cada entrega."
+header:
+  og_image: /assets/images/insights/daily-serial-habits/cover.jpg
 ---
 
 {%- comment -%} Tiempo de lectura: unas 220 palabras por minuto (aproximado, con marcado). {%- endcomment -%}
@@ -35,6 +37,10 @@ summary: "Publicar a diario es más una cuestión de estructura que de fuerza de
     <a href="#faq">Preguntas frecuentes</a>
   </nav>
 </header>
+
+<figure class="insight-figure insight-figure--cover">
+  <img src="/assets/images/insights/daily-serial-habits/cover.jpg" width="1500" height="780" alt="Unas manos escribiendo un manuscrito en el portátil sobre un escritorio iluminado por el sol, con notas y una taza de café humeante" />
+</figure>
 
 <section class="insight-summary" id="summary" aria-label="Lo esencial">
   <span class="insight-summary__title">Lo esencial</span>
@@ -63,6 +69,10 @@ No saber por dónde empezar, tener que parar a mitad del capítulo para consulta
 
 La frase más difícil del día es la primera. Por eso, al cerrar el capítulo de hoy, **deja escritas una o dos líneas del comienzo del siguiente** antes de parar.
 
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-1-first-sentence.jpg" width="1200" height="800" loading="lazy" alt="Un cuaderno de manuscrito abierto bajo la lámpara con solo la primera línea del siguiente capítulo escrita en una página en blanco y una mano junto al bolígrafo" />
+</figure>
+
 Mejor aún si te detienes cuando la escena está en plena tensión. Cuando mañana abras el manuscrito, tendrás lista la frase con la que seguir, y la escena de ayer te vendrá enseguida a la cabeza.
 
 Este método encaja muy bien con terminar los capítulos en un cliffhanger. Si cortas el capítulo en un momento de intriga, la primera frase del siguiente se convierte en la primera reacción a esa intriga. Recuerda: la frase que hace que el lector pulse «siguiente capítulo» es también, para ti, el motivo para volver a sentarte a escribir al día siguiente.
@@ -72,6 +82,10 @@ Este método encaja muy bien con terminar los capítulos en un cliffhanger. Si c
 ## Antes de escribir, resume las escenas en tres líneas {#habit-2}
 
 Si todavía no tienes soltura planificando la trama, no te lances a perder tiempo en un esquema detallado. Basta con que anotes estas tres líneas antes de empezar.
+
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-2-three-lines.jpg" width="1200" height="800" loading="lazy" alt="Tres tarjetas que marcan el inicio, el giro y el final de un capítulo, en fila y unidas por un hilo terracota" />
+</figure>
 
 <div class="info-grid">
   <div class="info-card">
@@ -98,6 +112,10 @@ Puedes dejar las tres líneas al principio del manuscrito y borrarlas al termina
 
 Un objetivo como «hoy, 2.500 palabras» puede pesar antes incluso de empezar. Si divides ese mismo objetivo **en bloques de tiempo**, dar el primer paso resulta mucho más fácil. Por ejemplo, si repites cuatro veces 25 minutos de concentración y 5 de descanso, tendrás un ritmo que te permite terminar un capítulo en poco más de dos horas.
 
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-3-time-blocks.jpg" width="1200" height="800" loading="lazy" alt="Un reloj de arena, cuatro bloques de concentración separados por breves descansos, un temporizador y una taza de té en fila" />
+</figure>
+
 Lo más importante al dividir el tiempo es usar los descansos solo para descansar. Si sigues retocando el manuscrito mientras descansas, el siguiente bloque de concentración pierde fuerza. Mientras estés concentrado, no vuelvas atrás a corregir: sigue escribiendo. Las frases ya las pulirás cuando toque revisar.
 
 Cualquier temporizador sirve; basta con el del móvil. Lo importante es que, al pulsar «Iniciar», te des a ti mismo una señal: «ahora toca escribir». Si es la primera vez, empieza con bloques cortos, como 15 minutos de concentración y 3 de descanso, y ve encontrando poco a poco tu propia rutina.
@@ -108,6 +126,10 @@ Cualquier temporizador sirve; basta con el del móvil. Lo importante es que, al 
 
 A medida que avanza la publicación, los personajes, lugares, facciones y términos se cuentan por decenas. En cuanto abres otra aplicación o archivo para comprobar el nombre de un personaje secundario o de una habilidad, se rompe el ritmo de la frase que estabas escribiendo. Y, al volver, tardas un rato en recuperar la sensación que tenías hace un momento.
 
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-4-notes-beside.jpg" width="1200" height="800" loading="lazy" alt="Tarjetas de notas de personajes, lugares y términos junto al manuscrito en el portátil, con una mano que se acerca a ellas" />
+</figure>
+
 Coloca tus notas donde puedas consultarlas **sin salir de la pantalla en la que escribes**. Cuando surja un dato nuevo, anótalo en el momento y ordénalo todo al terminar el capítulo. Mientras escribes, el objetivo es reducir al mínimo las búsquedas.
 
 No hace falta un formato perfecto. Basta con una nota junto al manuscrito, dividida a grandes rasgos en personajes, lugares y términos. Mientras escribes, una nota que ves con solo girar la cabeza resulta más útil que una biblia de la historia impecablemente ordenada.
@@ -117,6 +139,10 @@ No hace falta un formato perfecto. Basta con una nota junto al manuscrito, divid
 ## Revisa en la pantalla que usan tus lectores {#habit-5}
 
 La mayoría de los lectores de novelas web leen en el móvil. Un párrafo que parece adecuado en un monitor ancho puede verse en el teléfono como un muro de texto que llena toda la pantalla. La separación entre diálogo y narración, dónde se cortan los párrafos y en qué punto de la pantalla cae la última línea del capítulo solo se aprecian bien si **lees con el ancho de pantalla de tus lectores**.
+
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-5-mobile-review.jpg" width="1200" height="800" loading="lazy" alt="Una mano sostiene un móvil para leer un manuscrito dividido en párrafos cortos, entre un portátil y una hoja impresa con correcciones" />
+</figure>
 
 Conviene revisar en un día distinto al que escribes o, al menos, en otro momento del día. Cuando acabas de escribir una frase, la lees mezclada con lo que tenías en mente, y cuesta ver lo que falta. Si organizas el día para revisar el capítulo de ayer y escribir uno nuevo, mantendrás un ritmo en el que cada día escribes y pules un capítulo.
 

@@ -1,6 +1,6 @@
 ---
 description: "Webnovel schreiben und täglich veröffentlichen: fünf Gewohnheiten, mit denen du jedes Kapitel zu Ende schreibst – und was hilft, wenn es hakt."
-last_modified: 2026-11-05
+last_modified: 2026-11-09
 layout: single
 title: "Webnovel schreiben: 5 Gewohnheiten für jeden Tag ein Kapitel"
 lang: de
@@ -10,6 +10,8 @@ insight: true
 date: 2026-11-05
 classes: guide-article insight-article
 summary: "Täglich zu veröffentlichen ist eine Frage der Struktur, nicht der Willenskraft. Vom ersten Satz fürs nächste Kapitel, den du schon heute schreibst, bis zum Pensum in Zeitblöcken: fünf Gewohnheiten, mit denen du jedes Kapitel zu Ende schreibst."
+header:
+  og_image: /assets/images/insights/daily-serial-habits/cover.jpg
 ---
 
 {%- comment -%} Lesezeit: etwa 200 Wörter pro Minute (grob, inklusive Markup). {%- endcomment -%}
@@ -35,6 +37,10 @@ summary: "Täglich zu veröffentlichen ist eine Frage der Struktur, nicht der Wi
     <a href="#faq">Häufige Fragen</a>
   </nav>
 </header>
+
+<figure class="insight-figure insight-figure--cover">
+  <img src="/assets/images/insights/daily-serial-habits/cover.jpg" width="1500" height="780" alt="Hände, die an einem sonnigen Schreibtisch ein Manuskript auf dem Laptop tippen, daneben Notizzettel und eine dampfende Tasse Kaffee" />
+</figure>
 
 <section class="insight-summary" id="summary" aria-label="Das Wichtigste">
   <span class="insight-summary__title">Das Wichtigste</span>
@@ -63,6 +69,10 @@ Nicht wissen, wo man anfangen soll. Mitten im Schreiben innehalten, um ein Detai
 
 Der schwierigste Satz des Tages ist der erste. Bevor du mit dem heutigen Kapitel Schluss machst, **schreib deshalb schon die ersten ein, zwei Zeilen des nächsten Kapitels**.
 
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-1-first-sentence.jpg" width="1200" height="800" loading="lazy" alt="Ein aufgeschlagenes Manuskriptheft im Lampenlicht, auf der leeren Seite nur die erste Zeile des nächsten Kapitels, daneben eine Hand neben dem Stift" />
+</figure>
+
 Noch besser ist es, mitten in einer Szene aufzuhören, die gerade richtig in Fahrt ist. Wenn du morgen das Manuskript öffnest, steht der nächste Satz schon bereit, und du hast die Szene von gestern sofort wieder vor Augen.
 
 Diese Methode passt gut zu Cliffhangern am Kapitelende. Endet das Kapitel an einer spannenden Stelle, wird der erste Satz des nächsten Kapitels zur ersten Reaktion auf diese offene Frage. Denk daran: Der Satz, der deine Leser auf „Nächstes Kapitel“ tippen lässt, ist auch dein Grund, dich am nächsten Tag wieder an den Schreibtisch zu setzen.
@@ -72,6 +82,10 @@ Diese Methode passt gut zu Cliffhangern am Kapitelende. Endet das Kapitel an ein
 ## Vor dem Schreiben die Szenen in drei Zeilen festlegen {#habit-2}
 
 Wenn du mit dem Plotten noch nicht vertraut bist, verschwende nicht gleich Zeit mit einem ausgefeilten Plot. Es reicht, wenn du vor dem Schreiben diese drei Zeilen notierst.
+
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-2-three-lines.jpg" width="1200" height="800" loading="lazy" alt="Drei Karten für Anfang, Wendung und Ende eines Kapitels, in einer Reihe ausgelegt und mit einem terrakottafarbenen Faden verbunden" />
+</figure>
 
 <div class="info-grid">
   <div class="info-card">
@@ -98,6 +112,10 @@ Du kannst die drei Zeilen oben ins Manuskript schreiben und löschen, sobald das
 
 Ein Ziel wie „heute 2.500 Wörter“ kann dich schon vor dem ersten Wort unter Druck setzen. Teilst du dasselbe Ziel **in Zeitblöcke** auf, fällt der erste Schritt viel leichter. Viermal 25 Minuten Fokus und 5 Minuten Pause ergeben zum Beispiel einen Rhythmus, mit dem du ein Kapitel in gut zwei Stunden schaffst.
 
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-3-time-blocks.jpg" width="1200" height="800" loading="lazy" alt="Eine Sanduhr, vier Fokus-Zeitblöcke mit kurzen Pausen dazwischen, ein Timer und eine Tasse Tee in einer Reihe" />
+</figure>
+
 Am wichtigsten ist dabei, dass die Pause wirklich Pause bleibt. Wer in der Pause weiter am Manuskript feilt, geht weniger konzentriert in den nächsten Block. In der Fokuszeit gilt umgekehrt: nicht an den vorigen Sätzen feilen, sondern weiterschreiben. Fürs Verbessern ist später beim Überarbeiten Zeit.
 
 Welchen Timer du nimmst, ist egal – der auf deinem Handy reicht völlig. Wichtig ist, dass du dir mit dem Tippen auf „Start“ selbst ein Signal gibst: „Jetzt ist Schreibzeit.“ Wenn du das zum ersten Mal ausprobierst, fang mit kürzeren Blöcken an, etwa 15 Minuten Fokus und 3 Minuten Pause, und finde nach und nach deine eigene Routine.
@@ -108,6 +126,10 @@ Welchen Timer du nimmst, ist egal – der auf deinem Handy reicht völlig. Wicht
 
 Je länger deine Geschichte läuft, desto mehr Figuren, Orte, Fraktionen und Begriffe kommen zusammen – schnell sind es Dutzende. Sobald du eine andere App oder Datei öffnest, um den Namen einer Nebenfigur oder einer Fähigkeit nachzusehen, gerät der Satz, an dem du gerade schreibst, aus dem Takt. Und selbst wenn du zurückkehrst, dauert es eine Weile, bis du wieder drin bist.
 
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-4-notes-beside.jpg" width="1200" height="800" loading="lazy" alt="Notizkarten zu Figuren, Orten und Begriffen direkt neben dem Manuskript auf dem Laptop, eine Hand greift danach" />
+</figure>
+
 Halte deine Notizen **nur einen Handgriff vom Schreibfenster entfernt**. Taucht etwas Neues auf, notier es sofort an Ort und Stelle und sortiere alles, wenn das Kapitel fertig ist. Solange du schreibst, geht es darum, so wenig wie möglich suchen zu müssen.
 
 Ein perfektes Format brauchst du nicht. Eine einzige Notiz neben dem Manuskript, grob in Figuren, Orte und Begriffe unterteilt, reicht völlig. Beim Schreiben ist eine Notiz, die du mit einem Seitenblick siehst, nützlicher als eine sauber geordnete Story-Bibel.
@@ -117,6 +139,10 @@ Ein perfektes Format brauchst du nicht. Eine einzige Notiz neben dem Manuskript,
 ## Auf dem Bildschirm deiner Leser überarbeiten {#habit-5}
 
 Die meisten lesen Webnovels auf dem Smartphone. Ein Absatz, der auf einem breiten Monitor genau richtig wirkt, kann auf dem Handy zur Textwand werden, die den ganzen Bildschirm ausfüllt. Wie viel Abstand zwischen Dialog und Erzähltext liegt, wo du Absätze setzt und wo auf dem Bildschirm die letzte Zeile des Kapitels landet – all das erkennst du erst richtig, wenn du **in der Bildschirmbreite deiner Leser liest**.
+
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-5-mobile-review.jpg" width="1200" height="800" loading="lazy" alt="Eine Hand hält ein Smartphone und liest ein in kurze Absätze geteiltes Manuskript, zwischen Laptop und korrigiertem Ausdruck" />
+</figure>
 
 Überarbeite möglichst an einem anderen Tag als dem, an dem du geschrieben hast, oder zumindest zu einer anderen Tageszeit. Frisch Geschriebenes vermischt sich im Kopf noch mit dem, was du sagen wolltest, deshalb übersiehst du Lücken leicht. Plan deinen Tag so, dass du erst das Kapitel von gestern überarbeitest und dann das neue schreibst. So bleiben Schreiben und Überarbeiten im täglichen Takt: jeden Tag ein neues Kapitel und ein überarbeitetes.
 

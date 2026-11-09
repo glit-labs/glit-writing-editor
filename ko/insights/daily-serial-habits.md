@@ -1,6 +1,6 @@
 ---
 description: "웹소설 연재를 매일 이어 가는 법. 다음 화 첫 문장 남기기, 장면 세 줄, 분량을 시간으로 나누기 등 한 화를 끝까지 쓰는 5가지 습관과 막히는 날 대처법."
-last_modified: 2026-11-05
+last_modified: 2026-11-09
 layout: single
 title: "웹소설 매일 연재, 한 회차를 끝까지 쓰는 5가지 습관"
 lang: ko
@@ -9,6 +9,8 @@ toc: false
 insight: true
 date: 2026-11-05
 classes: guide-article insight-article
+header:
+  og_image: /assets/images/insights/daily-serial-habits/cover.jpg
 summary: "매일 연재는 의지보다 구조의 문제입니다. 다음 회차의 첫 문장을 남겨 두는 것부터 분량을 시간으로 나누는 법까지, 한 회차를 끝까지 쓰게 만드는 다섯 가지 습관을 정리했습니다."
 ---
 
@@ -35,6 +37,10 @@ summary: "매일 연재는 의지보다 구조의 문제입니다. 다음 회차
     <a href="#faq">자주 묻는 질문</a>
   </nav>
 </header>
+
+<figure class="insight-figure insight-figure--cover">
+  <img src="/assets/images/insights/daily-serial-habits/cover.jpg" width="1500" height="780" alt="아침 햇살이 드는 책상에서 노트북으로 원고를 쓰는 손과 원고 메모, 김이 나는 커피잔이 놓인 작업 공간 일러스트" />
+</figure>
 
 <section class="insight-summary" id="summary" aria-label="핵심 요약">
   <span class="insight-summary__title">핵심 요약</span>
@@ -63,6 +69,10 @@ summary: "매일 연재는 의지보다 구조의 문제입니다. 다음 회차
 
 하루 중 가장 쓰기 힘든 문장은 첫 문장입니다. 그래서 오늘 회차를 마칠 때 **다음 회차의 첫 문장 한두 줄을 미리 써 두고** 끝내세요.
 
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-1-first-sentence.jpg" width="1200" height="800" loading="lazy" alt="조명 아래 펼친 원고 노트의 빈 페이지에 다음 회차의 첫 줄 하나만 적어 두고, 펜 옆에 손을 내려놓은 일러스트" />
+</figure>
+
 장면이 한창 달아오른 지점에서 멈추면 더 좋습니다. 내일 원고를 열었을 때 이미 이어 쓸 문장이 준비되어 있고, 머릿속에는 어제의 그 장면이 쉽게 그려집니다.
 
 이 방법은 회차 끝의 절단신공과도 잘 맞습니다. 회차를 궁금한 지점에서 끊었다면, 다음 회차의 첫 문장은 그 궁금증에 대한 첫 반응이 됩니다. 독자가 다음 화를 누르게 만드는 문장이 작가에게도 다음 날 책상에 앉을 이유라는 것을 기억하세요.
@@ -72,6 +82,10 @@ summary: "매일 연재는 의지보다 구조의 문제입니다. 다음 회차
 ## 쓰기 전에 장면을 세 줄로 정하기 {#habit-2}
 
 플롯 준비가 익숙하지 않다면 섣불리 자세한 플롯에 시간을 허비하지 마세요. 쓰기 전에 아래 세 줄만 적어 두시면 됩니다.
+
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-2-three-lines.jpg" width="1200" height="800" loading="lazy" alt="시작, 전환, 끝을 뜻하는 세 장의 카드가 한 줄로 놓이고 테라코타 실로 이어진 일러스트" />
+</figure>
 
 <div class="info-grid">
   <div class="info-card">
@@ -98,6 +112,10 @@ summary: "매일 연재는 의지보다 구조의 문제입니다. 다음 회차
 
 "오늘 5,000자"라는 목표는 시작 전에 부담이 될 수 있습니다. 같은 목표를 **시간 단위로 나누면** 첫 단추를 끼우기가 훨씬 쉬워집니다. 예를 들어 25분 집중, 5분 휴식을 네 번 반복하면 두 시간 남짓 안에 한 회차를 마칠 수 있는 리듬이 됩니다.
 
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-3-time-blocks.jpg" width="1200" height="800" loading="lazy" alt="모래시계, 짧은 휴식 간격을 두고 나란히 놓인 네 개의 집중 시간 블록, 타이머와 찻잔이 한 줄로 놓인 일러스트" />
+</figure>
+
 시간을 나눌 때 가장 중요한 것은 휴식을 온전히 휴식으로만 사용하는 것입니다. 쉬는 동안 원고를 계속 고치면 다음 집중 시간이 무뎌집니다. 집중 시간에는 앞 문장을 다시 고치지 말고 이어서 쓰세요. 문장을 고치는 일은 퇴고 시간에 하실 수 있습니다.
 
 타이머는 무엇이든 괜찮습니다. 휴대폰 타이머로도 충분합니다. 중요한 것은 시작을 누르는 순간 스스로에게 "지금은 쓰는 시간"이라는 신호를 주는 것입니다. 처음이라면 15분 집중, 3분 휴식처럼 짧게 시작해서 자신만의 루틴을 천천히 찾으세요.
@@ -108,6 +126,10 @@ summary: "매일 연재는 의지보다 구조의 문제입니다. 다음 회차
 
 연재가 길어지면 인물, 지명, 세력, 용어가 수십 개로 늘어납니다. 조연의 이름이나 기술 이름 하나를 확인하려고 다른 앱이나 파일을 들여다보는 순간, 쓰고 있던 문장의 리듬이 끊어집니다. 다시 돌아와도 방금까지의 감각을 되찾는 데 시간이 걸립니다.
 
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-4-notes-beside.jpg" width="1200" height="800" loading="lazy" alt="노트북 원고 바로 옆에 인물, 장소, 용어 설정 메모 카드를 펼쳐 두고 손을 뻗어 확인하는 일러스트" />
+</figure>
+
 설정 자료는 **원고를 쓰는 화면에서 한 번에 닿는 거리**에 두세요. 새 설정이 생기면 그 자리에서 바로 적고, 회차를 다 쓴 뒤 한꺼번에 정리합니다. 쓰는 중에는 "찾는 일"을 최대한 줄이는 것이 목표입니다.
 
 형식을 완벽하게 갖출 필요는 없습니다. 원고 옆에 설정 메모 하나를 두고 인물, 장소, 용어 정도로만 나눠 두어도 충분합니다. 잘 정리된 설정집보다 고개만 돌리면 보이는 메모가 쓰는 중에는 더 쓸모 있습니다.
@@ -117,6 +139,10 @@ summary: "매일 연재는 의지보다 구조의 문제입니다. 다음 회차
 ## 퇴고는 독자가 보는 화면에서 하기 {#habit-5}
 
 웹소설 독자 대부분은 휴대폰으로 읽습니다. 넓은 모니터에서는 적당해 보이던 문단이 모바일 화면에서는 한 화면을 꽉 채우는 벽처럼 보이기도 합니다. 대사와 지문의 간격, 문단을 끊는 위치, 회차 마지막 줄이 화면 어디쯤에서 끝나는지는 **독자의 화면 너비로 읽어 봐야** 제대로 보입니다.
+
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-5-mobile-review.jpg" width="1200" height="800" loading="lazy" alt="노트북과 교정 표시를 한 원고 사이에서 휴대폰을 들고 짧은 문단으로 나뉜 원고를 읽어 보는 손 일러스트" />
+</figure>
 
 퇴고는 쓰기와 다른 날, 적어도 다른 시간에 하는 편이 좋습니다. 막 쓴 문장은 머릿속 의도와 겹쳐 보여서 빈 곳이 잘 보이지 않습니다. 오늘은 어제 쓴 회차를 퇴고하고 새 회차를 쓰는 식으로 하루를 짜면, 매일 한 회차씩 쓰고 다듬는 흐름을 함께 유지할 수 있습니다.
 

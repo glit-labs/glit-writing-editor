@@ -1,6 +1,6 @@
 ---
 description: "How to keep a web serial going every day: five habits that help you finish each chapter, from leaving tomorrow's first line to writing in time blocks."
-last_modified: 2026-11-05
+last_modified: 2026-11-09
 layout: single
 title: "Writing a Web Serial Every Day: 5 Habits for Finishing Each Chapter"
 lang: en
@@ -9,6 +9,8 @@ insight: true
 date: 2026-11-05
 classes: guide-article insight-article
 summary: "Daily serial writing is more about structure than willpower. From leaving the next chapter's first line ready to breaking your word count into blocks of time, here are five habits that help you finish every chapter."
+header:
+  og_image: /assets/images/insights/daily-serial-habits/cover.jpg
 ---
 
 {%- comment -%} Reading time: about 220 words a minute (rough, markup included). {%- endcomment -%}
@@ -34,6 +36,10 @@ summary: "Daily serial writing is more about structure than willpower. From leav
     <a href="#faq">FAQ</a>
   </nav>
 </header>
+
+<figure class="insight-figure insight-figure--cover">
+  <img src="/assets/images/insights/daily-serial-habits/cover.jpg" width="1500" height="780" alt="A writer's hands typing a manuscript on a laptop at a sunlit desk, with note pages and a steaming cup of coffee" />
+</figure>
 
 <section class="insight-summary" id="summary" aria-label="Key takeaways">
   <span class="insight-summary__title">Key takeaways</span>
@@ -62,6 +68,10 @@ Not knowing where to begin. Stopping mid-draft to look up a detail of your world
 
 The hardest sentence to write all day is the first one. So when you wrap up today's chapter, **write the first line or two of the next chapter before you stop**.
 
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-1-first-sentence.jpg" width="1200" height="800" loading="lazy" alt="An open manuscript notebook under lamplight with only the first line of the next chapter written on a blank page, a hand resting beside the pen" />
+</figure>
+
 Better yet, stop while a scene is still running hot. When you open the manuscript tomorrow, the next line is already there, and yesterday's scene is easy to picture again.
 
 This pairs well with ending chapters on a cliffhanger. If you cut the chapter off right where readers are dying to know what happens, the next chapter's first line is your first response to that suspense. Remember: the line that makes readers click "next chapter" is also what gets you back to your desk the next day.
@@ -71,6 +81,10 @@ This pairs well with ending chapters on a cliffhanger. If you cut the chapter of
 ## Map out the chapter in three lines before you write {#habit-2}
 
 If you're not used to plotting ahead, don't sink time into a detailed outline just yet. Before you start writing, just jot down the three lines below.
+
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-2-three-lines.jpg" width="1200" height="800" loading="lazy" alt="Three cards marking a chapter's start, turn and ending, laid in a row and linked by a terracotta thread" />
+</figure>
 
 <div class="info-grid">
   <div class="info-card">
@@ -97,6 +111,10 @@ You can keep the three lines at the top of the manuscript and delete them once t
 
 A goal like "2,500 words today" can weigh on you before you even begin. Break the same goal into **blocks of time**, and taking the first step gets much easier. Alternate 25 minutes of focus with 5 minutes of rest four times, for example, and you have a rhythm that can finish a chapter in just over two hours.
 
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-3-time-blocks.jpg" width="1200" height="800" loading="lazy" alt="An hourglass, four focus-time blocks separated by short breaks, a timer and a cup of tea in a row" />
+</figure>
+
 When you split your time this way, the most important thing is to keep your breaks for resting. If you keep tinkering with the manuscript while you rest, your next focus block loses its edge. During focus time, don't go back to fix earlier sentences; keep writing forward. You can fix sentences when you revise.
 
 Any timer will do; the one on your phone is plenty. What matters is that hitting start tells you, "This is writing time." If you're new to this, start short, with something like 15 minutes of focus and 3 minutes of rest, and take your time finding a routine that works for you.
@@ -107,6 +125,10 @@ Any timer will do; the one on your phone is plenty. What matters is that hitting
 
 As a serial runs on, its characters, places, factions, and terms multiply into the dozens. The moment you open another app or file to check a side character's name or what a skill is called, the rhythm of the sentence you were writing breaks. Even after you come back, it takes a while to get back into it.
 
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-4-notes-beside.jpg" width="1200" height="800" loading="lazy" alt="Character, place and object note cards laid right beside a laptop manuscript, with a hand reaching for them" />
+</figure>
+
 Keep your notes **one glance away from the screen you write on**. When you come up with a new detail, jot it down on the spot, and tidy everything up after the chapter is done. While you're writing, the goal is to cut down on "looking things up" as much as you can.
 
 It doesn't need a perfect format. One note next to the manuscript, loosely split into characters, places, and terms, is enough. While you're mid-chapter, a note you can see just by turning your head is more useful than a beautifully organized story bible.
@@ -116,6 +138,10 @@ It doesn't need a perfect format. One note next to the manuscript, loosely split
 ## Revise on the screen your readers use {#habit-5}
 
 Most serial readers read on their phones. A paragraph that looks fine on a wide monitor can turn into a wall of text that fills the whole screen on mobile. You only really see the spacing between dialogue and narration, where your paragraphs break, and where the chapter's last line lands on the screen when you **read at your readers' screen width**.
+
+<figure class="insight-figure">
+  <img src="/assets/images/insights/daily-serial-habits/habit-5-mobile-review.jpg" width="1200" height="800" loading="lazy" alt="A hand holding a phone to read a manuscript split into short paragraphs, between a laptop and a marked-up printed page" />
+</figure>
 
 Revision works better on a different day from drafting, or at least at a different time. Freshly written sentences blur together with what you meant to say, so the gaps are hard to spot. Set up your day so you revise yesterday's chapter and then write a new one, and you can keep up a steady flow of writing and polishing a chapter every day.
 
