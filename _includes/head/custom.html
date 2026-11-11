@@ -468,6 +468,10 @@
     display: block; width: 100%; height: auto;
     border-radius: 14px; border: 1px solid #e7e1d6; background: #efe9df;
   }
+  /* In-body figures stay at a reading size (about 47rem wide, ~500px tall at
+     3:2) so a single illustration never fills the whole screen; only the
+     cover runs the full content width. Phones keep the full width. */
+  .insight-figure:not(.insight-figure--cover) { max-width: 47rem; margin-left: auto; margin-right: auto; }
   .insight-figure--cover { margin: -0.6rem 0 2.6rem; }
   .insight-article .page__content p.insight-back { margin-top: 1.5rem; text-align: center; font-size: 0.95rem; }
 

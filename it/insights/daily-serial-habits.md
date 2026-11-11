@@ -1,6 +1,6 @@
 ---
 description: "Come scrivere ogni giorno una web novel a puntate: cinque abitudini per arrivare in fondo a ogni capitolo e qualche rimedio per i giorni di blocco."
-last_modified: 2026-11-09
+last_modified: 2026-11-11
 layout: single
 title: "Web novel, un capitolo al giorno: 5 abitudini per arrivare fino in fondo"
 lang: it
@@ -76,6 +76,8 @@ La frase più difficile della giornata è la prima. Per questo, quando chiudi il
 Meglio ancora se ti fermi nel vivo di una scena. Quando domani aprirai il manoscritto, troverai già pronta la frase da cui ripartire, e la scena del giorno prima ti tornerà in mente senza fatica.
 
 Questo metodo si sposa benissimo con il cliffhanger a fine capitolo. Se interrompi il capitolo proprio dove il lettore muore dalla voglia di sapere cosa succede, la prima frase del successivo diventa la prima risposta a quella curiosità. Ricorda: la frase che spinge il lettore ad aprire il capitolo successivo è anche il tuo motivo per tornare alla scrivania il giorno dopo.
+
+Per approfondire come rifinire l'ultima frase di un capitolo perché porti al successivo, leggi il principio 5 di [Il primo capitolo di una web novel: 5 principi per far leggere il seguito](/it/insights/first-chapter.html#rule-5).
 
 <p class="insight-kicker">Abitudine 2</p>
 

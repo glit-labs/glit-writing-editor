@@ -1,6 +1,6 @@
 ---
 description: "How to keep a web serial going every day: five habits that help you finish each chapter, from leaving tomorrow's first line to writing in time blocks."
-last_modified: 2026-11-09
+last_modified: 2026-11-11
 layout: single
 title: "Writing a Web Serial Every Day: 5 Habits for Finishing Each Chapter"
 lang: en
@@ -75,6 +75,8 @@ The hardest sentence to write all day is the first one. So when you wrap up toda
 Better yet, stop while a scene is still running hot. When you open the manuscript tomorrow, the next line is already there, and yesterday's scene is easy to picture again.
 
 This pairs well with ending chapters on a cliffhanger. If you cut the chapter off right where readers are dying to know what happens, the next chapter's first line is your first response to that suspense. Remember: the line that makes readers click "next chapter" is also what gets you back to your desk the next day.
+
+For more on shaping a chapter's last line so it leads into the next, see Principle 5 of [Your Web Serial's First Chapter: 5 Principles That Make Readers Click Next](/insights/first-chapter.html#rule-5).
 
 <p class="insight-kicker">Habit 2</p>
 

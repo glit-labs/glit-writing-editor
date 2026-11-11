@@ -1,6 +1,6 @@
 ---
 description: "Publier un roman en ligne et écrire tous les jours : cinq habitudes pour aller au bout de chaque épisode, et que faire les jours de blocage."
-last_modified: 2026-11-09
+last_modified: 2026-11-11
 layout: single
 title: "Publier un roman en ligne chaque jour : 5 habitudes pour finir chaque épisode"
 lang: fr
@@ -76,6 +76,8 @@ La phrase la plus difficile de la journée, c'est la première. Alors, quand vou
 L'idéal est de vous interrompre en pleine montée de tension. Demain, en ouvrant le manuscrit, vous trouverez une phrase prête à être poursuivie, et la scène de la veille vous reviendra sans effort.
 
 Cette méthode se marie très bien avec le cliffhanger de fin d'épisode. Si vous coupez l'épisode au moment où le lecteur brûle de connaître la suite, la première phrase de l'épisode suivant devient la première réponse à cette curiosité. Souvenez-vous : la phrase qui pousse le lecteur à cliquer sur « épisode suivant » est aussi celle qui vous donnera une raison de vous remettre à votre bureau le lendemain.
+
+Pour voir plus en détail comment travailler la dernière phrase d'un épisode afin qu'elle mène au suivant, consultez le principe 5 de [Le premier épisode d'un roman en ligne : 5 principes pour donner envie de lire la suite](/fr/insights/first-chapter.html#rule-5).
 
 <p class="insight-kicker">Habitude 2</p>
 

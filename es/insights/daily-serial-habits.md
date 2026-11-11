@@ -1,6 +1,6 @@
 ---
 description: "Cómo publicar una novela por capítulos a diario, en Wattpad o donde sea: cinco hábitos para terminar cada capítulo y qué hacer los días de bloqueo."
-last_modified: 2026-11-09
+last_modified: 2026-11-11
 layout: single
 title: "Novela por capítulos a diario: 5 hábitos para terminar cada entrega"
 lang: es
@@ -76,6 +76,8 @@ La frase más difícil del día es la primera. Por eso, al cerrar el capítulo d
 Mejor aún si te detienes cuando la escena está en plena tensión. Cuando mañana abras el manuscrito, tendrás lista la frase con la que seguir, y la escena de ayer te vendrá enseguida a la cabeza.
 
 Este método encaja muy bien con terminar los capítulos en un cliffhanger. Si cortas el capítulo en un momento de intriga, la primera frase del siguiente se convierte en la primera reacción a esa intriga. Recuerda: la frase que hace que el lector pulse «siguiente capítulo» es también, para ti, el motivo para volver a sentarte a escribir al día siguiente.
+
+Si quieres ver con más detalle cómo pulir la última frase de un capítulo para que enlace con el siguiente, consulta el principio 5 de [El primer capítulo de tu novela web: 5 principios para que lean el siguiente](/es/insights/first-chapter.html#rule-5).
 
 <p class="insight-kicker">Hábito 2</p>
 

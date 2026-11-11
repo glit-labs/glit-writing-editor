@@ -1,6 +1,6 @@
 ---
 description: "Webnovel schreiben und täglich veröffentlichen: fünf Gewohnheiten, mit denen du jedes Kapitel zu Ende schreibst – und was hilft, wenn es hakt."
-last_modified: 2026-11-09
+last_modified: 2026-11-11
 layout: single
 title: "Webnovel schreiben: 5 Gewohnheiten für jeden Tag ein Kapitel"
 lang: de
@@ -76,6 +76,8 @@ Der schwierigste Satz des Tages ist der erste. Bevor du mit dem heutigen Kapitel
 Noch besser ist es, mitten in einer Szene aufzuhören, die gerade richtig in Fahrt ist. Wenn du morgen das Manuskript öffnest, steht der nächste Satz schon bereit, und du hast die Szene von gestern sofort wieder vor Augen.
 
 Diese Methode passt gut zu Cliffhangern am Kapitelende. Endet das Kapitel an einer spannenden Stelle, wird der erste Satz des nächsten Kapitels zur ersten Reaktion auf diese offene Frage. Denk daran: Der Satz, der deine Leser auf „Nächstes Kapitel“ tippen lässt, ist auch dein Grund, dich am nächsten Tag wieder an den Schreibtisch zu setzen.
+
+Wie du am letzten Satz eines Kapitels feilst, bis er ins nächste führt, erfährst du ausführlicher in Prinzip 5 von [Das erste Kapitel deiner Webnovel: 5 Prinzipien, damit Leser weiterklicken](/de/insights/first-chapter.html#rule-5).
 
 <p class="insight-kicker">Gewohnheit 2</p>
 
