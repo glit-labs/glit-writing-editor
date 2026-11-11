@@ -15,8 +15,11 @@ search: false
 // Fonts — Playfair Display for the logo & headings (matches the "Glit"
 // wordmark); Lora for body copy (a text serif that pairs with Playfair and
 // stays readable at paragraph sizes).
-$serif: "Playfair Display", Georgia, "Times New Roman", serif;
-$body-serif: "Lora", Georgia, "Times New Roman", serif;
+// The stacks live in CSS custom properties (defined in _includes/head/custom.html)
+// so ko/ja/zh pages can append their own CJK serif via :lang() without
+// overriding every selector that sets a font-family.
+$serif: var(--glit-display-font);
+$body-serif: var(--glit-body-font);
 $global-font-family: $body-serif; // body copy
 $header-font-family: $serif;
 
