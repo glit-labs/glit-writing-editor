@@ -14,8 +14,13 @@
 
 {% include seo.html %}
 
+{%- comment -%}
+  The theme labels this link Atom, but site.atom_feed.path points at the
+  hand-rolled RSS 2.0 file /rss.xml (see _config.yml), so the type says RSS.
+  Feed readers and crawlers pick the parser from this attribute.
+{%- endcomment %}
 {% unless site.atom_feed.hide %}
-  <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+  <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="{% if site.atom_feed.path contains 'rss' %}application/rss+xml{% else %}application/atom+xml{% endif %}" rel="alternate" title="{{ site.title }} Feed">
 {% endunless %}
 
 {%- comment %} https://docs.google.com/presentation/d/1rmxwWa9P6_xHqonmh5ONXRS-jPc5XKbnv99Rjkhe04s/present {% endcomment -%}
