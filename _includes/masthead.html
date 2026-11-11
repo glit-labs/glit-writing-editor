@@ -127,6 +127,34 @@
             {%- endif -%}
           {%- endfor -%}
         </ul>
+        {%- comment -%}
+          Phone menu (≤767px). The theme's greedy-nav only folds whichever links
+          overflow, so on a phone the burger opened onto a lone nested "Support ▾"
+          dropdown, and which items folded changed with each language's label
+          widths. Below 768px CSS hides the inline links and the greedy toggle,
+          and this panel lists the whole menu instead, groups expanded.
+        {%- endcomment -%}
+        <details class="mobile-nav">
+          <summary class="mobile-nav__toggle" aria-label="{{ site.data.ui-text[site.locale].menu_label | default: 'Toggle menu' }}">
+            <span class="mobile-nav__icon" aria-hidden="true"></span>
+          </summary>
+          <div class="mobile-nav__panel">
+            {%- for link in nav_links -%}
+              {%- if link.children -%}
+                <p class="mobile-nav__group">{{ link.title }}</p>
+                <ul class="mobile-nav__list">
+                  {%- for child in link.children -%}
+                    <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} aria-current="page"{% endif %}{% if child.target %} target="{{ child.target }}"{% endif %}>{{ child.title }}</a></li>
+                  {%- endfor -%}
+                </ul>
+              {%- else -%}
+                <ul class="mobile-nav__list">
+                  <li><a href="{{ link.url | relative_url }}"{% if link.url == page.url %} aria-current="page"{% endif %}{% if link.target %} target="{{ link.target }}"{% endif %}>{{ link.title }}</a></li>
+                </ul>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        </details>
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>

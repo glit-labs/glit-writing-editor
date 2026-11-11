@@ -220,6 +220,62 @@
     .language-switch__toggle { padding: 0.4em 0.5em; font-size: 1.1em; }
   }
 
+  /* ===== Phone menu (see _includes/masthead.html) =====
+     ≤767px: only logo, globe and this toggle stay in the bar. The panel is a
+     card under the bar, styled like the dropdowns above. */
+  .mobile-nav { display: none; }
+  @media (max-width: 767px) {
+    .greedy-nav { position: relative; }
+    .greedy-nav .visible-links .masthead__menu-item:not(.masthead__menu-item--language),
+    .greedy-nav .greedy-nav__toggle,
+    .greedy-nav .hidden-links { display: none !important; }
+    .mobile-nav { display: block; }
+    .mobile-nav__toggle {
+      list-style: none; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      width: 2.5rem; height: 2.5rem; margin-left: 0.1rem; border-radius: 6px;
+    }
+    .mobile-nav__toggle::-webkit-details-marker { display: none; }
+    .mobile-nav__toggle::marker { content: ""; }
+    .mobile-nav__toggle:focus-visible { outline: 2px solid #c96a45; outline-offset: 2px; }
+    /* Three thin near-black bars that turn into an X while open. */
+    .mobile-nav__icon,
+    .mobile-nav__icon::before,
+    .mobile-nav__icon::after {
+      display: block; width: 1.25rem; height: 1.5px; border-radius: 1px;
+      background: #211f1c; transition: transform 0.2s ease, background-color 0.2s ease;
+    }
+    .mobile-nav__icon { position: relative; }
+    .mobile-nav__icon::before, .mobile-nav__icon::after { content: ""; position: absolute; left: 0; }
+    .mobile-nav__icon::before { top: -6px; }
+    .mobile-nav__icon::after { top: 6px; }
+    .mobile-nav[open] .mobile-nav__icon { background: transparent; }
+    .mobile-nav[open] .mobile-nav__icon::before { transform: translateY(6px) rotate(45deg); }
+    .mobile-nav[open] .mobile-nav__icon::after { transform: translateY(-6px) rotate(-45deg); }
+    .mobile-nav__panel {
+      position: absolute; top: calc(100% + 0.4rem); left: 0; right: 0;
+      padding: 0.5rem 0; background: #fff;
+      border: 1px solid #e7e1d6; border-radius: 10px;
+      box-shadow: 0 10px 28px rgba(33, 31, 28, 0.14);
+      z-index: 1000;
+    }
+    .mobile-nav__group {
+      margin: 0.7rem 1.25rem 0.15rem; font-size: 0.78rem;
+      letter-spacing: 0.06em; color: #6f685f;
+    }
+    .mobile-nav__list { list-style: none; margin: 0; padding: 0; }
+    .mobile-nav__list li { margin: 0; }
+    .mobile-nav__list a {
+      display: block; padding: 0.7rem 1.25rem;
+      color: #211f1c; text-decoration: none; font-size: 1rem;
+    }
+    .mobile-nav__group + .mobile-nav__list a { padding-left: 1.75rem; }
+    .mobile-nav__list a:hover { background: #f4f1ea; color: #a9522f; }
+    .mobile-nav__list a[aria-current="page"] { color: #c96a45; }
+    .mobile-nav__list + .mobile-nav__list,
+    .mobile-nav__list + .mobile-nav__group { border-top: 1px solid #efe9df; padding-top: 0.15rem; }
+  }
+
   /* ===== Uniform content width =====
      The splash home fills the full ~1280px content area, but single-layout
      pages reserve a ~300px right-sidebar gutter, leaving a much narrower,
@@ -747,13 +803,21 @@
       var d = e.target;
       if (d && d.classList && d.classList.contains("js-dropdown") && d.open) place(d);
     }, true);
+    // The phone menu closes on outside click / Escape too, but not on scroll,
+    // since a reader may scroll a short screen while it is open.
+    function closeMobile(except) {
+      document.querySelectorAll("details.mobile-nav[open]").forEach(function (d) {
+        if (d !== except) d.removeAttribute("open");
+      });
+    }
     // Close when clicking outside the open dropdown.
     document.addEventListener("click", function (e) {
       var inside = e.target.closest ? e.target.closest("details.js-dropdown") : null;
       closeAll(inside);
+      closeMobile(e.target.closest ? e.target.closest("details.mobile-nav") : null);
     });
     document.addEventListener("keydown", function (e) {
-      if (e.key === "Escape") closeAll(null);
+      if (e.key === "Escape") { closeAll(null); closeMobile(null); }
     });
     window.addEventListener("resize", function () {
       document.querySelectorAll("details.js-dropdown[open]").forEach(place);
