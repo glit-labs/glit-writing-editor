@@ -10,6 +10,7 @@
        site title, and is dropped when the page title already contains it — so
        the home renders "Glit: Web Novel Writing Editor" (not "... - Glit") and terse
        subpage titles like "Store" / "商店" clear Bing's minimum title length.
+       Long article titles drop the suffix to stay within ~70 characters.
 {%- endcomment -%}
 {%- assign title_separator = site.title_separator | default: '-' -%}
 
@@ -40,21 +41,49 @@
   card. Only en and ja have their own account, so anything else falls back to
   site.twitter.username.
 {%- endcomment -%}
+{%- comment -%}
+  The release notes live at /releases/<platform>/<version>/<lang>.html, with no
+  language prefix, so `cur_lang` reads them as English. For the brand suffix
+  (and X account) only, fall back to the page's `locale`, so a Chinese release
+  note gets "Glit: 网络小说写作编辑器" rather than the English brand. hreflang
+  below keeps using `cur_lang`.
+{%- endcomment -%}
+{%- assign brand_lang = cur_lang -%}
+{%- if cur_lang == "en" and page.locale -%}{%- assign brand_lang = page.locale | slice: 0, 2 -%}{%- endif -%}
 {%- assign brand = site.title -%}
 {%- assign tw_site = site.twitter.username -%}
+{%- assign tagline = nil -%}
 {%- for l in langs -%}
-  {%- if l.code == cur_lang -%}
+  {%- if l.code == brand_lang -%}
     {%- if l.brand -%}{%- assign brand = l.brand -%}{%- endif -%}
+    {%- assign tagline = l.tagline -%}
     {%- if l.twitter -%}{%- assign tw_site = l.twitter -%}{%- endif -%}
   {%- endif -%}
 {%- endfor -%}
 {%- if tw_site -%}{%- assign tw_site = tw_site | replace: "@", "" -%}{%- endif -%}
 
+{%- comment -%}
+  The brand suffix is skipped in two cases only:
+    - the title already carries the full brand (the home pages), so it is not
+      repeated. Matching the bare word "Glit" instead left titles like
+      "Glit 洞察" or "Glit 发布说明 — v1.5.0" at 7–20 characters, which Bing
+      flags as too short and which say nothing about what the site is;
+    - title + suffix would pass 70 characters (long article titles), where
+      search engines cut the suffix off anyway and Bing flags the length.
+{%- endcomment -%}
 {%- assign page_title = page.title | default: site.title | replace: '|', '&#124;' -%}
-{%- if page_title contains site.title -%}
+{%- assign seo_title = page_title | append: " " | append: title_separator | append: " " | append: brand | replace: '|', '&#124;' -%}
+{%- if page_title contains brand or seo_title.size > 70 -%}
   {%- assign seo_title = page_title -%}
-{%- else -%}
-  {%- assign seo_title = page_title | append: " " | append: title_separator | append: " " | append: brand | replace: '|', '&#124;' -%}
+{%- endif -%}
+{%- comment -%}
+  Home pages: the title is exactly the brand (the App Store name), 15–30
+  characters, which Bing flags as too short. Their <title> alone gets the
+  language's tagline from _data/languages.yml; the on-page heading, og:title
+  and JSON-LD keep the plain brand via `page_title`.
+{%- endcomment -%}
+{%- if tagline and page_title == brand -%}
+  {%- assign seo_title = page_title | append: " — " | append: tagline -%}
 {%- endif -%}
 
 {%- assign page_title = page_title | markdownify | strip_html | strip_newlines | escape_once -%}

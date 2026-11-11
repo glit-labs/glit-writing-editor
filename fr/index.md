@@ -3,7 +3,7 @@ layout: splash
 lang: fr
 locale: "fr-FR"
 title: "Glit : Éditeur de romans web"
-description: "Écrivez romans web et fiction sans distraction, gardez personnages et intrigue à côté du manuscrit et relisez chaque chapitre avec l'œil du lecteur."
+description: "Écrivez webnovels, romans web et fiction sans distraction, gardez personnages et intrigue à côté du manuscrit et relisez chaque chapitre avec l'œil du lecteur."
 header:
   overlay_color: "#2f2b28"
   actions:
@@ -16,7 +16,7 @@ header:
     - label: "Google Play (Android)"
       url: "https://play.google.com/store/apps/details?id=com.glitlab.gliteditor"
 excerpt: >
-  Une application d'écriture épurée, conçue de A à Z pour les auteurs de romans en ligne,<br>
+  Une application d'écriture épurée, conçue de A à Z pour les auteurs de webnovels et de romans en ligne,<br>
   sur Mac, Windows, iPhone, iPad et Android.
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: "Publier un roman en ligne et écrire tous les jours : cinq habitudes pour aller au bout de chaque épisode, et que faire les jours de blocage."
+description: "Publier un roman en ligne (webnovel) et écrire tous les jours : cinq habitudes pour aller au bout de chaque épisode, et que faire les jours de blocage."
 last_modified: 2026-11-11
 layout: single
 title: "Publier un roman en ligne chaque jour : 5 habitudes pour finir chaque épisode"
@@ -25,7 +25,7 @@ header:
     <span><i class="far fa-calendar" aria-hidden="true"></i><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%d/%m/%Y' }}</time></span>
     <span><i class="far fa-clock" aria-hidden="true"></i>Lecture : environ {{ read_min }} min</span>
   </p>
-  <p class="guide-hero__lead">Les auteurs de romans en ligne qui tiennent le rythme d'une publication quotidienne n'ont pas une volonté hors du commun. Ils ont simplement réduit l'effort nécessaire pour se mettre à écrire et balisé à l'avance le chemin jusqu'à la fin de l'épisode. Voici <strong>cinq habitudes qui aident à aller au bout de chaque épisode</strong>.</p>
+  <p class="guide-hero__lead">Les auteurs de romans en ligne (webnovels) qui tiennent le rythme d'une publication quotidienne n'ont pas une volonté hors du commun. Ils ont simplement réduit l'effort nécessaire pour se mettre à écrire et balisé à l'avance le chemin jusqu'à la fin de l'épisode. Voici <strong>cinq habitudes qui aident à aller au bout de chaque épisode</strong>.</p>
   <nav class="section-nav" aria-label="Aller à la section">
     <a href="#summary">L'essentiel</a>
     <a href="#habit-1">1. La première phrase</a>

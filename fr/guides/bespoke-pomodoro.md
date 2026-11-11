@@ -1,5 +1,5 @@
 ---
-description: "Utiliser le Pomodoro sur mesure de Glit : choisir un mode en roman-feuilleton, alterner concentration et pause, régler le signal 1 minute avant et le son de pause."
+description: "Utiliser le Pomodoro sur mesure de Glit : choisir un mode en roman-feuilleton, alterner concentration et pause, régler le signal d'une minute et le son de pause."
 last_modified: 2026-10-26
 layout: single
 title: "Guide du Pomodoro sur mesure — alterner concentration et pause"

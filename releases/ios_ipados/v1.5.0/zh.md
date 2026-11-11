@@ -1,5 +1,5 @@
 ---
-description: "Glit iOS / iPadOS v1.5.0 发布说明：这款网络小说写作应用本次更新的新功能、改进与错误修复。"
+description: "Glit iOS / iPadOS v1.5.0 发布说明：详细了解这款专为网络小说作者打造的专注写作编辑器在本次更新中带来的新功能、改进与错误修复，以及升级前值得留意的变化。"
 date: 2026-09-10
 locale: "zh-CN"
 ---

@@ -1,5 +1,5 @@
 ---
-description: "Glit macOS v1.5.0 Versionshinweise — Bespoke-Pomodoro, Tabellen, Wortzählung, Projektexport und weitere Verbesserungen der Schreib-App für Webromane."
+description: "Glit macOS v1.5.0 Versionshinweise — Bespoke-Pomodoro, Tabellen, Wortzählung, Projektexport und weitere Verbesserungen der Schreib-App für Webnovels."
 date: 2026-10-25
 locale: "de-DE"
 ---

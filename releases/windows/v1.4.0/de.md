@@ -1,5 +1,5 @@
 ---
-description: "Glit Windows v1.4.0 Versionshinweise — neue Funktionen, Verbesserungen und Fehlerbehebungen in diesem Update der Schreib-App für Webromane."
+description: "Glit Windows v1.4.0 Versionshinweise — neue Funktionen, Verbesserungen und Fehlerbehebungen in diesem Update der Schreib-App für Webnovels."
 date: 2026-10-03
 locale: "de-DE"
 ---

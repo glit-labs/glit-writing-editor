@@ -8,6 +8,11 @@
 # like "Store" / "商店" long enough that Bing doesn't flag them as too short,
 # and mirrors each language's home-page title.
 #
+# `tagline` follows the brand in the home page's <title> only
+# ("Glit: 웹소설 집필 에디터 — 집중해서 쓰고 독자처럼 확인하세요"). The brand alone is
+# the App Store name and stays the on-page heading and share-card title, but
+# at 15–30 characters it is too short a <title> for Bing.
+#
 # `twitter` is the X account whose handle goes in that language's card
 # (`twitter:site`). Only the two languages with an official account set it;
 # the rest omit it and fall back to site.twitter.username (@Glit_labs).
@@ -15,33 +20,41 @@
   name: "English"
   url: /
   brand: "Glit: Web Novel Writing Editor"
+  tagline: "Write Without Distraction"
   twitter: "Glit_labs"
 - code: ko
   name: "한국어"
   url: /ko/
   brand: "Glit: 웹소설 집필 에디터"
+  tagline: "집중해서 쓰고 독자처럼 확인하세요"
 - code: ja
   name: "日本語"
   url: /ja/
   brand: "Glit: Web小説執筆エディタ"
+  tagline: "集中して書き、読者の目線で確認"
   twitter: "Glit_labs_jp"
 - code: es
   name: "Español"
   url: /es/
   brand: "Glit: Editor de novelas web"
+  tagline: "escribe sin distracciones"
 - code: fr
   name: "Français"
   url: /fr/
   brand: "Glit : Éditeur de romans web"
+  tagline: "écrire sans distraction"
 - code: de
   name: "Deutsch"
   url: /de/
   brand: "Glit: Editor für Webnovels"
+  tagline: "ablenkungsfrei schreiben"
 - code: it
   name: "Italiano"
   url: /it/
   brand: "Glit: Editor di web novel"
+  tagline: "scrivi senza distrazioni"
 - code: zh
   name: "简体中文"
   url: /zh/
   brand: "Glit: 网络小说写作编辑器"
+  tagline: "专注写作，以读者视角预览"

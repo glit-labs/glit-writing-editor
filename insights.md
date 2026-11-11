@@ -1,5 +1,5 @@
 ---
-description: "Glit Insights: articles on the craft of writing, practical know-how for writers, and the spaces and habits that help you keep writing — for writers and anyone who wants to become one."
+description: "Glit Insights: articles on the craft of writing, practical know-how for writers, and the habits that help you keep writing — for writers and anyone who wants to be one."
 last_modified: 2026-11-05
 layout: single
 title: "Glit Insights"

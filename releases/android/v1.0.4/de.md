@@ -1,5 +1,5 @@
 ---
-description: "Glit für Android v1.0.4 Versionshinweise — die erste öffentliche Veröffentlichung der Schreib-App für Webromane bei Google Play, für Smartphones und Tablets."
+description: "Glit für Android v1.0.4 Versionshinweise — die erste öffentliche Veröffentlichung der Schreib-App für Webnovels bei Google Play, für Smartphones und Tablets."
 date: 2026-08-25
 locale: "de-DE"
 ---
@@ -12,13 +12,13 @@ locale: "de-DE"
 
 ## Überblick
 
-Glit ist jetzt für Android da: eine ablenkungsfreie Schreib-App für Autorinnen und Autoren von Webromanen, ab sofort bei Google Play für Smartphones und Tablets. Schreiben Sie jeden Roman in einem eigenen Projekt, geordnet nach Episoden und Kapiteln — im selben Projektformat, das die Versionen für Mac, Windows, iPhone und iPad bereits lesen.
+Glit ist jetzt für Android da: eine ablenkungsfreie Schreib-App für Autorinnen und Autoren von Webnovels, ab sofort bei Google Play für Smartphones und Tablets. Schreiben Sie jeden Roman in einem eigenen Projekt, geordnet nach Episoden und Kapiteln — im selben Projektformat, das die Versionen für Mac, Windows, iPhone und iPad bereits lesen.
 
 ---
 
 ## Hauptfunktionen
 
-### Webroman-Struktur
+### Webnovel-Struktur
 
 Geben Sie jedem Roman einen eigenen Bereich und halten Sie lange Manuskripte beim Schreiben geordnet. Episoden werden in Bereichsordner einsortiert, jede mit eigenem Status und eigener Zeichenzahl, und der Weltenbaum bleibt neben dem Manuskript.
 

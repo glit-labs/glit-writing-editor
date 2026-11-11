@@ -1,5 +1,5 @@
 ---
-description: "Glit Einblicke: Beiträge über das Handwerk des Schreibens, Praxiswissen für Autorinnen und Autoren sowie Umgebung und Gewohnheiten, die beim Dranbleiben helfen – für alle, die schreiben oder schreiben möchten."
+description: "Glit Einblicke: Beiträge über das Handwerk des Schreibens, Praxiswissen für Autorinnen und Autoren und Gewohnheiten, die beim Dranbleiben helfen."
 last_modified: 2026-11-05
 layout: single
 title: "Glit Einblicke"

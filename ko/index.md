@@ -1,4 +1,5 @@
 ---
+description: "웹소설 작가를 위한 집중형 글쓰기 앱 Glit. 방해 없이 원고를 쓰고 독자 시점으로 미리 보며, 회차 정리와 인물·세계관 관리까지 원고 옆에서 해결하세요. Mac, Windows, iPhone, iPad, Android 지원."
 layout: splash
 lang: ko
 locale: "ko-KR"

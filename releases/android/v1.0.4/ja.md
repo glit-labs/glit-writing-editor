@@ -1,5 +1,5 @@
 ---
-description: "Glit Android 版 v1.0.4 のリリースノート。Google Play で公開された、Web小説執筆アプリの最初の正式リリース内容をご確認いただけます。"
+description: "Glit Android 版 v1.0.4 のリリースノート。Google Play で公開された、Web小説執筆アプリの最初の正式リリース内容をご確認いただけます。Android 8.0 以降のスマートフォンとタブレットに対応しています。"
 date: 2026-08-25
 locale: "ja-JP"
 ---

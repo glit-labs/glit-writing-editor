@@ -1,5 +1,5 @@
 ---
-description: "Glit iOS / iPadOS v1.3.0 Versionshinweise — neue Funktionen, Verbesserungen und Fehlerbehebungen in diesem Update der Schreib-App für Webromane."
+description: "Glit iOS / iPadOS v1.3.0 Versionshinweise — neue Funktionen, Verbesserungen und Fehlerbehebungen in diesem Update der Schreib-App für Webnovels."
 date: 2026-08-11
 locale: "de-DE"
 ---

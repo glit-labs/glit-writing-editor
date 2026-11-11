@@ -1,5 +1,5 @@
 ---
-description: "Android 版 Glit の全バージョンのリリースノート。Android 8.0 以降のスマートフォンとタブレット向けに Google Play で公開されています。"
+description: "Android 版 Glit の全バージョンのリリースノート。新機能、改善点、不具合の修正をバージョンごとにまとめています。Android 8.0 以降のスマートフォンとタブレット向けに Google Play で公開中です。"
 last_modified: 2026-08-25
 toc: false
 locale: "ja-JP"

@@ -1,5 +1,5 @@
 ---
-description: "使用 Glit 需要帮助吗？随时联系我们，并查阅这款适用于 Mac、Windows 和 iOS 的网络小说写作应用的常见问题解答。"
+description: "使用 Glit 需要帮助吗？欢迎随时联系我们。你也可以在这里查阅这款支持 Mac、Windows、iPhone、iPad 和 Android 的网络小说写作应用的常见问题与解答。"
 layout: single
 title: "支持"
 lang: zh

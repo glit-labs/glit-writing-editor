@@ -1,5 +1,5 @@
 ---
-description: "Glit macOS v1.3.1 Versionshinweise — neue Funktionen, Verbesserungen und Fehlerbehebungen in diesem Update der Schreib-App für Webromane."
+description: "Glit macOS v1.3.1 Versionshinweise — neue Funktionen, Verbesserungen und Fehlerbehebungen in diesem Update der Schreib-App für Webnovels."
 date: 2026-08-27
 locale: "de-DE"
 ---

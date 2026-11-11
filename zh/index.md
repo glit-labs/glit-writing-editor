@@ -3,7 +3,7 @@ layout: splash
 lang: zh
 locale: "zh-CN"
 title: "Glit: 网络小说写作编辑器"
-description: "专注写作网络小说，以读者视角预览。章节自动整理，人物与世界观就在稿件旁边。"
+description: "Glit 是专为网络小说作者打造的专注写作编辑器：无干扰写作，以读者视角预览每一章，章节自动整理，人物与世界观就在稿件旁边。支持 macOS、Windows、iPhone、iPad 与 Android。"
 header:
   overlay_color: "#2f2b28"
   actions:

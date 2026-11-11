@@ -1,5 +1,5 @@
 ---
-description: "Versionshinweise zu Glit nach Plattform: macOS, Windows, iOS, iPadOS und Android. Sieh, was in der Schreib-App für Webromane neu ist."
+description: "Versionshinweise zu Glit nach Plattform: macOS, Windows, iOS, iPadOS und Android. Sieh, was in der Schreib-App für Webnovels neu ist."
 layout: single
 title: "Versionen"
 lang: de

@@ -1,5 +1,5 @@
 ---
-description: "Cómo usar el Pomodoro a medida de Glit: elige un modo en el modo novela por entregas, alterna concentración y descanso y ajusta el aviso y el sonido de descanso."
+description: "Cómo usar el Pomodoro a medida de Glit: elige un modo en el modo novela por entregas, alterna concentración y descanso, y ajusta el aviso y el sonido de descanso."
 last_modified: 2026-10-26
 layout: single
 title: "Guía del Pomodoro a medida — alterna concentración y descanso"

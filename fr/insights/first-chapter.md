@@ -1,5 +1,5 @@
 ---
-description: "Écrire le premier épisode d'un roman en ligne : ouvrir sur un événement, montrer l'enjeu, installer le genre et finir sur une phrase qui accroche."
+description: "Écrire le premier épisode d'un roman en ligne (webnovel) : ouvrir sur un événement, montrer l'enjeu, installer le genre et finir sur une phrase qui accroche."
 last_modified: 2026-11-11
 layout: single
 title: "Le premier épisode d'un roman en ligne : 5 principes pour donner envie de lire la suite"
@@ -25,7 +25,7 @@ summary: "Le lecteur qui ouvre un premier épisode décide en quelques épisodes
     <span><i class="far fa-calendar" aria-hidden="true"></i><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%d/%m/%Y' }}</time></span>
     <span><i class="far fa-clock" aria-hidden="true"></i>Lecture : environ {{ read_min }} min</span>
   </p>
-  <p class="guide-hero__lead">Le lecteur qui commence le premier épisode d'un roman en ligne décide, en quelques épisodes tout au plus, s'il va poursuivre l'histoire. C'est sans doute pour cela que le premier épisode est celui que les auteurs réécrivent le plus. Voici <strong>cinq principes pour un début qui mène naturellement le lecteur vers l'épisode suivant</strong>.</p>
+  <p class="guide-hero__lead">Le lecteur qui commence le premier épisode d'un roman en ligne (webnovel) décide, en quelques épisodes tout au plus, s'il va poursuivre l'histoire. C'est sans doute pour cela que le premier épisode est celui que les auteurs réécrivent le plus. Voici <strong>cinq principes pour un début qui mène naturellement le lecteur vers l'épisode suivant</strong>.</p>
   <nav class="section-nav" aria-label="Aller à la section">
     <a href="#summary">L'essentiel</a>
     <a href="#rule-1">1. Ouvrir sur un événement</a>

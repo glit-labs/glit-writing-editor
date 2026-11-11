@@ -1,5 +1,5 @@
 ---
-description: "Glit Android 版各版本的发布说明。现已在 Google Play 上架，支持 Android 8.0 及以上的手机与平板。"
+description: "Glit Android 版各版本的发布说明，按版本汇总新功能、改进与错误修复，方便你了解每次更新的变化。现已在 Google Play 上架，支持 Android 8.0 及以上的手机与平板。"
 last_modified: 2026-08-25
 toc: false
 locale: "zh-CN"

@@ -3,7 +3,7 @@ layout: splash
 lang: ja
 locale: "ja-JP"
 title: "Glit: Web小説執筆エディタ"
-description: "Web小説の原稿を集中して書き、読者の目線で確認。エピソードの整理や登場人物・世界観の管理に対応した執筆エディタです。"
+description: "Web小説の原稿を集中して書き、読者の目線で確認できる執筆エディタ Glit。エピソードの整理や登場人物・世界観の管理も原稿のすぐ横で。Mac、Windows、iPhone、iPad、Android に対応しています。"
 header:
   overlay_color: "#2f2b28"
   actions:
@@ -16,7 +16,7 @@ header:
     - label: "Google Play (Android)"
       url: "https://play.google.com/store/apps/details?id=com.glitlab.gliteditor"
 excerpt: >
-  ウェブ小説家のためにゼロから作り上げた、集中できる執筆アプリ。<br>
+  Web小説家のためにゼロから作り上げた、集中できる執筆アプリ。<br>
   Mac、Windows、iPhone、iPad、Android で。
 ---
 
@@ -24,16 +24,16 @@ excerpt: >
   <img src="/assets/images/glit-devices.png" alt="Mac、iPad、iPhone で動作する Glit" style="width: 100%; max-width: 1100px; height: auto;" />
 </p>
 
-<p class="lp-lead">Glit は、あなたと原稿の間にあるすべての邪魔を取り払い、ウェブ小説家が本当に必要とする道具だけをすぐ手の届くところに置きます。Glit ならではの特長をご紹介します。</p>
+<p class="lp-lead">Glit は、あなたと原稿の間にあるすべての邪魔を取り払い、Web小説家が本当に必要とする道具だけをすぐ手の届くところに置きます。Glit ならではの特長をご紹介します。</p>
 
 <div class="media-row">
   <div class="media-row__media">
-    <img src="/assets/images/feature-structure.png" alt="10 話ごとのフォルダに整理されるウェブ小説の構造" />
+    <img src="/assets/images/feature-structure.png" alt="10 話ごとのフォルダに整理されるWeb小説の構造" />
   </div>
   <div class="media-row__body">
-    <p class="media-row__eyebrow">ウェブ小説の構造</p>
+    <p class="media-row__eyebrow">Web小説の構造</p>
     <h3>範囲はあなた次第、整理は自動で</h3>
-    <p>ウェブ小説の執筆モードをオンにすると、各話の原稿をワンクリックで作成しながら書き進められます。10 話ごとのフォルダにまとまり、範囲を狭めると、あふれた話数は自動で次のフォルダへ整理されます。</p>
+    <p>Web小説の執筆モードをオンにすると、各話の原稿をワンクリックで作成しながら書き進められます。10 話ごとのフォルダにまとまり、範囲を狭めると、あふれた話数は自動で次のフォルダへ整理されます。</p>
   </div>
 </div>
 

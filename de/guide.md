@@ -1,5 +1,5 @@
 ---
-description: "Schritt-für-Schritt-Anleitungen für Glit, die Schreib-App für Webroman-Autoren. So schreibst du mit dem Bespoke-Pomodoro im Wechsel aus Fokus und Pause."
+description: "Schritt-für-Schritt-Anleitungen für Glit, die Schreib-App für Webnovel-Autoren. So schreibst du mit dem Bespoke-Pomodoro im Wechsel aus Fokus und Pause."
 last_modified: 2026-10-26
 layout: single
 title: "Anleitungen"

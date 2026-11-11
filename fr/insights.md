@@ -1,5 +1,5 @@
 ---
-description: "Perspectives Glit : des articles sur l'art d'écrire, des conseils pratiques pour les auteurs, l'environnement et les habitudes qui aident à écrire régulièrement, pour les auteurs et pour celles et ceux qui rêvent de le devenir."
+description: "Perspectives Glit : l'art d'écrire, des conseils pratiques et les habitudes pour écrire régulièrement, pour les auteurs de webnovels et de romans en ligne."
 last_modified: 2026-11-05
 layout: single
 title: "Perspectives Glit"

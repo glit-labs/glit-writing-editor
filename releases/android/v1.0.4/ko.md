@@ -1,5 +1,5 @@
 ---
-description: "Glit Android 버전 v1.0.4 릴리스 노트입니다. Google Play에 처음 공개된 웹소설 글쓰기 앱의 첫 정식 출시 내용을 확인하세요."
+description: "Glit Android 버전 v1.0.4 릴리스 노트입니다. Google Play에 처음 공개된 웹소설 글쓰기 앱의 첫 정식 출시 내용을 확인하세요. Android 8.0 이상의 폰과 태블릿을 지원합니다."
 date: 2026-08-25
 locale: "ko-KR"
 ---

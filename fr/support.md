@@ -1,5 +1,5 @@
 ---
-description: "Besoin d'aide avec Glit ? Écrivez-nous quand vous voulez et consultez la FAQ de l'application d'écriture de romans web."
+description: "Besoin d'aide avec Glit ? Écrivez-nous quand vous voulez et consultez la FAQ de l'application d'écriture de romans web pour Mac, Windows, iPhone, iPad et Android."
 layout: single
 title: "Assistance"
 lang: fr

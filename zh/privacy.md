@@ -1,5 +1,5 @@
 ---
-description: "阅读 Glit：写作编辑器的隐私政策，了解你的数据在 macOS、Windows、iPhone、iPad 和 Android 上是如何处理的。"
+description: "阅读 Glit 的隐私政策：这款网络小说写作应用不收集任何个人信息。了解你的数据在 macOS、Windows、iPhone、iPad 和 Android 上如何处理，以及本网站如何统计访问量。"
 layout: single
 title: "隐私政策"
 lang: zh

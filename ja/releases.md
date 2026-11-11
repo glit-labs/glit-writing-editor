@@ -1,5 +1,5 @@
 ---
-description: "プラットフォーム別に整理した Glit の全バージョンのリリースノート。macOS、Windows、iOS、iPadOS、Android。ウェブ小説執筆アプリの最新情報をご覧ください。"
+description: "プラットフォーム別に整理した Glit の全バージョンのリリースノート。macOS、Windows、iOS、iPadOS、Android。Web小説執筆アプリの最新情報をご覧ください。"
 layout: single
 title: "リリース"
 lang: ja

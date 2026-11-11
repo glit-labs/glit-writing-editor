@@ -1,5 +1,5 @@
 ---
-description: "Android 버전 Glit의 전체 버전 릴리스 노트입니다. Android 8.0 이상의 폰과 태블릿에서 Google Play로 이용할 수 있습니다."
+description: "Android 버전 Glit의 전체 버전 릴리스 노트입니다. 버전별 새 기능과 개선 사항, 버그 수정 내용을 한눈에 확인하세요. Android 8.0 이상의 폰과 태블릿에서 Google Play로 이용할 수 있습니다."
 last_modified: 2026-08-25
 toc: false
 locale: "ko-KR"

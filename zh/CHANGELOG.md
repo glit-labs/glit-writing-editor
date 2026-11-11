@@ -1,5 +1,5 @@
 ---
-description: "Glit：写作编辑器跨所有平台的统一时间线变更日志 — 将每个 macOS、Windows、iOS、iPadOS 和 Android 版本集中呈现。"
+description: "Glit 的统一更新日志：按时间顺序汇总 macOS、Windows、iOS、iPadOS 和 Android 各平台的每一个版本，在一页中查看这款网络小说写作编辑器的新功能、改进与错误修复。"
 layout: single
 title: "更新日志"
 lang: zh

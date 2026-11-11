@@ -1,5 +1,5 @@
 ---
-description: "Perspectivas de Glit: artículos sobre el oficio de escribir, consejos prácticos para escritores y el entorno y los hábitos que te ayudan a seguir escribiendo, para escritores y para quienes sueñan con serlo."
+description: "Perspectivas de Glit: artículos sobre el oficio de escribir, consejos prácticos y hábitos que te ayudan a seguir escribiendo, para escritores y futuros escritores."
 last_modified: 2026-11-05
 layout: single
 title: "Perspectivas de Glit"

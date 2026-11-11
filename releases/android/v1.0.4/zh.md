@@ -1,5 +1,5 @@
 ---
-description: "Glit Android 版 v1.0.4 发布说明：这款网络小说写作应用在 Google Play 上的首个公开发布版本，支持手机与平板。"
+description: "Glit Android 版 v1.0.4 发布说明：这款网络小说写作应用在 Google Play 上的首个公开发布版本，支持 Android 8.0 及以上的手机与平板，了解这一版本包含的全部功能。"
 date: 2026-08-25
 locale: "zh-CN"
 ---

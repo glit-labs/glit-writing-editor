@@ -1,5 +1,5 @@
 ---
-description: "Approfondimenti Glit: articoli sul mestiere della scrittura, consigli pratici per chi scrive, l'ambiente e le abitudini che aiutano a scrivere con costanza, per chi scrive e per chi sogna di diventare scrittore."
+description: "Approfondimenti Glit: articoli sul mestiere della scrittura, consigli pratici e abitudini che aiutano a scrivere con costanza, per chi scrive e per chi sogna di farlo."
 last_modified: 2026-11-05
 layout: single
 title: "Approfondimenti Glit"

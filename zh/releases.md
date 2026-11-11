@@ -1,5 +1,5 @@
 ---
-description: "按平台整理的 Glit 各版本发行说明 — macOS、Windows、iOS、iPadOS 和 Android。了解这款网络小说写作应用的最新变化。"
+description: "按平台整理的 Glit 各版本发行说明，涵盖 macOS、Windows、iOS、iPadOS 和 Android。查看这款网络小说写作应用每次更新带来的新功能、改进与错误修复。"
 layout: single
 title: "版本发布"
 lang: zh
